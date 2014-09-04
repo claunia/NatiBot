@@ -1,0 +1,1191 @@
+﻿<?xml version="1.0"?>
+<resources locale="ca">
+  <resource type="Text" id="Assets.Image.FailDecode" translated="true">Fallada al descodificar imatge {0}.</resource>
+  <resource type="Text" id="Assets.Image.FailDownload" translated="true">Fallada {1} al descodificar l'imatge {0}</resource>
+  <resource type="Text" id="Assets.Image.ImageDownloaded" translated="true">Imatge {0} descarregada correctament.</resource>
+  <resource type="Text" id="Assets.Image.Downloaded" translated="true">Acabada la descàrrega de la imatge {0} ({1} bytes)</resource>
+  <resource type="Text" id="bot.AcceptingTeleport" translated="true">Acceptant teletransport.</resource>
+  <resource type="Text" id="botAccount.ConnectingLogin" translated="true">Connectant al servidor d'inici de sessió...</resource>
+  <resource type="Text" id="botAccount.ConnectingRegion" translated="true">Connectant a la regió...</resource>
+  <resource type="Text" id="botAccount.Connecting" translated="true">Connectant...</resource>
+  <resource type="Text" id="botAccount.LoginFailed" translated="true">Inici de sessió fallit: {0}</resource>
+  <resource type="Text" id="botAccount.Offline" translated="true">Desconnectat</resource>
+  <resource type="Text" id="botAccount.Online" translated="true">Connectat</resource>
+  <resource type="Text" id="botAccount.ReadingResponse" translated="true">Llegint resposta...</resource>
+  <resource type="Text" id="botAccount.Redirecting" translated="true">Redirigint...</resource>
+  <resource type="Text" id="botAccount.Removing" translated="true">Eliminant...</resource>
+  <resource type="Text" id="bot.GotGroupID" translated="true">Identificador del grup {0} obtingut, sol·licitant membres del grup...</resource>
+  <resource type="Text" id="bot.GotGroupMembers" translated="true">Obtinguts {0} membres del grup.</resource>
+  <resource type="Text" id="bot.IRCGreet" translated="true">{0} reportat.</resource>
+  <resource type="Text" id="bot.MasterNotResolved" translated="true">ERROR: No es va poder obtenir la UUID de "{0}". No s'ha canviat el mestre.</resource>
+  <resource type="Text" id="bot.MasterResolved" translated="true">"{0}" resolt a {1}</resource>
+  <resource type="Text" id="bot.MessageNotGroup" translated="true">&lt;{0} ({1=""})&gt; {2} (no és del grup): {3} (@{4}:{5})</resource>
+  <resource type="Text" id="bot.MessageNotMaster" translated="true">&lt;{0} ({1=""})&gt; {2} (no és el mestre): {3} (@{4}:{5})</resource>
+  <resource type="Text" id="Commands.ActivateGroup.Active" translated="true">El grup actiu per a {0} és {1}.</resource>
+  <resource type="Text" id="Commands.ActivateGroup.Description" translated="true">Estableix el grup actiu.</resource>
+  <resource type="Text" id="Commands.ActivateGroup.Failed" translated="true">{0} va fallar al activar el grup {1}.</resource>
+  <resource type="Text" id="Commands.ActivateGroup.NoGroups" translated="true">{0} no sembla ser membre de cap grup.</resource>
+  <resource type="Text" id="Commands.ActivateGroup.NotInGroup" translated="true">{0} no sembla ser membre del grup {1}.</resource>
+  <resource type="Text" id="Commands.ActivateGroup.Setting" translated="true">Establint el grup {0} com actiu.</resource>
+  <resource type="Text" id="Commands.ActivateGroup.Usage" translated="true">Ús: activategroup [grupo]</resource>
+  <resource type="Text" id="Commands.AgentLocations.Avatar" translated="true">{0} avatar(es) en {1},{2}</resource>
+  <resource type="Text" id="Commands.AgentLocations.Description" translated="true">Descarrega la localització de cada agent en la regió especificada.</resource>
+  <resource type="Text" id="Commands.AgentLocations.Fail" translated="true">Fallada a l'obtenir la localització dels agents.</resource>
+  <resource type="Text" id="Commands.AgentLocations.Locations" translated="true">Localització dels agents:</resource>
+  <resource type="Text" id="Commands.AgentLocations.Usage" translated="true">Ús: agentlocations [manejadorderegió]</resource>
+  <resource type="Text" id="Commands.Animate.Description" translated="true">Anima l&#39;avatar amb l&#39;animació especificada, mostra les animacions del sistema o les que s&#39;estan reproduint actualment.</resource>
+  <resource type="Text" id="Commands.Animate.Starting" translated="true">Començant animació {0}</resource>
+  <resource type="Text" id="Commands.Animate.Stopping" translated="true">Parant animació {0}</resource>
+  <resource type="Text" id="Commands.Animate.Usage" translated="true">Ús: animate [uuid] | [list / show / stop]</resource>
+  <resource type="Text" id="Commands.Appearance.Description" translated="true">Estableix l'última aparença guardada.</resource>
+  <resource type="Text" id="Commands.Appearance.Success" translated="true">Aparença establerta correctament.</resource>
+  <resource type="Text" id="Commands.Appearance.Thread" translated="true">Iniciant fil d'aparença.</resource>
+  <resource type="Text" id="Commands.Appearance.Timeout" translated="true">Temps d'espera esgotat establint l'aparença.</resource>
+  <resource type="Text" id="Commands.Attachments.Attachment" translated="true">[Anex @ {0}] IDLocal: {1} UUID: {2} Desplaçament: {3}</resource>
+  <resource type="Text" id="Commands.Attachments.Description" translated="true">Mostra una llista dels objectes annexats actuals.</resource>
+  <resource type="Text" id="Commands.Attachments.Found" translated="true">Encontrats {0} anexos.</resource>
+  <resource type="Text" id="Commands.AttachmentsUUID.Description" translated="true">Llista els anexos d'un avatar especificat.</resource>
+  <resource type="Text" id="Commands.AttachmentsUUID.Usage" translated="true">Ús: attachmentsuuid [uuid]</resource>
+  <resource type="Text" id="Commands.AvatarInfo.About" translated="true">    Sobre ell/ella:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Account" translated="true">    Compte:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Adult" translated="true">, perfil per a adults</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Born" translated="true">    Nascut el: {0}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Charter" translated="true">    Membre charter:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Description" translated="true">Mostra informació sobre un avatar proper.</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Error" translated="true">Va ocórrer algun error al sol·licitar el perfil de l'avatar.</resource>
+  <resource type="Text" id="Commands.AvatarInfo.FirstLife" translated="true">1ª Vida:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.FirstPhoto" translated="true">Fotografia: {0}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Groups" translated="true">    Grups:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Identified" translated="true">Identificat</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Information" translated="true">Informació: {0}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Interests" translated="true">Interesos:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Languages" translated="true">    Idiomes: {0}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.NotFound" translated="true">No es pot trobar cap avatar proper cridat {0}.</resource>
+  <resource type="Text" id="Commands.AvatarInfo.NotGroups" translated="true">No es van poder obtenir els grups de l'avatar especificat.</resource>
+  <resource type="Text" id="Commands.AvatarInfo.NotInterests" translated="true">No es van poder obtenir els interessos de l'avatar especificat.</resource>
+  <resource type="Text" id="Commands.AvatarInfo.NotProfile" translated="true">No es va poder obtenir el perfil de l'avatar especificat.</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Partner" translated="true">    Soci:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Payment" translated="true">, informació de pagament present</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Public" translated="true">, públic</resource>
+  <resource type="Text" id="Commands.AvatarInfo.SecondLife" translated="true">2ª Vida:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.SecondPhoto" translated="true">    Fotografia: {0}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Skills" translated="true">    Habilitats: (0x{0}) {1}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Textures" translated="true">Teixidures:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Usage" translated="true">Ús: avatarinfo [nom] [cognom]</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Wants" translated="true">    Ell/Ella vol: (0x{0}) {1}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.WebProfile" translated="true">    Perfil web: {0}</resource>
+  <resource type="Text" id="Commands.Back.Description" translated="true">Mou el bot cap a enrere, un pas o un determinat nombre de segons.</resource>
+  <resource type="Text" id="Commands.Back.Moved" translated="true">Em vaig moure cap a enrere.</resource>
+  <resource type="Text" id="Commands.Backup.AllDone" translated="true">{0}: ambdues cues de transferència buides I el fil d'inventari completat.</resource>
+  <resource type="Text" id="Commands.Backup.Description" translated="true">Guarda el contingut escorcollat de l'inventari al disc dur.</resource>
+  <resource type="Text" id="Commands.Backup.Failed" translated="true">{0}: La descarrega del asset {1} ({2}) va fallar amb l'error {3}</resource>
+  <resource type="Text" id="Commands.Backup.Not" translated="true">no</resource>
+  <resource type="Text" id="Commands.Backup.Queue" translated="true">\r\n{0}: {1} elements en la cua, {2} elements sol·licitats al servidor.</resource>
+  <resource type="Text" id="Commands.Backup.Running" translated="true">{0} {1} està executant-se.</resource>
+  <resource type="Text" id="Commands.Backup.Started" translated="true">Comenzandas les operacions en segon pla.</resource>
+  <resource type="Text" id="Commands.BackupText.Description" translated="true">Guarda les notes de l'inventari escorcollat al disc dur.</resource>
+  <resource type="Text" id="Commands.Backup.Timeout" translated="true">{0}: temps d'espera esgotat pel asset {1}</resource>
+  <resource type="Text" id="Commands.Backup.Transfer" translated="true">\r\n{0}: Transferències del servidor ( {1} executant-se ) ha transferit {2} elements amb {3} errors.</resource>
+  <resource type="Text" id="Commands.Backup.Unknown" translated="true">Desconegut</resource>
+  <resource type="Text" id="Commands.Backup.Usage" translated="true">Ús: {0} [to &lt;directori&gt;] | [abort] | [status]</resource>
+  <resource type="Text" id="Commands.Backup.Walker" translated="true">\r\n{0}: El recorregut de l'inventari ( {1} executant-se ) ha trobat {2} elements.</resource>
+  <resource type="Text" id="Commands.Backup.WalkingDone" translated="true">{0}: El recorregut de l'inventari ha acabat.</resource>
+  <resource type="Text" id="Commands.Backup.Wrote" translated="true">{0}: Escrit {1}</resource>
+  <resource type="Text" id="Commands.Back.Usage" translated="true">Ús: back (segons)</resource>
+  <resource type="Text" id="Commands.Balance.Balance" translated="true">{0} té {1}L$</resource>
+  <resource type="Text" id="Commands.Balance.Description" translated="true">Mostra el balanç de L$.</resource>
+  <resource type="Text" id="Commands.Balance.Timeout" translated="true">Temps d'espera esgotat al sol·licitar el balanç.</resource>
+  <resource type="Text" id="Commands.CameraFar.Actual" translated="true">La distància actual de la càmera és de {0} metres.</resource>
+  <resource type="Text" id="Commands.CameraFar.Changed" translated="true">Distància de la càmera canviada a {0} metres.</resource>
+  <resource type="Text" id="Commands.CameraFar.Description" translated="true">Mostra o canvia la distància actual de la càmera.</resource>
+  <resource type="Text" id="Commands.CameraFar.Usage" translated="true">Ús: camerafar [distància]</resource>
+  <resource type="Text" id="Commands.ChangeDirectory.CurrentFolder" translated="true">La carpeta actual es {0}</resource>
+  <resource type="Text" id="Commands.ChangeDirectory.Description" translated="true">Canvia la carpeta actual de l'inventari.</resource>
+  <resource type="Text" id="Commands.ChangeDirectory.NotFolder" translated="true">{0} no es una carpeta.</resource>
+  <resource type="Text" id="Commands.ChangeDirectory.NotFound" translated="true">{0} no s'ha trobat en {1}</resource>
+  <resource type="Text" id="Commands.ChangeDirectory.Usage" translated="true">cd [ruta]</resource>
+  <resource type="Text" id="Commands.ChangePerms.CopyFail" translated="true">Fallada a l'establir el permís de còpia, els permisos queden en estat desconegut.</resource>
+  <resource type="Text" id="Commands.ChangePerms.Description" translated="true">Canvia els permisos d'un objecte i dels elements continguts en el seu inventari.</resource>
+  <resource type="Text" id="Commands.ChangePerms.Done" translated="true">Es van establir els permisos {0} en {1} objectes i {2} elements del seu inventari.</resource>
+  <resource type="Text" id="Commands.ChangePerms.Found" translated="true">Trobada la primitiva {0} sol·licitada</resource>
+  <resource type="Text" id="Commands.ChangePerms.ModFail" translated="true">Fallada a l'establir el permís de modificació, els permisos queden en estat desconegut.</resource>
+  <resource type="Text" id="Commands.ChangePerms.NotFound" translated="true">No es va poder trobar el prim {0}</resource>
+  <resource type="Text" id="Commands.ChangePerms.Permission" translated="true">Usant màscara de permisos: {0}</resource>
+  <resource type="Text" id="Commands.ChangePerms.RootNotFound" translated="true">No es va poder trobar el prim arrel de l'objecte especificat.</resource>
+  <resource type="Text" id="Commands.ChangePerms.Root" translated="true">Establert el prim arrel com {0}</resource>
+  <resource type="Text" id="Commands.ChangePerms.Usage" translated="true">Ús: changeperms [uuid] (copy) (mod) (xfer)</resource>
+  <resource type="Text" id="Commands.ChangePerms.XferFail" translated="true">Fallada a l'establir el permís de transferència, els permisos queden en estat desconegut.</resource>
+  <resource type="Text" id="Commands.Clone.Description" translated="true">Clona l'aparença d'un avatar proper.</resource>
+  <resource type="Text" id="Commands.Clone.Done" translated="true">{0} clonat.</resource>
+  <resource type="Text" id="Commands.Clone.NotFound" translated="true">No s'ha pogut trobar a {0}.</resource>
+  <resource type="Text" id="Commands.CloneProfile.Active" translated="true">{0} establint {1} com el grup actiu.</resource>
+  <resource type="Text" id="Commands.CloneProfile.Description" translated="true">Clona el perfil d'altre avatar tan precisament com sigui possible. ATENCIÓ: Aquest comando destruirà el perfil actual!</resource>
+  <resource type="Text" id="Commands.CloneProfile.Done" translated="true">Sincronitzat el perfil amb el de {0}</resource>
+  <resource type="Text" id="Commands.CloneProfile.FailJoin" translated="true">Fallada a l'unir-se al grup {0}.</resource>
+  <resource type="Text" id="Commands.CloneProfile.Fail" translated="true">Fallada a l'obtenir un perfil complet per a aquest UUID.</resource>
+  <resource type="Text" id="Commands.CloneProfile.Joined" translated="true">Unit al grup {0} amb èxit.</resource>
+  <resource type="Text" id="Commands.CloneProfile.Usage" translated="true">Ús: cloneprofile [uuid]</resource>
+  <resource type="Text" id="Commands.Clone.Unknown" translated="true">L'aparença de l'avatar {0} és desconeguda.</resource>
+  <resource type="Text" id="Commands.Clone.Usage" translated="true">Ús: clone [nom]</resource>
+  <resource type="Text" id="Commands.CreateNotecard.CreatedBy" translated="true">{0} creada per NatiBot el {1}.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.CreateFailDetails" translated="true">Va fallar la creació de la nota: {0}.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.CreateFail" translated="true">Va fallar la creació de la nota.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.Description" translated="true">Crea una nota a partir d'un arxiu de text.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.DownloadError" translated="true">Error descarregant la nota: {0}.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.FetchFailed" translated="true">Va fallar a l'obtenir l'element {0} de l'inventari.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.NotFound" translated="true">Arxiu {0} no trobat.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.OpenFailed" translated="true">Va fallar a l'obrir el fitxer {0} amb l'error {1}.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.Success" translated="true">Nota creada amb èxit amb el ItemID {0} i el AssetID {1}</resource>
+  <resource type="Text" id="Commands.CreateNotecard.Timeout" translated="true">Temps d'espera esgotat.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.UnknownError" translated="true">Error desconegut al pujar la nota.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.Usage" translated="true">Ús: createnotecard arxiu.txt</resource>
+  <resource type="Text" id="Commands.Crouch.Description" translated="true">Comença o deixa d'ajupir-se.</resource>
+  <resource type="Text" id="Commands.Crouch.Started" translated="true">Ajupint-se.</resource>
+  <resource type="Text" id="Commands.Crouch.Stopped" translated="true">Deixant d'ajupir-se.</resource>
+  <resource type="Text" id="Commands.Crouch.Usage" translated="true">Ús: crouch [start/stop]</resource>
+  <resource type="Text" id="Commands.DeleteFolder.Deleted" translated="true">La carpeta {0} s'ha mogut a la Paperera.</resource>
+  <resource type="Text" id="Commands.DeleteFolder.Description" translated="true">Mou una carpeta de l'inventari a la Paperera.</resource>
+  <resource type="Text" id="Commands.DeleteFolder.NotFound" translated="true">No s'ha trobat la carpeta {0}.</resource>
+  <resource type="Text" id="Commands.DeleteFolder.Usage" translated="true">Ús: rmdir [carpeta]</resource>
+  <resource type="Text" id="Commands.DetectBot.Bot" translated="true">{0} (Grup: {1}, Posició: {2}, UUID: {3}) is probably a bot</resource>
+  <resource type="Text" id="Commands.DetectBot.Description" translated="true">Mostra els possibles bots.</resource>
+  <resource type="Text" id="Commands.Dilation.Description" translated="true">Mostra la dilatació temporal del simulador actual.</resource>
+  <resource type="Text" id="Commands.Dilation.Dilation" translated="true">La dilatació temporal és {0}.</resource>
+  <resource type="Text" id="Commands.DownloadAnimation.Description" translated="true">Descarrega l'animació especificada per la seva UUID.</resource>
+  <resource type="Text" id="Commands.DownloadAnimation.Downloaded" translated="true">L'animació {0} s'ha descarregat correctament ({1} bytes).</resource>
+  <resource type="Text" id="Commands.DownloadAnimation.Failed" translated="true">Error {1} al descarregar l'animació {0}.</resource>
+  <resource type="Text" id="Commands.DownloadAnimation.InvalidUUID" translated="true">S'esperava un UUID.</resource>
+  <resource type="Text" id="Commands.DownloadAnimation.Timeout" translated="true">Temps d'espera esgotat al preguntar per l'animació.</resource>
+  <resource type="Text" id="Commands.DownloadAnimation.Usage" translated="true">Ús: downloadanimation [uuid]</resource>
+  <resource type="Text" id="Commands.DownloadTerrain.Description" translated="true">Descarrega l'arxiu RAW del terreny per a aquesta regió.</resource>
+  <resource type="Text" id="Commands.DownloadTerrain.Success" translated="true">L'arxiu del terreny {0} ({1} bytes) s'ha descarregat satisfactòriament i escrit en {2}</resource>
+  <resource type="Text" id="Commands.DownloadTerrain.Timeout" translated="true">Temps d'espera per les dades del terreny esgotat.</resource>
+  <resource type="Text" id="Commands.DownloadTerrain.Usage" translated="true">Ús: downloadterrain [tempsd'espera]</resource>
+  <resource type="Text" id="Commands.DownloadTexture.Description" translated="true">Descarrega la teixidura especificada per la seva UUID.</resource>
+  <resource type="Text" id="Commands.DownloadTexture.NotFound" translated="true">El simulador indica que la teixidura {0} no ha estat trobada.</resource>
+  <resource type="Text" id="Commands.DownloadTexture.Saved" translated="true">Guardat {0}.jp2 ({1}x{2})</resource>
+  <resource type="Text" id="Commands.DownloadTexture.Timeout" translated="true">Temps d'espera per la teixidura esgotat.</resource>
+  <resource type="Text" id="Commands.DownloadTexture.UsageLong" translated="true">Ús: downloadtexture [uuid] [prioridad]</resource>
+  <resource type="Text" id="Commands.DownloadTexture.Usage" translated="true">Ús: downloadtexture [texture]</resource>
+  <resource type="Text" id="Commands.DumpAttachment.Description" translated="true">Exporta l'objecte especificat annexat a l'avatar al disc dur.</resource>
+  <resource type="Text" id="Commands.DumpAttachment.Exported" translated="true">Exportades {0} primitives a {1}{2}</resource>
+  <resource type="Text" id="Commands.DumpAttachment.Fail" translated="true">L'objecte annexat en {0} va fallar a l'exportar.</resource>
+  <resource type="Text" id="Commands.DumpAttachment.Invalid" translated="true">El punt d'annexió especificat no és vàlid.</resource>
+  <resource type="Text" id="Commands.DumpAttachment.NotProperties" translated="true">Atenció: No es van poder obtenir totes les propietats de:</resource>
+  <resource type="Text" id="Commands.DumpAttachments.Description" translated="true">Exporta tots els annexos d'un avatar.</resource>
+  <resource type="Text" id="Commands.DumpAttachments.Done" translated="true">Es van intentar exportar {0} annexos.</resource>
+  <resource type="Text" id="Commands.DumpAttachment.Success" translated="true">L'annex de {0} s'ha exportat amb èxit.</resource>
+  <resource type="Text" id="Commands.DumpAttachments.Usage" translated="true">Ús: dumpattachments [uuid]</resource>
+  <resource type="Text" id="Commands.DumpAttachment.Usage" translated="true">Ús: dumpattachment [uuid] [punt-de-anex: RightHand,LeftHand,Skull,LeftEyeball,RightEyeball,LeftFoot,RightFoot,RightEar,LeftEar,LeftHip,RightHip,LeftUpperLeg,RightUpperLeg,RightLowerLeg,LeftLowerLeg,RightForearm,LeftForearm,Nose,RightShoulder,LeftShoulder,RightPec,LeftPec,Chin,RightUpperArm,LeftUpperArm,Spine,Chest,Pelvis,Stomach,Mouth]</resource>
+  <resource type="Text" id="Commands.DumpOutfit.Description" translated="true">Guarda totes les teixidures que vesteix un avatar al disc dur.</resource>
+  <resource type="Text" id="Commands.DumpOutfit.Downloading" translated="true">Descarregan</resource>
+  <resource type="Text" id="Commands.DumpOutfit.NotFound" translated="true">No es va poder trobar l'avatar {0}</resource>
+  <resource type="Text" id="Commands.DumpOutfit.Usage" translated="true">Ús: dumpoutfit [uuid]</resource>
+  <resource type="Text" id="Commands.EchoMaster.Description" translated="true">Repeteix tot el que el mestre digui.</resource>
+  <resource type="Text" id="Commands.EchoMaster.Off" translated="true">Repetició desactivada.</resource>
+  <resource type="Text" id="Commands.EchoMaster.On" translated="true">Repetició activada.</resource>
+  <resource type="Text" id="Commands.EmptyLostAndFound.Description" translated="true">Buida el contingut de la carpeta Lost &amp; Found.</resource>
+  <resource type="Text" id="Commands.EmptyLostAndFound.Done" translated="true">Carpeta Lost &amp; Found folder buidada.</resource>
+  <resource type="Text" id="Commands.EmptyTrash.Description" translated="true">Buida del contingut de la paperera.</resource>
+  <resource type="Text" id="Commands.EmptyTrash.Done" translated="true">Paperera buidada.</resource>
+  <resource type="Text" id="Commands.Export.Description" translated="true">Exporta un objecte a un arxiu XML.</resource>
+  <resource type="Text" id="Commands.Export.Downloading" translated="true">XML exportat, comença la descàrrega de {0} teixidures.</resource>
+  <resource type="Text" id="Commands.Export.Exported" translated="true">Exportades {0} primitives to {1}</resource>
+  <resource type="Text" id="Commands.Export.NotFound" translated="true">No es pot trobar el UUID {0} entre els {1} objectes indexats en el simulador actual.</resource>
+  <resource type="Text" id="Commands.Export.NotProperties" translated="true">Atenció: No es van poder obtenir totes les propietats de:</resource>
+  <resource type="Text" id="Commands.ExportOutfit.Description" translated="true">Exporta la roba d'un avatar a un arxiu xml.</resource>
+  <resource type="Text" id="Commands.ExportOutfit.Exported" translated="true">Exportada l'aparença de l'avatar {0} a {1}</resource>
+  <resource type="Text" id="Commands.ExportOutfit.NotFound" translated="true">No es va poder trobar l'aparença de l'avatar {0}.</resource>
+  <resource type="Text" id="Commands.ExportOutfit.Usage" translated="true">Ús: exportoutfit [uuid] arxiu.xml</resource>
+  <resource type="Text" id="Commands.ExportParticles.Description" translated="true">Genera un script LSL amb el sistema de partícules d'un objecte especificat.</resource>
+  <resource type="Text" id="Commands.ExportParticles.Exported" translated="true">Partícules de l'objecte {0} exportades.</resource>
+  <resource type="Text" id="Commands.ExportParticles.NoParticles" translated="true">L'objecte {0} no posseïx un sistema de partícules.</resource>
+  <resource type="Text" id="Commands.ExportParticles.ObjectNotFound" translated="true">No es pot trobar l'objecte amb l'identificador {0}</resource>
+  <resource type="Text" id="Commands.ExportParticles.PrimNotFound" translated="true">No es pot trobar la primitiva {0}</resource>
+  <resource type="Text" id="Commands.ExportParticles.Usage" translated="true">Ús: exportparticles [uuid]</resource>
+  <resource type="Text" id="Commands.Export.Usage" translated="true">Ús: export [uuid] [archivo.xml]</resource>
+  <resource type="Text" id="Commands.FindObjects.Description" translated="true">Troba tots els objectes el nom dels quals continguin les condicions de recerca.</resource>
+  <resource type="Text" id="Commands.FindObjects.Done" translated="true">Recerca finalitzada.</resource>
+  <resource type="Text" id="Commands.FindObjects.Info" translated="true">Objecte '{0}': {1}</resource>
+  <resource type="Text" id="Commands.FindObjects.Unable" translated="true">Atenció: No es van poder obtenir totes les propietats de:</resource>
+  <resource type="Text" id="Commands.FindObjects.Usage" translated="true">Ús: findobjects [alcance] [condicions de recerca]</resource>
+  <resource type="Text" id="Commands.FindSim.Description" translated="true">Busca un simulador i mostra informació sobre ell.</resource>
+  <resource type="Text" id="Commands.FindSim.Info" translated="true">{0}: manejador={1} ({2},{3})</resource>
+  <resource type="Text" id="Commands.FindSim.LookupFail" translated="true">Va fallar la recerca de {0}.</resource>
+  <resource type="Text" id="Commands.FindSim.Usage" translated="true">Ús: findsim [nom del simulador]</resource>
+  <resource type="Text" id="Commands.FindTexture.Description" translated="true">Comprova si una teixidura específica és visible en una cara determinada.</resource>
+  <resource type="Text" id="Commands.FindTexture.Done" translated="true">Recerca finalitzada.</resource>
+  <resource type="Text" id="Commands.FindTexture.Info" translated="true">Primitiva {0} ({1}) té la cara {2} establerta a {3}</resource>
+  <resource type="Text" id="Commands.FindTexture.Usage" translated="true">Ús: findtexture [cara] [textura]</resource>
+  <resource type="Text" id="Commands.Fly.Description" translated="true">Comença o deixa de volar.</resource>
+  <resource type="Text" id="Commands.Fly.Started" translated="true">Començant a volar.</resource>
+  <resource type="Text" id="Commands.Fly.Stopped" translated="true">Deixant de volar.</resource>
+  <resource type="Text" id="Commands.FlyTo.Description" translated="true">Vola a la posició especificada per un màxim de segons.</resource>
+  <resource type="Text" id="Commands.FlyTo.Flying" translated="true">Volant a {0} en {1} segons</resource>
+  <resource type="Text" id="Commands.FlyTo.Usage" translated="true">Ús: flyto x y z [segons]</resource>
+  <resource type="Text" id="Commands.Fly.Usage" translated="true">Ús: fly [start/stop]</resource>
+  <resource type="Text" id="Commands.Follow.AutopilotCancelled" translated="true">El servidor va cancel·lar el pilot automàtic.</resource>
+  <resource type="Text" id="Commands.Follow.Autopilot" translated="true">[Pilot automàtic] A {0} metres de l'objectiu, començant pilot automàtic a &lt;{1},{2},{3}&gt;</resource>
+  <resource type="Text" id="Commands.Follow.Description" translated="true">Segueix a altre avatar.</resource>
+  <resource type="Text" id="Commands.Follow.Following" translated="true">Seguint a {0}.</resource>
+  <resource type="Text" id="Commands.Follow.FollowingUUID" translated="true">Seguint al UUID {0}.</resource>
+  <resource type="Text" id="Commands.Follow.NoMaster" translated="true">No s'ha especificat un mestre.</resource>
+  <resource type="Text" id="Commands.Follow.Unable" translated="true">Impossible seguir a {0}. Possiblement estigui més enllà de la càmera actual.</resource>
+  <resource type="Text" id="Commands.Follow.UnableUUID" translated="true">Impossible seguir al UUID {0}.</resource>
+  <resource type="Text" id="Commands.Forward.Description" translated="true">Mou el bot cap a endavant, un pas o un determinat nombre de segons.</resource>
+  <resource type="Text" id="Commands.Forward.Moved" translated="true">Em vaig moure cap a endavant.</resource>
+  <resource type="Text" id="Commands.Forward.Usage" translated="true">Ús: forward [segons]</resource>
+  <resource type="Text" id="Commands.Friends.Description" translated="true">Llista dels amics del bot.</resource>
+  <resource type="Text" id="Commands.Friends.NoFriends" translated="true">El bot actual no té amics.</resource>
+  <resource type="Text" id="Commands.GiveAll.Console" translated="true">Impossible manar els diners a la consola. Aquest comando només funciona quan s'executa en missatge instantani.</resource>
+  <resource type="Text" id="Commands.GiveAll.Description" translated="true">Dóna tot els diners del bot al mestre.</resource>
+  <resource type="Text" id="Commands.GiveAll.Done" translated="true">Lliurats {0}L$ a {1}.</resource>
+  <resource type="Text" id="Commands.GiveAll.Message" translated="true">NatiBot lliurant tot els diners.</resource>
+  <resource type="Text" id="Commands.GiveItem.Description" translated="true">Dóna objectes de la carpeta actual a un avatar.</resource>
+  <resource type="Text" id="Commands.GiveItem.Folder" translated="true">No es pot donar la carpeta {0}\n</resource>
+  <resource type="Text" id="Commands.GiveItem.Gave" translated="true">Lliurat {0}\n</resource>
+  <resource type="Text" id="Commands.GiveItem.InvalidUUID" translated="true">S'esperava la UUID d'un agent com primer argument.</resource>
+  <resource type="Text" id="Commands.GiveItem.NotFound" translated="true">No s'ha trobat cap element de l'inventari cridat {0}.</resource>
+  <resource type="Text" id="Commands.GiveItem.Usage" translated="true">Ús: give [uuid del agente] [elemento1] (elemento2) (elemento3) (...)</resource>
+  <resource type="Text" id="Commands.GoHome.Description" translated="true">Es teletransporta a casa.</resource>
+  <resource type="Text" id="Commands.GoHome.Fail" translated="true">Va fallar el teletransporte a casa.</resource>
+  <resource type="Text" id="Commands.GoHome.Success" translated="true">Teletransportado a casa amb èxit.</resource>
+  <resource type="Text" id="Commands.Goto.Description" translated="true">Va a un simulador usant un teletransporte.</resource>
+  <resource type="Text" id="Commands.Goto.Fail" translated="true">Teletransporte fallit: {0}.</resource>
+  <resource type="Text" id="Commands.GotoLandmark.Description" translated="true">Va a la destinació indicada per un landmark usant un teletransporte.</resource>
+  <resource type="Text" id="Commands.GotoLandmark.Fail" translated="true">Teletransporte fallit: {0}.</resource>
+  <resource type="Text" id="Commands.GotoLandmark.InvalidUUID" translated="true">UUID invàlida.</resource>
+  <resource type="Text" id="Commands.GotoLandmark.Success" translated="true">Teletransportado amb èxit.</resource>
+  <resource type="Text" id="Commands.GotoLandmark.Teleporting" translated="true">Teletransportándose a{0}.</resource>
+  <resource type="Text" id="Commands.GotoLandmark.Usage" translated="true">Ús: gotolm [uuid]</resource>
+  <resource type="Text" id="Commands.Goto.Success" translated="true">Teletransportado a {0} amb èxit.</resource>
+  <resource type="Text" id="Commands.Goto.Usage" translated="true">Ús: goto sim/x/y/z</resource>
+  <resource type="Text" id="Commands.GridLayer.Description" translated="true">Descarrega totes les capes del mapa de la grid.</resource>
+  <resource type="Text" id="Commands.GridLayer.Layer" translated="true">Capa({0}) Inferior: {1} Esquerra: {2} Superior: {3} Dreta: {4}</resource>
+  <resource type="Text" id="Commands.GridLayer.Ready" translated="true">Llest.</resource>
+  <resource type="Text" id="Commands.GridMap.Description" translated="true">Descarrega tota la informació visible del mapa de la grid.</resource>
+  <resource type="Text" id="Commands.GridMap.Ready" translated="true">Llest.</resource>
+  <resource type="Text" id="Commands.Groups.Description" translated="true">Mostra els grups als quals pertany el bot.</resource>
+  <resource type="Text" id="Commands.Groups.NoGroups" translated="true">El bot no pertany a cap grup.</resource>
+  <resource type="Text" id="Commands.Help.Description" translated="true">Mostra tots els comandos disponibles.</resource>
+  <resource type="Text" id="Commands.Help.Message" translated="true">\n\nAYUDA\nEl bot acceptarà teletransports del mestre i de membres del seu grup.\n</resource>
+  <resource type="Text" id="Commands.IM.Description" translated="true">Envia un missatge instantani.</resource>
+  <resource type="Text" id="Commands.IMGroup.Description" translated="true">Envia un missatge instantani a un grup.</resource>
+  <resource type="Text" id="Commands.IMGroup.Fail" translated="true">Va fallar l'enviament del missatge instantani al grup.</resource>
+  <resource type="Text" id="Commands.IMGroup.Joined" translated="true">Unit a la sala del grup {0} satisfactòriament.</resource>
+  <resource type="Text" id="Commands.IMGroup.JoinFailed" translated="true">Va fallar a l'unir-se a la sala del grup.</resource>
+  <resource type="Text" id="Commands.IMGroup.Success" translated="true">Es va enviar el missatge instantani "{1}" al grup {0}.</resource>
+  <resource type="Text" id="Commands.IMGroup.Timeout" translated="true">Temps d'espera esgotat entrant en la sala del grup.</resource>
+  <resource type="Text" id="Commands.IMGroup.Usage" translated="true">Ús: imgroup [uuid_del_grupo] [mensaje]</resource>
+  <resource type="Text" id="Commands.IM.LookupFail" translated="true">No es va trobar qui és {0}.</resource>
+  <resource type="Text" id="Commands.Import.ChildFail" translated="true">Importació fallida, temps d'espera esgotat creant una primitiva filla.</resource>
+  <resource type="Text" id="Commands.Import.Complete" translated="true">Importació completada.</resource>
+  <resource type="Text" id="Commands.Import.DeRezzing" translated="true">Sol·licitant recollida a l'inventari de l'objecte importat.</resource>
+  <resource type="Text" id="Commands.Import.Description" translated="true">Importa les primivitas descrites en un arxiu XML.</resource>
+  <resource type="Text" id="Commands.Import.DeserializeFail" translated="true">Fallada {1} al de-serialitzar {0}.</resource>
+  <resource type="Text" id="Commands.Import.Importing" translated="true">Important {0} estructures.</resource>
+  <resource type="Text" id="Commands.Import.LinkFail" translated="true">Atenció: Fallada al vincular {0} primitives.</resource>
+  <resource type="Text" id="Commands.Import.MissingRoot" translated="true">ATENCIÓ: Ignorant un grup sense primitiva arrel.</resource>
+  <resource type="Text" id="Commands.ImportOutfit.Description" translated="true">Importa una aparença d'un arxiu XML.</resource>
+  <resource type="Text" id="Commands.ImportOutfit.Usage" translated="true">Ús: importoutfit [arxiu]</resource>
+  <resource type="Text" id="Commands.Import.Properties" translated="true">Establint les propietats de {0}.</resource>
+  <resource type="Text" id="Commands.Import.RootFail" translated="true">Importació fallida, temps d'espera esgotant creant la primitiva arrel.</resource>
+  <resource type="Text" id="Commands.Import.Usage" translated="true">Ús: import [arxiu] (usegroup)</resource>
+  <resource type="Text" id="Commands.IM.Success" translated="true">S'ha enviat el missatge instantani "{1}" a {0}.</resource>
+  <resource type="Text" id="Commands.IM.Usage" translated="true">Ús: im [nom] [cognom] [misatge]</resource>
+  <resource type="Text" id="Commands.Inventory.Description" translated="true">Mostra i escorcolla l'inventari.</resource>
+  <resource type="Text" id="Commands.JoinGroup.Ambiguous" translated="true">Nom ambigu. Es van trobar {0} grups (UUIDs en la consola)</resource>
+  <resource type="Text" id="Commands.JoinGroup.Description" translated="true">S'uneix a un grup.</resource>
+  <resource type="Text" id="Commands.JoinGroup.Empty" translated="true">ERROR: Vaig obtenir una resposta buida.</resource>
+  <resource type="Text" id="Commands.JoinGroup.InvalidUUID" translated="true">{0} no sembla ser una UUID vàlida.</resource>
+  <resource type="Text" id="Commands.JoinGroup.Joined" translated="true">Es va unir al grup {0}.</resource>
+  <resource type="Text" id="Commands.JoinGroup.Matching" translated="true">Els grups oposats són:</resource>
+  <resource type="Text" id="Commands.JoinGroup.NotJoined" translated="true">No es va poder unir al grup {0}</resource>
+  <resource type="Text" id="Commands.JoinGroup.Usage" translated="true">Ús: joingroup [nom del grup] | joingroup [uuid]</resource>
+  <resource type="Text" id="Commands.JoinGroup.UUIDNotFound" translated="true">No es va poder obtenir la UUID per al grup {0}.</resource>
+  <resource type="Text" id="Commands.Jump.Description" translated="true">Salta.</resource>
+  <resource type="Text" id="Commands.Jump.Jumping" translated="true">Començant a saltar.</resource>
+  <resource type="Text" id="Commands.Jump.StopJumping" translated="true">Deixant de saltar.</resource>
+  <resource type="Text" id="Commands.LeaveGroup.Description" translated="true">Abandona un grup.</resource>
+  <resource type="Text" id="Commands.LeaveGroup.Failed" translated="true">{0} no va poder abandonar el grup {1}.</resource>
+  <resource type="Text" id="Commands.LeaveGroup.Left" translated="true">{0} abandonó el grupo {1}.</resource>
+  <resource type="Text" id="Commands.LeaveGroup.NoGroups" translated="true">{0} no sembla ser membre de cap grup.</resource>
+  <resource type="Text" id="Commands.LeaveGroup.NotInGroup" translated="true">{0} no sembla ser membre del grup {1}.</resource>
+  <resource type="Text" id="Commands.LeaveGroup.Usage" translated="true">Ús: leavegroup [grup]</resource>
+  <resource type="Text" id="Commands.Left.Description" translated="true">Mou el bot cap a l'esquerra, un pas o un determinat nombre de segons.</resource>
+  <resource type="Text" id="Commands.Left.Moved" translated="true">Em vaig moure cap a l'esquerra.</resource>
+  <resource type="Text" id="Commands.Left.Usage" translated="true">Ús: left [segons]</resource>
+  <resource type="Text" id="Commands.ListContents.Description" translated="true">Mostra el contingut de la carpeta actual de l'inventari.</resource>
+  <resource type="Text" id="Commands.ListContents.NotReady" translated="true">El contingut de la carpeta encara no està llest.</resource>
+  <resource type="Text" id="Commands.ListContents.Usage" translated="true">Ús: ls ( -l )</resource>
+  <resource type="Text" id="Commands.Load.Description" translated="true">Carrega comandos d'una DLL.</resource>
+  <resource type="Text" id="Commands.Load.Loaded" translated="true">Carregat l'ensamblat {0}.</resource>
+  <resource type="Text" id="Commands.Load.Usage" translated="true">Ús: load [ensamblado.dll]</resource>
+  <resource type="Text" id="Commands.Location.Description" translated="true">Mostra la localització actual.</resource>
+  <resource type="Text" id="Commands.Location.Location" translated="true">Simulador: '{0}' Localització: {1}</resource>
+  <resource type="Text" id="Commands.MapFriend.Description" translated="true">Troba un amic.</resource>
+  <resource type="Text" id="Commands.MapFriend.Found" translated="true">Trobat l'amic {0} en {1}/{2}/{3}</resource>
+  <resource type="Text" id="Commands.MapFriend.Offline" translated="true">Es va trobar a {0}, Però sembla estar desconnectat.</resource>
+  <resource type="Text" id="Commands.MapFriend.Timeout" translated="true">Temps d'espera esgotat esperant la resposta, Tinc permisos per a trobar a {0}?</resource>
+  <resource type="Text" id="Commands.MapFriend.Usage" translated="true">Ús: mapfriend [uuid]</resource>
+  <resource type="Text" id="Commands.MD5.Description" translated="true">Crea una signatura MD5 d'una contrasenya donada.</resource>
+  <resource type="Text" id="Commands.MD5.Usage" translated="true">Ús: md5 [contraseña]</resource>
+  <resource type="Text" id="Commands.Moveto.Moving" translated="true">Intentant moure'm a &lt;{0},{1},{2}&gt;</resource>
+  <resource type="Text" id="Commands.Moveto.Usage" translated="true">Ús: moveto x y z</resource>
+  <resource type="Text" id="Commands.ObjectInventory.Description" translated="true">Obté la llista de l'inventari d'un objecte.</resource>
+  <resource type="Text" id="Commands.ObjectInventory.Failed" translated="true">Fallada al descarregar l'inventari de {0}.</resource>
+  <resource type="Text" id="Commands.ObjectInventory.Folder" translated="true">[Carpeta] Nom: {0}</resource>
+  <resource type="Text" id="Commands.ObjectInventory.Item" translated="true">[Element] Nom: {0} Desc: {1} Tipus: {2} UUID: {3}</resource>
+  <resource type="Text" id="Commands.ObjectInventory.NotFound" translated="true">No es va poder trobar l'objecte {0}.</resource>
+  <resource type="Text" id="Commands.ObjectInventory.Usage" translated="true">Ús: objectinventory [uuid]</resource>
+  <resource type="Text" id="Commands.ParcelDetails.Description" translated="true">Mostra detalls sobre la parcel·la especificada.</resource>
+  <resource type="Text" id="Commands.ParcelDetails.NotFound" translated="true">No es va poder trobar la parcel·la {0} en el diccionari. Vas executar primer ParcelInfo para emplenar el diccionari?</resource>
+  <resource type="Text" id="Commands.ParcelDetails.Usage" translated="true">Ús: parceldetails [id_de_parcela]</resource>
+  <resource type="Text" id="Commands.ParcelInfo.Description" translated="true">Imprimeix informació sobre totes les parcel·les d'aquest simulador.</resource>
+  <resource type="Text" id="Commands.ParcelInfo.Downloaded" translated="true">Descarregades {0} Parcel·les en {1}</resource>
+  <resource type="Text" id="Commands.ParcelInfo.Failed" translated="true">Fallada a l'obtenir informació de totes les parcel·les del simulador.</resource>
+  <resource type="Text" id="Commands.ParcelInfo.Parcel" translated="true">Parcel·la[{0}]: Nom: "{1}", Descripció: "{2}" Compte de LCA: {3} Tràfic: {4}</resource>
+  <resource type="Text" id="Commands.ParcelPrimOwners.Description" translated="true">Mostra una llista de quantes primitives té un usuari en una parcel·la. (Necessita permisos)</resource>
+  <resource type="Text" id="Commands.ParcelPrimOwners.Info" translated="true">Amo: {0}. Objectes: {1}</resource>
+  <resource type="Text" id="Commands.ParcelPrimOwners.NotFound" translated="true">No es va poder trobar la parcel·la {0} en el diccionari. Vas executar primer ParcelInfo para emplenar el diccionari?</resource>
+  <resource type="Text" id="Commands.ParcelPrimOwners.Timeout" translated="true">Temps d'espera esgotat.</resource>
+  <resource type="Text" id="Commands.ParcelPrimOwners.Usage" translated="true">Ús: primowners [id_de_parcela]</resource>
+  <resource type="Text" id="Commands.ParcelSelectObjects.Description" translated="true">Mostra una llista de les primitives en una parcel·la que pertanyen a un avatar especificat.</resource>
+  <resource type="Text" id="Commands.ParcelSelectObjects.Found" translated="true">Encontados {0} objectes.</resource>
+  <resource type="Text" id="Commands.ParcelSelectObjects.NotFound" translated="true">No es va poder trobar la parcel·la {0} en el diccionari. Vas executar primer ParcelInfo para emplenar el diccionari?</resource>
+  <resource type="Text" id="Commands.ParcelSelectObjects.Timeout" translated="true">Temps d'espera esgotat.</resource>
+  <resource type="Text" id="Commands.ParcelSelectObjects.Usage" translated="true">Ús: selectobjects [id_de_parcela] [uuid]</resource>
+  <resource type="Text" id="Commands.PrimCount.Description" translated="true">Mostra el nombre de primitives actualment indexades.</resource>
+  <resource type="Text" id="Commands.PrimCount.Detail" translated="true">{0} (Avatars: {1} Primitives: {2})</resource>
+  <resource type="Text" id="Commands.PrimCount.Total" translated="true">Indexant un total de {0} objectes.</resource>
+  <resource type="Text" id="Commands.PrimInfo.Default" translated="true">Teixidura per defecte: {0}</resource>
+  <resource type="Text" id="Commands.PrimInfo.Description" translated="true">Mostra informació sobre una primitiva especificada.</resource>
+  <resource type="Text" id="Commands.PrimInfo.Done" translated="true">Acabat.</resource>
+  <resource type="Text" id="Commands.PrimInfo.Face" translated="true">Cara {0}: {1}</resource>
+  <resource type="Text" id="Commands.PrimInfo.Light" translated="true">LLum: {0}</resource>
+  <resource type="Text" id="Commands.PrimInfo.NotFound" translated="true">No es va poder trobar la primitiva {0}.</resource>
+  <resource type="Text" id="Commands.PrimInfo.Null" translated="true">nul</resource>
+  <resource type="Text" id="Commands.PrimInfo.Particles" translated="true">Partícules: {0}</resource>
+  <resource type="Text" id="Commands.PrimInfo.TextureEntry" translated="true">Entrada de teixidura:</resource>
+  <resource type="Text" id="Commands.PrimInfo.Usage" translated="true">Ús: priminfo [uuid]</resource>
+  <resource type="Text" id="Commands.PrimRegex.Description" translated="true">Busca una primitiva usant expressions regulars.</resource>
+  <resource type="Text" id="Commands.PrimRegex.Done" translated="true">Recerca finalitzada.</resource>
+  <resource type="Text" id="Commands.PrimRegex.Error" translated="true">Error en la recerca.</resource>
+  <resource type="Text" id="Commands.PrimRegex.Prim" translated="true">\nNOM={0}\nID = {1}\nPROPIEDADES = {2}\nTEXT = '{3}'\nDESC='{4}</resource>
+  <resource type="Text" id="Commands.PrimRegex.Searching" translated="true">Buscant [{0}] ({1} primitives carregades en el simulador).\n</resource>
+  <resource type="Text" id="Commands.PrimRegex.Usage" translated="true">Ús: primregex [expresió regular]</resource>
+  <resource type="Text" id="Commands.RegionInfo.Access" translated="true">Accés:</resource>
+  <resource type="Text" id="Commands.RegionInfo.Description" translated="true">Mostra informació sobre la regió actual.</resource>
+  <resource type="Text" id="Commands.RegionInfo.Flags" translated="true">Propietats:</resource>
+  <resource type="Text" id="Commands.RegionInfo.Handle" translated="true">Manejador: {0} (X: {1} Y: {2})</resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainBase0" translated="false">TerrainBase0: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainBase1" translated="false">TerrainBase1: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainBase2" translated="false">TerrainBase2: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainBase3" translated="false">TerrainBase3: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainDetail0" translated="false">TerrainDetail0: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainDetail1" translated="false">TerrainDetail1: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainDetail2" translated="false">TerrainDetail2: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainDetail3" translated="false">TerrainDetail3: </resource>
+  <resource type="Text" id="Commands.RegionInfo.UUID" translated="true">UUID: </resource>
+  <resource type="Text" id="Commands.RegionInfo.WaterHeight" translated="true">Altura de l'aigua:</resource>
+  <resource type="Text" id="Commands.RequestTeleport.Description" translated="true">Envia un teletransport a l&#39;avatar especificat o al mestre.</resource>
+  <resource type="Text" id="Commands.RequestTeleport.Usage" translated="true">Ús: sendtp (uuid-avatar)</resource>
+  <resource type="Text" id="Commands.RequestTeleport.Message" translated="true">Vine a mi.</resource>
+  <resource type="Text" id="Commands.RequestTeleport.Sent" translated="true">Teletransport enviat a {0}.</resource>
+  <resource type="Text" id="Commands.Right.Description" translated="true">Mou el bot cap a la dreta, un pas o un determinat nombre de segons.</resource>
+  <resource type="Text" id="Commands.Right.Moved" translated="true">Em vaig moure cap a la dreta.</resource>
+  <resource type="Text" id="Commands.Right.Usage" translated="true">Ús: right [segons]</resource>
+  <resource type="Text" id="Commands.Say.Description" translated="true">Diu una mica en el xat o en un canal opcional.</resource>
+  <resource type="Text" id="Commands.Say.Said" translated="true">Vaig dir "{0}".</resource>
+  <resource type="Text" id="Commands.Say.Usage" translated="true">Ús: say (canal opcional) [misatge]</resource>
+  <resource type="Text" id="Commands.Script.Description" translated="true">Executa una sèrie de comandos descrits en un arxiu de text especificat.</resource>
+  <resource type="Text" id="Commands.Script.Done" translated="true">Va finalitzar l'execució de {0} comandos.</resource>
+  <resource type="Text" id="Commands.Script.Usage" translated="true">Ús: script [arxiu]</resource>
+  <resource type="Text" id="Commands.SearchBuildable.Description" translated="true">Busca parcel·les construibles.</resource>
+  <resource type="Text" id="Commands.SearchBuildable.Failed" translated="true">Va fallar a l'obtenir la informació de totes les parcel·les del simulador.</resource>
+  <resource type="Text" id="Commands.SearchBuildable.Found" translated="true">Trobada una parcel·la construible: {0} en el simulador {1}.</resource>
+  <resource type="Text" id="Commands.SearchBuildable.Ready" translated="true">Llest.</resource>
+  <resource type="Text" id="Commands.SearchEvents.Description" translated="true">Busca esdeveniments en la llista.</resource>
+  <resource type="Text" id="Commands.SearchEvents.Event" translated="true">ID de l'esdeveniment: {0} Nom: {1} Data: {2}</resource>
+  <resource type="Text" id="Commands.SearchEvents.Matched" translated="true">La teva recerca '{0}' coincideix amb {1} esdeveniments.</resource>
+  <resource type="Text" id="Commands.SearchEvents.NoResults" translated="true">Cap resultat coincideix amb la recerca especificada.</resource>
+  <resource type="Text" id="Commands.SearchEvents.Timeout" translated="true">Temps d'espera per la resposta del simulador esgotat.</resource>
+  <resource type="Text" id="Commands.SearchEvents.Usage" translated="true">Ús: searchevents [text de recerca]</resource>
+  <resource type="Text" id="Commands.SetHome.Description" translated="true">Establix la posició actual com casa.</resource>
+  <resource type="Text" id="Commands.SetHome.Set" translated="true">Casa establecida.</resource>
+  <resource type="Text" id="Commands.SetMaster.Description" translated="true">Canvia el nom del mestre.</resource>
+  <resource type="Text" id="Commands.SetMaster.Greet" translated="true">Ara ets el meu mestre. Mana'm un missatge instantani amb "help" per a una llista de comandos.</resource>
+  <resource type="Text" id="Commands.SetMasterKey.Description" translated="true">Canvi al mestre segons el seu UUID.</resource>
+  <resource type="Text" id="Commands.SetMasterKey.Set" translated="true">Maestro establert a {0}</resource>
+  <resource type="Text" id="Commands.SetMasterKey.Usage" translated="true">Ús: setmasterkey [uuid]</resource>
+  <resource type="Text" id="Commands.SetMaster.Set" translated="true">Maestro establert a {0} ({1})</resource>
+  <resource type="Text" id="Commands.SetMaster.Usage" translated="true">Ús: setmaster [nom]</resource>
+  <resource type="Text" id="Commands.SetMaster.UUIDNotFound" translated="true">No es va poder obtenir la UUID per a "{0}". No s'ha canviat el mestre.</resource>
+  <resource type="Text" id="Commands.Shout.Description" translated="true">Crida una mica en el xat o en un canal opcional.</resource>
+  <resource type="Text" id="Commands.Shout.Shouted" translated="true">Vaig cridar "{0}".</resource>
+  <resource type="Text" id="Commands.Shout.Usage" translated="true">Ús: shout (canal opcional) [misatge]</resource>
+  <resource type="Text" id="Commands.ShowEffects.Description" translated="true">Mostra o oculta els efectes del visor en la consola.</resource>
+  <resource type="Text" id="Commands.ShowEffects.LookAt" translated="true">Efecte [Mirant]: ID d'Origen: {0} ID Objectiu: {1} Posició Objectiu: {2} Tipus: {3} Durada: {4} ID: {5}</resource>
+  <resource type="Text" id="Commands.ShowEffects.Off" translated="true">Els efectes del visor no es mostraran.</resource>
+  <resource type="Text" id="Commands.ShowEffects.On" translated="true">Els efectes del visor es mostraran en la consola.</resource>
+  <resource type="Text" id="Commands.ShowEffects.Other" translated="true">Efecte [{0}]: ID d'Origen: {1} ID Objectiu: {2} Posició Objectiu: {3} Durada: {4} ID: {5}</resource>
+  <resource type="Text" id="Commands.ShowEffects.PointAt" translated="true">Efecte [Apuntant]: ID d'Origen: {0} ID Objectiu: {1} Posició Objectiu: {2} Tipus: {3} Durada: {4} ID: {5}</resource>
+  <resource type="Text" id="Commands.ShowEffects.Usage" translated="true">Ús: showeffects [on/off]</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.Date" translated="true">       Data: {0}</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.Description" translated="true">Mostra els detalls sobre un esdeveniment.</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.EventDescription" translated="true">Descripció: {0}</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.Location" translated="true">   Localización: {0}/{1}/{2}</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.Name" translated="true">       Nom: {0} ({1})</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.Query" translated="true">Sol·licitud enviada.</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.Usage" translated="true">Ús: showevent [ID de l'event] (fer servir searchevents per a obtenir la ID)</resource>
+  <resource type="Text" id="Commands.Sit.Description" translated="true">S'asseu en la primitiva més propera.</resource>
+  <resource type="Text" id="Commands.Sit.NotFound" translated="true">No s'ha trobat una primitiva propera per a asseure's:</resource>
+  <resource type="Text" id="Commands.SitOn.Description" translated="true">S'asseu en l'objecte especificat.</resource>
+  <resource type="Text" id="Commands.SitOn.NotFound" translated="true">No es pot trobar un objecte amb UUID {0} en el qual asseure's.</resource>
+  <resource type="Text" id="Commands.SitOn.Sit" translated="true">Se sol·licita asseure's en l'objecte {0} ({1})</resource>
+  <resource type="Text" id="Commands.SitOn.Usage" translated="true">Ús: siton [uuid]</resource>
+  <resource type="Text" id="Commands.Sit.Sit" translated="true">Em vaig asseure en {0} ({1}). Distància: {2}</resource>
+  <resource type="Text" id="Commands.Stand.Description" translated="true">Aixecar-se.</resource>
+  <resource type="Text" id="Commands.Stand.Standing" translated="true">Aixecant-me.</resource>
+  <resource type="Text" id="Commands.Stats.Description" translated="true">Mostra estadístiques sobre la connexió.</resource>
+  <resource type="Text" id="Commands.Stats.Info1" translated="true">[{0}] Dilatació Temporal: {1} BPS Entrada: {2} BPS Sortida: {3} Reexpedits Fora: {4} Reexpedits Dintre: {5}</resource>
+  <resource type="Text" id="Commands.Stats.Info2" translated="true">FPS : {0} FPS Físics : {1} Actualitzacions d'agents : {2} Objectes : {3} Objectes amb script : {4}</resource>
+  <resource type="Text" id="Commands.Stats.Info3" translated="true">Temps de fotograma : {0} Temps de xarxa : {1} Temps d'imatge : {2} Temps de física : {3} Temps de script : {4} Altre temps : {5}</resource>
+  <resource type="Text" id="Commands.Stats.Info4" translated="true">Agents : {0} Agents fills : {1} Scripts actius : {2}</resource>
+  <resource type="Text" id="Commands.Stats.Packets" translated="true">Paquets en la cua:</resource>
+  <resource type="Text" id="Commands.TaskRunning.Description" translated="true">Obté o establix la propietat Executant-se en els elements de l'inventari d'un objecte.</resource>
+  <resource type="Text" id="Commands.TaskRunning.Failed" translated="true">Va fallar al descarregar l'inventari de l'objecte {0}</resource>
+  <resource type="Text" id="Commands.TaskRunning.Folder" translated="true">[Carpeta] Nom: {0}</resource>
+  <resource type="Text" id="Commands.TaskRunning.Item" translated="true">[Objecte] Nom: {0} Desc: {1} Tipus: {2}</resource>
+  <resource type="Text" id="Commands.TaskRunning.NoInfo" translated="true">(no hi ha informació de script)</resource>
+  <resource type="Text" id="Commands.TaskRunning.NotFound" translated="true">No es pot trobar l'objecte {0}</resource>
+  <resource type="Text" id="Commands.TaskRunning.NotSet" translated="true">(no establert)</resource>
+  <resource type="Text" id="Commands.TaskRunning.Running" translated="true">Mono: {0} Executant-se: {1}</resource>
+  <resource type="Text" id="Commands.TaskRunning.Setting" translated="true">Configuració</resource>
+  <resource type="Text" id="Commands.TaskRunning.Usage" translated="true">Ús: taskrunning [id de l'objecte] [[nom del script] true|false]</resource>
+  <resource type="Text" id="Commands.Textures.Description" translated="true">Activa o desactiva la descàrrega automàtica de totes les teixidures visibles.</resource>
+  <resource type="Text" id="Commands.Textures.Disabled" translated="true">Descàrrega de teixidures desactivada.</resource>
+  <resource type="Text" id="Commands.Textures.Downloaded" translated="true">Terminada descarrega de la teixidura {0} ({1} bytes)</resource>
+  <resource type="Text" id="Commands.Textures.Enabled" translated="true">Descàrrega de teixidures activada.</resource>
+  <resource type="Text" id="Commands.Textures.Usage" translated="true">Ús: textures [on/off]</resource>
+  <resource type="Text" id="Commands.Touch.Description" translated="true">Toca un objecte especificat.</resource>
+  <resource type="Text" id="Commands.Touch.NotFound" translated="true">No es pot trobar un objecte per a tocar amb UUID {0}.</resource>
+  <resource type="Text" id="Commands.Touch.Touched" translated="true">Tocat l'objecte {0}.</resource>
+  <resource type="Text" id="Commands.Touch.Usage" translated="true">Ús: touch [uuid]</resource>
+  <resource type="Text" id="Commands.Tree.Description" translated="true">Treu un arbre al món.</resource>
+  <resource type="Text" id="Commands.Tree.Help" translated="true">Escriu tree per a la llista d'arbres.</resource>
+  <resource type="Text" id="Commands.Tree.Rezzed" translated="true">Vaig Intentar treure un arbre {0}.</resource>
+  <resource type="Text" id="Commands.Tree.Usage" translated="true">Ús: tree</resource>
+  <resource type="Text" id="Commands.TurnTo.Turned" translated="true">Vaig girar cap a {0}.</resource>
+  <resource type="Text" id="Commands.Upload.CompressedUpload" translated="true">Imatge comprimida a JPEG2000, pujant...</resource>
+  <resource type="Text" id="Commands.Upload.CreatedBy" translated="true">{0} creada per NatiBot el {1}.</resource>
+  <resource type="Text" id="Commands.Upload.Description" translated="true">Puja un element al servidor asset.</resource>
+  <resource type="Text" id="Commands.Upload.ErrorNotecard" translated="true">Error creant la nota per a {0}</resource>
+  <resource type="Text" id="Commands.Upload.ErrorScript" translated="true">Error creant el script per a {0}</resource>
+  <resource type="Text" id="Commands.Upload.FailedCompress" translated="true">Fallo al comprimir a JPEG2000.</resource>
+  <resource type="Text" id="Commands.Upload.FailedLoad" translated="true">Fallada obrint l'arxiu.</resource>
+  <resource type="Text" id="Commands.Upload.Failed" translated="true">L'arxiu no va poder ser pujat per l'error {0}.</resource>
+  <resource type="Text" id="Commands.UploadImage.CreatedBy" translated="true">{0} creada per NatiBot el {1}.</resource>
+  <resource type="Text" id="Commands.UploadImage.Description" translated="true">Puja una imatge al servidor asset.</resource>
+  <resource type="Text" id="Commands.UploadImage.FailedConvert" translated="true">Fallada al comprimir a JPEG2000.</resource>
+  <resource type="Text" id="Commands.UploadImage.FailedUpload" translated="true">La imatge no es va pujar per l'error: "{0}".</resource>
+  <resource type="Text" id="Commands.UploadImage.ImageSent" translated="true">La imatge ha estat enviada al mestre {0} ({1}) i hauria d'arribar en breu.</resource>
+  <resource type="Text" id="Commands.UploadImage.Loading" translated="true">Carregant imatge {0}.</resource>
+  <resource type="Text" id="Commands.UploadImage.Returned" translated="true">RequestCreateItemFromAsset() va retornar: Éxit={0}, Estat={1}, ItemID={2}, AssetID={3}</resource>
+  <resource type="Text" id="Commands.UploadImage.Timeout" translated="true">Temps d'espera esgotat pujant la imatge. Això no significa que la imatge no s'hagi pujat amb èxit.</resource>
+  <resource type="Text" id="Commands.UploadImage.UploadedUUID" translated="true">Imatge pujada amb la UUID {0}</resource>
+  <resource type="Text" id="Commands.UploadImage.Uploading" translated="true">Imatge comprimida a JPEG2000, pujant...</resource>
+  <resource type="Text" id="Commands.UploadImage.UploadTook" translated="true">La pujada va prendre {0} segons.</resource>
+  <resource type="Text" id="Commands.UploadImage.Usage" translated="true">Ús: uploadimage [nom_per_a_el_inventari] [arxiu]</resource>
+  <resource type="Text" id="Commands.Upload.LoadedUpload" translated="true">Arxiu carregat, pujant...</resource>
+  <resource type="Text" id="Commands.Upload.Loading" translated="true">Carregant arxiu {0}.</resource>
+  <resource type="Text" id="Commands.UploadRawTerrain.Description" translated="true">Puja un arxiu raw de terreny al simulador.</resource>
+  <resource type="Text" id="Commands.UploadRawTerrain.FileNotFound" translated="true">L'arxiu {0} no s'ha trobat.</resource>
+  <resource type="Text" id="Commands.UploadRawTerrain.Success" translated="true">Arxiu raw del terreny pujat i aplicat.</resource>
+  <resource type="Text" id="Commands.UploadRawTerrain.Timeout" translated="true">Temps d'espera esgotat en la pujada de l'arxiu de terreny.</resource>
+  <resource type="Text" id="Commands.UploadRawTerrain.Usage" translated="true">Ús: uploadterrain [arxiu]</resource>
+  <resource type="Text" id="Commands.Upload.ReturnedAsset" translated="true">RequestCreateItemFromAsset() va retornar: Éxit={0}, Estat={1}, ItemID={2}, AssetID={3}</resource>
+  <resource type="Text" id="Commands.Upload.ReturnedNotecard" translated="true">RequestUploadNotecardAsset() retornó: Éxit={0}, Estat={1}, ItemID={2}, AssetID={3}</resource>
+  <resource type="Text" id="Commands.Upload.ReturnedScript" translated="true">RequestUpdateScriptAgentInventory() va retornar: Éxit={0}, Estat={1}, ItemID={2}, AssetID={3}</resource>
+  <resource type="Text" id="Commands.Upload.Returned" translated="true">RequestCreateItem() va retornar: Éxit={0}, ItemID={1}, AssetID={2}</resource>
+  <resource type="Text" id="Commands.Upload.Sent" translated="true">L'arxiu ha estat enviat al mestre {0} ({1}) i hauria d'arribar en breu.</resource>
+  <resource type="Text" id="Commands.Upload.Timeout" translated="true">Temps d'espera esgotat pujant l'arxiu. Això no significa que no s'hagi pujat amb èxit.</resource>
+  <resource type="Text" id="Commands.Upload.UnknownError" translated="true">Error desconegut pujant la nota.</resource>
+  <resource type="Text" id="Commands.Upload.Unsupported" translated="true">Tipus d'arxiu no suportat</resource>
+  <resource type="Text" id="Commands.Upload.UploadedUUID" translated="true">Arxiu pujat amb UUID {0}</resource>
+  <resource type="Text" id="Commands.Upload.UploadTook" translated="true">La pujada va prendre {0} segons.</resource>
+  <resource type="Text" id="Commands.Upload.Usage" translated="true">Ús: upload [nom_per_a_el_inventari] [arxiu]</resource>
+  <resource type="Text" id="Commands.Uptime.Description" translated="true">Mostra el temps des de l'inici de sessió.</resource>
+  <resource type="Text" id="Commands.Uptime.Uptime" translated="true">Sóc {0}, en línia des de el {1} ({2}).</resource>
+  <resource type="Text" id="Commands.Changelog.Description" translated="true">Mostra la versió del bot i la llista de revisions.</resource>
+  <resource type="Text" id="Commands.ViewNotecard.Description" translated="true">Mostra una nota de l'inventari.</resource>
+  <resource type="Text" id="Commands.ViewNotecard.ExpectedUUID" translated="true">S'esperava una UUID com primer argument.</resource>
+  <resource type="Text" id="Commands.ViewNotecard.NotecardData" translated="true">Dades de la nota: \n{0}</resource>
+  <resource type="Text" id="Commands.ViewNotecard.NotFound" translated="true">No es va poder trobar la nota en l'inventari escorcollat. Usa el comando "i" per a escorcollar-lo primer.</resource>
+  <resource type="Text" id="Commands.ViewNotecard.Timeout" translated="true">Temps d'espera per les dades de la nota esgotat.</resource>
+  <resource type="Text" id="Commands.ViewNotecard.Usage" translated="true">Ús: viewnote [uuid]</resource>
+  <resource type="Text" id="Commands.VoiceAccount.Description" translated="true">Obté informació sobre el compte de veu. Ús: voiceaccount</resource>
+  <resource type="Text" id="Commands.VoiceAccount.GridFail" translated="true">RequestProvisionAccount ha fallat. ¿No està disponible per a la grid actual?</resource>
+  <resource type="Text" id="Commands.VoiceAccount.LookupFail" translated="true">Va fallar a l'obtenir la informació de compte de veu de {0}.</resource>
+  <resource type="Text" id="Commands.VoiceAccount.NotRunning" translated="true">VoiceManager no s'està executant per a {0}</resource>
+  <resource type="Text" id="Commands.VoiceAccount.VoiceInfo" translated="true">Compte de veu per a {0}: usuari "{1}", contrasenya "{2}"</resource>
+  <resource type="Text" id="Commands.VoiceParcel.Description" translated="true">Obté informació de veu de la parcel·la. Ús: voiceparcel</resource>
+  <resource type="Text" id="Commands.VoiceParcel.Failed" translated="true">Va fallar la sol·licitud d'informació de veu de la parcel·la per a {0}.</resource>
+  <resource type="Text" id="Commands.VoiceParcel.GridFail" translated="true">RequestParcelVoiceInfo ha fallat. ¿No està disponible per a la grid actual?</resource>
+  <resource type="Text" id="Commands.VoiceParcel.VoiceInfo" translated="true">Informació de veu de la parcel·la per a {0}: nom de la regió "{1}", ID local de la parcel·la {2}, URI del canal {3}</resource>
+  <resource type="Text" id="Commands.Wear.Description" translated="true">Vesteix una carpeta d'aparença de l'inventari.</resource>
+  <resource type="Text" id="Commands.Wear.Invalid" translated="true">Aparença ({0}) invàlida.</resource>
+  <resource type="Text" id="Commands.Wear.Usage" translated="true">Ús: wear [aparença] (nobake)</resource>
+  <resource type="Text" id="Commands.Whisper.Description" translated="true">Murmura una mica en el xat o en un canal opcional.</resource>
+  <resource type="Text" id="Commands.Whisper.Usage" translated="true">Ús: whisper (canal opcional) [misatge]</resource>
+  <resource type="Text" id="Commands.Whisper.Whispered" translated="true">Vaig murmurar "{0}".</resource>
+  <resource type="Text" id="Commands.Who.Description" translated="true">Mostra els agents visibles.</resource>
+  <resource type="Text" id="Commands.Who.Info" translated="true">{0} (Client: {1}, Grup: {2}, Posició: {3}, UUID: {4})</resource>
+  <resource type="Text" id="Commands.Wind.Description" translated="true">Mostra la velocitat del vent local.</resource>
+  <resource type="Text" id="Commands.Wind.Speed" translated="true">La velocitat del vent local és {0}.</resource>
+  <resource type="Text" id="Exception" translated="true">Operació encara no implementada.</resource>
+  <resource type="Text" id="frmCheckLicense.button1" translated="true">Comprovar</resource>
+  <resource type="Text" id="frmCheckLicense.button2" translated="true">Cancel·lar</resource>
+  <resource type="Text" id="frmCheckLicense.HardwareChanged" translated="true">El maquinari ha canviat, sol·licita nova clau d'autorització.</resource>
+  <resource type="Text" id="frmCheckLicense.IncorrectKey" translated="true">Clau de autorizació incorrecta.</resource>
+  <resource type="Text" id="frmCheckLicense.label1" translated="true">Clau Hardware</resource>
+  <resource type="Text" id="frmCheckLicense.label2" translated="true">Clau de autorizació</resource>
+  <resource type="Text" id="frmCheckLicense.Text" translated="true">Comprovar llicència</resource>
+  <resource type="Text" id="frmMain.btnImport.Importing" translated="true">Important {0}</resource>
+  <resource type="Text" id="frmMain.btnImport.Proceeding" translated="true">Procedint a importar {0} elements.</resource>
+  <resource type="Text" id="frmMain.btnImport" translated="true">Importar</resource>
+  <resource type="Text" id="frmMain.btnImport.Uploaded" translated="true">Pujats {0} elements de {1}.</resource>
+  <resource type="Text" id="frmMain.btnObjects" translated="true">Objectes</resource>
+  <resource type="Text" id="frmMain.btnSetMaster" translated="true">Establir mestre</resource>
+  <resource type="Text" id="frmMain.cbAgentUpdate" translated="true">Enviar paquet d'actualització</resource>
+  <resource type="Text" id="frmMain.cbGreetMaster" translated="true">Saludar al mestre</resource>
+  <resource type="Text" id="frmMain.cbRelayConvos" translated="true">Enviar MIs/Xat a IRC</resource>
+  <resource type="Text" id="frmMain.clLocation" translated="true">Localización</resource>
+  <resource type="Text" id="frmMain.clMaster" translated="true">Mestre</resource>
+  <resource type="Text" id="frmMain.clMoney" translated="true">Diners</resource>
+  <resource type="Text" id="frmMain.ClName" translated="true">Nom</resource>
+  <resource type="Text" id="frmMain.ClStatus" translated="true">Estat</resource>
+  <resource type="Text" id="frmMain.cmdCrash" translated="true">Controls de caiguda</resource>
+  <resource type="Text" id="frmMain.dlgImport" translated="true">Element a importar.</resource>
+  <resource type="Text" id="frmMain.editToolStripMenuItem" translated="true">Mostrar/Editar detalls</resource>
+  <resource type="Text" id="frmMain.gbAccounts" translated="true">Comptes</resource>
+  <resource type="Text" id="frmMain.gbMaster" translated="true">Mestre</resource>
+  <resource type="Text" id="frmMain.groupBox1" translated="true">Opcions generals</resource>
+  <resource type="Text" id="frmMain.groupBox2" translated="true">Opcions de IRC</resource>
+  <resource type="Text" id="frmMain.label1" translated="true">Servidor IRC</resource>
+  <resource type="Text" id="frmMain.label2" translated="true">Port</resource>
+  <resource type="Text" id="frmMain.label3" translated="true">Canal</resource>
+  <resource type="Text" id="frmMain.label4" translated="true">Nick del mestre</resource>
+  <resource type="Text" id="frmMain.lblAccoutnsInfo" translated="true">Botó dret en una fila per a opcions</resource>
+  <resource type="Text" id="frmMain.loginToolStripMenuItem" translated="true">Connectar</resource>
+  <resource type="Text" id="frmMain.logoutToolStripMenuItem" translated="true">Desconnectar</resource>
+  <resource type="Text" id="frmMain.objectsToolStripMenuItem" translated="true">Objectes</resource>
+  <resource type="Text" id="frmMain.openAccountList" translated="true">Arxius de compte *.acc|*.acc|Tots els arxius|*.*</resource>
+  <resource type="Text" id="frmMain.removeToolStripMenuItem" translated="true">Eliminar</resource>
+  <resource type="Text" id="frmMain.tabBotSettings" translated="true">Configuració del bot</resource>
+  <resource type="Text" id="frmMain.tabConsole" translated="true">Consola</resource>
+  <resource type="Text" id="frmMain.tabTools" translated="true">Eines</resource>
+  <resource type="Text" id="frmMain.toolStripButton2" translated="true">Guardar comptes</resource>
+  <resource type="Text" id="frmMain.tsbAdd" translated="true">Afegir compte</resource>
+  <resource type="Text" id="frmMain.tsbLoad" translated="true">Carregar comptes</resource>
+  <resource type="Text" id="frmMain.tsbLoginAll" translated="true">Iniciar totes</resource>
+  <resource type="Text" id="frmMain.tsbLogin" translated="true">Iniciar</resource>
+  <resource type="Text" id="frmMain.tsbLogoutAll" translated="true">Tancar totes</resource>
+  <resource type="Text" id="frmMain.tsbLogout" translated="true">Tancar</resource>
+  <resource type="Text" id="frmMain.tsBots" translated="true">Maneig del bot</resource>
+  <resource type="Text" id="frmMain.tsbRemove" translated="true">Eliminar compte</resource>
+  <resource type="Text" id="frmMain.ttGreetMaster" translated="true">Envia una salutació al mestre a l'iniciar o canviar-lo.</resource>
+  <resource type="Text" id="frmObjects.AddingObjects" translated="true">Afegint objectes a la llista</resource>
+  <resource type="Text" id="frmObjects.AskingSIM" translated="true">Preguntan al simulador pels objectes</resource>
+  <resource type="Text" id="frmObjects.btnExportAll" translated="true">Exportar Tots</resource>
+  <resource type="Text" id="frmObjects.btnExport" translated="true">Exportar</resource>
+  <resource type="Text" id="frmObjects.btnRefresh" translated="true">Refrescar</resource>
+  <resource type="Text" id="frmObjects.chkRefresh" translated="true">Refrescar cada 10 segons</resource>
+  <resource type="Text" id="frmObjects.ExportingObjects" translated="true">Exportant {0} objectes</resource>
+  <resource type="Text" id="frmObjects.ExportingObject" translated="true">Exportant objecte {0} de {1}.</resource>
+  <resource type="Text" id="frmObjects.Idle" translated="true">Inactiu</resource>
+  <resource type="Text" id="frmObjects.lblDistance" translated="true">Distància</resource>
+  <resource type="Text" id="frmObjects.ObjectsIndexed" translated="true">{0} objectes indexats.</resource>
+  <resource type="Text" id="frmObjects.Position" translated="true">Localització</resource>
+  <resource type="Text" id="frmObjects.PrimName" translated="true">Nom</resource>
+  <resource type="Text" id="frmObjects.RequestingNames" translated="true">Sol·licitant noms dels objectes</resource>
+  <resource type="Text" id="frmObjects.Text" translated="true">Objectes</resource>
+  <resource type="Text" id="Parsing.NotEscapable" translated="true">El caracter {0} no és escapable.</resource>
+  <resource type="Text" id="frmMain.btnAbout" translated="true">Sobre </resource>
+  <resource type="Text" id="Revision" translated="true">Rev</resource>
+  <resource type="Text" id="frmAbout.Copyright" translated="true">Tots els drets reservats. </resource>
+  <resource type="Text" id="frmAbout.Coding" translated="true">Codi i proves: </resource>
+  <resource type="Text" id="frmAbout.Interface" translated="true">Interfície i gràfics: </resource>
+  <resource type="Text" id="frmAbout.Translation" translated="true">Traducció a</resource>
+  <resource type="Text" id="frmAbout.TranslationOrder" translated="true">{0} {1}: {2}</resource>
+  <resource type="Text" id="frmAbout.Information" translated="true">Per a més informació consulti l'arxiu llegeixi'm o http://natibot.claunia.com</resource>
+  <resource type="Text" id="Language.English" translated="true">anglès</resource>
+  <resource type="Text" id="Language.Spanish" translated="true">espanyol</resource>
+  <resource type="Text" id="Language.Catalan" translated="true">català</resource>
+  <resource type="Text" id="Language.Galician" translated="true">gallec</resource>
+  <resource type="Text" id="Language.Romanian" translated="true">romanès</resource>
+  <resource type="Text" id="Language.Italian" translated="true">italià</resource>
+  <resource type="Text" id="Language.French" translated="true">francès</resource>
+  <resource type="Text" id="Language.German" translated="true">alemany</resource>
+  <resource type="Text" id="frmAddAccount.Editing" translated="true">Editar compte seleccionat </resource>
+  <resource type="Text" id="frmAddAccount.btnEditAccount" translated="true">Editar compte</resource>
+  <resource type="Text" id="frmAddAccount.gbMasterSetup" translated="true">Mestre</resource>
+  <resource type="Text" id="frmAddAccount.lblMasterIRC" translated="true">Nick de IRC del mestre:</resource>
+  <resource type="Text" id="frmAddAccount.label5" translated="true">Nom del mestre:</resource>
+  <resource type="Text" id="frmAddAccount.groupBox1" translated="true">Posició de començament </resource>
+  <resource type="Text" id="frmAddAccount.label4" translated="true">Posició:</resource>
+  <resource type="Text" id="frmAddAccount.radSet" translated="true">Establir:</resource>
+  <resource type="Text" id="frmAddAccount.radLast" translated="true">Última</resource>
+  <resource type="Text" id="frmAddAccount.radHome" translated="true">Casa</resource>
+  <resource type="Text" id="frmAddAccount.gbEditAccounts" translated="true">Detalls d'inici de sessió </resource>
+  <resource type="Text" id="frmAddAccount.label8" translated="true">Grid / URI d'inici de sessió:</resource>
+  <resource type="Text" id="frmAddAccount.label1" translated="true">Nom:</resource>
+  <resource type="Text" id="frmAddAccount.label3" translated="true">Contrasenya:</resource>
+  <resource type="Text" id="frmAddAccount.label2" translated="true">Cognom:</resource>
+  <resource type="Text" id="frmAddAccount.btnAddAccount" translated="true">Afegir</resource>
+  <resource type="Text" id="frmAddAccount.btnCancel" translated="true">Cancel·lar</resource>
+  <resource type="Text" id="frmAddAccount.gbIRC" translated="true">Configuració del servidor IRC</resource>
+  <resource type="Text" id="frmAddAccount.chkUseIRC" translated="true">¿Utilitza servidor IRC?</resource>
+  <resource type="Text" id="frmAddAccount.label7" translated="true">Canal:</resource>
+  <resource type="Text" id="frmAddAccount.label6" translated="true">Port (Sin SSL):</resource>
+  <resource type="Text" id="frmAddAccount.lblServerHost" translated="true">Direcció del servidor:</resource>
+  <resource type="Text" id="frmAddAccount" translated="true">Afegir compte</resource>
+  <resource type="Text" id="frmMain.ErrorEditingConnected" translated="true">¡No pots editar el bot mentre està connectat!</resource>
+  <resource type="Text" id="LanguageCode.en" translated="true">Anglès</resource>
+  <resource type="Text" id="LanguageCode.es" translated="true">Espanyol</resource>
+  <resource type="Text" id="LanguageCode.ca" translated="true">Català</resource>
+  <resource type="Text" id="LanguageCode.gl" translated="true">Gallec</resource>
+  <resource type="Text" id="LanguageCode.ro" translated="true">Romanès</resource>
+  <resource type="Text" id="LanguageCode.it" translated="true">Italià</resource>
+  <resource type="Text" id="LanguageCode.fr" translated="true">Francès</resource>
+  <resource type="Text" id="LanguageCode.de" translated="true">Alemany</resource>
+  <resource type="Text" id="frmMain.gbSettings" translated="true">Configuració</resource>
+  <resource type="Text" id="frmMain.chkLogConsole" translated="true">Escriure consola en arxiu</resource>
+  <resource type="Text" id="frmMain.lblLanguage" translated="true">Idioma:</resource>
+  <resource type="Text" id="bot.Greeting" translated="true">¡Hola!</resource>
+  <resource type="Text" id="bot.FormClosing" translated="true">NatiBot acaba la seva execució.</resource>
+  <resource type="Text" id="bot.ButtonClosing" translated="true">NatiBot ha estat tancat amb el botó de sortir.</resource>
+  <resource type="Text" id="bot.Starts" translated="true">Natibot comença la seva execució.</resource>
+  <resource type="Text" id="Commands.Key2Name.Description" translated="true">Obté el nom d'un avatar pel seu UUID.</resource>
+  <resource type="Text" id="Commands.Key2Name.Usage" translated="true">Ús: key2name [uuid]</resource>
+  <resource type="Text" id="Commands.Key2Name.Found" translated="true">L'avatar  {0} es diu {1}.</resource>
+  <resource type="Text" id="Commands.Key2Name.Timeout" translated="true">Temps d'espera esgotat buscant l'avatar {0}. Pertany aquesta UUID a un avatar vàlid?</resource>
+  <resource type="Text" id="Commands.Buy.Description" translated="true">Compra l'objecte especificat.</resource>
+  <resource type="Text" id="Commands.Buy.NotFound" translated="true">No es va poder trobar l'objecte amb UUID {0}.</resource>
+  <resource type="Text" id="Commands.Buy.Bought" translated="true">Es va intentar comprar l'objecte {0}.</resource>
+  <resource type="Text" id="Commands.Buy.Usage" translated="true">Ús: buy [uuid]</resource>
+  <resource type="Text" id="Commands.TakeItem.Description" translated="true">Recull l'objecte especificat a l'inventari.</resource>
+  <resource type="Text" id="Commands.TakeItem.NotFound" translated="true">No es va poder trobar l'objecte amb UUID {0}.</resource>
+  <resource type="Text" id="Commands.TakeItem.Took" translated="true">Es va intentar recollir l'objecte {0} (UUID {1}).</resource>
+  <resource type="Text" id="Commands.TakeItem.Usage" translated="true">Ús: takeitem [uuid]</resource>
+  <resource type="Text" id="frmObjects.copyToClipboardToolStripMenuItem" translated="true">Copiar al portapapers</resource>
+  <resource type="Text" id="frmObjects.namesToolStripMenuItem" translated="true">Noms</resource>
+  <resource type="Text" id="frmObjects.UUIDsToolStripMenuItem" translated="true">UUIDs</resource>
+  <resource type="Text" id="frmObjects.locationsToolStripMenuItem" translated="true">Posicions</resource>
+  <resource type="Text" id="frmObjects.sitOnItToolStripMenuItem" translated="true">Asseure's en</resource>
+  <resource type="Text" id="frmObjects.touchThemToolStripMenuItem" translated="true">Tocar-los</resource>
+  <resource type="Text" id="frmObjects.firstSelectedToolStripMenuItem" translated="true">El primer objecte seleccionat</resource>
+  <resource type="Text" id="frmObjects.allSelectedToolStripMenuItem" translated="true">Tots els seleccionats</resource>
+  <resource type="Text" id="frmObjects.buyThemToolStripMenuItem" translated="true">Comprar-los</resource>
+  <resource type="Text" id="frmObjects.exportToolStripMenuItem" translated="true">Exportar</resource>
+  <resource type="Text" id="frmObjects.objectToolStripMenuItem" translated="true">Objectes</resource>
+  <resource type="Text" id="frmObjects.particlesToolStripMenuItem" translated="true">Partícules</resource>
+  <resource type="Text" id="frmObjects.objectAndParticlesToolStripMenuItem" translated="true">Objectes i partícules</resource>
+  <resource type="Text" id="frmObjects.requestTakeToInventoryToolStripMenuItem" translated="true">Sol·licitar recollida a l'inventari</resource>
+  <resource type="Text" id="Commands.Translate.Description" translated="true">Traduïx el text d'un idioma a un altre.</resource>
+  <resource type="Text" id="Commands.Translate.Usage" translated="true">Ús: translate [idioma_origen] [idioma_destinació] [text]</resource>
+  <resource type="Text" id="frmChat.Text" translated="true">Xat </resource>
+  <resource type="Text" id="frmChat.Chat" translated="true">Xat </resource>
+  <resource type="Text" id="frmChat.Whispers" translated="true">murmura: </resource>
+  <resource type="Text" id="frmChat.Shouts" translated="true">crida: </resource>
+  <resource type="Text" id="frmChat.Offline" translated="true">(sense connexió)</resource>
+  <resource type="Text" id="frmChat.Unknown" translated="true">Usuari desconegut </resource>
+  <resource type="Text" id="frmChat.Object" translated="true">L'objecte {0} pertanyent a {1} de la regió {2} en {3}: </resource>
+  <resource type="Text" id="frmChat.Teleport" translated="true">L'avatar {0} envia un teletransporte a la regió {1} en {2} amb el següent missatge:</resource>
+  <resource type="Text" id="frmChat.Unhandled" translated="true">L'avatar {0} de la regió {1} en {2} envia un missatge de tipus {3} dient: </resource>
+  <resource type="Text" id="NoPermissions" translated="true">L'objecte pertany a {0} i no tenim permissos per exportar-lo.</resource>
+  <resource type="Text" id="Commands.Sounds.Downloaded" translated="true">El so {0} s&#39;ha descarregat correctament ({1} bytes).</resource>
+  <resource type="Text" id="Commands.Sounds.Failed" translated="true">Error {1} al descarregar el so {0}.</resource>
+  <resource type="Text" id="Commands.Sounds.Description" translated="true">Activa o desactiva la descàrrega automàtica de tots els sons audibles.</resource>
+  <resource type="Text" id="Commands.Sounds.Disabled" translated="true">La descàrrega de sons està desactivada.</resource>
+  <resource type="Text" id="Commands.Sounds.Enabled" translated="true">La descàrrega de sons està activada.</resource>
+  <resource type="Text" id="Commands.Sounds.Usage" translated="true">Ús: sounds [on / off]</resource>
+  <resource type="Text" id="Commands.Animations.Description" translated="true">Activa o desactiva la descàrrega automàtica de les animacions visibles.</resource>
+  <resource type="Text" id="Commands.Animations.Disabled" translated="true">La descàrrega de les animacions està desactivada.</resource>
+  <resource type="Text" id="Commands.Animations.Enabled" translated="true">La descàrrega de les animacions està activada.</resource>
+  <resource type="Text" id="Commands.Animations.Usage" translated="true">Ús: animations [on / off]</resource>
+  <resource type="Text" id="Commands.DownloadSound.Description" translated="true">Descarrega el so especificat pel seu UUID</resource>
+  <resource type="Text" id="Commands.DownloadSound.Timeout" translated="true">Temps d&#39;espera esgotat descarregant el so.</resource>
+  <resource type="Text" id="Commands.DownloadSound.Usage" translated="true">Ús: downloadsound [uuid]</resource>
+  <resource type="Text" id="LanguageCode.af" translated="true">Afrikaans</resource>
+  <resource type="Text" id="LanguageCode.sq" translated="true">Albanès</resource>
+  <resource type="Text" id="LanguageCode.ar" translated="true">Àrab</resource>
+  <resource type="Text" id="LanguageCode.be" translated="true">Bielorruso</resource>
+  <resource type="Text" id="LanguageCode.bg" translated="true">Búlgar</resource>
+  <resource type="Text" id="LanguageCode.cs" translated="true">Checo</resource>
+  <resource type="Text" id="LanguageCode.zh-CN" translated="true">Xinès Simplificat</resource>
+  <resource type="Text" id="LanguageCode.zh-TW" translated="true">Xinès Tradicional</resource>
+  <resource type="Text" id="LanguageCode.ko" translated="true">Coreà</resource>
+  <resource type="Text" id="LanguageCode.hr" translated="true">Croata</resource>
+  <resource type="Text" id="LanguageCode.da" translated="true">Danès</resource>
+  <resource type="Text" id="LanguageCode.sk" translated="true">Eslovaco</resource>
+  <resource type="Text" id="LanguageCode.sl" translated="true">Eslovè</resource>
+  <resource type="Text" id="LanguageCode.et" translated="true">Estonio</resource>
+  <resource type="Text" id="LanguageCode.fi" translated="true">Finlandès</resource>
+  <resource type="Text" id="LanguageCode.cy" translated="true">Galés</resource>
+  <resource type="Text" id="LanguageCode.el" translated="true">Grec</resource>
+  <resource type="Text" id="LanguageCode.iw" translated="true">Hebreu</resource>
+  <resource type="Text" id="LanguageCode.hi" translated="true">Hindi</resource>
+  <resource type="Text" id="LanguageCode.nl" translated="true">Holandès</resource>
+  <resource type="Text" id="LanguageCode.hu" translated="true">Hongarès</resource>
+  <resource type="Text" id="LanguageCode.id" translated="true">Indonesi</resource>
+  <resource type="Text" id="LanguageCode.ga" translated="true">Irlandès</resource>
+  <resource type="Text" id="LanguageCode.is" translated="true">Islandès</resource>
+  <resource type="Text" id="LanguageCode.ja" translated="true">Japonès</resource>
+  <resource type="Text" id="LanguageCode.lv" translated="true">Letón</resource>
+  <resource type="Text" id="LanguageCode.lt" translated="true">Lituà</resource>
+  <resource type="Text" id="LanguageCode.mk" translated="true">Macedonio</resource>
+  <resource type="Text" id="LanguageCode.ms" translated="true">Malayo</resource>
+  <resource type="Text" id="LanguageCode.mt" translated="true">Maltès</resource>
+  <resource type="Text" id="LanguageCode.no" translated="true">Noruec</resource>
+  <resource type="Text" id="LanguageCode.pl" translated="true">Polonès</resource>
+  <resource type="Text" id="LanguageCode.pt" translated="true">Portuguès</resource>
+  <resource type="Text" id="LanguageCode.ru" translated="true">Rus</resource>
+  <resource type="Text" id="LanguageCode.sr" translated="true">Serbi</resource>
+  <resource type="Text" id="LanguageCode.sw" translated="true">Suajili</resource>
+  <resource type="Text" id="LanguageCode.sv" translated="true">Suec</resource>
+  <resource type="Text" id="LanguageCode.tl" translated="true">Tagalo</resource>
+  <resource type="Text" id="LanguageCode.th" translated="true">Tailandès</resource>
+  <resource type="Text" id="LanguageCode.tr" translated="true">Turc</resource>
+  <resource type="Text" id="LanguageCode.uk" translated="true">Ucraniano</resource>
+  <resource type="Text" id="LanguageCode.vi" translated="true">Vietnamita</resource>
+  <resource type="Text" id="LanguageCode.yi" translated="true">Yiddish</resource>
+  <resource type="Text" id="Commands.Quit.Description" translated="true">Tancar NatiBot y tots els avatars conectats.</resource>
+  <resource type="Text" id="Commands.Quit.Usage" translated="true">Ús: quit [yes]</resource>
+  <resource type="Text" id="Commands.Quit.Exiting" translated="true">Tancan aplicació.</resource>
+  <resource type="Text" id="Commands.MemFree.Description" translated="true">Mostra la memòria actualment en ús. </resource>
+  <resource type="Text" id="Commands.MemFree.Using" translated="true">{0} MiB actualment en ús. </resource>
+  <resource type="Text" id="Commands.Logout.Description" translated="true">Tanca l'avatar actual. </resource>
+  <resource type="Text" id="Commands.Logout.Usage" translated="true">Ús: logout [yes]</resource>
+  <resource type="Text" id="Commands.Logout.Exiting" translated="true">Tancant avatar. </resource>
+  <resource type="Text" id="Commands.Help2NC.Description" translated="true">Crea una nota amb l'ajuda i l'envia al mestre. </resource>
+  <resource type="Text" id="Commands.Help2NC.Commands" translated="true">NatiBot - v{0} - Comandos </resource>
+  <resource type="Text" id="Commands.Help2NC.Sending" translated="true">Enviant ajuda al mestre. </resource>
+  <resource type="Text" id="Commands.GC.Description" translated="true">Comença una recol·lecció d'escombraries. </resource>
+  <resource type="Text" id="Commands.GC.Before" translated="true">{0} MiBen ús abans de la recol·lecció d'escombraries. </resource>
+  <resource type="Text" id="Commands.GC.Starting" translated="true">Començant la recol·lecció d'escombraries. </resource>
+  <resource type="Text" id="Commands.GC.After" translated="true">{0} MiB en ús després de la recol·lecció d'escombraries. </resource>
+  <resource type="Text" id="Commands.GC.Took" translated="true">La recol·lecció d'escombraries va trigar  {0} segons. </resource>
+  <resource type="Text" id="Commands.Clock.Description" translated="true">Mostra la data actual en les zones horàries local, UTC, GMT y PST.</resource>
+  <resource type="Text" id="Commands.Clock.Current" translated="true">La data i hora actual és:</resource>
+  <resource type="Text" id="Commands.Clock.Local" translated="true">Hora Local: {0}</resource>
+  <resource type="Text" id="Commands.Clock.UTC" translated="true">Hora Universal Coordinada: {0}</resource>
+  <resource type="Text" id="Commands.Clock.GMT" translated="true">Hora de Second Life (PST): {0}</resource>
+  <resource type="Text" id="Commands.Clock.PST" translated="true">Hora de Claunia.com: {0}</resource>
+  <resource type="Text" id="Commands.ClientTags.Description" translated="true">Mostra tots els noms i identificadors coneguts dels visores. </resource>
+  <resource type="Text" id="Commands.ClientTags.Client" translated="true">El visor {0} usa l' ID {1}.</resource>
+  <resource type="Text" id="Commands.About.Description" translated="true">Mostra informació dels drets d'autor. </resource>
+  <resource type="Text" id="Commands.SearchPlaces.Description" translated="true">Busca llocs. </resource>
+  <resource type="Text" id="Commands.SearchPlaces.Usage" translated="true">Ús: searchplaces [text de recerca]</resource>
+  <resource type="Text" id="Commands.SearchPlaces.Results" translated="true">El text de recerca  "{0}" va obtindre {1} resultats.</resource>
+  <resource type="Text" id="Commands.SearchPlaces.Timeout" translated="true">Temps d'espera esgotat esperant la resposta del simulador. </resource>
+  <resource type="Text" id="Commands.SearchPeople.Description" translated="true">Busca altres avatars. </resource>
+  <resource type="Text" id="Commands.SearchPeople.Usage" translated="true">Uso: searchpeople [text de recerca]</resource>
+  <resource type="Text" id="Commands.SearchPeople.Matching" translated="true">El text de recerca  "{0}" va coincidir amb {1} personas.</resource>
+  <resource type="Text" id="Commands.SearchPeople.Timeout" translated="true">Temps d'espera esgotat esperant la resposta del simulador. </resource>
+  <resource type="Text" id="Commands.SearchPeople.NotFound" translated="true">No es va trobar a ningú que coincideixi amb la recerca. </resource>
+  <resource type="Text" id="Commands.SearchLand.Description" translated="true">Busca parcel·les en venda. Per a veure l'ús, searchland</resource>
+  <resource type="Text" id="Commands.SearchLand.UsageLine1" translated="true">Ús : searchland [tipu] [preu máxim] [tamany mínim]</resource>
+  <resource type="Text" id="Commands.SearchLand.UsageLine2" translated="true">on [tipu] és un dels següents: mainland, auction, estate, all</resource>
+  <resource type="Text" id="Commands.SearchLand.UsageLine3" translated="true">si [preu màxim] o [grandària mínima] són 0 s'ignorarà aquest paràmetre </resource>
+  <resource type="Text" id="Commands.SearchLand.UsageLine4" translated="true">exemple: \"searchland mainland 0 512\" // muetra la parcel·la en mainland més barata que sigui més gran de 512m²</resource>
+  <resource type="Text" id="Commands.SearchLand.Timeout" translated="true">Temps d'espera esgotat esperant la resposta del simulador.</resource>
+  <resource type="Text" id="Commands.SearchLand.Results" translated="true">{0} resultats. </resource>
+  <resource type="Text" id="Commands.SearchGroups.Description" translated="true">Busca grups. </resource>
+  <resource type="Text" id="Commands.SearchGroups.Usage" translated="true">Ús: searchgroups [text de recerca] </resource>
+  <resource type="Text" id="Commands.SearchGroups.Matching" translated="true">El text de recerca "{0}" va coincidir amb {1} grups.</resource>
+  <resource type="Text" id="Commands.SearchGroups.Timeout" translated="true">Temps d'espera esgotat esperant la resposta del simulador. </resource>
+  <resource type="Text" id="Commands.SearchGroups.Members" translated="true">El grup  {1} ({0}) té  {2} membres</resource>
+  <resource type="Text" id="Commands.SearchGroups.NotFound" translated="true">No es va trobar cap grup que coincideixi amb la recerca. </resource>
+  <resource type="Text" id="Commands.SearchClassifieds.Description" translated="true">Busca anuncis classificats. </resource>
+  <resource type="Text" id="Commands.SearchClassifieds.Usage" translated="true">Ús: searchclassifieds [text de recerca]</resource>
+  <resource type="Text" id="Commands.SearchClassifieds.Results" translated="true">El text de recerca "{0}" va coincidir amb {1} anuncis.</resource>
+  <resource type="Text" id="Commands.SearchClassifieds.Timeout" translated="true">Temps d'espera esgotat esperant la resposta del simulador. </resource>
+  <resource type="Text" id="Commands.Key2Name.Group" translated="true">El grup amb ID {0} es diu {1} </resource>
+  <resource type="Text" id="Commands.PrimInfo.None" translated="true">Ningun</resource>
+  <resource type="Text" id="Commands.PrimInfo.Name" translated="true">Nom: {0}</resource>
+  <resource type="Text" id="Commands.PrimInfo.PrimDescription" translated="true">Descripció: {0}</resource>
+  <resource type="Text" id="Commands.PrimInfo.Unknown" translated="true">Desconegut</resource>
+  <resource type="Text" id="Commands.PrimInfo.Creator" translated="true">Creador: {0} ({1})</resource>
+  <resource type="Text" id="Commands.PrimInfo.Owner" translated="true">Propietari: {0} ({1})</resource>
+  <resource type="Text" id="Commands.PrimInfo.LastOwner" translated="true">Propietari anterior: {0} ({1})</resource>
+  <resource type="Text" id="Commands.PrimInfo.Group" translated="true">Grup: {0} ({1})</resource>
+  <resource type="Text" id="Commands.PrimInfo.SitName" translated="true">Nom al aseures: {0}</resource>
+  <resource type="Text" id="Commands.PrimInfo.TouchName" translated="true">Nom al tocar-lo: {0}</resource>
+  <resource type="Text" id="Commands.PrimInfo.Position" translated="true">Posició: {0}</resource>
+  <resource type="Text" id="Commands.PrimInfo.Date" translated="true">Data de creació: {0}</resource>
+  <resource type="Text" id="Commands.PrimInfo.Text" translated="true">Text: </resource>
+  <resource type="Text" id="Commands.EjectUser.Description" translated="true">Expulsada a l'usuari indicat de la parcel·la actual. </resource>
+  <resource type="Text" id="Commands.EjectUser.Usage" translated="true">Ús: ejectuser [uuid]</resource>
+  <resource type="Text" id="Commands.EjectUser.ExpectedAvID" translated="true">S'esperava un ID.</resource>
+  <resource type="Text" id="Commands.EjectUser.AvNotFound" translated="true">Avatar no trobat.</resource>
+  <resource type="Text" id="Commands.EjectUser.CannotGroup" translated="true">No es pot expulsar a un grup de la parcel·la.</resource>
+  <resource type="Text" id="Commands.EjectUser.Ejecting" translated="true">Expulsant a {0} de la parcel·la actual.</resource>
+  <resource type="Text" id="Commands.BanUser.Description" translated="true">Expulsada i banea a l'usuari indicat de la parcel·la actual. </resource>
+  <resource type="Text" id="Commands.BanUser.Usage" translated="true">Ús: banuser [uuid]</resource>
+  <resource type="Text" id="Commands.BanUser.CannotGroup" translated="true">No es pot banear a un grup de la parcel·la.</resource>
+  <resource type="Text" id="Commands.BanUser.Banning" translated="true">Baneando a {0} de la parcel·la actual.</resource>
+  <resource type="Text" id="Commands.BanList.Description" translated="true">Obté la llista de bans de la parcel·la actual. </resource>
+  <resource type="Text" id="Commands.BanList.Timeout" translated="true">Temps d'espera esgotat esperant per la llista de bans. </resource>
+  <resource type="Text" id="Commands.BanList.BannedID" translated="true">L'avatar amb ID {0} està baneado. </resource>
+  <resource type="Text" id="Commands.BanList.Banned" translated="true">El avatar {0} ({1}) está baneat.</resource>
+  <resource type="Text" id="Commands.AllowedList.Description" translated="true">Obté la llista d'accés permès de la parcel·la actual. </resource>
+  <resource type="Text" id="Commands.AllowedList.Timeout" translated="true">Temps d'espera esgotat esperant per la llista d'accessos permesos. </resource>
+  <resource type="Text" id="Commands.AllowedList.AllowedID" translated="true">L'avatar amb ID {0} té l'accés permès. </resource>
+  <resource type="Text" id="Commands.AllowedList.Allowed" translated="true">L'avatar {0} ({1}) té l'accés permès. </resource>
+  <resource type="Text" id="Commands.TurnTo.Description" translated="true">Gira al bot mirant a l'instant, avatar (per ID o nom), o objecte (per ID) especificat. </resource>
+  <resource type="Text" id="Commands.TurnTo.Usage" translated="true">Ús: turnto [x y z]/[uuid]/[avatar]</resource>
+  <resource type="Text" id="Commands.TurnTo.AvNotFound" translated="true">No es pot trobar a l'avatar {0}. </resource>
+  <resource type="Text" id="Commands.TurnTo.CannotGroup" translated="true">¡No puc girar cap a un grup! </resource>
+  <resource type="Text" id="Commands.TurnTo.AvNotInSim" translated="true">L'avatar {0} no es troba en el simulador actual, no em puc girar cap a ell. </resource>
+  <resource type="Text" id="Commands.TurnTo.AvSit" translated="true">L'avatar {0} està asseient en un objecte desconegut. No em puc girar cap a ell. </resource>
+  <resource type="Text" id="Commands.TurnTo.ObjNotInSim" translated="true">L'objecte {0} no es troba en el simulador actual, no em puc girar cap a ell. </resource>
+  <resource type="Text" id="Commands.Moveto.Description" translated="true">Mou el bot a les coordenades, l'avatar (per ID o nom), o l'objecte (per ID) especificat. </resource>
+  <resource type="Text" id="Commands.Moveto.CannotGroup" translated="true">¡No em puc moure cap a un grup! </resource>
+  <resource type="Text" id="Commands.Moveto.AvNotInSim" translated="true">L'avatar {0} no es troba en el simulador actual, no em puc moure cap a ell. </resource>
+  <resource type="Text" id="Commands.Moveto.AvSit" translated="true">L'avatar {0} està asseient en un objecte desconegut. No em puc moure cap a ell. </resource>
+  <resource type="Text" id="Commands.Moveto.ObjNotInSim" translated="true">L'objecte {0} no es troba en el simulador actual, no em puc moure cap a ell. </resource>
+  <resource type="Text" id="Commands.Follow.Usage" translated="true">Ús: follow {[nom] [cognom]|me|stop}) Usa "me" per a que et segueixi a tu, "stop" per parar.</resource>
+  <resource type="Text" id="Commands.RezItem.Description" translated="true">Treu l'element especificat 3m damunt del bot. </resource>
+  <resource type="Text" id="Commands.RezItem.Usage" translated="true">Ús: rezitem [ID del element]</resource>
+  <resource type="Text" id="Commands.RezItem.ExpectedID" translated="true">S'esperava un ID. </resource>
+  <resource type="Text" id="Commands.RezItem.Requesting" translated="true">Se sol·licita treure l'element {0}. </resource>
+  <resource type="Text" id="Commands.RezItem.CannotFolder" translated="true">No es pot treure la carpeta {0}. </resource>
+  <resource type="Text" id="Commands.RezItem.NotFound" translated="true">L'element {0} no es troba en la carpeta actual de l'inventari. </resource>
+  <resource type="Text" id="Commands.CreateSkin.Description" translated="true">Crea una nova skin amb les teixidures indicades. </resource>
+  <resource type="Text" id="Commands.CreateSkin.Usage" translated="true">Ús: createskin [nom] [id-cara] [id-superior] [id-inferior]</resource>
+  <resource type="Text" id="Commands.CreateSkin.ExpectedFaceID" translated="true">S'esperaba un ID en [id-cara].</resource>
+  <resource type="Text" id="Commands.CreateSkin.ExpectedUpID" translated="true">S'esperaba un ID en [id-superior].</resource>
+  <resource type="Text" id="Commands.CreateSkin.ExpectedLowID" translated="true">S'esperaba un ID en [id-inferior].</resource>
+  <resource type="Text" id="Commands.CreateSkin.Created" translated="true">Es va crear la skin amb ID de asset {0}, enviandola al mestre. </resource>
+  <resource type="Text" id="Commands.CreateSkin.Failed" translated="true">Va fallar la creació de la skin amb l'estat {0}. </resource>
+  <resource type="Text" id="Commands.CreateLandMark.Description" translated="true">Crea un nou landmark de la posició actual. </resource>
+  <resource type="Text" id="Commands.CreateLandMark.Created" translated="true">Landmark creat amb la ID de asset {0}, enviandolo al mestre. </resource>
+  <resource type="Text" id="Commands.CreateLandMark.Failed" translated="true">Va fallar la creació del landmark amb l'estat {0}. </resource>
+  <resource type="Text" id="Commands.CreateEyes.Description" translated="true">Crea uns nous ulls amb la teixidura indicada. </resource>
+  <resource type="Text" id="Commands.CreateEyes.Usage" translated="true">Ús: createeyes [nom] [uuid]</resource>
+  <resource type="Text" id="Commands.CreateEyes.ExpectedID" translated="true">S'esperaba un ID.</resource>
+  <resource type="Text" id="Commands.CreateEyes.Created" translated="true">Ulls creats amb la  ID de asset {0}, enviandolos al mestre. </resource>
+  <resource type="Text" id="Commands.CreateEyes.Failed" translated="true">Va fallar la creació dels ulls amb estat {0}. </resource>
+  <resource type="Text" id="Commands.CreateClothing.Description" translated="true">Crea una nova roba amb els paràmetres indicats. </resource>
+  <resource type="Text" id="Commands.CreateClothing.Usage" translated="true">Ús: createclothing help</resource>
+  <resource type="Text" id="Commands.CreateClothing.UsageLine1" translated="true">Ús: createclothing [nom] [Gloves|Jacket|Pants|Shirt|Shoes|Skirt|Socks|Underpants|Undershirt] [uuid1] (uuid2)</resource>
+  <resource type="Text" id="Commands.CreateClothing.UsageLine2" translated="true">Els paràmetres de grandària i color han de ser aplicats manualment encara. </resource>
+  <resource type="Text" id="Commands.CreateClothing.Jacket" translated="true">Ha d'indicar-se una segona uuid per a les jaquetes (Jacket). </resource>
+  <resource type="Text" id="Commands.CreateClothing.Incorrect" translated="true">Tipus de roba incorrect. </resource>
+  <resource type="Text" id="Commands.CreateClothing.ExpectedID1" translated="true">S'esperaba una ID en [uuid1].</resource>
+  <resource type="Text" id="Commands.CreateClothing.ExpectedID2" translated="true">S'esperaba una ID en (uuid2).</resource>
+  <resource type="Text" id="Commands.CreateClothing.Created" translated="true">Roba creada amb el ID de asset {0}, enviandola al mestre. </resource>
+  <resource type="Text" id="Commands.CreateClothing.Failed" translated="true">Failed to create Clothing with status {0}. </resource>
+  <resource type="Text" id="Commands.Groups.CacheFailed" translated="true">Va fallar la caché de grups. </resource>
+  <resource type="Text" id="Commands.Groups.GotGroups" translated="true">Es van obtenir {0} grups: </resource>
+  <resource type="Text" id="Commands.GroupRoles.Description" translated="true">Mostra els rols del grup. </resource>
+  <resource type="Text" id="Commands.GroupRoles.Usage" translated="true">Ús: grouproles Nom Del Grup</resource>
+  <resource type="Text" id="Commands.GroupRoles.NoRoles" translated="true">{0} no sembla tenir cap rol en el grup {1}.</resource>
+  <resource type="Text" id="Commands.GroupRoles.GotRoles" translated="true">{0} va obtenir els rols del grup. </resource>
+  <resource type="Text" id="Commands.GroupRoles.RequestID" translated="true">ID de la solicitut: {0}</resource>
+  <resource type="Text" id="Commands.GroupRoles.GroupName" translated="true">Nom del grup: {0}</resource>
+  <resource type="Text" id="Commands.GroupRoles.GroupID" translated="true">ID del grup: {0}</resource>
+  <resource type="Text" id="Commands.GroupRoles.Role" translated="true">Rol {0} {1} | {2}</resource>
+  <resource type="Text" id="Commands.GroupRoles.RoleCount" translated="true">{0} rols.</resource>
+  <resource type="Text" id="Commands.GroupMembers.Description" translated="true">Mostra els membres del grup. </resource>
+  <resource type="Text" id="Commands.GroupMembers.Usage" translated="true">Ús: groupmembers Nom Del Grup</resource>
+  <resource type="Text" id="Commands.GroupMembers.NotMember" translated="true">{0} no sembla ser membre del grup {1}. </resource>
+  <resource type="Text" id="Commands.GroupMembers.GotMembers" translated="true">{0} va obtenir els membres del grup. </resource>
+  <resource type="Text" id="Commands.GroupMembers.Member" translated="true">Membre: {0} ({1})</resource>
+  <resource type="Text" id="Commands.GroupMembers.MemberCount" translated="true">{0} membres.</resource>
+  <resource type="Text" id="Commands.GroupInvite.Description" translated="true">Convida a un avatar al grup actual a un rol especificat o al rol per defecte. </resource>
+  <resource type="Text" id="Commands.GroupInvite.Usage" translated="true">Ús: invite [uuid-av] (uuid-rol)</resource>
+  <resource type="Text" id="Commands.GroupInvite.NoGroupActive" translated="true">Cap grup està actiu actualment. Activa un grup amb el comando activategroup. </resource>
+  <resource type="Text" id="Commands.GroupInvite.AvNotFound" translated="true">No es pot trobar l'avatar especificat en la grid. </resource>
+  <resource type="Text" id="Commands.GroupInvite.CannotGroup" translated="true">No es pot convidar a un grup a un grup. </resource>
+  <resource type="Text" id="Commands.GroupInvite.CannotRoles" translated="true">No es van poder obtenir els rols del grup. </resource>
+  <resource type="Text" id="Commands.GroupInvite.NotRole" translated="true">El grup actual no conté cap rol amb l'ID {0}. </resource>
+  <resource type="Text" id="Commands.GroupInvite.ErrorRole" translated="true">Error a l'obtenir el rol del grup. </resource>
+  <resource type="Text" id="Commands.GroupInvite.Inviting" translated="true">Convidant a {0} al grup {1} en el rol {2}.</resource>
+  <resource type="Text" id="Commands.GroupEject.Description" translated="true">Expulsa a un membre del grup. </resource>
+  <resource type="Text" id="Commands.GroupEject.Usage" translated="true">Ús: groupeject [id-av] (id-grup)</resource>
+  <resource type="Text" id="Commands.GroupEject.ExpectedGroupID" translated="true">S'esperava l'ID del grup. </resource>
+  <resource type="Text" id="Commands.GroupEject.GroupNotFound" translated="true">No es troba el grup. </resource>
+  <resource type="Text" id="Commands.GroupEject.AvatarID" translated="true">L'ID de grup pertany a un avatar. </resource>
+  <resource type="Text" id="Commands.GroupEject.NoGroupActive" translated="true">Cap grup està actiu actualment. Activa un grup o especifica'l per ID. </resource>
+  <resource type="Text" id="Commands.GroupEject.ExpectedAvatarID" translated="true">S'esperada l'ID de l'avatar. </resource>
+  <resource type="Text" id="Commands.GroupEject.AvatarNotFound" translated="true">Avatar no oposat. </resource>
+  <resource type="Text" id="Commands.GroupEject.GroupID" translated="true">L'ID de l'avatar pertany a un grup. </resource>
+  <resource type="Text" id="Commands.GroupEject.ErrorMembers" translated="true">No es van poder obtenir els membres del grup. </resource>
+  <resource type="Text" id="Commands.GroupEject.NotMember" translated="true">L'avatar {0} no és membre del grup {1}. </resource>
+  <resource type="Text" id="Commands.GroupEject.Ejected" translated="true">L'avatar {0} ha estat expulsat del grup {1}.</resource>
+  <resource type="Text" id="Commands.AddToRole.Description" translated="true">Afegix a l'avatar indicat al rol especificat. </resource>
+  <resource type="Text" id="Commands.AddToRole.Usage" translated="true">Ús: addtorole [id-av] [id-rol] (id-grup)</resource>
+  <resource type="Text" id="Commands.AddToRole.NotMemberSelf" translated="true">No pertanyo al grup {0}. </resource>
+  <resource type="Text" id="Commands.AddToRole.NotMember" translated="true">{0} no pertany al grup {1}. Convida-li primer. </resource>
+  <resource type="Text" id="Commands.AddToRole.ExpectedRoleID" translated="true">S'esperava una ID de rol. </resource>
+  <resource type="Text" id="Commands.AddToRole.Adding" translated="true">Afegint a {0} en el rol {1} del grup {2}. </resource>
+  <resource type="Text" id="Commands.ActivateRole.Description" translated="true">Activa el rol especificat en el grup especificat. </resource>
+  <resource type="Text" id="Commands.ActivateRole.Usage" translated="true">Ús: activaterole [id-rol] (id-grup)</resource>
+  <resource type="Text" id="Commands.ActivateRole.Activating" translated="true">Activant el rol {0} en el grup {1}. </resource>
+  <resource type="Text" id="Viewer.Unknown" translated="true">Desconegut</resource>
+  <resource type="Text" id="Viewer.Unidentified" translated="true">No identificat/Oficial </resource>
+  <resource type="Text" id="Commands.OfferFriendship.Description" translated="true">Oferix amistat a l'avatar especificat. </resource>
+  <resource type="Text" id="Commands.OfferFriendship.Usage" translated="true">Ús: offerfriendship [nom] [cognom] | [uuid]</resource>
+  <resource type="Text" id="Commands.OfferFriendship.AvNotFound" translated="true">Avatar no oposat. </resource>
+  <resource type="Text" id="Commands.OfferFriendship.CannotGroup" translated="true">No es pot oferir amistat als grups. </resource>
+  <resource type="Text" id="Commands.OfferFriendship.NameNotFound" translated="true">L'avatar {0} no ha estat trobat. </resource>
+  <resource type="Text" id="Commands.OfferFriendship.AlreadyFriend" translated="true">Ja sóc amic de {0}. </resource>
+  <resource type="Text" id="Commands.OfferFriendship.Message" translated="true">¿Vols ser el meu amic? </resource>
+  <resource type="Text" id="Commands.OfferFriendship.Offered" translated="true">Amistat oferta a {0}. </resource>
+  <resource type="Text" id="Commands.OfferFriendship.Error" translated="true">Impossible aconseguir l'ID de l'avatar.</resource>
+  <resource type="Text" id="Commands.InformFriend.Description" translated="true">Activar informar quan un amic es connecta o desconnecta. </resource>
+  <resource type="Text" id="Commands.InformFriend.Usage" translated="true">Ús: informfriend [on/off]</resource>
+  <resource type="Text" id="Commands.InformFriend.Inform" translated="true">Actualment informo dels amics. </resource>
+  <resource type="Text" id="Commands.InformFriend.NotInform" translated="true">Actualment no informo dels amics. </resource>
+  <resource type="Text" id="Commands.InformFriend.WillInform" translated="true">Informaré dels amics a partir d'ara. </resource>
+  <resource type="Text" id="Commands.InformFriend.WontInform" translated="true">No informaré dels amics a partir d'ara. </resource>
+  <resource type="Text" id="Commands.EndFriendship.Description" translated="true">Acaba l'amistat amb l'avatar especificat. </resource>
+  <resource type="Text" id="Commands.EndFriendship.Usage" translated="true">Ús: endfriendship [nom] [cognom] | [uuid]</resource>
+  <resource type="Text" id="Commands.EndFriendship.CannotGroup" translated="true">No es pot acabar l'amistat amb grups. </resource>
+  <resource type="Text" id="Commands.EndFriendship.NotFriend" translated="true">No sóc amic de {0}. </resource>
+  <resource type="Text" id="Commands.EndFriendship.Terminated" translated="true">Vaig acabar la meva amistat amb {0}. </resource>
+  <resource type="Text" id="Commands.PlaySound.Description" translated="true">Fa que el bot reprodueixi el so especificat. </resource>
+  <resource type="Text" id="Commands.PlaySound.Usage" translated="true">Ús: playsound [uuid]</resource>
+  <resource type="Text" id="Commands.PlaySound.Playing" translated="true">Intentant reproduir el so {0}. </resource>
+  <resource type="Text" id="Commands.Pick.Description" translated="true">Crea un favorit de la posició actual. </resource>
+  <resource type="Text" id="Commands.Pick.Usage" translated="true">Ús: pick [description]</resource>
+  <resource type="Text" id="Commands.Pick.PickName" translated="true">¡M'encanta aquest lloc! </resource>
+  <resource type="Text" id="Commands.Pick.Picking" translated="true">Afegint un favorit d'aquesta posició. </resource>
+  <resource type="Text" id="Commands.Pay.Description" translated="true">Paga la quantitat de L$ triada a l'avatar especificat. </resource>
+  <resource type="Text" id="Commands.Pay.Usage" translated="true">Ús: pay [quantitat ] [id-avatar]. La quantitat pot ser "all", i si s'omet l'avatar es pagarà al mestre. </resource>
+  <resource type="Text" id="Commands.Pay.Message" translated="true">Donant-te {0}$L </resource>
+  <resource type="Text" id="Commands.Pay.Gave" translated="true">Donant {0}$L a {1}. </resource>
+  <resource type="Text" id="Commands.Nadu.Description" translated="true">Posa al bot en posició nadu. </resource>
+  <resource type="Text" id="Commands.Nadu.Usage" translated="true">Ús: nadu [on/off]</resource>
+  <resource type="Text" id="Commands.Nadu.Nadu" translated="true">El bot està en posició nadu. </resource>
+  <resource type="Text" id="Commands.Nadu.NotNadu" translated="true">El bot no està en posició nadu. </resource>
+  <resource type="Text" id="Commands.Nadu.WillNadu" translated="true">El bot es posa en posició nadu. </resource>
+  <resource type="Text" id="Commands.Nadu.WontNadu" translated="true">El bot es lleva de la posició nadu. </resource>
+  <resource type="Text" id="Commands.LookAt.Description" translated="true">Mira a l'objecte o avatar especificat. </resource>
+  <resource type="Text" id="Commands.LookAt.Usage" translated="true">Ús: lookat [nom] [cognom] | [uuid]</resource>
+  <resource type="Text" id="Commands.LookAt.AvNotFound" translated="true">No es va poder trobar a l'avatar {0}. </resource>
+  <resource type="Text" id="Commands.LookAt.CannotGroup" translated="true">¡No puc mirar cap a un grup! </resource>
+  <resource type="Text" id="Commands.LookAt.AvNotInSim" translated="true">L'avatar {0} no es troba en el simulador actual, no puc mirar cap a ell. </resource>
+  <resource type="Text" id="Commands.LookAt.ObjNotInSim" translated="true">L'objecte {0} no es troba en el simulador actual, no puc mirar cap a ell. </resource>
+  <resource type="Text" id="Commands.LookAt.LookObj" translated="true">Mirant a l'objecte {0}. </resource>
+  <resource type="Text" id="Commands.LookAt.LookAv" translated="true">Mirant a l'avatar {0}. </resource>
+  <resource type="Text" id="Commands.GroundSit.Description" translated="true">S'asseu en el sòl. El comando stand ho aixeca. </resource>
+  <resource type="Text" id="Commands.GroundSit.Sitting" translated="true">Intentant sentame en el sòl on estic. </resource>
+  <resource type="Text" id="Commands.Gesture.Description" translated="true">Have que l'avatar reprodueixi la gesture especificada. </resource>
+  <resource type="Text" id="Commands.Gesture.Usage" translated="true">Ús: gesture [uuid]</resource>
+  <resource type="Text" id="Commands.Gesture.Playing" translated="true">Reproduint gesture {0}. </resource>
+  <resource type="Text" id="Commands.Busy.Description" translated="true">Establix el bot com ocupat.</resource>
+  <resource type="Text" id="Commands.Busy.Usage" translated="true">Ús: busy [on/off]</resource>
+  <resource type="Text" id="Commands.Busy.Busy" translated="true">El bot està ocupat. </resource>
+  <resource type="Text" id="Commands.Busy.NotBusy" translated="true">El bot no està ocupat. </resource>
+  <resource type="Text" id="Commands.Busy.WillBusy" translated="true">El bot passa a estar ocupat. </resource>
+  <resource type="Text" id="Commands.Busy.WontBusy" translated="true">El bot passa a estar desocupat. </resource>
+  <resource type="Text" id="Commands.Beam.Description" translated="true">Emet particulas cap a l'objecte o avatar especificat. </resource>
+  <resource type="Text" id="Commands.Beam.Usage" translated="true">Ús: beam [nom] [cognom] | [uuid]</resource>
+  <resource type="Text" id="Commands.Beam.AvNotFound" translated="true">No es va poder trobar a l'avatar {0}. </resource>
+  <resource type="Text" id="Commands.Beam.CannotGroup" translated="true">¡No puc emetre partícules cap a un grup! </resource>
+  <resource type="Text" id="Commands.Beam.AvNotInSim" translated="true">L'avatar {0} no es troba en el simulador actual, no puc emetre partícules cap a ell. </resource>
+  <resource type="Text" id="Commands.Beam.ObjNotInSim" translated="true">L'objecte {0} no es troba en el simulador actual, no puc emetre partícules cap a ell. </resource>
+  <resource type="Text" id="Commands.Beam.BeamObj" translated="true">Emetent partícules a l'objecte {0}. </resource>
+  <resource type="Text" id="Commands.Beam.BeamAv" translated="true">Emetent partícules a l'avatar {0}. </resource>
+  <resource type="Text" id="Commands.Away.Description" translated="true">Establix el bot com absent. </resource>
+  <resource type="Text" id="Commands.Away.Usage" translated="true">Ús: away [on/off]</resource>
+  <resource type="Text" id="Commands.Away.Afk" translated="true">El bot està absent. </resource>
+  <resource type="Text" id="Commands.Away.NotAfk" translated="true">El bot no està absent. </resource>
+  <resource type="Text" id="Commands.Away.WillAfk" translated="true">El bot passa a estar absent. </resource>
+  <resource type="Text" id="Commands.Away.WontAfk" translated="true">El bot passa a estar present. </resource>
+  <resource type="Text" id="Commands.Attach.Description" translated="true">Annexa l'objecte especificat al seu últim punt d'annexió. </resource>
+  <resource type="Text" id="Commands.Attach.Usage" translated="true">Ús: attach [id]</resource>
+  <resource type="Text" id="Commands.Attach.ExpectedID" translated="true">S'esperava una UUID.</resource>
+  <resource type="Text" id="Commands.Attach.Attaching" translated="true">Se sol·licita annexar l'objecte {0}. </resource>
+  <resource type="Text" id="Commands.Attach.NotFolder" translated="true">No es pot annexar la carpeta {0}.</resource>
+  <resource type="Text" id="Commands.Attach.NotFound" translated="true">L'objecte {0} no es troba en la carpeta actual de l'inventari. </resource>
+  <resource type="Text" id="Commands.Animate.SystemAnimation" translated="true">L'animació del sistema {0} està sent reproduïda amb la seqüència {1} </resource>
+  <resource type="Text" id="Commands.Animate.AssetAnimation" translated="true">L'animació {0} està sent reproduïda amb la seqüència {1} </resource>
+  <resource type="Text" id="frmMain.btnAvatars" translated="true">Avatars </resource>
+  <resource type="Text" id="frmMain.btnGroups" translated="true">Grups</resource>
+  <resource type="Text" id="frmMain.btnFriends" translated="true">Amics</resource>
+  <resource type="Text" id="frmMain.btnInventory" translated="true">Inventari</resource>
+  <resource type="Text" id="frmMain.btnMap" translated="true">Mapa</resource>
+  <resource type="Text" id="frmMain.chkAnimations" translated="true">Obtenir animacions </resource>
+  <resource type="Text" id="frmMain.chkTextures" translated="true">Obtenir teixidures </resource>
+  <resource type="Text" id="frmMain.chkSounds" translated="true">Obtenir sons </resource>
+  <resource type="Text" id="frmMain.chkInventoryOffers" translated="true">Acceptar inventari </resource>
+  <resource type="Text" id="frmMain.chkInformFriends" translated="true">Informar d'amics </resource>
+  <resource type="Text" id="frmMain.chkTouchMidnightMania" translated="true">Tocar  Midnights</resource>
+  <resource type="Text" id="frmMain.chkHaveLuck" translated="true">Asseure's en "Lucky"s </resource>
+  <resource type="Text" id="frmMain.chkLogChat" translated="true">Escriure el xat en arxiu </resource>
+  <resource type="Text" id="frmAvatars.Text" translated="true">{0} - Avatars</resource>
+  <resource type="Text" id="frmAvatars.lblCurrentSim" translated="true">Simulador actual: {0}</resource>
+  <resource type="Text" id="frmAvatars.lblAvatars" translated="true">{0} avatars encontrats.</resource>
+  <resource type="Text" id="frmChat.chkAutoTranslate" translated="true">Traduir de:</resource>
+  <resource type="Text" id="frmChat.lblToLanguage" translated="true">a:</resource>
+  <resource type="Text" id="frmChat.SitLuckyChair" translated="true">{0} Asseient-se en {1}, que va dir {2} pensant que és uneixi Lucky Chair. </resource>
+  <resource type="Text" id="frmChat.SitLuckyPresent" translated="true">{0} Asseient-se en {1}, que va dir {2} pensant que és un Lucky Present. </resource>
+  <resource type="Text" id="frmChat.SitLuckySanta" translated="true">{0} Asseient-se en {1}, que va dir {2} pensant que és un Lucky Santa. </resource>
+  <resource type="Text" id="frmChat.TouchLuckyBoard" translated="true">{0} Tocant {1}, que va dir {2} pensant que és uneixi Lucky Board. </resource>
+  <resource type="Text" id="frmChat.TaskInventoryOffered" translated="true">L'objecte {0} pertanyent a {1} de la regió {2} en {3} envia un inventari: </resource>
+  <resource type="Text" id="frmChat.GroupNotice" translated="true">L'usuari {0} va enviar una notícia en el grup {1} </resource>
+  <resource type="Text" id="frmChat.FriendshipAccepted" translated="true">{0} va acceptar la meva amistat. </resource>
+  <resource type="Text" id="frmChat.FriendshipDeclined" translated="true">{0} va rebutjar la meva amistat. </resource>
+  <resource type="Text" id="frmChat.InventoryAccepted" translated="true">{0} va acceptar la meva oferta d'inventari. </resource>
+  <resource type="Text" id="frmChat.InventoryDeclined" translated="true">{0} va rebutjar la meva oferta d'inventari. </resource>
+  <resource type="Text" id="frmChat.InventoryOffered" translated="true">{0} va oferir el següent inventari: </resource>
+  <resource type="Text" id="frmChat.Translated" translated="true">(TRADUÏT) </resource>
+  <resource type="Text" id="frmFriends.btnMessage" translated="true">IM</resource>
+  <resource type="Text" id="frmFriends.btnProfile" translated="true">Perfil</resource>
+  <resource type="Text" id="frmFriends.btnTeleport" translated="true">TP</resource>
+  <resource type="Text" id="frmFriends.btnRemove" translated="true">Eliminar</resource>
+  <resource type="Text" id="frmFriends.Text" translated="true">Amics - {0} </resource>
+  <resource type="Text" id="frmFriends.NameColumn" translated="true">Nom</resource>
+  <resource type="Text" id="Controls.Loading" translated="true">(carregant...)</resource>
+  <resource type="Text" id="frmFriends.btnMessage.DialogTitle" translated="true">Enviar missatge instantani </resource>
+  <resource type="Text" id="frmFriends.btnMessage.DialogLabel" translated="true">Enviarà un missatge instantani a {0} </resource>
+  <resource type="Text" id="frmFriends.btnTeleport.DialogTitle" translated="true">Enviar teletransporte </resource>
+  <resource type="Text" id="frmFriends.btnTeleport.DialogLabel" translated="true">Enviarà un teletransporte a {0} </resource>
+  <resource type="Text" id="frmFriends.btnRemove.DialogTitle" translated="true">Eliminar amic </resource>
+  <resource type="Text" id="frmFriends.btnRemove.DialogLabel" translated="true">¿Estàs segur de voler eliminar a {0} d'amics?</resource>
+  <resource type="Text" id="frmGroups.Text" translated="true">Grups - {0} </resource>
+  <resource type="Text" id="frmGroups.btnLeave" translated="true">Abandonar </resource>
+  <resource type="Text" id="frmGroups.btnLeave.DialogTitle" translated="true">Abandonar grup</resource>
+  <resource type="Text" id="frmGroups.btnLeave.DialogLabel" translated="true">¿Estàs segur de voler abandonar el grup {0}? </resource>
+  <resource type="Text" id="frmGroups.btnActivate" translated="true">Activar</resource>
+  <resource type="Text" id="frmGroups.btnActivate.DialogTitle" translated="true">Activar grup</resource>
+  <resource type="Text" id="frmGroups.btnActivate.DialogLabel" translated="true">Activant el grup {0}.</resource>
+  <resource type="Text" id="frmGroups.btnMessage" translated="true">Chat</resource>
+  <resource type="Text" id="frmGroups.btnMessage.DialogTitle" translated="true">Enviar missatge al grup </resource>
+  <resource type="Text" id="frmGroups.btnMessage.DialogLabel" translated="true">Enviarà el missatge al grup {0} </resource>
+  <resource type="Text" id="frmGroups.btnMessage.SentOkTitle" translated="true">Missatge enviat </resource>
+  <resource type="Text" id="frmGroups.btnMessage.SentOkLabel" translated="true">Missatge correctament enviat al grup {0}. </resource>
+  <resource type="Text" id="frmGroups.btnMessage.NotSentTitle" translated="true">Missatge no enviat </resource>
+  <resource type="Text" id="frmGroups.btnMessage.NotSentLabel" translated="true">No es va poder obrir una sessió de xat amb el grup {0}. </resource>
+  <resource type="Text" id="frmInventory.Text" translated="true">Inventari - {0} </resource>
+  <resource type="Text" id="frmInventory.Menu.File" translated="true">&amp;Arxiu </resource>
+  <resource type="Text" id="frmInventory.Menu.CopyID" translated="true">Copiar ID de asset</resource>
+  <resource type="Text" id="frmInventory.Menu.Delete" translated="true">Eliminar Objecte/Carpeta</resource>
+  <resource type="Text" id="frmInventory.Menu.Attach" translated="true">Anexar</resource>
+  <resource type="Text" id="frmInventory.Menu.Detach" translated="true">Retirar</resource>
+  <resource type="Text" id="frmInventory.Menu.EmptyTrash" translated="true">Buidar paperera </resource>
+  <resource type="Text" id="frmInventory.Menu.EmptyLF" translated="true">Buidar lost &amp;&amp; found</resource>
+  <resource type="Text" id="frmMap.Text" translated="true">Mapa del simulador: {0} </resource>
+  <resource type="Text" id="frmMap.lblSim" translated="true">Simulador: {0}, versió {1} </resource>
+  <resource type="Text" id="frmMap.lblMapDownloading" translated="true">Descarregant el mapa? </resource>
+  <resource type="Text" id="frmMap.lblAvatars" translated="true">Avatars: {0} </resource>
+  <resource type="Text" id="frmMap.lblSelectedPosition" translated="true">Posició seleccionada: </resource>
+  <resource type="Text" id="frmMap.btnTeleport" translated="true">TP</resource>
+  <resource type="Text" id="frmMap.TeleportError" translated="true">Va ocórrer un error en el teletransporte. \n Per favor torni a intentar-lo més tard. </resource>
+  <resource type="Text" id="frmObjects.Status.NewObject" translated="true">Afegit el nou objecte {0} a la llista. </resource>
+  <resource type="Text" id="frmObjects.Status.Object" translated="true">Afegit l'objecte {0} a llista. </resource>
+  <resource type="Text" id="frmObjects.Status.GotName" translated="true">Obtingut el nom de l'objecte {0}. </resource>
+  <resource type="Text" id="frmObjects.Status.Statistics" translated="true">{0} Objectes coneguts: {1} noms coneguts i {2} desconeguts. </resource>
+  <resource type="Text" id="frmProfile.tabPageSecondLife" translated="true">2ª vida </resource>
+  <resource type="Text" id="frmProfile.tabPageWeb" translated="true">Web</resource>
+  <resource type="Text" id="frmProfile.tabPageInterests" translated="true">Interesos</resource>
+  <resource type="Text" id="frmProfile.tabPageFirstLife" translated="true">1ª vida</resource>
+  <resource type="Text" id="frmProfile.lblName" translated="true">Nom:</resource>
+  <resource type="Text" id="frmProfile.lblBorn" translated="true">Nascut: </resource>
+  <resource type="Text" id="frmProfile.lblPhoto" translated="true">Foto:</resource>
+  <resource type="Text" id="frmProfile.lblAccount" translated="true">Compte:</resource>
+  <resource type="Text" id="frmProfile.lblPartner" translated="true">Soci:</resource>
+  <resource type="Text" id="frmProfile.lblGroups" translated="true">Grups:</resource>
+  <resource type="Text" id="frmProfile.lblAbout" translated="true">Sobre:</resource>
+  <resource type="Text" id="frmProfile.lblWeb" translated="true">Web:</resource>
+  <resource type="Text" id="frmProfile.lblWants" translated="true">¿Qué vols?:</resource>
+  <resource type="Text" id="frmProfile.chkBuild" translated="true">Construir</resource>
+  <resource type="Text" id="frmProfile.chkMeet" translated="true">Conèixer </resource>
+  <resource type="Text" id="frmProfile.chkSell" translated="true">Vendre </resource>
+  <resource type="Text" id="frmProfile.chkBeHired" translated="true">Treballar </resource>
+  <resource type="Text" id="frmProfile.chkExplore" translated="true">Explorar </resource>
+  <resource type="Text" id="frmProfile.chkGroup" translated="true">Agrupar-me </resource>
+  <resource type="Text" id="frmProfile.chkBuy" translated="true">Comprar </resource>
+  <resource type="Text" id="frmProfile.chkHire" translated="true">Contractar </resource>
+  <resource type="Text" id="frmProfile.lblSkills" translated="true">Habilitats: </resource>
+  <resource type="Text" id="frmProfile.chkTextures" translated="true">Teixidures </resource>
+  <resource type="Text" id="frmProfile.chkModeling" translated="true">Models</resource>
+  <resource type="Text" id="frmProfile.chkScripting" translated="true">Scripts</resource>
+  <resource type="Text" id="frmProfile.chkArchitecture" translated="true">Arquitectura </resource>
+  <resource type="Text" id="frmProfile.chkEventPlanning" translated="true">Esdeveniments </resource>
+  <resource type="Text" id="frmProfile.chkCustomChars" translated="true">Caracterització </resource>
+  <resource type="Text" id="frmProfile.lblLanguages" translated="true">Idiomes: </resource>
+  <resource type="Text" id="frmProfile.lblPhotoF" translated="true">Foto:</resource>
+  <resource type="Text" id="frmProfile.lblInfo" translated="true">Info:</resource>
+  <resource type="Text" id="frmProfile.Text" translated="true">Perfil de {0}</resource>
+  <resource type="Text" id="frmProfile.Account.Identified" translated="true">Identificat</resource>
+  <resource type="Text" id="frmProfile.Account.Mature" translated="true">Madur </resource>
+  <resource type="Text" id="frmProfile.Account.Payment" translated="true">Informació de pagament </resource>
+  <resource type="Text" id="frmProfile.Account.Public" translated="true">Públic </resource>
+  <resource type="Text" id="frmScriptDialog.Text" translated="true">Diàleg de {0} </resource>
+  <resource type="Text" id="frmScriptDialog.lblObject" translated="true">Diàleg de l'objecte {0} </resource>
+  <resource type="Text" id="frmScriptDialog.lblOwner" translated="true">pertanyent a {0} {1}. </resource>
+  <resource type="Text" id="Controls.ObjectList.Name" translated="true">Nom</resource>
+  <resource type="Text" id="Controls.ObjectList.Position" translated="true">Posició</resource>
+  <resource type="Text" id="Controls.ObjectList.ID" translated="true">ID</resource>
+  <resource type="Text" id="Controls.ObjectList.Midnight" translated="true">Vaig tocar l'objecte {0} cridat {1} pensant que és un Midnight Mania. </resource>
+  <resource type="Text" id="Controls.ObjectList.Advent" translated="true">Vaig tocar l'objecte {0} cridat {1} pensant que és un Lucky Advent Countdown. </resource>
+  <resource type="Text" id="Controls.ObjectList.Pyramid" translated="true">Vaig tocar l'objecte {0} cridat {1} pensant que és un Prize Pyramid. </resource>
+  <resource type="Text" id="Controls.ObjectList.Dip" translated="true">Em vaig asseure en l'objecte {0} cridat {1} pensant que és un Lucky Dip. </resource>
+  <resource type="Text" id="Controls.ObjectList.Cupcake" translated="true">Em vaig asseure en l'objecte {0} cridat {1} pensant que és un Lucky Cupcake. </resource>
+  <resource type="Text" id="Controls.AvatarList.Name" translated="true">Nom</resource>
+  <resource type="Text" id="Controls.AvatarList.Distance" translated="true">Distància </resource>
+  <resource type="Text" id="Controls.AvatarList.Viewer" translated="true">Client</resource>
+  <resource type="Text" id="Controls.AvatarList.Position" translated="true">Posició</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.CopyID" translated="true">Copiar ID al portapapers </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.ShowProfile" translated="true">Mostrar perfil </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferTP" translated="true">Oferir teletransporte </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.TPTo" translated="true">Teletransportar a. </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.WalkTo" translated="true">Caminar a</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.SendMessage" translated="true">Enviar missatge</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.ListAttachs" translated="true">Mostrar annexos </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.DumpAttachs" translated="true">Descarregar annexos </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.DumpOutfit" translated="true">Descarregar vestimenta </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferFriendship" translated="true">Oferir amistat </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferTP.DialogTitle" translated="true">Enviar teletransporte </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferTP.DialogLabel" translated="true">S'enviarà un teletransporte a {0} </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.SendIM.DialogTitle" translated="true">Enviar missatge </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.SendIM.DialogLabel" translated="true">S'enviarà un missatge instantani a {0} </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferFriend.AlreadyDialogLabel" translated="true">{0} ja és amic meu. </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferFriend.AlreadyDialogTitle" translated="true">Ja és el meu amic. </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferFriend.DialogTitle" translated="true">Oferir amistat </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferFriend.DialogLabel" translated="true">S'oferirà amistat a {0} </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferFriend.Message" translated="true">¿Vols ser el meu amic? </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.ListAttachsResultLabel" translated="true">Llista d'annexos </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.ListAttachsResultTitle" translated="true">Annexos de {0}: </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.WarningLine1" translated="true">Aquest comando pot trigar bastant a acabar. </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.WarningLine2" translated="true">NatiBot no respondrà fins que acabi. </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.WarningLine3" translated="true">¿Estàs segur de continuar? </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.DumpAttachsDumped" translated="true">Annexos descarregats </resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.DumpOutfitDumped" translated="true">Vestimenta descarregada </resource>
+  <resource type="Text" id="Controls.GroupList.Column" translated="true">Grup</resource>
+  <resource type="Text" id="Controls.InventoryList.Empty" translated="true">(buit) </resource>
+  <resource type="Text" id="Commands.CreateNotecard.Sending" translated="true">Enviant notecard al mestre. </resource>
+  <resource type="Text" id="Commands.Follow.Stopped" translated="true">Vaig deixar de seguir. </resource>
+  <resource type="Text" id="Object" translated="true">Objecte</resource>
+  <resource type="Text" id="Bot.Friend.Online" translated="true">El meu amic {0} acaba de connectar-se. </resource>
+  <resource type="Text" id="Bot.Friend.Offline" translated="true">El meu amic {0} acaba de desconnectar-se.</resource>
+  <resource type="Text" id="Commands.Version.Description" translated="true">Mostra la versió de NatiBot i del simulador actual. </resource>
+  <resource type="Text" id="Commands.Version.CurrentSim" translated="true">Simulador: {0} </resource>
+  <resource type="Text" id="Commands.NetStats.Description" translated="true">Mostra estadístiques d'utilització de paquets i capacitats. </resource>
+  <resource type="Text" id="Commands.NetStats.NoStats" translated="true">Estadístiques no disponibles. </resource>
+  <resource type="Text" id="Commands.Health.Description" translated="true">Mostra la salut actual. </resource>
+  <resource type="Text" id="Commands.Health.Health" translated="true">La salut actual és de el {0}%.</resource>
+  <resource type="Text" id="NetCom.Updating.Line1" translated="true">Si actualitza d'una versió més antiga de NatiBot esborri totes les contes i torni-les a crear.</resource>
+  <resource type="Text" id="NetCom.Updating.Line2" translated="true">El sistema d'inici de sessió ha rebut canvis que requereixen recrear manualment els comptes.</resource>
+  <resource type="Text" id="NetCom.Updating.Line3" translated="true">L'inici de sessió s'establix a AGNI (Second Life Production Grid).</resource>
+  <resource type="Text" id="Program.Stats.Crash.Line1" translated="true">Va ocórrer una excepció no controlada.</resource>
+  <resource type="Text" id="Program.Stats.Crash.Line2" translated="true">La informació de l'error ha estat enviada a Claunia.com</resource>
+  <resource type="Text" id="Program.Stats.Crash.Line3" translated="true">Lamentem els inconvenients causats.</resource>
+  <resource type="Text" id="Program.Stats.Crash.Line4" translated="true">NatiBot es tancarà ara.</resource>
+  <resource type="Text" id="Program.Stats.Crash" translated="true">Error fatal</resource>
+</resources>

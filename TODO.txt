@@ -1,0 +1,61 @@
+For MONO:
+Shaped windows with transparent key is not working. Need to test with alpha PNGs.
+System.Management is not available should generate hardware key in another way.
+Using #if __MonoCS__ allow us to know when compiled with Mono.
+System.Environment.OSVersion.Platform does return "Unix" in both Mac OS X and Linux.
+Visual Studio Designer will fuck off anything put on its code so check for Mono in form initializations.
+
+For 1.0:
+Some French translation errores will be corrected.
+Possible will be translated to German.
+
+Bugs:
+selectobjects does not work
+Some alert messages may be auto-translated. Akasha Foxtrot> [AlertMessage] You are now the owner of object Comprame
+[15:24] El objeto Second Life perteneciente a Tsuki Tyran de la región 00000000-0000-0000-0000-000000000000 en <0, 0, 0>:Your object 'Object' has been returned to your inventory lost and found folder by Tsuki Tyran from parcel 'Busco name 2' at Limburg2 246, 117.
+On simulator change the avatar list is not getting reset.
+In main window controls are not getting enabled or disabled depending on the bot.
+
+commands:
+MODIFICATIONS:
+crouch The Bot crouches very submissive, back in stand with ”stand”.
+turnto add aliases to north, northeast, nortwest, east, west, south, southwest, southeast
+
+AUTOMATION:
+autogc Automatically do the garbage collection every 60 seconds
+autogive [object-UUID] [range] Gives the given object to any avatar the Bot meets, once in a Sim.
+autoim [range] [text] IMs the given text to all avatars in range
+autoinvite [group-UUID] [range] Invites any avatar to the given group, once in a Sim.
+autoview The bot will automatically download and view offered notecards with notepad.exe
+autodance [delay] Changes dancing animation from DANCES file.
+autoshoot [range] Automatically shots avatars that enter at given range.
+
+COMMUNICATION:
+act [text] The bot emotes the given text. This is like doing a ”/me …” in the regular client.
+ml Shows the current mutelist.
+mute [av-UUID|av-name] Adds an avatar to mutelist.
+unmute [av-UUID] Removes an avatar from the mutelist.
+massim[!] [IM-textfile] [av-list] Sends IMs to avatars in given list. Use the ”!” to actually start the delivery, otherwise the command is executed in demo-mode. 
+
+GROUPS:
+masseject[!] [group] [avatar-list] Sends group-ejects to given avatars. Use the ”!” to actually start the delivery, otherwise the command is executed in demo-mode. 
+massinvite[!] [group] [avatar-list] Sends group-invites to avatars in given list. Use the ”!” to actually start the delivery, otherwise the command is executed in demo-mode.
+
+AGENT:
+app Enables the “Editing Appearance” mode of the bot, stop with “stop”
+busytext [text] Sets the Busy-Text for the Bot.
+
+INVENTORY:
+detach [object-UUID] Detaches the object from Bot. You can determine the object-UUID with the commands wearables or ls.
+massgive[!] [object-uuid] [avatar-list] Gives the given object to all avatars in list. Use the ”!” to actually start the delivery, otherwise the command is executed in demo-mode. 
+
+PARCEL:
+parcelflags [flag] Searches all sim-parcels for the given flag
+
+SYSTEM:
+die [date/time] The bot exits at the given time.
+autotranslate [fromlanguage] [tolanguage]
+tip Shows random Tip of the Day.
+
+Maybe:
+Auto-sit

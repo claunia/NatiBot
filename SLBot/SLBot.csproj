@@ -1,0 +1,542 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.3077</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9041A815-E5DA-4B00-945E-ADC7BD2ED7B9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>SLBot</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Meebey.SmartIrc4net, Version=0.4.0.8764, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="OpenMetaverse, Version=1.0.0.6763, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libsl\bin\OpenMetaverse.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMetaverse.Utilities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libsl\bin\OpenMetaverse.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenMetaverseTypes, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\libsl\bin\OpenMetaverseTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.Xml</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\AccountFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\AttachmentCollection.cs" />
+    <Compile Include="bot\BotAccount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\BotConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\CampChair.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ActivateGroupCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\AgentLocationsCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\AnimateCommand.cs" />
+    <Compile Include="bot\Commands\AppearanceCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\AttachmentsCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\AttachmentsUUID.cs" />
+    <Compile Include="bot\Commands\BackupCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\BalanceCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ChangePermsCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\CloneCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\CloneProfileCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\CodeFile1.cs" />
+    <Compile Include="bot\Commands\DumpAttachmentCommand.cs" />
+    <Compile Include="bot\Commands\DumpAttachmentsCommand.cs" />
+    <Compile Include="bot\Commands\VersionCommand.cs" />
+    <Compile Include="bot\Commands\Command.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\Commands\SearchBuildableCommand.cs" />
+    <Compile Include="bot\Commands\Commands\SearchEventsCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\CrouchCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\DebugCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\DeleteFolderCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\DetectBotCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\DetectLindensCommand.cs" />
+    <Compile Include="bot\Commands\DilationCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\DumpOutfitCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\EchoMasterCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ExportCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ExportOutfitCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ExportParticlesCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\FindObjectsCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\FindSimCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\FindTextureCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\FlyCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\FollowCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\FriendsCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\GiveAllCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\GoHomeCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\GotoCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\GotoLandmarkCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\GridLayerCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\GridMapCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\GroupsCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\HelpCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ImCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ImGroupCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ImportCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ImportOutfitCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\InventoryCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\JoinGroupCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\JumpCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\LeaveGroupCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\LoadCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\LocationCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\MapFriendCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\MD5Command.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\MovetoCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ObjectInventoryCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\PacketLogCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ParcelInfoCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\PrimCountCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\PrimInfoCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\PrimRegexCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\QueuedDownloadInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\RegionInfoCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\RequestTeleport.cs" />
+    <Compile Include="bot\Commands\SayCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\SetHomeCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\SetMasterCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\SetMasterKeyCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ShoutCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ShowEffectsCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\ShowEventDetailsCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\SitCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\SitOnCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\StandCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\StatsCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\TouchCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\TreeCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\UptimeCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\WearCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\WhisperCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Commands\WhoCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Config\ConfigFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Console.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\DataGridViewClientRow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmCrasher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\InterfacePlugins\libsl_Teleport.cs" />
+    <Compile Include="bot\GUI\frmInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmInventory.Designer.cs">
+      <DependentUpon>frmInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\FormObjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmAddAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\InterfacePlugins\libsl_Interface.cs" />
+    <Compile Include="bot\GUI\InterfacePlugins\libsl_Minimap.cs" />
+    <Compile Include="bot\InstanceHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\IRCSettings.cs" />
+    <Compile Include="bot\license\License.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\license\LicenseManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\license\Version.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Localization\Lang.cs" />
+    <Compile Include="bot\Localization\Language.cs" />
+    <Compile Include="bot\LoginDetailList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\LoginDetails.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\LoginGrid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\AlertMessageEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\ChatEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\ChatSentEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\ClientDisconnectEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\ClientLoginEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\InstantMessageEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\InstantMessageSentEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\MoneyBalanceEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\NetCommunication.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\OverrideEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\StartLocationParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\TeleportingEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\NetCom\TeleportStatusEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Objects\ObjectsListItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Parsing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\SecondLifeBot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\SoftwareLoginInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\StartPosition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bot\StateManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HTTP\Commands\CommandChk.cs" />
+    <Compile Include="HTTP\Commands\CommandRegister.cs" />
+    <Compile Include="HTTP\Commands\CommandTest.cs" />
+    <Compile Include="HTTP\Commands\HTTPCommand.cs" />
+    <Compile Include="HTTP\CPL\CPLHome.cs" />
+    <Compile Include="HTTP\CPL\HTMLCPLCommand.cs" />
+    <Compile Include="HTTP\HTMLTemplates.cs" />
+    <Compile Include="HTTP\HTTPDaemon.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="bot.GUI.FormObjects.resources" />
+    <EmbeddedResource Include="bot.GUI.frmAddAccount.resources" />
+    <EmbeddedResource Include="bot.GUI.frmLogin.resources" />
+    <EmbeddedResource Include="bot.GUI.frmMain.resources" />
+    <EmbeddedResource Include="bot.Properties.Resources.resources" />
+    <EmbeddedResource Include="bot\GUI\frmCrasher.resx">
+      <DependentUpon>frmCrasher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmInventory.resx">
+      <DependentUpon>frmInventory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\FormObjects.resx">
+      <DependentUpon>FormObjects.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmAddAccount.resx">
+      <DependentUpon>frmAddAccount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HTTP\CPL.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HTTP\Header.tpl.htm">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,276 @@
+﻿/* 
+ * Liste des revues: 
+ *
+ * Rév 1:
+ *          Ajout du bouton Exporter au menu contextuel de la liste d'objets pour commodité. 
+ *          Ajout du bouton "Exporter tous" à la liste d'objets. A encore des bugs! 
+ *          Ajout de la commande "animate". 
+ *          Ajout de la commande "sendtp. 
+ *          Ajout de la commande "version". 
+ *          Ajout de la liste des OpenLife Grids. 
+ *          Partiellement traduit en espagnol! 
+ *          Mise à jour de la commande "objectinventory" pour afficher l'UUID des points contenus dans l'objet. 
+ * Rév 2:
+ *          Mise à jour de la commande "friends" pour montrer l'UUID d'amis. 
+ * Rév 3:
+ *          Correction d'un bogue dans "import" à ne fixent pas d'autorisations sur les objets en un seul prim. 
+ * Rév 4:
+ *          Ajout de "attachmentsuuid" pour afficher les objets attachés à un avatar en utilisant leur UUID. 
+ * Rév 5:
+ *          Mise à jour "attachments" pour afficher les informations de la MI et de la console, pas dans le journal. 
+ *          Augmentation à la version 0.5.5 
+ * Rév 6:
+ *          Ajout de "dumpattachments" pour exporter toutes les pièces jointes. CopyXML exporté dans un dossier avec l'UUID de l'avatar et la date de début de l'exportation. 
+ * Rév 7:
+ *          Ajout de "dumpattachment" pour que l'exportation d'une pièce jointe 
+ *          Augmentation à la version 0.6 
+ * Rév 8:
+ *          Correction d'un bug de mettre la date dans le dossier avec la dumpattachment et dumpattachments commandes. 
+ *          Ajout d'une liste des points de dumpattachment annexion valables lorsqu'on l'appelle avec nombre invalide d'arguments. 
+ *          Détecter que le point demandé l'annexion est valide. 
+ * Rév 9:
+ *          Mise à jour la manière dont elle fonctionne "dumpattachments". Vous avez encore des bugs mais permet au moins vous savez que vous avez obtenu de copie quand elle échoue. 
+ * Rév 10:
+ *          Mise à jour "exportparticles" pour enregistrer un fichier .lsl en le disque dur pour chacun de tous les systèmes de particules d'un objet. 
+ * Rév 11:
+ *          Très modifié pour fonctionner avec la révision de 2218 du header libSL
+ *          Cela signifie que certaines commandes ont cessé de travailler, d'autres travaux différemment, il ya de nouvelles commandes disponibles, de nombreux changements, de nombreuses heures et maux de tête! 
+ *          Lors de l'exportation ange sculpture, "101 textures à l'exportation"? Quelque chose ne fonctionne pas sur "export" 
+ *          Actuellement, elle exporte vers le répertoire du bot, pas CopyXML ou des textures. 
+ *          Import prend également par défaut le dossier du bot. 
+ *          La commande "objectinventory" expire toujours :(. 
+ *          La commande "exportparticles" a cessé de travailler sur des objets multiples avec des systèmes de particules. 
+ *          La commande "backuptext" ne fonctionne toujours pas. 
+ *          La commande "mapfriend" exige davantage de preuves, il semble qu'il ne fonctionne pas. 
+ *          Est-ce la commande "appearance" jamais travaillé? 
+ *          Est-ce la commande "gridmap" faire quelque chose? 
+ *          Est-ce la commande "wear" jamais travaillé? 
+ *          La commande "attachmentsuuid" raconte les annexes, mais n'affiche pas! 
+ *          Il semble que beaucoup plus lent! 
+ *          Vous pouvez télécharger l'animation qui vous le demande, uniquement à son UUID (n'ont pas joue close) 
+ *          La plupart des commandes perdu la traduction :( 
+ *          Augmentation à la version 0.6.9 Rév 54. 0.7.0 venez quand les erreurs sont corrigées à nouveau!! 
+ * Rév 12:
+ *          Correction de la commande "export", qui travaille maintenant comme avant
+ * Rév 13:
+ *          Correction de la commande "import". 
+ *          Changement de la dossier CopyXML pour una plus approprié "objects". 
+ * Rév 14:
+ *          La commande "objectinventory" n'a jamais cessé de travailler, il était juste lag 
+ *          La commande "exportparticles" conservait avec soin toutes les particules dans le LSL même fichier. Fixe. 
+ * Rév 15:
+ *          Les commandes "attachments", et "attachmentsuuid" figurant désormais à l'IM console. 
+ * Rév 17:
+ *          Ajout de la commande "avatarinfo" qui affiche des informations sur un avatar à proximité. 
+ * Rév 18:
+ *          Ajout de la commande "ls" pour afficher le contenu de le dossier actuel du inventaire. 
+ * Rév 19:
+ *          Ajout de la commande "cd" pour changer le dossier actuel de l'inventaire. 
+ *          Mise à jour de la commande "ls" à l'option '-l' indique la date de création et le type de contenu, et de travailler avec des sous-dossiers (si pas déjà fait précédemment exécuté la commande "i" pour terminer l'inventaire) . 
+ * Rév 20:
+ *          Ajout de la commande "createnotecard" pour créer un notecard partir d'un fichier texte local. 
+ * Rév 21:
+ *          Ajout de la commande "give" de donner les objets d'inventaire à un avatar. 
+ * Rév 22:
+ *          Maintenant la commande "avatarinfo" montre non seulement la texture mais également le texte et les images du profil. Les groupes d'intérêt et les statistiques sont en cours. 
+ * Rév 23:
+ *          Maintenant la commande "avatarinfo" obtient les intérêts et les groupes. Les statistiques sont désactivées par Linden Lab, parce qu'ils ont été abandonnés et apparemment aucun moyen de les obtenir. 
+ * Rév 25:
+ *          Mise à jour de la commande "dumpoutfit" pour travailler avec les modifications d'API (RequestImage ()) de libOMV en SVN R2227. 
+ * Rév 26:
+ *          Ajout de la commande "rmdir" pour déplacer un dossier à l'inventaire des ordures. 
+ * Rév 27:
+ *          Ajout de la commande "viewnote" pour rendre le contenu d'un notecard dans l'inventaire pour la console / IM. 
+ * Rév 28:
+ *          Mise à jour de la commande "createnotecard" pour envoyer les notecard à l'enseignant. 
+ *          Ajout de la commande "uploadimage" pour charger une image / texture et l'envoyer à l'enseignant. 
+ * Rév 29:
+ *          Mise à jour les commandes "createnotecard" et "uploadimage" parce que l'accent mis sur "jour" ne sont pas correctement couverts par le serveur d'actifs dans la description de l'élément vers le haut. 
+ *          Ajout de la commande "import" pour télécharger tout ce <casi> est supporté par le serveur d'actifs, d'identifier le type exact de l'extension, comme suit: 
+ *              .animatn pour l'animation. (Coûts 10L AGNI) 
+ *              .bodypart à une forme, la peau, des yeux ou des cheveux. 
+ *              .gesture pour un geste. 
+ *              .clothing pour une chemise, un pantalon, des chaussures, chaussettes, manteaux, jupes, gants, chemises et sous-vêtements. 
+ *              .jpg,.tga,.jps et .j2c pour textures. (Coûts 10L AGNI) 
+ *              .notecard pour Notecard. 
+ *              .landmark pour LandMark. 
+ *              .ogg pour le son (Vorbis). (Coûts 10L AGNI) 
+ *              .lsl LSL2 pour un script (comme du texte). 
+ *              .lso LSL2 pour un script (compilation). 
+ *          Les anciennes versions des articles, ou, dont certains ne parviendront pas à télécharger, sans solutions 
+ * Rév 30:
+ *          Correction d'un NullException dans parcelinfo commande. 
+ *          Mise à jour le temps d'attente maximum "parcelinfo" de 30sec. à 60sec. 
+ *          Ajout de la commande "parceldetails" que, compte tenu d'une parcelle ID affiche tous les détails de ce complot. 
+ * Rév 31:
+ *          Ajout de la commande "primowners" montrer les prims sur une parcelle de là, et leurs propriétaires. Besoin d'autorisations. 
+ * Rév 32:
+ *          Ajout de la commande "selectobjects" pour afficher des informations détaillées sur un prims particulier avatar dans la parcelle spécifiée. 
+ * Rév 33:
+ *          Ajout de la commande "forward", "back", "left" et "right" pour déplacer le bot. 
+ * Rév 34:
+ *          Ajout de la commande "downloadtexture" pour télécharger une texture Asset serveur donné son UUID. Ne fait toujours pas au format Targa. 
+ * Rév 35:
+ *          Ajout de la commande "script" pour exécuter une série de commandes données dans un fichier texte. 
+ * Rév 36:
+ *          Mise à jour de la commande "import" pour obtenir des exceptions lors du chargement du fichier. 
+ *          Correction de la durée de l'animation automatiquement déversées dans le cas du serveur d'Inventaire de la décharge. Animtn à. Animatn. 
+ *          Suppression de la commande "test", tel qu'il était, que, d'un test. 
+ *          Ajout de la commande "downloadanimation" pour télécharger une animation du serveur d'actifs compte tenu de son UUID. (L'info qui vient avec Animation activée dans le client officiel) 
+ *          Augmentation de la version à 0,7 (20 nouvelles commandes). YUPIIIIIIIIIII !!!!!!!! 
+ * Rév 40:
+ *          Ajout d'autorisation de vérifier avant le chargement, le bot. 
+ *          Enlevée le message sanglante "Running Webserver"! 
+ *          Mise à jour de libomv r2382 
+ * Rév 42:
+ *          Mise à jour de libomv r2947 
+ *          Dans le cadre de cette mise à jour a été réécrit textures système de vidange. 
+ *          Avantages supposés de vitesse et moins d'erreurs. 
+ *          Les inconvénients, aucun indicateur de progression sur la console pour télécharger le bot. 
+ *          Les textures sont sauvegardées dans le dossier de textures, lorsque vous utilisez la commande d'exportation ou downloadtexture. 
+ *          Les textures de la tenue sont sauvegardés dans un dossier tenues, dans un sous-dossier avec le nom de l'avatar. 
+ *          Les textures des pièces jointes sont téléchargés dans une sous-dossier textures dans le dossier avec l'UUID prévu, dans lequel les pièces jointes sont enregistrées. 
+ *          Ceci devrait mettre fin à la confusion sur les textures téléchargées. 
+ *          Il s'agit d'une révision mineure, les principaux changements attendus NatiBot 0.8.0 rev 80. 
+ * Rév 43:
+ *          Dumpattachment commandement fixe, dumpattachments et d'exportation, et la fenêtre des objets GUI. 
+ *          L'objet window si peu fiable qui fonctionne maintenant comme avant. 
+ * Rév 50:
+ *          Augmentation à la version 0.8 
+ *          Mise à jour de libomv r2977 
+ *          Correction d'exportation des objets sans texture (parce que, oui, j'en ai trouvé un) 
+ *          Crée une nouvelle fenêtre des objets à partir de zéro présentant les caractéristiques suivantes: 
+ *           - Liste des UUID, fonction et le nom, par ordre alphabétique goût de l'utilisateur. 
+ *           - Self automatique-actualisation des noms et de nouveaux objets toutes les 10 secondes. 
+ *           - Cette option est désactivée. 
+ *           - Le bouton Exporter est capable d'exporter tout objet quel que soit son nom (même s'il n'est pas encore connu). 
+ *           - Vous pouvez choisir qui nous voulons copier l'UUID, l'emplacement ou le nom à la planchette, avec le bouton droit ou CTRL + C. 
+ *           - Vous pouvez exporter plusieurs articles en même temps. 
+ *           - Vous pouvez exporter tous les objets dans le bot voir à la fois. 
+ *           - Affiche la distance de vue, nous permettant de le modifier. 
+ *          La commande d'importation prend l'objet dans le monde et ce qui se passe à l'inventaire à la fin. 
+ *          Puis envoyez-le à l'enseignant (pas encore testé) 
+ *          Bouton permet d'importer plus d'un import d'objets à la fois. 
+ *          Ajout de commande "backup", capable de copier le disque dur de tout le contenu de l'inventaire, avec les défauts suivants: 
+ *           - Il faut d'abord se sont penchés sur le contenu du dossier dans lequel l'élément de l'inventaire que vous souhaitez copier. 
+ *           - Les objets doivent être établis dans le monde pour être copiés sur le disque, donc pour l'instant, la commande "backup" sont ignorés. 
+ *           - Les cartes d'appel ne peut jamais être copié, car il n'y a pas vraiment. La commande "backup" sera ignorer. 
+ *           - La notecards nocopy et les scripts ne peuvent pas être lus. SecondLife est un bug bug, JIRA VWR-5238. La commande "backup" ignorées. 
+ *           - Nomod scripts ne sont pas lisibles en aucune manière, de les oublier. La commande "backup"e ignorées. 
+ *           - Toutes les textures, des gestes, des sons, des vêtements et des parties du corps, toutefois, être téléchargé. 
+ *          Correction de l'absence d'un verrou sur le backuptext commande qui pourrait conduire à une exception d'exécution. 
+ *          Correction de la même sur la commande "backup". 
+ *          La commande de sauvegarde utilise maintenant des méthodes différentes pour les textures, les cartes doubles, des scripts et tout le reste. 
+ *          Mise à jour sur le bouton Importer afin qu'il les choses, les actifs (par exemple téléchargé avec la commande de sauvegarde). 
+ *          Ajout d'une barre de progression et de texte à la fenêtre principale, en indiquant comment vous importez multiples. 
+ *          Ajout downloadterrain commande. 
+ *          Ajout uploadrawterrain commande. 
+ *          Mise à jour le chemin par lequel le téléchargement de commande des scripts. Ceci élimine l'erreur donnant HTTP 500 qui l'ont précédée. 
+ *          Modifié commande très createnotecard. 
+ *          Ajout des commandes emptylostandfound et emptytrash. 
+ *          Ajout taskrunning commande. 
+ *          Ajout wind commande. 
+ *          Ajout flyto commande. 
+ *          Ajout textures commande. 
+ *          Ajout camerafar commande. 
+ *          Ajout voiceaccount commande. 
+ *          Ajout voiceparcel commande. 
+ *          A présent, chaque message envoyé au bot par quelqu'un d'autre que l'enseignant (parcelle, SIM, l'objet, le groupe, conférence, messagerie instantanée, etc) seront transmis à l'enseignant comme un message instantané. 
+ *          Changement de la manière de l'upload de commande jusqu'à la notecards. Maintenant, vous devriez obtenir une notecard sans pièce jointe, sûrement un problème de droits. 
+ * Rév 51:
+ *          Correction d'un bug qui empêchait la commande dumpoutfit créer des dossiers comme il le devrait. 
+ * Rév 54:
+ *          Mise à jour de libomv r3003 
+ *          Création d'un fil pour le bouton pour exporter tous les objets dans le formulaire de sorte qu'il ne gèle pas l'interface. 
+ *          Fait la même chose dans l'apparition de commande. 
+ * Rév 55:
+ *          Ajout multi-langue support. 
+ *          Comme un effet secondaire des commandes affichent maintenant beaucoup plus d'informations sur la console. 
+ * Rév 65:
+ *          Enlevée onglets non utilisés et non téléportation fonctionnelle et une carte. 
+ *          Non Enlevée-commande importoutfit fonctionnelle. 
+ * Rév 82:
+ *          Changement de toutes les fenêtres à la nouvelle interface. La console est une vignette jusqu'à ce que vous avez votre propre fenêtre dans la prochaine révision. 
+ * Rév 84:
+ *          Déplacement de la console dans sa propre fenêtre. 
+ * Rév 91:
+ *          Changement de tous les boutons pour le nouveau design. 
+ * Rév 99:
+ *          L'objet window permet maintenant de rechercher un objet par son nom. 
+ *          Le dossier par défaut pour créer tous les dossiers NatiBot est désormais à l'utilisateur du dossier Mes documents. 
+ *          La commande exporte maintenant correctement les noms dumpattachment. 
+ *          Fait le même changement dans la commande à l'exportation. 
+ *          La commande maintenant recueille également des textures downloadtexture comme TGA. 
+ *          La commande affiche des informations avatarinfo pas d'autre lorsqu'il est utilisé plusieurs fois. 
+ * Rév 100:
+ *          Maintenant vous pouvez choisir la langue. Ce choix est enregistré et sera appliqué au redémarrage. 
+ *          Offre maintenant la possibilité d'enregistrer toutes les console dans un fichier texte. Activé par défaut. 
+ *          Dans certains cas, les fenêtres de message d'erreur s'affiche, toutes les erreurs vont maintenant à la console. 
+ *          Fermez le NatiBot déconnecter maintenant tous les bots. 
+ * Rév 115:
+ *          Augmentation à NatiBot 0.9.0 Rév 90. 
+ *          Le bot fournit son apparition en permanence. 
+ *          Signé une clé de vérification. 
+ *          Publié dans http://www.natibot.com/ 
+ * Rév 169:
+ *          La commande downloadtexture crée le dossier textures s'il n'en existe pas. 
+ *          La commande jump maintenant arrêter de sauter. 
+ *          Ajout key2name commande. 
+ *          Ajout buy commande. 
+ *          Ajout takeitem commande. 
+ *          Ajout translate commande. 
+ *          Ajout d'un menu contextuel de l'objet window. 
+ *          Ajout d'une nouvelle fenêtre de chat. 
+ *          Augmentation à NatiBot 0.9.1 Rév 91. 
+ * Rév 176:
+ *           Correction du comportement de la date et l'heure dans la fenêtre de chat.
+ *           Ajout du support préliminaire pour siège de droit dans les Lucky chaires.
+ *           Ajout de vérification des autorisations pour les commandes à l'exportation.
+ *           Augmentation à NatiBot 0.9.2 Rév 92.
+ * Rév 180:
+ *           Supprimé les tampons chat et à consoler. Maintenant le tampon ne peut pas remplir et pendez le bot et le chat s'affiche correctement.
+ *           Ajouté le système de mise à jour automatique.
+ *           Amélioration de l'importation.
+ *           Amélioration de système de chat afin que le bot ne s'arrête pas lors de la réception des chats ou des messages instantanés.
+ *           Ajouté dépendance pour convertir JPEG2000 à Targa en systèmes de 64 bits.
+ *           Augmentation à NatiBot 0.9.3 Rév 93.
+ * Rev 325:
+ *          NatiBot 1.0.0.325.
+ *          Soporte completo para Mac OS X (PowerPC e Intel) y Linux (x86 y x86-64).
+ *          Optimizado para el uso de sistemas multiprocesador o multinúcleo y consumir menos memoria.
+ *          Añadida la ventana de amigos. Permite enviarles mensajes, teletransporte, eliminarlos o ver sus perfiles.
+ *          Añadida la ventana de avatares. Funciona como un radar mostrando el avatar, sexo, cliente, posición y distancia, conteniendo
+ *              la mayoría de los comandos orientados a avatares.
+ *          Añadida la ventana de grupos. Permite abrir chat, activarlos o abandonarlos.
+ *          Añadida la ventana de inventario. Permite vestir, desvestir, copiar la id, borrar, vaciar la papelera o la carpeta lost & found.
+ *          Añadida la ventana de mapa. Muestra el mapa con todos los avatares y permite teletransporte a unas coordenadas.
+ *          Añadidos los comandos about, activaterole, addtorole, allowedlist, animations, attach, away, banlist, banuser, beam, busy,
+ *              changelog, clienttags, clock, createclothing, createeyes, createlm, createskin, detectbots, downloadsound, ejectuser,
+ *              endfriendship, gc, gesture, groupeject, groupmembers, grouproles, gsit, health, help2nc, informfriend, invitegroup,
+ *              logout, lookat, memfree, nadu, netstats, offerfriendship, pick, playsound, quit, rezitem, searchclassifieds, searchgroups,
+ *              searchland, searchpeople, searchplaces y sounds.
+ *          Ahora puede contestar a diálogos de script (los azules). Se abrirá una nueva ventana cuando un objeto envíe uno.
+ *          Corregido el fallo en la comprobación de licencia para usuarios de distinta zona horaria a Madrid. Ahora funciona globalmente.
+ *          El comando animate ahora puede parar las animaciones, mostrar las que se están reproduciendo o listar las animaciones del sistema.
+ *          El comando avatarinfo ahora funciona aunque el avatar no esté en el mismo sim.
+ *          El comando dumpattachment ahora usa el nombre del avatar para la carpeta.
+ *          El comando giveall ha sido renombrado a pay.
+ *          El comando goto_landmark ha sido renombrado a gotolm.
+ *          El comando import ahora funciona mucho más rápido y de manera correcta en Sculpt con las características de espejo o inversión.
+ *          El comando priminfo ha sido mejorado para mostrar mucha más información.
+ *          El comando sendtp ahora también permite enviar teletransporte a otra gente.
+ *          El comando version ahora también muestra la versión del simulador.
+ *          El comando who ahora muestra que cliente está usando el avatar y su posición es correcta si está sentado.
+ *          La ventana de chat ahora puede traducir automáticamente los mensajes y chats salientes y entrantes.
+ *          La ventana de chat ahora reconoce teletransportes, ofertas de inventario de objetos, avisos de grupos, de amistad y de inventario.
+ *          La ventana de chat ahora soporta usar otro canal (/<canal> mensaje).
+ *          La ventana de objetos ha sido reescrita. Puede tomar mucho más en aparecer por primera vez, pero se refresca casi
+ *              instantáneamente, ve los objetos nuevos instantáneamente, es multiproceso, cambia al hacer TP y ve más objetos y nombres.
+ *          Las revisiones ahora se muestran como las de desarrollo para dar un mejor conocimiento del trabajo realizado.
+ *          Los comandos findobjects, showeventdetails y searchevents ahora muestran su salida en un mensaje.
+ *          Los comandos joingroup y key2name ahora también soportan IDs de grupos.
+ *          Los comandos moveto y turnto ahora también funcionan indicando un avatar o un objeto en vez de coordenadas.
+ *          Soporte para 35 nuevas GRIDs.
+ *          Soporte para Lucky Advent, Lucky CupCake, Lucky Dip, Lucky Present, Lucky Santa, Midnight Mania y Prize Pyramid.
+ *          Todos los comandos basados en anexos ahora soportan los anexos no oficiales introducidos por el cliente Emerald Viewer.
+ */

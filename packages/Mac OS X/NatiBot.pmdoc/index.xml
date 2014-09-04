@@ -1,0 +1,266 @@
+<pkmkdoc spec="1.12"><properties><title>NatiBot</title><build>/Users/claunia/Desktop/Development/NatiBot/packages/Mac OS X/NatiBot 1.0.mpkg</build><organization>Claunia.com</organization><userSees ui="easy"/><min-target os="2"/><domain anywhere="true"/></properties><distribution><versions min-spec="1.000000"/><scripts></scripts></distribution><contents><choice title="NatiBot" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="true"><customLoc>/Applications</customLoc><pkgref id="Claunia.com.natibot.NatiBot.pkg"/></choice></contents><resources bg-scale="none" bg-align="bottomleft"><locale lang="es"><resource relative="true" mod="true" type="background">InstallerBackground.png</resource><resource mime-type="text/rtf" kind="embedded" type="license"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf110
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs26 \cf0 CLAUNIA.COM ACUERDO DE LICENCIA PARA USUARIO FINAL DE SOFTWARE PARA NATIBOT\
+Este Acuerdo de Licencia para el Usuario Final ("Licencia") constituye un acuerdo entre usted y Natalia Portillo ("Claunia.com"). Esta licencia rige su uso de este software y de toda la documentaci\'f3n relacionada con \'e9l, as\'ed como las actualizaciones o mejoras que sustituyan o ampl\'eden el software y que no se distribuyan con una licencia por separado (colectivamente, el "Software").\
+\
+Al instalar o utilizar el Software, acepta respetar esta Licencia. Si no est\'e1 de acuerdo con las condiciones de esta Licencia, no instale ni utilice el Software. El apartado 4, incluido m\'e1s abajo, describe los datos que Claunia.com puede utilizar para proporcionarle servicios y asistencia en relaci\'f3n con el Software. Si no est\'e1 de acuerdo con este uso de los datos, no instale ni use el Software. SI USTED INSTALA el Software, los t\'e9rminos y condiciones de esta Licencia se considerar\'e1n plenamente aceptados por usted. \
+\
+1. Concesi\'f3n de la Licencia y condiciones de uso.\
+\
+A. Concesi\'f3n. Con esta adquisici\'f3n, usted adquiere, y Claunia.com le concede, una licencia personal no exclusiva para instalar y usar el Software para su uso personal no comercial seg\'fan lo indicado en adelante en esta Licencia y en la documentaci\'f3n que la acompa\'f1a. Los derechos adquiridos est\'e1n sujetos a su cumplimiento de esta Licencia. Todo uso comercial o gubernamental queda prohibido. Se le proh\'edbe expresamente la concesi\'f3n de sublicencias, el alquiler, el arrendamiento o cualquier otra forma de distribuir el software o los derechos de uso del Software, salvo por transferencia seg\'fan lo expresamente indicado en el p\'e1rrafo 3 m\'e1s abajo. El per\'edodo de su Licencia comenzar\'e1 en la fecha de instalaci\'f3n o, alternativamente, de uso del Software, y concluir\'e1 cuando se deshaga del Software o cuando Claunia.com termine esta Licencia: lo que suceda antes. Su licencia quedar\'e1 terminada inmediatamente si intenta evitar las medidas t\'e9cnicas de protecci\'f3n que incorpora el Software.\
+\
+B. Restricciones. Su derecho a utilizar el Software se limita a lo concedido anteriormente y, por lo dem\'e1s, usted no puede copiar, exhibir, distribuir, explotar, publicar, modificar ni crear obras derivadas del Software ni de ning\'fan componente de \'e9ste. Se le proh\'edbe poner a disposici\'f3n de m\'faltiples usuarios una copia del Software en una red. Se le proh\'edbe poner a disposici\'f3n de m\'faltiples usuarios una copia del Software a trav\'e9s de una red. No puede eliminar ni alterar los logotipos o s\'edmbolos comerciales de Claunia.com, ni los avisos legales incluidos en el Software o en los recursos asociados.\
+\
+2. Derechos de propiedad intelectual.\
+\
+A. Reserva de derechos. Usted ha adquirido una licencia del Software y sus derechos est\'e1n sujetos a dicha Licencia. Salvo por lo expresamente concedido en virtud de la presente, Claunia.com se reserva todo derecho, t\'edtulo y relaci\'f3n jur\'eddica transmisible del Software, y todos los derechos de autor, marcas comerciales y otros derechos de propiedad intelectual incluidos en \'e9l. Esta Licencia se limita a los derechos de propiedad intelectual de Claunia.com y de sus licenciatarios en el Software y no incluye ning\'fan derecho relativo a otras patentes o propiedad intelectual. En la medida permitida por la ley aplicable, no puede descompilar, desensamblar ni utilizar t\'e9cnicas de ingenier\'eda inversa con el software, sea cual sea el medio empleado. No puede eliminar, modificar u ocultar ninguna identificaci\'f3n del producto, derechos de autor o cualquier otro aviso de propiedad intelectual del Software. Claunia.com posee todo el derecho, t\'edtulo y relaci\'f3n jur\'eddica transmisible del Software. Claunia.com se reserva expresamente todos los derechos que no sean concedidos en virtud de la presente.\
+\
+B. Usando el Software tambi\'e9n acepta los T\'e9rmisos de Servicio de la red que est\'e9 usando. Para las redes oficiales de Linden Lab (redes AGNI y Test) acepta los T\'e9rminos de Servicio de Second Life.\
+\
+C. NO PUEDE utilizar el Software para copiar, modificar, transferir, distribuir o publicar trabajos sobre los que no tenga los derechos pertinentes. Dicha acci\'f3n ser\'e1 considerada una violaci\'f3n de esta Licencia y le ser\'e1 revocada autom\'e1ticamente la autorizaci\'f3n para usar el Software.\
+\
+D. En caso de que el Software se utilice para violar los derechos de autor de terceros Claunia.com queda eximida de cualquier responsabilidad legal o civil. Si cree que el Software se est\'e1 utilizando para violar sus derechos de autor, contacte Claunia.com y la Licencia del infractor ser\'e1 autom\'e1ticamente revocada.\
+\
+3. Transferencia. Puede realizar una \'fanica transferencia permanente de todos sus derechos de instalaci\'f3n y uso del Software a otro individuo o entidad legal siempre y cuando: (a) las medidas t\'e9cnicas de protecci\'f3n empleadas por el Software sean compatibles con dicha transferencia; (b) usted tambi\'e9n transfiera esta Licencia y todas las copias del Software; (c) usted no conserve copia alguna del Software ni mejoras, actualizaciones o versiones anteriores; y (d) la parte receptora acepte los t\'e9rminos y condiciones de esta Licencia. Es posible que no pueda transferir el derecho a recibir actualizaciones, contenido servido din\'e1micamente o el derecho a usar cualquier servicio online de Claunia.com conjuntamente con el Software. Claunia.com puede exigir que cualquier usuario final del Software lo registre online como condici\'f3n para usarlo y/o adquirir m\'e1s licencias. SIN PERJUICIO DE LO ANTERIOR, USTED NO PUEDE TRANSFERIR COPIAS PRELIMINARES DEL SOFTWARE.\
+\
+4. Consentimiento para el uso de datos. Para facilitar las medidas t\'e9cnicas de protecci\'f3n, el suministro de software actualiza el contenido servido din\'e1micamente as\'ed como la ayuda del producto y otros servicios, incluido el juego online. Usted acepta que Claunia.com y sus asociados puedan recopilar, almacenar y transmitir informaci\'f3n t\'e9cnica que identifique su ordenador (incluida una direcci\'f3n IP y una identificaci\'f3n de hardware), sistema operativo, software de la aplicaci\'f3n y hardware de perif\'e9ricos. Claunia.com y sus asociados tambi\'e9n pueden usar esta informaci\'f3n de forma agregada, de tal modo que no lo identifique personalmente, con el fin de mejorar nuestros productos y servicios. Adem\'e1s, podemos compartir datos agregados an\'f3nimos con nuestros proveedores de servicios como terceras partes.\
+\
+5. Terminaci\'f3n. Esta Licencia ser\'e1 efectiva hasta su terminaci\'f3n. Sus derechos en virtud de esta licencia terminar\'e1n inmediata y autom\'e1ticamente sin aviso de Claunia.com si usted no cumple cualquiera de los t\'e9rminos y condiciones de esta Licencia. Inmediatamente despu\'e9s de la terminaci\'f3n, usted debe dejar de usar el Software y destruir todas las copias del Software que est\'e9n en su poder o bajo su control. La terminaci\'f3n no limita ninguno de los otros derechos o subsanaciones por ley o equidad de Claunia.com. Los apartados 5-8 de esta Licencia sobrevivir\'e1n a la terminaci\'f3n o expiraci\'f3n de esta Licencia por cualquier motivo.\
+\
+6. Exclusi\'f3n de garant\'edas. SALVO EN LA M\'c1XIMA MEDIDA PERMITIDA POR LA LEY APLICABLE, EL SOFTWARE SE LE PROPORCIONA "TAL CUAL", CON TODOS SUS DEFECTOS Y SIN GARANT\'cdA DE NINGUNA CLASE, PARA USARLO BAJO SU PROPIA RESPONSABILIDAD. TODO EL RIESGO DE CALIDAD Y RENDIMIENTO SATISFACTORIOS RECAE SOBRE USTED. Claunia.com Y LOS LICENCIATARIOS DE Claunia.com (COLECTIVAMENTE, Claunia.com A EFECTOS DE ESTA SECCI\'d3N Y DE LA SECCI\'d3N 7) NO FORMULAN, Y POR LA PRESENTE RECHAZAN, CUALQUIER GARANT\'cdA EXPRESA, IMPL\'cdCITA O ESTABLECIDA POR LEY, INCLUIDAS LAS GARANT\'cdAS IMPL\'cdCITAS DE COMERCIABILIDAD, CALIDAD SATISFACTORIA, ADECUACI\'d3N A UN FIN PARTICULAR, NO VULNERACI\'d3N DE DERECHOS DE TERCEROS Y GARANT\'cdAS (SI LAS HUBIERE) SURGIDAS EN EL TRANSCURSO DE TRATOS, DEL USO O DE LA PR\'c1CTICA COMERCIAL. EN CUANTO A SU DISFRUTE DEL SOFTWARE SIN INTERFERENCIAS, Claunia.com NO GARANTIZA QUE \'c9STE CUMPLA SUS REQUISITOS; QUE EL SOFTWARE FUNCIONE DE FORMA ININTERRUMPIDA O SIN ERRORES, QUE EL SOFTWARE SEA COMPATIBLE CON SOFTWARE DE TERCERAS PARTES O QUE LOS ERRORES DEL SOFTWARE SEAN CORREGIDOS. NING\'daN CONSEJO VERBAL O ESCRITO FORMULADO POR Claunia.com O POR CUALQUIERA DE SUS REPRESENTANTES AUTORIZADOS CONSTITUIR\'c1 UNA GARANT\'cdA. ALGUNAS JURISDICCIONES NO PERMITEN LA EXCLUSI\'d3N DE LAS GARANT\'cdAS IMPL\'cdCITAS O LA LIMITACI\'d3N DE \'c9STAS, O NO PERMITEN LA LIMITACI\'d3N DE LOS DERECHOS DEL CONSUMIDOR APLICABLES POR LEY, POR LO QUE ALGUNAS DE LAS EXCLUSIONES ANTERIORES O TODAS ELLAS PODR\'cdAN NO SER DE APLICACI\'d3N PARA USTED.\
+\
+7. Limitaci\'f3n de responsabilidad. EN LA M\'c1XIMA MEDIDA QUE PERMITA LA LEY APLICABLE, EN NING\'daN CASO Claunia.com SER\'c1 RESPONSABLE ANTE USTED DE CUALQUIER DA\'d1O PERSONAL, DA\'d1O MATERIAL, BENEFICIOS PERDIDOS, COSTE DE SUSTITUCI\'d3N DE BIENES O SERVICIOS, O CUALQUIER FORMA DE DA\'d1OS INDIRECTOS, ESPECIALES, IMPREVISTOS, EMERGENTES O EJEMPLARES CUYA CAUSA DERIVE DE O EST\'c9 RELACIONADA CON ESTA LICENCIA O EL SOFTWARE, TANTO SI SURGE DE FORMA EXTRACONTRACTUAL (INCLUIDA LA NEGLIGENCIA), CONTRACTUAL, NO CULPOSA O CUALQUIER OTRA, CON INDEPENDENCIA DE QUE Claunia.com HAYA SIDO ADVERTIDA O NO DE LA POSIBILIDAD DE TALES DA\'d1OS. ALGUNAS JURISDICCIONES NO PERMITEN LIMITAR LA RESPONSABILIDAD EN CASO DE MUERTE, DA\'d1OS PERSONALES, SUPLANTACIONES FRAUDULENTAS O CIERTAS ACCIONES INTENCIONALES O NEGLIGENTES, O EN CASO DE VIOLACI\'d3N DE LEYES ESPEC\'cdFICAS, O LA LIMITACI\'d3N DE DA\'d1OS IMPREVISTOS O EMERGENTES, POR LO QUE ALGUNAS DE LAS ANTERIORES LIMITACIONES DE RESPONSABILIDAD O TODAS ELLAS PODR\'cdAN NO SER DE APLICACI\'d3N PARA USTED. La responsabilidad total de Claunia.com ante usted por todos los da\'f1os (salvo en lo exigido por la ley aplicable) en ning\'fan caso superar\'e1 la cantidad pagada por usted por el Software.\
+\
+8. Limitaci\'f3n de responsabilidad y Exclusi\'f3n de garant\'edas son t\'e9rminos materiales de esta Licencia. Usted acepta que las disposiciones de esta Licencia que limitan la responsabilidad son t\'e9rminos esenciales de la misma. Las anteriores limitaciones de responsabilidad son de aplicaci\'f3n incluso cuando la subsanaci\'f3n anteriormente declarada bajo la Garant\'eda Limitada de Medios de Almacenamiento falle en su prop\'f3sito esencial.\
+\
+9. Divisibilidad y supervivencia. Si cualquier disposici\'f3n de esta Licencia es ilegal o es imposible exigir su cumplimiento en virtud de la ley aplicable, el resto de lo dispuesto se enmendar\'e1 para alcanzar el efecto de los t\'e9rminos originales tanto como sea posible, y el resto de las disposiciones de esta Licencia seguir\'e1n en pleno vigor.\
+\
+10. Reparaci\'f3n por mandato judicial. Usted acepta que el incumplimiento de esta Licencia puede suponer un perjuicio irreparable para Claunia.com para el cual los da\'f1os monetarios pueden no ser una reparaci\'f3n adecuada, por lo que Claunia.com tendr\'e1 derecho a buscar una reparaci\'f3n equitativa adem\'e1s de cualquier subsanaci\'f3n que la presente o la ley le concedan.\
+\
+11. Ley aplicable. Esta Licencia se regir\'e1 e interpretar\'e1 (independientemente de los conflictos de leyes o de la elecci\'f3n de \'e9stas) en virtud de la legislaci\'f3n Espa\'f1ola tal como se hace con los acuerdos que se establecen y desarrollan \'edntegramente en Espa\'f1a entre residentes de Espa\'f1a. Salvo renuncia escrita de Claunia.com para casos concretos o contrarios a la ley local, usted se somete a la jurisdicci\'f3n exclusiva y la instrucci\'f3n del proceso relacionados con este Contrato en los tribunales regionales y nacionales que pertenezcan a la jurisdicci\'f3n donde se encuentre el principal centro de trabajo de Claunia.com. Ambas partes admiten la jurisdicci\'f3n de dichos tribunales y aceptan que los procesos puedan llevarse de la forma aqu\'ed dispuesta para notificaciones y dem\'e1s, como permiten las leyes Espa\'f1olas. Las partes aceptan que la Convenci\'f3n de la ONU sobre contratos para la venta internacional de bienes (Viena, 1980) no ser\'e1 aplicable a esta Licencia ni a ninguna disputa o transacci\'f3n derivada de esta Licencia.\
+\
+12. Exportaciones. Usted acepta cumplir las leyes de control de la exportaci\'f3n y otras leyes aplicables de la Uni\'f3n Europea y acepta no transferir el Software a un destino extranjero o nacional, lo cual est\'e1 prohibido por dichas leyes, sin obtener antes, y luego regirse por, cualquier autorizaci\'f3n exigida por el gobierno. Usted certifica que no es una persona con la que Claunia.com tenga prohibido realizar transacciones de negocios en virtud de la ley aplicable.\
+\
+13. Acuerdo \'edntegro. Esta licencia constituye el acuerdo \'edntegro entre usted y Claunia.com respecto al Software y sustituye todos los compromisos anteriores o contempor\'e1neos relacionados con los asuntos de este acuerdo. Ninguna enmienda o modificaci\'f3n de esta Licencia ser\'e1 vinculante salvo que se haga por escrito y sea firmada por Claunia.com. Ni el fallo en el ejercicio, ni el retraso en \'e9ste, por cualquiera de las partes, de cualquier derecho o poder concedido por la presente actuar\'e1 como renuncia de \'e9stos, ni cualquier ejercicio parcial o \'fanico de cualquier derecho o poder concedido por la presente impedir\'e1 el ejercicio posterior de cualquier otro derecho de la presente. En caso de conflicto entre esta Licencia y cualquier obligaci\'f3n aplicable u otros t\'e9rminos, los t\'e9rminos de esta Licencia prevalecer\'e1n.\
+\
+Licencia de libopenmetaverse\
+Esta es una copia del archivo actual LICENSE dentro del repositorio SVN.\
+\
+\
+Copyright (c) 2007-2009, openmetaverse.org\
+All rights reserved.\
+\
+- Redistribution and use in source and binary forms, with or without \
+modification, are permitted provided that the following conditions are met:\
+\
+- Redistributions of source code must retain the above copyright notice, this\
+list of conditions and the following disclaimer.\
+- Neither the name of the openmetaverse.org nor the names \
+of its contributors may be used to endorse or promote products derived from\
+this software without specific prior written permission.\
+\
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" \
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE \
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE \
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE \
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR \
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF \
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS \
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN \
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) \
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE \
+POSSIBILITY OF SUCH DAMAGE.}]]></resource><resource mime-type="text/rtf" kind="embedded" type="readme"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf110
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs26 \cf0 La versi\'f3n 1.0 incluye las siguientes novedades:\
+\
+* Soporte completo para Mac OS X (PowerPC e Intel) y Linux (x86 y x86-64).\
+* Optimizado para el uso de sistemas multiprocesador o multin\'facleo y consumir menos memoria.\
+* A\'f1adida la ventana de amigos. Permite enviarles mensajes, teletransporte, eliminarlos o ver sus perfiles.\
+* A\'f1adida la ventana de avatares. Funciona como un radar mostrando el avatar, sexo, cliente, posici\'f3n y distancia, conteniendo\
+* la mayor\'eda de los comandos orientados a avatares.\
+* A\'f1adida la ventana de grupos. Permite abrir chat, activarlos o abandonarlos.\
+* A\'f1adida la ventana de inventario. Permite vestir, desvestir, copiar la id, borrar, vaciar la papelera o la carpeta lost & found.\
+* A\'f1adida la ventana de mapa. Muestra el mapa con todos los avatares y permite teletransporte a unas coordenadas.\
+* A\'f1adidos los comandos about, activaterole, addtorole, allowedlist, animations, attach, away, banlist, banuser, beam, busy, changelog, clienttags, clock, createclothing, createeyes, createlm, createskin, detectbots, downloadsound, ejectuser, endfriendship, gc, gesture, groupeject, groupmembers, grouproles, gsit, health, help2nc, informfriend, invitegroup, logout, lookat, memfree, nadu, netstats, offerfriendship, pick, playsound, quit, rezitem, searchclassifieds, searchgroups, searchland, searchpeople, searchplaces y sounds.\
+* Ahora puede contestar a di\'e1logos de script (los azules). Se abrir\'e1 una nueva ventana cuando un objeto env\'ede uno.\
+* Corregido el fallo en la comprobaci\'f3n de licencia para usuarios de distinta zona horaria a Madrid. Ahora funciona globalmente.\
+* El comando animate ahora puede parar las animaciones, mostrar las que se est\'e1n reproduciendo o listar las animaciones del sistema.\
+* El comando avatarinfo ahora funciona aunque el avatar no est\'e9 en el mismo sim.\
+* El comando dumpattachment ahora usa el nombre del avatar para la carpeta.\
+* El comando giveall ha sido renombrado a pay.\
+* El comando goto_landmark ha sido renombrado a gotolm.\
+* El comando import ahora funciona mucho m\'e1s r\'e1pido y de manera correcta en Sculpt con las caracter\'edsticas de espejo o inversi\'f3n.\
+* El comando priminfo ha sido mejorado para mostrar mucha m\'e1s informaci\'f3n.\
+* El comando sendtp ahora tambi\'e9n permite enviar teletransporte a otra gente.\
+* El comando version ahora tambi\'e9n muestra la versi\'f3n del simulador.\
+* El comando who ahora muestra que cliente est\'e1 usando el avatar y su posici\'f3n es correcta si est\'e1 sentado.\
+* La ventana de chat ahora puede traducir autom\'e1ticamente los mensajes y chats salientes y entrantes.\
+* La ventana de chat ahora reconoce teletransportes, ofertas de inventario de objetos, avisos de grupos, de amistad y de inventario.\
+* La ventana de chat ahora soporta usar otro canal (/<canal> mensaje).\
+* La ventana de objetos ha sido reescrita. Puede tomar mucho m\'e1s en aparecer por primera vez, pero se refresca casi instant\'e1neamente, ve los objetos nuevos instant\'e1neamente, es multiproceso, cambia al hacer TP y ve m\'e1s objetos y nombres.\
+* Las revisiones ahora se muestran como las de desarrollo para dar un mejor conocimiento del trabajo realizado.\
+* Los comandos findobjects, showeventdetails y searchevents ahora muestran su salida en un mensaje.\
+* Los comandos joingroup y key2name ahora tambi\'e9n soportan IDs de grupos.\
+* Los comandos moveto y turnto ahora tambi\'e9n funcionan indicando un avatar o un objeto en vez de coordenadas.\
+* Soporte para 35 nuevas GRIDs.\
+* Soporte para Lucky Advent, Lucky CupCake, Lucky Dip, Lucky Present, Lucky Santa, Midnight Mania y Prize Pyramid.\
+* Todos los comandos basados en anexos ahora soportan los anexos no oficiales introducidos por el cliente Emerald Viewer.}]]></resource><resource mime-type="text/rtf" kind="embedded" type="welcome"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf110
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs26 \cf0 Este instalador le guiar\'e1 a trav\'e9s de la instalaci\'f3n de NatiBot.\
+\
+Se requiere una llave de licencia para el uso de este producto.\
+\
+Es altamente recomendado instalarlo en el volumen de arranque.\
+Cualquier otra configuraci\'f3n no est\'e1 soportada.\
+\
+NatiBot \'a9 2009-2010 Claunia.com, Todos los derechos reservados.}]]></resource><resource mime-type="text/rtf" kind="embedded" type="conclusion"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf110
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs26 \cf0 NatiBot se ha instalado correctamente.\
+\
+Esperamos que disfrute utiliz\'e1ndolo.\
+\
+Para cualquier duda, contacte con soporte t\'e9cnico en natalia@claunia.com}]]></resource></locale><locale lang="en"><resource mime-type="text/rtf" kind="embedded" type="license"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf110
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs26 \cf0 CLAUNIA.COM SOFTWARE END USER LICENSE AGREEMENT FOR NATIBOT\
+This End User License Agreement (\'93License\'94) is an agreement between you and Natalia Portillo ("Claunia.com"). This License governs your use of this software and all related documentation, and updates and upgrades that replace or supplement the software and are not distributed with a separate license (collectively, the "Software").\
+\
+By installing or using the Software, you consent to be bound by this License. If you do not agree to the terms of this License, then do not install or use the Software. Section 4 below describes the data Claunia.com may use to provide services and support to you in connection with the Software. If you do not agree to this use of data, do not install or use the Software. IF YOU INSTALL the Software, the terms and conditions of this License are fully accepted by you. \
+\
+1. License Grant and Terms of Use.\
+\
+A. Grant. Through this purchase, you are acquiring and Claunia.com grants you a personal, non-exclusive license to install and use the Software for your personal, non-commercial use solely as set forth in this License and the accompanying documentation. Your acquired rights are subject to your compliance with this License. Any commercial or government use is prohibited. You are expressly prohibited from sub-licensing, renting, leasing or otherwise distributing the Software or rights to use the Software, except by transfer as expressly set forth in paragraph 3 below. The term of your License shall commence on the date that install or otherwise use the Software, and shall end on the earlier of the date that you dispose of the Software; or Claunia.com's termination of this License. Your license will terminate immediately if you attempt to circumvent the technical protection measures for the Software.\
+\
+B. Restrictions. Your right to use the Software is limited to the license grant above, and you may not otherwise copy, display, distribute, perform, publish, modify, create works from, or use the Software or any component of it. You are prohibited from making a copy of the Software available on a network where it could be used by multiple users. You are prohibited from making the Software available over a network where it could be downloaded by multiple users. You may not remove or alter Claunia.com\'92s trademarks or logos, or legal notices included in the Software or related assets.\
+\
+2. Intellectual Property Rights.\
+\
+A. Reservation of Rights. You have purchased a license to the Software and your rights are subject to this License. Except as expressly licensed to you herein, Claunia.com reserves all right, title and interest in the Software, and all associated copyrights, trademarks, and other intellectual property rights therein. This License is limited to the intellectual property rights of Claunia.com and its licensors in the Software and does not include any rights to other patents or intellectual property. Except to the extent permitted under applicable law, you may not decompile, disassemble, or reverse engineer the Software by any means whatsoever. You may not remove, alter, or obscure any product identification, copyright, or other intellectual property notices in the Software. Claunia.com owns all of the right, title and interest in the Software. All rights not expressly granted herein, are reserved by Claunia.com.\
+\
+B. By using the Software you also agree with the Terms of Service of the grid you use it. For official Linden Lab grids (AGNI and Test grids) you agree the Second Life Terms of Service.\
+\
+C. You MUST NOT use the Software for copying, modifying, transfering, distributing or publishing works you do not have rights to do. Doing so is considered a violation of this License and will have an automatic revokation on the authorization to use the Software.\
+\
+D. In case the Software is used to violate other's copyrights Claunia.com is expemted of any culpability or legal issue. If you think the Software is being used to violate your copyrights, contact Claunia.com and the infractor's License will be automatically revoked.\
+\
+3. Transfer. You may make a one time permanent transfer to all your rights to install and use the Software to another individual or legal entity provided that: (a) the technical protection measures used by the Software supports such transfers; (b) you also transfer this License and all copies of the Software; (c) you retain no copies of the Software, upgrades, updates or prior versions; and (d) the receiving party accepts the terms and conditions of this License. You may not be able to transfer the right to receive updates, dynamically served content, or the right to use any online service of Claunia.com in connection with the Software. Claunia.com may require that any end user of the Software register the Software online as a condition of use and/or purchase additional licenses. NOTWITHSTANDING THE FOREGOING, YOU MAY NOT TRANSFER PRE-RELEASE COPIES OF THE SOFTWARE.\
+\
+4. Consent to Use of Data. To facilitate technical protection measures, the provision of software updates and any dynamically served content, and product support and other services to you, you agree that Claunia.com and its affiliates may collect, use, store and transmit technical and related information that identifies your computer (including an Internet Protocol Address and hardware identification), operating system and application software and peripheral hardware. Claunia.com and its affiliates may also use this information in the aggregate, in a form which does not personally identify you, to improve our products and services and we may share anonymous aggregate data with our third party service providers.\
+\
+5. Termination. This License is effective until terminated. Your rights under this License will terminate immediately and automatically without any notice from Claunia.com if you fail to comply with any of the terms and conditions of this License. Promptly upon termination, you must cease all use of the Software and destroy all copies of the Software in your possession or control. Termination will not limit any of Claunia.com\'92s other rights or remedies at law or in equity. Sections 5 - 8 of this License shall survive termination or expiration of this License for any reason.\
+\
+6. Disclaimer of Warranties. EXCEPT TO THE FULLEST EXTENT PERMISSIBLE UNDER APPLICABLE LAW, THE SOFTWARE IS PROVIDED TO YOU \'93AS IS,\'94 WITH ALL FAULTS, WITHOUT WARRANTY OF ANY KIND, AND YOUR USE IS AT YOUR SOLE RISK. THE ENTIRE RISK OF SATISFACTORY QUALITY AND PERFORMANCE RESIDES WITH YOU. Claunia.com AND Claunia.com\'92S LICENSORS (COLLECTIVELY \'93Claunia.com\'94 FOR PURPOSES OF THIS SECTION AND SECTION 7) DO NOT MAKE, AND HEREBY DISCLAIM, ANY AND ALL EXPRESS, IMPLIED OR STATUTORY WARRANTIES, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, NONINFRINGEMENT OF THIRD PARTY RIGHTS, AND WARRANTIES (IF ANY) ARISING FROM A COURSE OF DEALING, USAGE, OR TRADE PRACTICE. EA DOES NOT WARRANT AGAINST INTERFERENCE WITH YOUR ENJOYMENT OF THE SOFTWARE; THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS; THAT OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT THE SOFWARE WILL BE COMPATIBLE WITH THIRD PARTY SOFTWARE OR THAT ANY ERRORS IN THE SOFTWARE WILL BE CORRECTED. NO ORAL OR WRITTEN ADVICE PROVIDED BY Claunia.com OR ANY AUTHORIZED REPRESENTATIVE SHALL CREATE A WARRANTY. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF OR LIMITATIONS ON IMPLIED WARRANTIES OR THE LIMITATIONS ON THE APPLICABLE STATUTORY RIGHTS OF A CONSUMER, SO SOME OR ALL OF THE ABOVE EXCLUSIONS AND LIMITATIONS MAY NOT APPLY TO YOU.\
+\
+7. Limitation of Liability. TO THE FULLEST EXTENT PERMISSIBLE BY APPLICABLE LAW, IN NO EVENT SHALL Claunia.com BE LIABLE TO YOU FOR ANY PERSONAL INJURY, PROPERTY DAMAGE, LOST PROFITS, COST OF SUBSTITUTE GOODS OR SERVICES, OR ANY FORM OF INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL OR PUNITIVE DAMAGES FROM ANY CAUSES OF ACTION ARISING OUT OF OR RELATED TO THIS LICENSE OR THE SOFTWARE, WHETHER ARISING IN TORT (INCLUDING NEGLIGENCE), CONTRACT, STRICT LIABILITY OR OTHERWISE, WHETHER OR NOT EA HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. SOME JURISDICTIONS DO NOT ALLOW A LIMITATION OF LIABILITY FOR DEATH, PERSONAL INJURY, FRAUDULENT MISREPRESENTATIONS OR CERTAIN INTENTIONAL OR NEGLIGENT ACTS, OR VIOLATION OF SPECIFIC STATUTES, OR THE LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO SOME OR ALL OF THE ABOVE LIMITATIONS OF LIABILITY MAY NOT APPLY TO YOU. In no event shall Claunia.com\'92s total liability to you for all damages (except as required by applicable law) exceed the amount actually paid by you for the Software.\
+\
+8. Limitation of Liability and Disclaimer of Warranties are Material Terms of this License. You agree that the provisions in this License that limit liability are essential terms of this License. The foregoing limitations of liability apply even if the above stated remedy under the Limited Warranty for Recording Media fails in its essential purpose.\
+\
+9. Severability and Survival. If any provision of this License is illegal or unenforceable under applicable law, the remainder of the provision shall be amended to achieve as closely as possible the effect of the original term and all other provisions of this License shall continue in full force and effect.\
+\
+10. Injunctive Relief. You agree that a breach of this License may cause irreparable injury to Claunia.com for which monetary damages would not be an adequate remedy and Claunia.com shall be entitled to seek equitable relief in addition to any remedies it may have hereunder or at law.\
+\
+11. Governing Law. This License shall be governed by and construed (without regard to conflicts or choice of law principles) under the laws of Spain as applied to agreements entered into and to be performed entirely in Spain between Spanish residents. Unless expressly waived by Claunia.com in writing for the particular instance or contrary to local law, the sole and exclusive jurisdiction and venue for actions related to the subject matter hereof shall be the Spain regional and national courts having within their jurisdiction the location of Claunia.com\'92s principal corporate place of business. Both parties consent to the jurisdiction of such courts and agree that process may be served in the manner provided herein for giving of notices or otherwise as allowed by Spanish law. The parties agree that the UN Convention on Contracts for the International Sale of Goods (Vienna, 1980) shall not apply to this License or to any dispute or transaction arising out of this License.\
+\
+12. Export. You agree to abide by European Union and other applicable export control laws and agree not to transfer the Software to a foreign national, or national destination, which is prohibited by such laws, without first obtaining, and then complying with, any requisite government authorization. You certify that you are not a person with whom Claunia.com is prohibited from transacting business under applicable law.\
+\
+13. Entire Agreement. This License constitutes the entire agreement between you and Claunia.com with respect to the Software and supersedes all prior or contemporaneous understandings regarding such subject matter. No amendment to or modification of this License will be binding unless made in writing and signed by Claunia.com. No failure to exercise, and no delay in exercising, on the part of either party, any right or any power hereunder shall operate as a waiver thereof, nor shall any single or partial exercise of any right or power hereunder preclude further exercise of any other right hereunder. In the event of a conflict between this License and any applicable purchase or other terms, the terms of this License shall govern.\
+\
+libopenmetaverse License\
+This is a copy of the current LICENSE file inside the SVN repository.\
+\
+\
+Copyright (c) 2007-2009, openmetaverse.org\
+All rights reserved.\
+\
+- Redistribution and use in source and binary forms, with or without \
+modification, are permitted provided that the following conditions are met:\
+\
+- Redistributions of source code must retain the above copyright notice, this\
+list of conditions and the following disclaimer.\
+- Neither the name of the openmetaverse.org nor the names \
+of its contributors may be used to endorse or promote products derived from\
+this software without specific prior written permission.\
+\
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" \
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE \
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE \
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE \
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR \
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF \
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS \
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN \
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) \
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE \
+POSSIBILITY OF SUCH DAMAGE.}]]></resource><resource mime-type="text/rtf" kind="embedded" type="readme"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf110
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs26 \cf0 Version 1.0 includes the following changes:\
+\
+* Fully support of Mac OS X (PowerPC and Intel) and Linux (x86 and x86-64).\
+* Heavily optimized to use multicore or multiprocessor systems and take less memory.\
+* Added about, activaterole, addtorole, allowedlist, animations, attach, away, banlist, banuser, beam, busy, changelog, clienttags, clock, createclothing, createeyes, createlm, createskin, detectbots, downloadsound, ejectuser, endfriendship, gc, gesture, groupeject, groupmembers, grouproles, gsit, health, help2nc, informfriend, invitegroup, logout, lookat, memfree, nadu, netstats, offerfriendship, pick, playsound, quit, rezitem, searchclassifieds, searchgroups, searchland, searchpeople, searchplaces and sounds commands.\
+* Added avatars window. It works as a radar showing the avatar, genre, viewer, location and distance, along with most avatar-based commands.\
+* Added friends window. Allows to IM, remove, teleport or view profiles.\
+* Added groups window. Allows to chat, activate or leave.\
+* Added inventory window. Allows to wear, detach, copy id, delete, empty trash and lost & found.\
+* Added map window. Shows the map with all the avatars and allow TP to coordinates.\
+* All attach based commands now support unofficial attach places introduced by Emerald Viewer.\
+* animate command now can stop animations, show currently running ones, or list the system animations.\
+* avatarinfo now works with any avatar, be it in the sim or not.\
+* Chat window now can automatic translate incoming and outgoing chat and IMs.\
+* Chat window now recognizes teleports, inventory offers from objects, notices from groups, friendship and inventory.\
+* Chat window now supports using another channel (/<channel> message).\
+* Corrected fails of license check on timezones different than Europe/Madrid. Now works globally.\
+* dumpattachment command now uses avatar name as output folder.\
+* findobjects, showeventdetails and searchevents commands now returns output to instant message.\
+* import command now takes lot less time to work, and imports sculpts with mirror or inside-out properties correctly.\
+* joingroup and key2name commands now also work with group IDs.\
+* moveto and turnto commands now can also work using an avatar or object instead of just coordinates.\
+* priminfo command is enhanced to show a lot more of information.\
+* Renamed giveall command to pay.\
+* Renamed goto_landmark command to gotolm.\
+* Revisions are now shown as internal development ones to give a better knowledge of how much work has been employed.\
+* Rewrote objects window. It can take a lot longer to first appear, but refreshes almost instantly, sees new object instantly, is multithreaded, changes on tp and see more objects and names.\
+* sendtp command now also allows sending TP to other people.\
+* Support for 35 new GRIDs.\
+* Support for Lucky Advent, Lucky CupCake, Lucky Dip, Lucky Present, Lucky Santa, Midnight Mania and Prize Pyramid.\
+* version command now shows also simulator server version.\
+* who command now shows the viewer the avatar is using and the correct location when it is sit.\
+* You can now answer to script dialog boxes (the blue ones). A new window will be opened when an object sends one to the avatar.}]]></resource><resource mime-type="text/rtf" kind="embedded" type="welcome"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf110
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs26 \cf0 This installer will guide you through the installation of NatiBot.\
+\
+A license key is required for using this product.\
+\
+It is heavily recommended to install in your boot volume.\
+Other configurations are not supported.\
+\
+NatiBot \'a9 2009-2010 Claunia.com, All Rights Reserved.}]]></resource><resource mime-type="text/rtf" kind="embedded" type="conclusion"><![CDATA[{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf110
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\f0\fs26 \cf0 NatiBot has been installed successfully.\
+\
+We hope you enjoy using it.\
+\
+For any doubt, contact support at natalia@claunia.com}]]></resource></locale></resources><requirements><requirement id="cpuf" operator="gt" value="667"><message-title>Not enough fast processor</message-title><message>This processor is not enough fast to run NatiBot.</message></requirement><requirement id="file" operator="eq" value="true"><file>/usr/bin/mono</file><message-title>Mono is required.</message-title><message>NatiBot requires Mono Framework to work. You can download it at http://www.go-mono.com/mono-downloads/download.html</message></requirement><requirement id="tosv" operator="ge" value="'10.5.0'"><message-title>Warning</message-title><message>NatiBot may not work correctly in this system. Continue at your own.</message></requirement><requirement id="tosv" operator="gt" value="'10.4.10'"><message-title>Failure</message-title><message>NatiBot will not work on this system. Install will not continue. Update Mac OS X before installing NatiBot.</message></requirement></requirements><flags/><extra-files/><item type="file">01natibot.xml</item><mod>extraFiles</mod><mod>properties.title</mod><mod>properties.customizeOption</mod><mod>description</mod><mod>properties.anywhereDomain</mod><mod>properties.systemDomain</mod></pkmkdoc>

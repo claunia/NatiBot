@@ -1,0 +1,158 @@
+HELP
+The bot will accept teleport lures from the master and members of it's active group.
+ * about - Shows copyright information.
+ * activategroup - Sets the active group. Usage: activategroup [groupname]
+ * activaterole - Activates chosen role on chosen group. Usage: activaterole [role-uuid] (group-uuid)
+ * addtorole - Adds indicated avatar to chosen role. Usage: addtorole [avatar-uuid] [role-uuid] (group-uuid)
+ * agentlocations - Downloads the location of every agent in a specified region. Usage: agentlocations [regionhandle]
+ * allowed - Gets current parcel allowed list.
+ * animate - Animates the avatar with the specified animation, list system animations or show current animations. Usage: animate [uuid] | [list/show/stop]
+ * animations - Enables or disables automatic downloading for all visible animations Usage: animations [on/off]
+ * appearance - Sets the last saved appearance.
+ * attach - Attaches chosen item to last attachment point. Usage: attach [itemID]
+ * attachments - Shows a list of current attachments.
+ * attachmentsuuid - Shows a list of an avatar's attachments. Usage: attachmentsuuid [uuid]
+ * avatarinfo - Shows information about a nearby avatar. Usage: avatarinfo [firstname] [lastname]
+ * away - Sets the bot away from keyboard. Usage: away [on/off]
+ * back - Move the bot backward, a step or a determined number of seconds. Usage: back (seconds)
+ * backup - Saves contents of cached inventory to your hard disk. Usage: backup [to <directory>] | [abort] | [status]
+ * backuptext - Saves notecards of cached inventory to your hard disk. Usage: backuptext [to <directory>] | [abort] | [status]
+ * balance - Shows the L$ balance.
+ * banlist - Gets current parcel ban list.
+ * banuser - Ejects and bans indicated user from current parcel. Usage: banuser [uuid]
+ * beam - Beams at specified object or avatar. Usage: beam [uuid]/[firstname] [lastname]
+ * busy - Set the bot as busy. Usage: busy [on/off]
+ * buy - Buyes a specified object. Usage: buy [uuid]
+ * camerafar - Show or change the current camera distance. Usage: camerafar [distance]
+ * cd - Changes current inventory folder. cd [path]
+ * changelog - Shows the bot version and changelog.
+ * changeperms - Changes the permissions of an object and it's task inventory contents. Usage: changeperms [prim-uuid] (copy) (mod) (xfer)
+ * clienttags - Shows all known client tags and client names.
+ * clock - Shows current time in local, UTC, GMT and PST zones.
+ * clone - Clones the appareance of a nearby avatar. Usage: clone [name]
+ * cloneprofile - Clones another avatars profile as closely as possible. WARNING: This command will destroy your existing profile! Usage: cloneprofile [uuid]
+ * createclothing - Creates a new clothing with the indicated parameters. Usage: createclothing help
+ * createeyes - Creates new eyes with the indicated texture. Usage: createeyes [name] [uuid]
+ * createlm - Creates a new landmark with the current position.
+ * createnotecard - Creates a notecard from a text file. Usage: createnotecard filename.txt
+ * createskin - Creates new skin with the indicated texture. Usage: createskin [name] [face-uuid] [upper-uuid] [lower-uuid]
+ * crouch - Starts or stops crouching. Usage: crouch [start/stop]
+ * detectbots - Shows posible bot avatars.
+ * dilation - Shows time dilation for current sim.
+ * downloadanimation - Downloads requested animation by UUID Usage: downloadanimation [uuid]
+ * downloadsound - Downloads requested sound by UUID Usage: downloadsound [uuid]
+ * downloadterrain - Download the RAW terrain file for this estate. Usage: downloadterrain [timeout]
+ * downloadtexture - Download specified texture by UUID. Usage: downloadtexture [texture-uuid]
+ * dumpattachment - Exports specified avatar's attachment to the hard disk. Usage: dumpattachment [avatar-uuid] [attachment-point: RightHand,LeftHand,Skull,LeftEyeball,RightEyeball,LeftFoot,RightFoot,RightEar,LeftEar,LeftHip,RightHip,LeftUpperLeg,RightUpperLeg,RightLowerLeg,LeftLowerLeg,RightForearm,LeftForearm,Nose,RightShoulder,LeftShoulder,RightPec,LeftPec,Chin,RightUpperArm,LeftUpperArm,Spine,Chest,Pelvis,Stomach,Mouth]
+ * dumpattachments - Exports all the attachments of an avatar. Usage: dumpattachments [uuid]
+ * dumpoutfit - Dumps all of the textures from an avatars outfit to the hard drive. Usage: dumpoutfit [avatar-uuid]
+ * echoMaster - Repeat everything that the master says.
+ * ejectuser - Ejects indicated user from current parcel. Usage: ejectuser [uuid]
+ * emptylostandfound - Empty the Lost & Found folder contents.
+ * emptytrash - Empty the trash folder contents.
+ * endfriendship - Ends friendship with given avatar. Usage: endfriendship [name] [lastname] | [uuid]
+ * export - Exports an object to a xml file. Usage: export [uuid] [outputfile.xml]
+ * exportoutfit - Exports an avatars outfit to an xml file. Usage: exportoutfit [avataruuid] outputfile.xml
+ * exportparticles - Reverse engineers an object's particle system to an LSL script. Usage: exportparticles [uuid]
+ * findobjects - Finds all objects, which name contains search-string. Usage: findobjects [radius] [search-string]
+ * findsim - Searches for a simulator and returns information about it. Usage: findsim [Simulator Name]
+ * findtexture - Checks if a specified texture is currently visible on a specified face. Usage: findtexture [face-index] [texture-uuid]
+ * fly - Starts or stops flying. Usage: fly [start/stop]
+ * flyto - Fly the avatar toward the specified position for a maximum of seconds. Usage: flyto x y z (seconds)
+ * follow - Follows another avatar. Usage: follow {[firstname] [lastname]|me|stop}) Use "me" to make it follow you, "stop" to stop following.
+ * forward - Move the bot forward, a step or a determined number of seconds. Usage: forward (seconds)
+ * friends - Shows bot's friends.
+ * gc - Starts a garbage collection.
+ * gesture - Makes the bot play the specified gesture. Usage: gesture [uuid]
+ * give - Give items of the current folder to an avatar. Usage: give [agent uuid] [item1] (item2) (item3) (...)
+ * gohome - Teleports home.
+ * goto - Goes to a sim using a teleport. Usage: goto sim/x/y/z
+ * gotolm - Goes to a landmark destination using a teleport. Usage: gotolm [uuid]
+ * gridlayer - Downloads all the grid map layers.
+ * gridmap - Downloads all visible information from the grid map.
+ * groupeject - Ejects a member of a group. Usage: groupeject [avatarid] (groupid)
+ * groupmembers - Shows group members. Usage: groupmembers GroupName
+ * grouproles - Shows group roles. Usage: grouproles GroupName
+ * groups - Shows groups the bot belongs to.
+ * gsit - Sits on ground. Use stand command to stand up.
+ * health - Shows current health.
+ * help - Shows the available commands.
+ * help2nc - Creates a notecard with the help and sends it to the master.
+ * i - Shows and caches the inventory.
+ * im - Sends an instant message. Usage: im [firstname] [lastname] [message]
+ * imgroup - Sends an instant message to a group. Usage: imgroup [group_uuid] [message]
+ * import - Imports prims from a XML file. Usage: import [filename] (usegroup)
+ * informfriend - Enables saying when a friend goes online or offline. Usage: informfriend [on/off]
+ * invitegroup - Invites avatar to current group at chosen role or to the default one. Usage: invite [av-uuid] (role-uuid)
+ * joingroup - Joins a group. Usage: joingroup [groupname] | joingroup [uuid]
+ * jump - Jumps.
+ * key2name - Returns the name of an avatar using its UUID. Usage: key2name [uuid]
+ * leavegroup - Leaves a group. Usage: leavegroup [groupname]
+ * left - Move the bot to the left, a step or a determined number of seconds. Usage: left (seconds)
+ * load - Loads commands from a DLL. Usage: load [assembly.dll]
+ * location - Shows current location.
+ * logout - Logouts current avatars. Usage: logout [yes]
+ * lookat - Looks at specified object or avatar. Usage: lookat [uuid]/[firstname] [lastname]
+ * ls - List the contents of the current inventory folder. Usage: ls ( -l )
+ * mapfriend - Finds a friend. Usage: mapfriend [uuid]
+ * md5 - Creates a MD5 hash from a given password. Usage: md5 [password]
+ * memfree - Shows currently used memory.
+ * moveto - Moves the avatar to the specified coordinates, avatar (by id or name), or object (by id). Usage: moveto x y z
+ * nadu - Sets the bot in nadu position. Usage: nadu [on/off]
+ * netstats - Provide packet and capabilities utilization statistics.
+ * objectinventory - Gets a list of an object task inventory. Usage: objectinventory [uuid]
+ * offerfriendship - Offers friendship to given avatar. Usage: offerfriendship [name] [lastname] | [uuid]
+ * parceldetails - Show details about the specified parcel. Usage: parceldetails [parcel_id]
+ * parcelinfo - Prints out info about all the parcels in this simulator
+ * pay - Pays indicated L$ amount to chosen avatar. Usage: pay [amount] [avatar-uuid]. Amount can be "all", and if avatar is ausent will be paid to master.
+ * pick - Creates a pick for current position. Usage: pick [description]
+ * playsound - Makes the bot play the specified sound. Usage: playsound [uuid]
+ * primcount - Shows the number of prims actually indexed.
+ * priminfo - Shows info about a specified prim. Usage: priminfo [prim-uuid]
+ * primowners - Shows a list of how many prims does a user have in a parcel. (Needs permissions) Usage: primowners [parcel_id]
+ * primregex - Searches for a prim using regular expressions. Usage: primregex [text predicat]
+ * quit - Closes Natibot and logouts all connected avatars. Usage: quit [yes]
+ * regioninfo - Shows information about the current region.
+ * rezitem - Rezzes chosen item 3m up of the bot. Usage: rezitem [itemID]
+ * right - Move the bot to the right, a step or a determined number of seconds. Usage: right (seconds)
+ * rmdir - Move an inventory folder to the Trash. Usage: rmdir [folder]
+ * say - Says something on general chat or option channel. Usage: say (optional channel) [message]
+ * script - Executes a series of commands from a given text file. Usage: script [filename]
+ * searchclassifieds - Searches Classified Ads. Usage: searchclassifieds [search text]
+ * searchevents - Search for events on the list. Usage: searchevents [search text]
+ * searchgroups - Searches groups. Usage: searchgroups [search text]
+ * searchland - Searches for land for sale, for usage information type: searchland
+ * searchpeople - Searches for other avatars. Usage: searchpeople [search text]
+ * searchplaces - Searches Places. Usage: searchplaces [search text]
+ * selectobjects - Shows a list of prims in parcel that belong to a specified avatar. Usage: selectobjects [parcel_id] [avatar_uuid]
+ * sendtp - Sends a teleport lure to the indicated avatar or to the master. Usage: sendtp (avatar-uuid)
+ * sethome - Establishes current location as home.
+ * setmaster - Changes master by name. Usage: setmaster [name]
+ * setMasterKey - Changes master by key. Usage: setmasterkey [uuid]
+ * shout - Shouts something on general chat or option channel. Usage: shout (optional channel) [message]
+ * showeffects - Shows the viewer effects on the console or not. Usage: showeffects [on/off]
+ * showevent - Shows details about an event. Usage: showevent [eventID] (use searchevents to get ID)
+ * sit - Sits on the nearest prim.
+ * siton - Sits on requested object. Usage: siton [uuid]
+ * sounds - Enables or disables automatic downloading for all hearable sounds Usage: textures [on/off]
+ * stand - Stands up.
+ * stats - Shows statisticals about connection.
+ * takeitem - Takes a specified object to the inventory. Usage: takeitem [uuid]
+ * taskrunning - Retrieves or set IsRunning flag on items inside an object (task inventory). Usage: taskrunning [objectID] [[scriptName] true|false]
+ * textures - Enables or disables automatic downloading for all viewable textures Usage: textures [on/off]
+ * touch - Touches a specified object. Usage: touch [uuid]
+ * translate - Translates given text from one language to another. Usage: translate [fromlanguage] [tolanguage] [text]
+ * tree - Rezzes a tree.
+ * turnto - Turns the bot looking to a specified point, avatar (by id or name), or object (by id). Usage: turnto [x y z]/[uuid]/[avatar]
+ * upload - Uploads an item to the asset. Usage: upload [inventory_name] [filename]
+ * uploadimage - Upload an image to the asset server. Usage: uploadimage [inventory_name] [filename]
+ * uploadterrain - Upload a raw terrain file to the simulator. Usage: uploadterrain [filename]
+ * uptime - Shows time from login.
+ * version - Shows NatiBot and current simulator versions.
+ * viewnote - Shows an inventory notecard. Usage: viewnote [uuid]
+ * voiceaccount - Obtain voice account info. Usage: voiceaccount
+ * voiceparcel - Obtain parcel voice info. Usage: voiceparcel
+ * wear - Wears an outfit folder from the inventory. Usage: wear [outfit] (nobake)
+ * whisper - Whispers something on general chat or option channel. Usage: whisper (optional channel) [message]
+ * who - Lists viewable agents.
+ * wind - Shows the local wind speed.

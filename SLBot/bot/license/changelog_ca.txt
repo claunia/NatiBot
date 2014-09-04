@@ -1,0 +1,275 @@
+﻿/*
+ * Llistat de revisions:
+ *
+ * Rev 1:
+ *          Afegit el botó exportar al menú contextual de la llista d'objectes, per a major facilitat.
+ *          Afegit el botó "exportar tot" a la llista d'objectes. ENCARA TÉ ERRORS!!! 
+ *          Afegit el comando "animate". 
+ *          Afegit el comando "sendtp".
+ *          Afegit el comando "version".
+ *          Afegit OpenLife a la llista de Grids.
+ *          ¡Parcialment traduït al castellà!
+ *          Modificat el comando "objectinventory" perquè mostri el UUID dels ítems continguts en l'objecte. 
+ * Rev 2:
+ *          Modificat el comando "friends" perquè mostri el UUID dels amics.
+ * Rev 3:
+ *          Corregit un error en "import" pel qual no s'estableixen permisos en objectes d'un unic prim. 
+ * Rev 4:
+ *          Afegit "attachmentsuuid" per a mostrar els objectes annexats a un avatar fent servir el seu UUID. 
+ * Rev 5:
+ *          Modificat "attachments" perquè mostri la informació al IM i la consola, no al log. 
+ *          Nova versió 0.5.5. 
+ * Rev 6:
+ *          Afegit "dumpattachments", per a exportar tots els attachments. Exporta a CopyXML dintre d'una carpeta amb el UUID de l'avatar i la data de començament de l'exportació.
+ * Rev 7:
+ *          Afegit "dumpattachment", per a exportar SOLAMENT un attachment
+ *          Nova versió 0.6
+ * Rev 8:
+ *          Corregit un error al posar la data a la carpeta amb els comandos dumpattachment i dumpattachments.
+ *          Afegida una llista de punts d'annexió valguts quan dumpattachment es diu amb un nombre d'arguments invàlids.
+ *          Detectar que el punt d'annexió sol·licitat és vàlid.
+ * Rev 9:
+ *          Modificada la forma de la qual funciona "dumpattachments". Encara té errors però almenys et deixa saber que ha arribat a copiar quan falla.
+ * Rev 10:
+ *          Modificat "exportparticles" per a guardar un arxiu .lsl al disc dur per cadascun de tots els sistemes de particulas d'un objecte. 
+ * Rev 11:
+ *          Altament modificat per a funcionar amb la revisió de capçalera 2218 de libSL
+ *          Això significa, que algun comandos han deixat de funcionar, uns altres funcionen diferent, hi ha nous comandos disponibles, molts canvis, gran quantitat d'hores i mals de cap!!!
+ *          A l'exportar l'escultura del angel, exporta 101 teixidures? Alguna cosa no funciona en "export"
+ *          Actualment exporta a la carpeta del bot, no a CopyXML o textures.
+ *          Importar també pren per defecte la carpeta del bot.
+ *          El command "objectinventory" sempre expira :(.
+ *          El command "exportparticles" ha deixat de funcionar en objectes amb múltiples sistemes de partícules.
+ *          El command "backuptext" encara no funciona.
+ *          El command "mapfriend" requereix més proves, sembla que no funciona.
+ *          El command "appearence" va funcionar alguna vegada?
+ *          El command "gridmap" fa alguna cosa?
+ *          El command "wear" va funcionar alguna vegada?
+ *          El command "attachmentsuuid" conta els annexos, però no els mostra!!!
+ *          Sembla MOLT MÉS LENT!!!
+ *          És capaç de descarregar l'animació que li demanis, només amb la seva UUID (No és necessari que s'estigui reproduint a prop)
+ *          La majoria dels comandos va perdre la traducció :(
+ *          Nova versió 0.6.9 Rev 54. 0.7.0 arribarà quan els errors de dalt siguin corregits de nou! 
+ * Rev 12:
+ *          Corregit el comando "export", que ara funciona com abans.
+ * Rev 13:
+ *          Corregit el comando "import".
+ *          Canviada la carpeta "CopyXML" a una altra mes apropiada: "objects".
+ * Rev 14:
+ *          El comando "objectinventory" mai va deixar de funcionar, només era lag
+ *          El comando "exportparticles" guardava totes les partícules en el mateix arxiu lsl. Corregit.
+ * Rev 15:
+ *          Els comandos "attachments" i "attachmentsuuid" ara llisten en la consola de IM.
+ * Rev 17:
+ *          Afegit el comando "avatarinfo" que mostra informació sobre un avatar proper.
+ * Rev 18:
+ *          Afegit el comando "ls" per a mostrar el contingut de la carpeta actual de l'inventari.
+ * Rev 19:
+ *          Afegit el comando "cd" per a canviar la carpeta actual de l'inventari. 
+ *          Modificat el comando "ls" perquè amb l'opció '-l' digui la data de creació i el tipus dels continguts, i funcioni amb subcarpetas (abans no ho feia si executar prèviament el comando "i" per a emplenar l'inventari).
+ * Rev 20:
+ *          Afegit el comando "createnotecard" per a crear una Notecard des d'un arxiu de text local. 
+ * Rev 21:
+ *          Afegit el comando "give" per a donar objectes del inventari a un avatar.
+ * Rev 22:
+ *          Ara el comando "avatarinfo" no només mostra les teixidures sinó també el text i imatges del perfil. Els interessos, grups i estadístiques estan en camí.
+ * Rev 23:
+ *          Ara el comando "avatarinfo" obté també els interessos i grups. Les estadístiques estan desactivades per Linden Lab perquè han estat abandonades i aparentment no hi ha forma d'obtenir-les.
+ * Rev 25:
+ *          Modificat el comando "dumpoutfit" per a treballar amb els canvis de API (RequestImage()) de libOMV en SVN r2227.
+ * Rev 26:
+ *          Afegit el comando "rmdir" per a moure una carpeta de l'inventari a la paperera.
+ * Rev 27:
+ *          Afegit el comando "viewnote" per a treure el contingut d'una NoteCard de l'inventari a la consola/IM.
+ * Rev 28:
+ *          Modificat el comando "createnotecard" perquè enviï la notecard al mestre.
+ *          Afegit el comando "uploadimage" per a carregar una imatge/teixidura i manar-se-la al mestre.
+ * Rev 29:
+ *          Modificats els comandos "createnotecard" i "uploadimage" perquè l'accent en "dia" no està correctament contemplat pel servidor de Asset en la descripció de l'ítem pujat.
+ *          Afegit el comando "upload" per a pujar qualsevol cosa que sigui suportada pel servidor de Asset, detectant el tipus correct per l'extensió, tal com segueix: 
+ *              .animatn per a una Animació. (Per 10L en AGNI)
+ *              .bodypart per a una Forma, Pell, Ulls o Cabell.
+ *              .gesture per a una Gesture.
+ *              .clothing per a una Camisa, Pantalons, Sabates, Mitjons, Abric, Faldilla, Guants, Camisa i Roba Interior.
+ *              .jpg, .tga, .jp2 and .j2c per a Teixidures. (Per 10L en AGNI)
+ *              .notecard per a Notecard.
+ *              .landmark per a LandMark.
+ *              .ogg per a un So (Vorbis). (Per 10L en AGNI)
+ *              .lsl per a un Script LSL2 (com text).
+ *              .lso per a un Script LSL2 (compilat).
+ *          Les versions velles dels ítems, o, alguns d'aquests, fallaran al pujar-los, sense solució.
+ * Rev 30:
+ *          Corregida una NullException al comando "parcelinfo".
+ *          Modificat el temps d'espera màxim de "parcelinfo" de 30seg. a 60seg.
+ *          Afegit el comando "parceldetails", que donat un ID de parcel·la, mostra TOTS els detalls sobre aquesta parcel·la.
+ * Rev 31:
+ *          Afegit el comando "primowners", per a mostrar els prims que hi ha en una parcel·la, i els seus amos. Necessita permisos.
+ * Rev 32:
+ *          Afegit el comando "selectobjects", per a mostrar informació detallada sobre els prims de determinat avatar, en la parcel·la especificada.
+ * Rev 33:
+ *          Afegits els comandos "forward", "back", "left" i "right" per a moure el bot.
+ * Rev 34:
+ *          Afegit el comando "downloadtexture" per a descarregar una teixidura del servidor Asset donada el seu UUID. Encara no la converteix a format Targa.
+ * Rev 35:
+ *          Afegit el comando "script" per a executar una sèrie de comandos donats en un arxiu de text. 
+ * Rev 36:
+ *          Modificat el comando "upload" per a captar les excepcions al carregar l'arxiu.
+ *          Corregida l'extensió de l'animació descarregada en l'esdeveniment automàtic de descàrrega del servidor Asset, de .animtn a .animatn.
+ *          Eliminat el comando "test", ja que era, això, una prova.
+ *          Afegit el comando "downloadanimation" per a descarregar una animació del servidor Asset donat el seu UUID. (El qual surt amb Animation Info activat al client oficial)
+ *          Nova versió 0.7 (20 nous comandos). YUPIIIIIIIIIII!!!!!!!!
+ * Rev 40:
+ *          Afegida comprovació d'autorització abans de carregar el bot.
+ *          Eliminat el fotut missatge "Running webserver"!
+ *          Actualitzat a libomv r2382 .
+ * Rev 42:
+ *          Actualitzat a libomv r2947.
+ *          Com a part d'aquesta actualització s'ha reescrito el sistema de descàrrega de teixidures.
+ *          Avantatges, suposadament, velocitat i menys errors.
+ *          Desavantatges, no hi ha indicador de progrés de la descàrrega a la consola del bot.
+ *          Les teixidures es guarden a la carpeta textures, quan s'usin els comandos export o downloadtexture.
+ *          Les teixidures dels outfit es guarden en una carpeta outfits, a una subcarpeta amb el nom de l'avatar.
+ *          Les teixidures dels attachments es descarreguen en una subcarpeta textures dintre de la carpeta amb el UUID en la qual sempre s'han guardat els attachments.
+ *          Això hauria d'acabar amb la confusió referent a les teixidures descarregades.
+ *          Aquesta és una revisió menor, amb grans canvis esperats per a NatiBot 0.8.0 rev 80
+ * Rev 43:
+ *          Corregits els comandos dumpattachment, dumpattachments i export , i la finestra d'objectes de la GUI. 
+ *          La finestra d'objectes ara funciona tan poc fiablement com abans.
+ * Rev 50:
+ *          Nova versió 0.8
+ *          Actualitzat a libomv r2977
+ *          Corregida l'exportació d'objectes SENSE teixidura (doncs, sí, he trobat UN)
+ *          Creada nova finestra d'objectes des de zero amb les següents característiques:
+ *           - Llistat de UUID, posició i nom, ordenades alfabèticament al gust de l'usuari.
+ *           - Autoactualizació automàtica per a obtenir els noms i nous objectes cada 10 segons.
+ *           - Aquesta opció, és desactivable.
+ *           - El botó exportar és capaç d'exportar qualsevol objecte sigui el que sigui el seu nom (fins i tot si encara no ho coneix).
+ *           - Es pot triar que volem copiar, la UUID, localització, o nom, al portapapers, amb botó dret o CTRL+C. 
+ *           - Es poden exportar diversos elements seleccionats alhora.
+ *           - Es poden exportar TOTS ELS OBJECTES que el bot vegi alhora. 
+ *           - Mostra la distància de la vista, i ens permet canviar-la.
+ *          El comando import recull l'objecte del món i ho passa a l'inventari a l'acabar.
+ *          Després ho envia al mestre (encara no provat)
+ *          Botó importar capaç d'importar més d'un objecte alhora.
+ *          Afegit el comando backup, capaç de copiar al disc dur TOT el contingut de l'inventari, amb els següents defectes:
+ *           - Primer has d'haver mirat el contingut de la carpeta on estigui l'objecte de l'inventari que vulguis copiar.
+ *           - Els objectes han de ser trets al món per a ser copiats a disc, així que ara com ara el comando backup els ignora.
+ *           - Les calling cards mai es podran copiar perquè realment no existeixen. El comando backup les ignorarà.
+ *           - Les notecards i els scripts nocopy no poden ser llegits. És una fallada de SecondLife bug, JIRA VWR-5238. El comando backup els ignorarà.
+ *           - Els scripts nomod no són llegibles de cap manera, oblida't d'ells. El comando backup els ignorarà.
+ *           - Totes les teixidures, gesturas, sons, roba i parts del cos, no obstant això, es descarregaran.
+ *          Corregida la falta d'un bloqueig en el comando backuptext que podia dur-nos a una excepció en temps d'execució.
+ *          Corregit el mateix en el comando backup.
+ *          El comando backup ara fa servir diferents mètodes per a les teixidures, notecards, scripts i tot la resta.
+ *          Modificat el botó importar de manera que també importa assets (per exemple els descarregats amb el comando backup).
+ *          Afegida una barra de progrés i text a la finestra principal indicant com va la importació múltiple.
+ *          Afegit el comando downloadterrain.
+ *          Afegit el comando uploadrawterrain.
+ *          Modificada la forma per la qual el comando upload puja els scripts. Això elimina l'error HTTP 500 que venien donant fins a ara.
+ *          Modificat altament el comando createnotecard.
+ *          Afegits els comandos emptylostandfound i emptytrash.
+ *          Afegit el comando taskrunning.
+ *          Afegit el comando wind.
+ *          Afegit el comando flyto.
+ *          Afegit el comando textures.
+ *          Afegit el comando camerafar.
+ *          Afegit el comando voiceaccount.
+ *          Afegit el comando voiceparcel.
+ *          Ara cada missatge enviat al bot per algú que no sigui el mestre (parcel·la, sim, objecte, grup, conferència, im, etc) serà reexpedit com un IM al mestre.
+ *          Canviada la forma de la qual el comando upload puja les notecards. Ara hauria de pujar qualsevol notecard sense adjunts, per una qüestió de permisos segurament.
+ * Rev 51:
+ *          Corregit un error que no deixava al comando dumpoutfit crear carpetes com hauria de ser.
+ * Rev 54:
+ *          Actualitzat a libomv r3003
+ *          Creat un fil per al botó exportar tot en el formulari d'objectes de tal manera que no paralitzi la interfície.
+ *          Fet el mateix al comando appearance.
+ * Rev 55:
+ *          Afegit suport multi-idioma.
+ * Rev 65:
+ *          Eliminades les pestanyes no usades i no funcionals de teletransporte i mapa.
+ *          Eliminat el comando no funcional importoutfit.
+ * Rev 82:
+ *          Canviades totes les finestres a la nova interfície. La consola és una miniatura fins que tingui la seva pròpia finestra en la següent revisió.
+ * Rev 84:
+ *          Moguda la consola a la seva pròpia finestra.
+ * Rev 91:
+ *          Canviats tots els botons al nou disseny.
+ * Rev 99:
+ *          La finestra d'objectes ara permet buscar un objecte pel seu nom.
+ *          La carpeta per defecte per a crear totes les carpetes del NatiBot és ara la carpeta Els meus Documents de l'usuari.
+ *          El comando dumpattachment ara exporta correctament els noms.
+ *          Fet el mateix canvi en el comando export.
+ *          El comando downloadtexture ara guarda també les teixidures com TGA.
+ *          El comando avatarinfo no mostra la informació d'un altre quan s'usa més d'una vegada.
+ * Rev 100:
+ *          Ara es pot triar l'idioma. Aquesta elecció es guardarà i aplicarà al reinici.
+ *          Ara s'oferix l'opció de salvar tota al consola en un arxiu de text. Activada per defecte.
+ *          En alguns casos els errors mostraven finestres d'avís, ara tots els errors van a la consola.
+ *          Tancar el NatiBot ara desconnecta tots els bots.
+ * Rev 115:
+ *          Nova versió NatiBot 0.9.0 Rev 90.
+ *          El bot establix la seva aparença contínuament.
+ *          Signat amb una clau de verificació.
+ *          Publicat a http://www.natibot.com/
+ * Rev 169:
+ *          El comando downloadtexture ara crea la carpeta de teixidures si no existeix.
+ *          El comando jump ara també per a de saltar.
+ *          Afegit el comando key2name.
+ *          Afegit el comando buy.
+ *          Afegit el comando takeitem.
+ *          Afegit el comando translate.
+ *          Afegit un menú contextual a la finestra d'objectes.
+ *          Afegida una nova finestra de xat.
+ *          Nova versió NatiBot 0.9.1 Rev 91.
+ * Rev 176:
+ *          Corretgit el comportament de la data i l'hora en la finestra del chat.
+ *          Afegit soport preliminar per sentar-se automàticament en les Lucky Chairs.
+ *          Afegit comprovació de permissos per als comandos d'exploració.
+ *          Nova versió NatiBot 0.9.2 Rev 92.
+ * Rev 180:
+ *          Eliminats els buffers de xat i consola. Ara el buffer no es pot omplir i penjar el bot i el xat apareix correctament.
+ *          Afegit sistema d'actualitzacions automàtiques.
+ *          Millorada la importació.
+ *          Millorat el sistema de xat de manera que no paralitza el bot quan es reben xats o missatges instantanis.
+ *          Afegida dependència per convertir JPEG2000 a Targa en sistemes operatius de 64 bits.
+ *          Nova versió NatiBot 0.9.3 Rev 93.
+ * Rev 289:
+ *          NatiBot 1.0.0.289.
+ *          Suport complet per a Mac OS X (PowerPC e Intel) i Linux (x86 y x86-64).
+ *          Optimizat per al us de sistemas multiprocessador o multinúcli i consumir menys memoria.
+ *          Afegida la finestra de amics. Permet enviar missatges, teletransport, eliminar-los o veure els seus perfils.
+ *          Afegida la finestra d'avatars. Funciona com un radar mostrant l'avatar, sexe, client, posició i distància, contenint
+ *              la majoria dels comandos orientats a avatars.
+ *          Afegida la finestra de grups. Permet obrir xat, activar-los o abandonar-los.
+ *          Afegida la finestra d'inventari. Permet vestir, desvestir, copiar l'aneu, esborrar, buidar la paperera o la carpeta lost & found.
+ *          Afegida la finestra de mapa. Mostra el mapa amb tots els avatars i permet teletransporte a unes coordenades.
+ *          Afegits els comandos about, activaterole, addtorole, allowedlist, animations, attach, away, banlist, banuser, beam, busy,
+ *              changelog, clienttags, clock, createclothing, createeyes, createlm, createskin, detectbots, downloadsound, ejectuser,
+ *              endfriendship, gc, gesture, groupeject, groupmembers, grouproles, gsit, health, help2nc, informfriend, invitegroup,
+ *              logout, lookat, memfree, nadu, netstats, offerfriendship, pick, playsound, quit, rezitem, searchclassifieds, searchgroups,
+ *              searchland, searchpeople, searchplaces y sounds.
+ *          Ara pot contestar a diàlegs de script (els blaus). S'obrirà una nova finestra quan un objecte enviï un.
+ *          Corregit la fallada en la comprovació de llicència per a usuaris de diferent zona horària a Madrid. Ara funciona globalment.
+ *          El comando animate ara pot parar les animacions, mostrar les quals s'estan reproduint o llistar les animacions del sistema.
+ *          El comando avatarinfo ara funciona encara que l'avatar no estigui en el mateix sim.
+ *          El comando dumpattachment ara usa el nom de l'avatar per a la carpeta.
+ *          El comando giveall ha estat renombrat a pay.
+ *          El comando gotolandmark ha estat renombrat a gotolm.
+ *          El comando import ara funciona molt més ràpid i de manera correcta en Sculpt amb les característiques de mirall o inversió.
+ *          El comando priminfo ha estat millorat per a mostrar molta més informació.
+ *          El comando sendtp ara també permet enviar teletransporte a altra gent.
+ *          El comando version ara també mostra la versió del simulador.
+ *          El comando who ara mostra que client està usant l'avatar i la seva posició és correcta si està assegut.
+ *          La finestra de xat ara pot traduir automàticament els missatges i xats sortints i entrants.
+ *          La finestra de xat ara reconeix teletransportes, ofertes d'inventari d'objectes, avisos de grups, d'amistat i d'inventari.
+ *          La finestra de xat ara suporta usar altre canal (/ missatge).
+ *          La finestra d'objectes ha estat reescrita. Pot prendre molt més a aparèixer per primera vegada, però es refresca gairebé
+ *              instantàniament, veu els objectes nous instantàniament, és multiproceso, canvia al fer TP i veu més objectes i noms.
+ *          Les revisions ara es mostren com les de desenvolupament per a donar un millor coneixement del treball realitzat.
+ *          Els comandos findobjects, showeventdetails i searchevents ara mostren la seva sortida en un missatge.
+ *          Els comandos joingroup i key2name ara també suporten IDs de grups.
+ *          Els comandos moveto i turnto ara també funcionen indicant un avatar o un objecte en comptes de coordenades.
+ *          Suport per a 35 noves GRIDs.
+ *          Suport para Lucky Advent, Lucky CupCake, Lucky Dip, Lucky Present, Lucky Santa, Midnight Mania i Prize Pyramid.
+ *          Tots els comandos basats en annexos ara suporten els annexos no oficials introduïts pel client Emerald Viewer. 
+ */

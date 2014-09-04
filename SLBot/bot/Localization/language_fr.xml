@@ -1,0 +1,1204 @@
+<?xml version="1.0"?>
+<resources locale="fr">
+  <resource type="Text" id="Assets.Image.FailDecode" translated="true">Pas réussi à décoder l'image {0}.</resource>
+  <resource type="Text" id="Assets.Image.FailDownload" translated="true">Échec de téléchargement d'images {0}: {1}</resource>
+  <resource type="Text" id="Assets.Image.ImageDownloaded" translated="true">Fini le téléchargement image {0}.</resource>
+  <resource type="Text" id="Assets.Image.Downloaded" translated="true">Fini le téléchargement image {0} ({1} octets)</resource>
+  <resource type="Text" id="bot.AcceptingTeleport" translated="true">Accepter leurre téléporter.</resource>
+  <resource type="Text" id="botAccount.ConnectingLogin" translated="true">Connexion au serveur de connexion...</resource>
+  <resource type="Text" id="botAccount.ConnectingRegion" translated="true">Raccordement à la région...</resource>
+  <resource type="Text" id="botAccount.Connecting" translated="true">Connexion...</resource>
+  <resource type="Text" id="botAccount.LoginFailed" translated="true">La connexion a échoué: {0}</resource>
+  <resource type="Text" id="botAccount.Offline" translated="true">Offline</resource>
+  <resource type="Text" id="botAccount.Online" translated="true">Connectés</resource>
+  <resource type="Text" id="botAccount.ReadingResponse" translated="true">Lecture de réponse...</resource>
+  <resource type="Text" id="botAccount.Redirecting" translated="true">Redirection...</resource>
+  <resource type="Text" id="botAccount.Removing" translated="true">Suppression...</resource>
+  <resource type="Text" id="bot.GotGroupID" translated="true">Vous avez l'ID du groupe de {0} membres du groupe demandant...</resource>
+  <resource type="Text" id="bot.GotGroupMembers" translated="true">Got {0} membres du groupe.</resource>
+  <resource type="Text" id="bot.IRCGreet" translated="true">Ceci est {0} de déclaration en douane.</resource>
+  <resource type="Text" id="bot.MasterNotResolved" translated="true">ERREUR: Impossible d'obtenir UUID pour «{0}". Maître inchangé.</resource>
+  <resource type="Text" id="bot.MasterResolved" translated="true">"{0}" résolus à {1}</resource>
+  <resource type="Text" id="bot.MessageNotGroup" translated="true">&lt;{0} ((1 =""})&gt; {2} (non dans le groupe): {3} (@ {4}: {5})</resource>
+  <resource type="Text" id="bot.MessageNotMaster" translated="true">&lt;{0} ((1 =""})&gt; {2} (pas le maître): {3} (@ {4}: {5})</resource>
+  <resource type="Text" id="Commands.ActivateGroup.Active" translated="true">Groupe Active pour {0} est maintenant {1}.</resource>
+  <resource type="Text" id="Commands.ActivateGroup.Description" translated="true">Définit le groupe actif.</resource>
+  <resource type="Text" id="Commands.ActivateGroup.Failed" translated="true">{0} a échoué pour activer le groupe {1}.</resource>
+  <resource type="Text" id="Commands.ActivateGroup.NoGroups" translated="true">{0} ne semble pas membre d'un groupe.</resource>
+  <resource type="Text" id="Commands.ActivateGroup.NotInGroup" translated="true">{0} ne semble pas être membre du groupe {1}.</resource>
+  <resource type="Text" id="Commands.ActivateGroup.Setting" translated="true">Configuration {0} en tant que groupe actif.</resource>
+  <resource type="Text" id="Commands.ActivateGroup.Usage" translated="true">Usage: activategroup [NomDeGroupe]</resource>
+  <resource type="Text" id="Commands.AgentLocations.Avatar" translated="true">{0} avatar (s) à {1}, {2}</resource>
+  <resource type="Text" id="Commands.AgentLocations.Description" translated="true">Téléchargements de l'emplacement de chaque agent dans une région déterminée.</resource>
+  <resource type="Text" id="Commands.AgentLocations.Fail" translated="true">Impossible de récupérer endroits agent.</resource>
+  <resource type="Text" id="Commands.AgentLocations.Locations" translated="true">Agent endroits:</resource>
+  <resource type="Text" id="Commands.AgentLocations.Usage" translated="true">Usage: agentlocations [regionhandle]</resource>
+  <resource type="Text" id="Commands.Animate.Starting" translated="true">A partir d'animation {0}</resource>
+  <resource type="Text" id="Commands.Animate.Stopping" translated="true">Arrêter l'animation {0}</resource>
+  <resource type="Text" id="Commands.Appearance.Description" translated="true">Définit l'apparence du dernier enregistrement.</resource>
+  <resource type="Text" id="Commands.Appearance.Success" translated="true">Réussi à mettre l'apparence.</resource>
+  <resource type="Text" id="Commands.Appearance.Thread" translated="true">Started apparence fil.</resource>
+  <resource type="Text" id="Commands.Appearance.Timeout" translated="true">Timeout tout en mettant en apparence.</resource>
+  <resource type="Text" id="Commands.Attachments.Attachment" translated="true">[Pièce jointe @ (0 LocalID]): {1} UUID: {2} Offset: {3}</resource>
+  <resource type="Text" id="Commands.Attachments.Description" translated="true">Affiche une liste des pièces jointes en cours.</resource>
+  <resource type="Text" id="Commands.Attachments.Found" translated="true">Found {0} pièces jointes.</resource>
+  <resource type="Text" id="Commands.AttachmentsUUID.Description" translated="true">Affiche une liste des pièces jointes d'un avatar.</resource>
+  <resource type="Text" id="Commands.AttachmentsUUID.Usage" translated="true">Usage: attachmentsuuid [UUID]</resource>
+  <resource type="Text" id="Commands.AvatarInfo.About" translated="true">     A propos de lui / d'elle:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Account" translated="true">     Compte:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Adult" translated="true">, Adulte profil</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Born" translated="true">     Date de Naissance: {0}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Charter" translated="true">     Charte membres:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Description" translated="true">Affiche des informations sur un avatar à proximité.</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Error" translated="true">Une erreur s'est produite lors de la demande profil avatar.</resource>
+  <resource type="Text" id="Commands.AvatarInfo.FirstLife" translated="true">1ère vie:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.FirstPhoto" translated="true">Photo: {0}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Groups" translated="true">     Groupes:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Identified" translated="true">Identifiée</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Information" translated="true">Renseignements: {0}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Interests" translated="true">Centres d'intérêt:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Languages" translated="true">     Langues: {0}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.NotFound" translated="true">Impossible de trouver un avatar à proximité appelée {0}.</resource>
+  <resource type="Text" id="Commands.AvatarInfo.NotGroups" translated="true">Impossible d'obtenir demandé aux groupes avatar.</resource>
+  <resource type="Text" id="Commands.AvatarInfo.NotInterests" translated="true">Impossible d'obtenir demandé intérêts avatar.</resource>
+  <resource type="Text" id="Commands.AvatarInfo.NotProfile" translated="true">Impossible d'obtenir le profil demandé avatar.</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Partner" translated="true">     Partenaire:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Payment" translated="true">, Les informations de paiement actuelle</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Public" translated="true">, Public</resource>
+  <resource type="Text" id="Commands.AvatarInfo.SecondLife" translated="true">2nd Life:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.SecondPhoto" translated="true">     Photo: {0}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Skills" translated="true">     Compétences: (0x {0}) {1}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Textures" translated="true">Textures:</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Usage" translated="true">Usage: avatarinfo [Prénom] [Nom]</resource>
+  <resource type="Text" id="Commands.AvatarInfo.Wants" translated="true">     Il / elle veut: (0x {0}) {1}</resource>
+  <resource type="Text" id="Commands.AvatarInfo.WebProfile" translated="true">     Profil Web: {0}</resource>
+  <resource type="Text" id="Commands.Back.Description" translated="true">Déplacez le bot en arrière, un pas ou un nombre déterminé de secondes.</resource>
+  <resource type="Text" id="Commands.Back.Moved" translated="true">Déplacé vers l'arrière.</resource>
+  <resource type="Text" id="Commands.Backup.AllDone" translated="true">{0}: les deux files d'attente de transfert de vide et de l'inventaire se fait à pied thread</resource>
+  <resource type="Text" id="Commands.Backup.Description" translated="true">Enregistre le contenu de l'inventaire en cache sur votre disque dur.</resource>
+  <resource type="Text" id="Commands.Backup.Failed" translated="true">{0}: Téléchargement de l'actif {1} ({2}) a échoué avec l'état {3}</resource>
+  <resource type="Text" id="Commands.Backup.Not" translated="true">pas</resource>
+  <resource type="Text" id="Commands.Backup.Queue" translated="true">\ r \ n {0}: {1} articles dans la file d'attente, {2} éléments demandés à partir du serveur.</resource>
+  <resource type="Text" id="Commands.Backup.Running" translated="true">{0} {1} est en cours d'exécution.</resource>
+  <resource type="Text" id="Commands.Backup.Started" translated="true">A commencé ses opérations d'arrière-plan.</resource>
+  <resource type="Text" id="Commands.BackupText.Description" translated="true">Arrêts notecards de l'inventaire en cache sur votre disque dur.</resource>
+  <resource type="Text" id="Commands.Backup.Timeout" translated="true">{0}: timeout sur l'atout {1}</resource>
+  <resource type="Text" id="Commands.Backup.Transfer" translated="true">\ r \ n {0}: les transferts de serveur ({1} en cours d'exécution) a transféré les articles {2} {3} avec des erreurs.</resource>
+  <resource type="Text" id="Commands.Backup.Unknown" translated="true">Inconnu</resource>
+  <resource type="Text" id="Commands.Backup.Usage" translated="true">Usage: {0} [to &lt;dossier&gt;] | [abort] | [status]</resource>
+  <resource type="Text" id="Commands.Backup.Walker" translated="true">\ r \ n {0}: Walker Inventory ({1} course à pied) a trouvé {2} articles.</resource>
+  <resource type="Text" id="Commands.Backup.WalkingDone" translated="true">{0}: Inventaire de marche du fil fait.</resource>
+  <resource type="Text" id="Commands.Backup.Wrote" translated="true">{0}: {1} Wrote</resource>
+  <resource type="Text" id="Commands.Back.Usage" translated="true">Usage: back (secondes)</resource>
+  <resource type="Text" id="Commands.Balance.Balance" translated="true">{0} a {1} L $</resource>
+  <resource type="Text" id="Commands.Balance.Description" translated="true">Affiche le L $ équilibre.</resource>
+  <resource type="Text" id="Commands.Balance.Timeout" translated="true">Timeout attendre la réponse de l'équilibre.</resource>
+  <resource type="Text" id="Commands.CameraFar.Actual" translated="true">Distance actuels de l'appareil est {0} mètres.</resource>
+  <resource type="Text" id="Commands.CameraFar.Changed" translated="true">Changement de distance de la caméra à {0} mètres.</resource>
+  <resource type="Text" id="Commands.CameraFar.Description" translated="true">Afficher ou modifier la distance actuels de l'appareil.</resource>
+  <resource type="Text" id="Commands.CameraFar.Usage" translated="true">Usage: camerafar [distance]</resource>
+  <resource type="Text" id="Commands.ChangeDirectory.CurrentFolder" translated="true">Dossier actuel est {0}</resource>
+  <resource type="Text" id="Commands.ChangeDirectory.Description" translated="true">Dossier change de stocks actuels.</resource>
+  <resource type="Text" id="Commands.ChangeDirectory.NotFolder" translated="true">{0} n'est pas un dossier.</resource>
+  <resource type="Text" id="Commands.ChangeDirectory.NotFound" translated="true">{0} not found in {1}</resource>
+  <resource type="Text" id="Commands.ChangeDirectory.Usage" translated="true">cd [path]</resource>
+  <resource type="Text" id="Commands.ChangePerms.CopyFail" translated="true">Impossible de définir le bit de copier, d'autorisations dans un état inconnu.</resource>
+  <resource type="Text" id="Commands.ChangePerms.Description" translated="true">Modifie les autorisations d'un objet et son contenu tâche d'inventaire.</resource>
+  <resource type="Text" id="Commands.ChangePerms.Done" translated="true">Définissez des autorisations à {0} sur {1} objets et {2} objets de l'inventaire des tâches.</resource>
+  <resource type="Text" id="Commands.ChangePerms.Found" translated="true">Trouver demandé prim {0}</resource>
+  <resource type="Text" id="Commands.ChangePerms.ModFail" translated="true">Impossible d'établir la modifier bits, les autorisations dans un état inconnu.</resource>
+  <resource type="Text" id="Commands.ChangePerms.NotFound" translated="true">Vous ne trouvez pas demandé prim 0 ()</resource>
+  <resource type="Text" id="Commands.ChangePerms.Permission" translated="true">Utilisation PermissionMask: {0}</resource>
+  <resource type="Text" id="Commands.ChangePerms.RootNotFound" translated="true">Impossible de trouver la racine prim pour objet demandé.</resource>
+  <resource type="Text" id="Commands.ChangePerms.Root" translated="true">Set root prim à {0}</resource>
+  <resource type="Text" id="Commands.ChangePerms.Usage" translated="true">Usage: changeperms [prim-uuid] (copy) (mod) (xfer)</resource>
+  <resource type="Text" id="Commands.ChangePerms.XferFail" translated="true">Impossible de définir le bit de transfert, les autorisations dans un état inconnu.</resource>
+  <resource type="Text" id="Commands.Clone.Description" translated="true">Clone l'Apparence d'un avatar à proximité.</resource>
+  <resource type="Text" id="Commands.Clone.Done" translated="true">Cloné {0}.</resource>
+  <resource type="Text" id="Commands.Clone.NotFound" translated="true">Impossible de trouver avatar {0}.</resource>
+  <resource type="Text" id="Commands.CloneProfile.Active" translated="true">{0} {1} paramètre que le groupe actif.</resource>
+  <resource type="Text" id="Commands.CloneProfile.Description" translated="true">Clones un autre profil avatars aussi étroitement que possible. AVERTISSEMENT: Cette commande va détruire votre profil existant!</resource>
+  <resource type="Text" id="Commands.CloneProfile.Done" translated="true">Synchronisées notre profil au profil de {0}</resource>
+  <resource type="Text" id="Commands.CloneProfile.FailJoin" translated="true">Echec de rejoindre le groupe {0}.</resource>
+  <resource type="Text" id="Commands.CloneProfile.Fail" translated="true">Impossible d'extraire un profil complet pour que UUID.</resource>
+  <resource type="Text" id="Commands.CloneProfile.Joined" translated="true">Réussi à vous joindre le groupe {0}.</resource>
+  <resource type="Text" id="Commands.CloneProfile.Usage" translated="true">Usage: cloneprofile [uuid]</resource>
+  <resource type="Text" id="Commands.Clone.Unknown" translated="true">Ne sait pas l'apparence de l'avatar {0}.</resource>
+  <resource type="Text" id="Commands.Clone.Usage" translated="true">Usage: clone [nom]</resource>
+  <resource type="Text" id="Commands.CreateNotecard.CreatedBy" translated="true">{0} créé par NatiBot à {1}.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.CreateFailDetails" translated="true">Notecard la création d'élément a échoué: {0}.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.CreateFail" translated="true">Notecard la création d'élément échoué.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.Description" translated="true">Crée un notecard partir d'un fichier texte.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.DownloadError" translated="true">Erreur de téléchargement notecard actif: {0}.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.FetchFailed" translated="true">Impossible de récupérer le point d'inventaire {0}</resource>
+  <resource type="Text" id="Commands.CreateNotecard.NotFound" translated="true">File {0} not found.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.OpenFailed" translated="true">Impossible d'ouvrir le fichier {0} avec l'erreur {1}.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.Success" translated="true">Notecard créé avec succès avec ItemID {0} et {1} réfbien</resource>
+  <resource type="Text" id="Commands.CreateNotecard.Timeout" translated="true">Timeout</resource>
+  <resource type="Text" id="Commands.CreateNotecard.UnknownError" translated="true">Erreur inconnue lors de téléchargement actif notecard.</resource>
+  <resource type="Text" id="Commands.CreateNotecard.Usage" translated="true">Usage: createnotecard filename.txt</resource>
+  <resource type="Text" id="Commands.Crouch.Description" translated="true">Commence ou arrête accroupie.</resource>
+  <resource type="Text" id="Commands.Crouch.Started" translated="true">Started accroupie.</resource>
+  <resource type="Text" id="Commands.Crouch.Stopped" translated="true">Stopped accroupie.</resource>
+  <resource type="Text" id="Commands.Crouch.Usage" translated="true">Usage: croush [start/stop]</resource>
+  <resource type="Text" id="Commands.DeleteFolder.Deleted" translated="true">Dossier {0} déplacé vers la Corbeille.</resource>
+  <resource type="Text" id="Commands.DeleteFolder.Description" translated="true">Déplacer un dossier d'inventaire à la Corbeille.</resource>
+  <resource type="Text" id="Commands.DeleteFolder.NotFound" translated="true">Dossier {0} not found.</resource>
+  <resource type="Text" id="Commands.DeleteFolder.Usage" translated="true">Usage: rmdir [dossier]</resource>
+  <resource type="Text" id="Commands.Dilation.Description" translated="true">Montre la dilatation du temps pour SIM actuelle.</resource>
+  <resource type="Text" id="Commands.Dilation.Dilation" translated="true">La dilatation est {0}.</resource>
+  <resource type="Text" id="Commands.DownloadAnimation.Description" translated="true">Téléchargements demandé d'animation par l'UUID</resource>
+  <resource type="Text" id="Commands.DownloadAnimation.Downloaded" translated="true">Animation {0} correctement téléchargé ({1} octets).</resource>
+  <resource type="Text" id="Commands.DownloadAnimation.Failed" translated="true">Erreur {1} lors du téléchargement de l'animation {0}.</resource>
+  <resource type="Text" id="Commands.DownloadAnimation.InvalidUUID" translated="true">UUID attendus</resource>
+  <resource type="Text" id="Commands.DownloadAnimation.Timeout" translated="true">Timed out en demandant pour l'animation</resource>
+  <resource type="Text" id="Commands.DownloadAnimation.Usage" translated="true">Usage: downloadanimation [uuid]</resource>
+  <resource type="Text" id="Commands.DownloadTerrain.Description" translated="true">Téléchargez le fichier RAW terrain pour cette succession.</resource>
+  <resource type="Text" id="Commands.DownloadTerrain.Success" translated="true">Terrain fichier {0} ({1} octets) téléchargés avec succès, écrit à {2}</resource>
+  <resource type="Text" id="Commands.DownloadTerrain.Timeout" translated="true">Délai d'attente en attendant des données de terrain</resource>
+  <resource type="Text" id="Commands.DownloadTerrain.Usage" translated="true">Usage: downloadterrain [timeout]</resource>
+  <resource type="Text" id="Commands.DownloadTexture.Description" translated="true">Télécharger la texture spécifiée par UUID.</resource>
+  <resource type="Text" id="Commands.DownloadTexture.NotFound" translated="true">Simulateur signalé texture {0} not found.</resource>
+  <resource type="Text" id="Commands.DownloadTexture.Saved" translated="true">Enregistrée {0}. JP2 ({1} x {2})</resource>
+  <resource type="Text" id="Commands.DownloadTexture.Timeout" translated="true">Expiration du délai d'attente pour le téléchargement de texture</resource>
+  <resource type="Text" id="Commands.DownloadTexture.UsageLong" translated="true">Usage: downloadtexture [texture-uuid] [discardlevel]</resource>
+  <resource type="Text" id="Commands.DownloadTexture.Usage" translated="true">Usage: downloadtexture [texture-uuid]</resource>
+  <resource type="Text" id="Commands.DumpAttachment.Description" translated="true">Exportations attachement avatar SPECIFIED sur le disque dur.</resource>
+  <resource type="Text" id="Commands.DumpAttachment.Exported" translated="true">Exportés prims {0} à {1} {2}</resource>
+  <resource type="Text" id="Commands.DumpAttachment.Fail" translated="true">Pièce jointe dans {0} a échoué à exporter.</resource>
+  <resource type="Text" id="Commands.DumpAttachment.Invalid" translated="true">Point de fixation spécifié n'est pas valide.</resource>
+  <resource type="Text" id="Commands.DumpAttachment.NotProperties" translated="true">Avertissement: Impossible de récupérer les propriétés plein pour:</resource>
+  <resource type="Text" id="Commands.DumpAttachments.Description" translated="true">Exporte toutes les pièces jointes d'un avatar.</resource>
+  <resource type="Text" id="Commands.DumpAttachments.Done" translated="true">Essayé d'exporter {0} pièces jointes.</resource>
+  <resource type="Text" id="Commands.DumpAttachment.Success" translated="true">Attachment in {0} exporté correctement.</resource>
+  <resource type="Text" id="Commands.DumpAttachments.Usage" translated="true">Usage: dumpattachments [uuid]</resource>
+  <resource type="Text" id="Commands.DumpAttachment.Usage" translated="true">Usage: dumpattachment [avatar uuid] [pièce jointe à un point: RightHand,LeftHand,Skull,LeftEyeball,RightEyeball,LeftFoot,RightFoot,RightEar,LeftEar,LeftHip,RightHip,LeftUpperLeg,RightUpperLeg,RightLowerLeg,LeftLowerLeg,RightForearm,LeftForearm,Nose,RightShoulder,LeftShoulder,RightPec,LeftPec,Chin,RightUpperArm,LeftUpperArm,Spine,Chest,Pelvis,Stomach,Mouth]</resource>
+  <resource type="Text" id="Commands.DumpOutfit.Description" translated="true">Dumps toutes les textures à partir d'une tenue avatars sur le disque dur.</resource>
+  <resource type="Text" id="Commands.DumpOutfit.Downloading" translated="true">Téléchargement</resource>
+  <resource type="Text" id="Commands.DumpOutfit.NotFound" translated="true">Impossible de trouver 0 (avatar)</resource>
+  <resource type="Text" id="Commands.DumpOutfit.Usage" translated="true">Usage: dumpoutfit [avatar-uuid]</resource>
+  <resource type="Text" id="Commands.EchoMaster.Description" translated="true">Répétez tout ce que le maître dit.</resource>
+  <resource type="Text" id="Commands.EchoMaster.Off" translated="true">Se faisant l'écho est à présent éteint.</resource>
+  <resource type="Text" id="Commands.EchoMaster.On" translated="true">Se faisant l'écho est maintenant.</resource>
+  <resource type="Text" id="Commands.EmptyLostAndFound.Description" translated="true">Empty the Lost</resource>
+  <resource type="Text" id="Commands.EmptyLostAndFound.Done" translated="true">Perdu</resource>
+  <resource type="Text" id="Commands.EmptyTrash.Description" translated="true">Vider la corbeille contenu du dossier.</resource>
+  <resource type="Text" id="Commands.EmptyTrash.Done" translated="true">Corbeille vidée.</resource>
+  <resource type="Text" id="Commands.Export.Description" translated="true">Exporte un objet dans un fichier xml.</resource>
+  <resource type="Text" id="Commands.Export.Downloading" translated="true">XML exporté, a commencé le téléchargement {0} textures.</resource>
+  <resource type="Text" id="Commands.Export.Exported" translated="true">Exportés prims {0} à {1}</resource>
+  <resource type="Text" id="Commands.Export.NotFound" translated="true">Impossible de trouver UUID {0} dans {1} objets répertoriés dans le simulateur actuel.</resource>
+  <resource type="Text" id="Commands.Export.NotProperties" translated="true">Avertissement: Impossible de récupérer les propriétés plein pour:</resource>
+  <resource type="Text" id="Commands.ExportOutfit.Description" translated="true">Exportations une tenue avatars dans un fichier xml.</resource>
+  <resource type="Text" id="Commands.ExportOutfit.Exported" translated="true">Exportés à comparaître pour avatar {0} à {1}</resource>
+  <resource type="Text" id="Commands.ExportOutfit.NotFound" translated="true">Impossible de trouver une apparition pour avatar {0}.</resource>
+  <resource type="Text" id="Commands.ExportOutfit.Usage" translated="true">Usage: exportoutfit [avataruuid] outputfile.xml</resource>
+  <resource type="Text" id="Commands.ExportParticles.Description" translated="true">Reverse Engineers système de particules d'un objet à un script LSL.</resource>
+  <resource type="Text" id="Commands.ExportParticles.Exported" translated="true">Object {0} particules exportées.</resource>
+  <resource type="Text" id="Commands.ExportParticles.NoParticles" translated="true">Object {0} n'a pas de système de particules.</resource>
+  <resource type="Text" id="Commands.ExportParticles.ObjectNotFound" translated="true">Impossible de trouver objet avec l'ID {0}</resource>
+  <resource type="Text" id="Commands.ExportParticles.PrimNotFound" translated="true">Impossible de trouver prim 0 ()</resource>
+  <resource type="Text" id="Commands.ExportParticles.Usage" translated="true">Usage: exportparticles [UUID]</resource>
+  <resource type="Text" id="Commands.Export.Usage" translated="true">Usage: export [uuid] [outputfile.xml]</resource>
+  <resource type="Text" id="Commands.FindObjects.Description" translated="true">Trouve tous les objets, dont le nom contient la description des paquets.</resource>
+  <resource type="Text" id="Commands.FindObjects.Done" translated="true">Fait une recherche.</resource>
+  <resource type="Text" id="Commands.FindObjects.Info" translated="true">Objet '{0}': {1}</resource>
+  <resource type="Text" id="Commands.FindObjects.Unable" translated="true">Avertissement: Impossible de récupérer les propriétés plein pour:</resource>
+  <resource type="Text" id="Commands.FindObjects.Usage" translated="true">Usage: findobjects [rayon] [Recherche en chaîne]</resource>
+  <resource type="Text" id="Commands.FindSim.Description" translated="true">Recherches pour un simulateur et des déclarations de renseignements à ce sujet.</resource>
+  <resource type="Text" id="Commands.FindSim.Info" translated="true">{0}: handle = {1} ({2}, {3})</resource>
+  <resource type="Text" id="Commands.FindSim.LookupFail" translated="true">Lookup de {0} a échoué.</resource>
+  <resource type="Text" id="Commands.FindSim.Usage" translated="true">Usage: findsim [Simulator Name]</resource>
+  <resource type="Text" id="Commands.FindTexture.Description" translated="true">Vérifie si une texture spécifié est actuellement visible sur un visage déterminé.</resource>
+  <resource type="Text" id="Commands.FindTexture.Done" translated="true">Fait une recherche.</resource>
+  <resource type="Text" id="Commands.FindTexture.Info" translated="true">Primitive {0} ({1}) a l'index face {2} Définir pour {3}</resource>
+  <resource type="Text" id="Commands.FindTexture.Usage" translated="true">Usage: findtexture [face-index] [texture uuid]</resource>
+  <resource type="Text" id="Commands.Fly.Description" translated="true">Commence ou arrête de voler.</resource>
+  <resource type="Text" id="Commands.Fly.Started" translated="true">Commencé à voler.</resource>
+  <resource type="Text" id="Commands.Fly.Stopped" translated="true">Ont cessé de voler.</resource>
+  <resource type="Text" id="Commands.FlyTo.Description" translated="true">Volez l'avatar vers la position indiquée pour un maximum de secondes.</resource>
+  <resource type="Text" id="Commands.FlyTo.Flying" translated="true">Flying to {0} en secondes {1}</resource>
+  <resource type="Text" id="Commands.FlyTo.Usage" translated="true">Usage: flyto x y z (secondes)</resource>
+  <resource type="Text" id="Commands.Fly.Usage" translated="true">Usage: fly [START / STOP]</resource>
+  <resource type="Text" id="Commands.Follow.AutopilotCancelled" translated="true">Server annulé le pilote automatique.</resource>
+  <resource type="Text" id="Commands.Follow.Autopilot" translated="true">[Autopilot] {0} mètres de la cible, à partir du pilote automatique à &lt;{1}, {2}, {3}&gt;</resource>
+  <resource type="Text" id="Commands.Follow.Description" translated="true">Suit un autre avatar.</resource>
+  <resource type="Text" id="Commands.Follow.Following" translated="true">À la suite de {0}.</resource>
+  <resource type="Text" id="Commands.Follow.FollowingUUID" translated="true">À la suite de UUID {0}.</resource>
+  <resource type="Text" id="Commands.Follow.NoMaster" translated="true">Aucun maître spécifié.</resource>
+  <resource type="Text" id="Commands.Follow.Unable" translated="true">Incapable de suivre {0}. Bot mai ne pas être en mesure de voir que l'avatar.</resource>
+  <resource type="Text" id="Commands.Follow.UnableUUID" translated="true">Incapable de suivre UUID {0}.</resource>
+  <resource type="Text" id="Commands.Forward.Description" translated="true">Déplacez le robot vers l'avant, un pas ou un nombre déterminé de secondes.</resource>
+  <resource type="Text" id="Commands.Forward.Moved" translated="true">Progressé.</resource>
+  <resource type="Text" id="Commands.Forward.Usage" translated="true">Usage: forward (en secondes)</resource>
+  <resource type="Text" id="Commands.Friends.Description" translated="true">Spectacles amis bot.</resource>
+  <resource type="Text" id="Commands.Friends.NoFriends" translated="true">Bot actuel ne dispose pas d'amis.</resource>
+  <resource type="Text" id="Commands.GiveAll.Console" translated="true">Impossible d'envoyer de l'argent à consoler. Cette commande ne fonctionne que lorsque IMed.</resource>
+  <resource type="Text" id="Commands.GiveAll.Description" translated="true">Donne des maître tout l'argent de bot.</resource>
+  <resource type="Text" id="Commands.GiveAll.Done" translated="true">A {0} L $ à {1}.</resource>
+  <resource type="Text" id="Commands.GiveAll.Message" translated="true">NatiBot donnant à tous l'argent.</resource>
+  <resource type="Text" id="Commands.GiveItem.Description" translated="true">Donner des objets du dossier en cours à un avatar.</resource>
+  <resource type="Text" id="Commands.GiveItem.Folder" translated="true">Incapable de donner dossier {0} \ n</resource>
+  <resource type="Text" id="Commands.GiveItem.Gave" translated="true">A {0} \ n</resource>
+  <resource type="Text" id="Commands.GiveItem.InvalidUUID" translated="true">Premier argument agent devrait UUID.</resource>
+  <resource type="Text" id="Commands.GiveItem.NotFound" translated="true">Aucun inventaire nommé {0} trouvée.</resource>
+  <resource type="Text" id="Commands.GiveItem.Usage" translated="true">Usage: give [uuid agent] [item1] (point 2) (item3) (...)</resource>
+  <resource type="Text" id="Commands.GoHome.Description" translated="true">Téléports maison.</resource>
+  <resource type="Text" id="Commands.GoHome.Fail" translated="true">Échec de téléportation de leur domicile.</resource>
+  <resource type="Text" id="Commands.GoHome.Success" translated="true">Succès téléporté à la maison.</resource>
+  <resource type="Text" id="Commands.Goto.Description" translated="true">Passe à une carte SIM en utilisant un téléport.</resource>
+  <resource type="Text" id="Commands.Goto.Fail" translated="true">Teleport a échoué: {0}.</resource>
+  <resource type="Text" id="Commands.GotoLandmark.Description" translated="true">Va vers une destination à l'aide d'un repère se téléporter.</resource>
+  <resource type="Text" id="Commands.GotoLandmark.Fail" translated="true">Teleport a échoué: {0}.</resource>
+  <resource type="Text" id="Commands.GotoLandmark.InvalidUUID" translated="true">Blancs UUID.</resource>
+  <resource type="Text" id="Commands.GotoLandmark.Success" translated="true">Teleport succès.</resource>
+  <resource type="Text" id="Commands.GotoLandmark.Teleporting" translated="true">Téléportation vers {0}.</resource>
+  <resource type="Text" id="Commands.GotoLandmark.Usage" translated="true">Usage: gotolm [UUID]</resource>
+  <resource type="Text" id="Commands.Goto.Success" translated="true">Téléporté à {0} avec succès.</resource>
+  <resource type="Text" id="Commands.Goto.Usage" translated="true">Usage: goto SIM/X/Y/Z</resource>
+  <resource type="Text" id="Commands.GridLayer.Description" translated="true">Télécharge toutes les couches de la grille de la carte.</resource>
+  <resource type="Text" id="Commands.GridLayer.Layer" translated="true">Layer ({0}) Bas: {1} restant: {2} Haut: {3} Right: {4}</resource>
+  <resource type="Text" id="Commands.GridLayer.Ready" translated="true">Prêt.</resource>
+  <resource type="Text" id="Commands.GridMap.Description" translated="true">Télécharge toutes les informations visibles sur la carte réseau.</resource>
+  <resource type="Text" id="Commands.GridMap.Ready" translated="true">Prêt.</resource>
+  <resource type="Text" id="Commands.Groups.Description" translated="true">Montre des groupes le bot appartient.</resource>
+  <resource type="Text" id="Commands.Groups.NoGroups" translated="true">Le bot ne font pas partie d'aucun groupe.</resource>
+  <resource type="Text" id="Commands.Help.Description" translated="true">Affiche les commandes disponibles.</resource>
+  <resource type="Text" id="Commands.Help.Message" translated="true">\ n \ nAidez \ nLa bot acceptera leurres téléport par le capitaine et les membres de celui-ci le groupe actif. \ n</resource>
+  <resource type="Text" id="Commands.IM.Description" translated="true">Envoie un message instantané.</resource>
+  <resource type="Text" id="Commands.IMGroup.Description" translated="true">Envoie un message instantané à un groupe.</resource>
+  <resource type="Text" id="Commands.IMGroup.Fail" translated="true">Échec à la catégorie message instantané.</resource>
+  <resource type="Text" id="Commands.IMGroup.Joined" translated="true">Inscription {0} groupe de chat avec succès.</resource>
+  <resource type="Text" id="Commands.IMGroup.JoinFailed" translated="true">Rejoindre un groupe Chat a échoué.</resource>
+  <resource type="Text" id="Commands.IMGroup.Success" translated="true">Groupe par message instantané {0} avec le message: {1}</resource>
+  <resource type="Text" id="Commands.IMGroup.Timeout" translated="true">Timeout d'attente pour démarrer la session de groupe.</resource>
+  <resource type="Text" id="Commands.IMGroup.Usage" translated="true">Usage: imgroup [group_uuid] [message]</resource>
+  <resource type="Text" id="Commands.IM.LookupFail" translated="true">Recherche de nom pour {0} a échoué.</resource>
+  <resource type="Text" id="Commands.Import.ChildFail" translated="true">Rez échoué, timed out tout en créant des enfants prim.</resource>
+  <resource type="Text" id="Commands.Import.Complete" translated="true">Importation complète.</resource>
+  <resource type="Text" id="Commands.Import.DeRezzing" translated="true">Rez-de demander à l'inventaire.</resource>
+  <resource type="Text" id="Commands.Import.Description" translated="true">Importations prims à partir d'un fichier XML.</resource>
+  <resource type="Text" id="Commands.Import.DeserializeFail" translated="true">Échec de la désérialiser {0}: {1}.</resource>
+  <resource type="Text" id="Commands.Import.Importing" translated="true">Importation de {0} structures.</resource>
+  <resource type="Text" id="Commands.Import.LinkFail" translated="true">Warning: Failed to link {0} prims.</resource>
+  <resource type="Text" id="Commands.Import.MissingRoot" translated="true">AVERTISSEMENT: Saut d'un linkset avec une racine prim manquants.</resource>
+  <resource type="Text" id="Commands.ImportOutfit.Description" translated="true">Les importations des vêtements dans un fichier XML.</resource>
+  <resource type="Text" id="Commands.ImportOutfit.Usage" translated="true">Usage: importoutfit [fichier]</resource>
+  <resource type="Text" id="Commands.Import.Properties" translated="true">Définition des propriétés de {0}.</resource>
+  <resource type="Text" id="Commands.Import.RootFail" translated="true">Rez échoué, timed out tout en créant la racine prim.</resource>
+  <resource type="Text" id="Commands.Import.Usage" translated="true">Usage: import [fichier] (usegroup)</resource>
+  <resource type="Text" id="Commands.IM.Success" translated="true">Instant messaged {0} avec le message: {1}</resource>
+  <resource type="Text" id="Commands.IM.Usage" translated="true">Usage: im [Prénom] [Nom] [message]</resource>
+  <resource type="Text" id="Commands.Inventory.Description" translated="true">Des spectacles et des caches de l'inventaire.</resource>
+  <resource type="Text" id="Commands.JoinGroup.Ambiguous" translated="true">Ambiguë nom. Found {0} Groupes UUID (sur console)</resource>
+  <resource type="Text" id="Commands.JoinGroup.Description" translated="true">Se joint à un groupe.</resource>
+  <resource type="Text" id="Commands.JoinGroup.Empty" translated="true">ERREUR: Vous avez une réponse vide</resource>
+  <resource type="Text" id="Commands.JoinGroup.InvalidUUID" translated="true">{0} ne semble pas être un UUID valide.</resource>
+  <resource type="Text" id="Commands.JoinGroup.Joined" translated="true">A rejoint le groupe {0}.</resource>
+  <resource type="Text" id="Commands.JoinGroup.Matching" translated="true">Groupes correspondants sont les suivants:</resource>
+  <resource type="Text" id="Commands.JoinGroup.NotJoined" translated="true">Impossible de rejoindre le groupe {0}</resource>
+  <resource type="Text" id="Commands.JoinGroup.Usage" translated="true">Usage: joingroup [groupname] | [joingroup uuid]</resource>
+  <resource type="Text" id="Commands.JoinGroup.UUIDNotFound" translated="true">Incapable d'obtenir des UUID pour le groupe {0}.</resource>
+  <resource type="Text" id="Commands.Jump.Description" translated="true">Sauts.</resource>
+  <resource type="Text" id="Commands.Jump.Jumping" translated="true">A commencé à sauter.</resource>
+  <resource type="Text" id="Commands.Jump.StopJumping" translated="true">Arrêté le saut.</resource>
+  <resource type="Text" id="Commands.LeaveGroup.Description" translated="true">Quitte un groupe.</resource>
+  <resource type="Text" id="Commands.LeaveGroup.Failed" translated="true">{0} n'a pas quitté le groupe {1}.</resource>
+  <resource type="Text" id="Commands.LeaveGroup.Left" translated="true">{0} a quitté le groupe {1}.</resource>
+  <resource type="Text" id="Commands.LeaveGroup.NoGroups" translated="true">{0} ne semble pas membre d'un groupe.</resource>
+  <resource type="Text" id="Commands.LeaveGroup.NotInGroup" translated="true">{0} ne semble pas être membre du groupe {1}.</resource>
+  <resource type="Text" id="Commands.LeaveGroup.Usage" translated="true">Usage: leavegroup [NomDeGroupe]</resource>
+  <resource type="Text" id="Commands.Left.Description" translated="true">Déplacez le bot à gauche, une étape ou un nombre déterminé de secondes.</resource>
+  <resource type="Text" id="Commands.Left.Moved" translated="true">Déplacé vers la gauche.</resource>
+  <resource type="Text" id="Commands.Left.Usage" translated="true">Usage: left (secondes)</resource>
+  <resource type="Text" id="Commands.ListContents.Description" translated="true">Liste le contenu du dossier de stocks actuels.</resource>
+  <resource type="Text" id="Commands.ListContents.NotReady" translated="true">Le contenu du dossier n'est pas encore prêt.</resource>
+  <resource type="Text" id="Commands.ListContents.Usage" translated="true">Usage: ls (-l)</resource>
+  <resource type="Text" id="Commands.Load.Description" translated="true">Charges commandes à partir d'une DLL.</resource>
+  <resource type="Text" id="Commands.Load.Loaded" translated="true">Assemblée {0} chargé.</resource>
+  <resource type="Text" id="Commands.Load.Usage" translated="true">Usage: load [assembly.dll]</resource>
+  <resource type="Text" id="Commands.Location.Description" translated="true">Indique l'emplacement actuel.</resource>
+  <resource type="Text" id="Commands.Location.Location" translated="true">Simulator: '{0}' Lieu: {1}</resource>
+  <resource type="Text" id="Commands.MapFriend.Description" translated="true">Trouve un ami.</resource>
+  <resource type="Text" id="Commands.MapFriend.Found" translated="true">Trouver des amis de {0} dans {1} à {2} / {3}</resource>
+  <resource type="Text" id="Commands.MapFriend.Offline" translated="true">Trouver des amis de {0}, mais ils semblent être hors connexion</resource>
+  <resource type="Text" id="Commands.MapFriend.Timeout" translated="true">Délai d'attente en attente de réponse, ce que vous avez les droits de cartographie sur: {0}?</resource>
+  <resource type="Text" id="Commands.MapFriend.Usage" translated="true">Usage: mapfriend [UUID]</resource>
+  <resource type="Text" id="Commands.MD5.Description" translated="true">Crée un hachage MD5 à partir d'un mot de passe donné.</resource>
+  <resource type="Text" id="Commands.MD5.Usage" translated="true">Usage: md5 [password]</resource>
+  <resource type="Text" id="Commands.Moveto.Moving" translated="true">Tenter d'aller à &lt;{0}, {1}, {2}&gt;</resource>
+  <resource type="Text" id="Commands.Moveto.Usage" translated="true">Usage: moveto x y z</resource>
+  <resource type="Text" id="Commands.ObjectInventory.Description" translated="true">Obtient une liste d'un inventaire des tâches objet.</resource>
+  <resource type="Text" id="Commands.ObjectInventory.Failed" translated="true">Echec de l'inventaire tâche de téléchargement pour {0}.</resource>
+  <resource type="Text" id="Commands.ObjectInventory.Folder" translated="true">[Dossier] Name: {0}</resource>
+  <resource type="Text" id="Commands.ObjectInventory.Item" translated="true">[Article] Name: {0} Desc: {1} Type: {2} UUID: {3}</resource>
+  <resource type="Text" id="Commands.ObjectInventory.NotFound" translated="true">Impossible de trouver object {0}.</resource>
+  <resource type="Text" id="Commands.ObjectInventory.Usage" translated="true">Usage: objectinventory [uuid]</resource>
+  <resource type="Text" id="Commands.ParcelDetails.Description" translated="true">Afficher les détails à propos de la parcelle spécifiée.</resource>
+  <resource type="Text" id="Commands.ParcelDetails.NotFound" translated="true">Impossible de trouver le colis {0} dans les parcelles dictionnaire. Exécuté en premier parcelinfo pour remplir le dictionnaire?</resource>
+  <resource type="Text" id="Commands.ParcelDetails.Usage" translated="true">Usage: parceldetails [parcel_id]</resource>
+  <resource type="Text" id="Commands.ParcelInfo.Description" translated="true">Affiche des informations sur toutes les parcelles de ce simulateur de</resource>
+  <resource type="Text" id="Commands.ParcelInfo.Downloaded" translated="true">Téléchargé {0} Colis dans {1}</resource>
+  <resource type="Text" id="Commands.ParcelInfo.Failed" translated="true">Impossible d'extraire des informations sur toutes les parcelles de simulateur</resource>
+  <resource type="Text" id="Commands.ParcelInfo.Parcel" translated="true">Terrain [{0}]: Nom: "{1}", Description: "{2}" ACL Count: {3} trafic: {4}</resource>
+  <resource type="Text" id="Commands.ParcelPrimOwners.Description" translated="true">Affiche une liste de combien de prims fait un grand nombre d'utilisateurs ont dans un colis. (Besoins permissions)</resource>
+  <resource type="Text" id="Commands.ParcelPrimOwners.Info" translated="true">Propriétaire: {0}. Objets: {1}</resource>
+  <resource type="Text" id="Commands.ParcelPrimOwners.NotFound" translated="true">Impossible de trouver le colis {0} dans les parcelles dictionnaire. Exécuté en premier parcelinfo pour remplir le dictionnaire?</resource>
+  <resource type="Text" id="Commands.ParcelPrimOwners.Timeout" translated="true">Timed out</resource>
+  <resource type="Text" id="Commands.ParcelPrimOwners.Usage" translated="true">Usage: primowners [parcel_id]</resource>
+  <resource type="Text" id="Commands.ParcelSelectObjects.Description" translated="true">Affiche une liste de prims dans des parcelles qui appartiennent à un avatar spécifié.</resource>
+  <resource type="Text" id="Commands.ParcelSelectObjects.Found" translated="true">Found {0} objets.</resource>
+  <resource type="Text" id="Commands.ParcelSelectObjects.NotFound" translated="true">Impossible de trouver le colis {0} dans les parcelles dictionnaire. Exécuté en premier parcelinfo pour remplir le dictionnaire?</resource>
+  <resource type="Text" id="Commands.ParcelSelectObjects.Timeout" translated="true">Timed out</resource>
+  <resource type="Text" id="Commands.ParcelSelectObjects.Usage" translated="true">Usage: selectobjects [parcel_id] [avatar_uuid]</resource>
+  <resource type="Text" id="Commands.PrimCount.Description" translated="true">Indique le nombre de prims effectivement indexés.</resource>
+  <resource type="Text" id="Commands.PrimCount.Detail" translated="true">{0} (Avatars: {1} Primitives: {2})</resource>
+  <resource type="Text" id="Commands.PrimCount.Total" translated="true">Suivi d'un total de {0} objets.</resource>
+  <resource type="Text" id="Commands.PrimInfo.Default" translated="true">Texture par défaut: {0}</resource>
+  <resource type="Text" id="Commands.PrimInfo.Description" translated="true">Affiche des informations sur un spécifiées prim.</resource>
+  <resource type="Text" id="Commands.PrimInfo.Done" translated="true">Fait.</resource>
+  <resource type="Text" id="Commands.PrimInfo.Face" translated="true">Face {0}: {1}</resource>
+  <resource type="Text" id="Commands.PrimInfo.Light" translated="true">Lumière: {0}</resource>
+  <resource type="Text" id="Commands.PrimInfo.NotFound" translated="true">Impossible de trouver prim {0}.</resource>
+  <resource type="Text" id="Commands.PrimInfo.Null" translated="true">null</resource>
+  <resource type="Text" id="Commands.PrimInfo.Particles" translated="true">Particules: {0}</resource>
+  <resource type="Text" id="Commands.PrimInfo.TextureEntry" translated="true">TextureEntry:</resource>
+  <resource type="Text" id="Commands.PrimInfo.Usage" translated="true">Usage: priminfo [prim-uuid]</resource>
+  <resource type="Text" id="Commands.PrimRegex.Description" translated="true">Les recherches sur une prim en utilisant les expressions régulières.</resource>
+  <resource type="Text" id="Commands.PrimRegex.Done" translated="true">Fait une recherche.</resource>
+  <resource type="Text" id="Commands.PrimRegex.Error" translated="true">La recherche d'erreur.</resource>
+  <resource type="Text" id="Commands.PrimRegex.Prim" translated="true">\ nname = {0} \ nID = {1} \ nFlags = {2} \ ntext = '{3}' \ nDESC = '{4}</resource>
+  <resource type="Text" id="Commands.PrimRegex.Searching" translated="true">Prim Searching for [{0}] ({1} prims chargée en simulateur). \ N</resource>
+  <resource type="Text" id="Commands.PrimRegex.Usage" translated="true">Usage: primregex [predicat texte]</resource>
+  <resource type="Text" id="Commands.RegionInfo.Access" translated="true">Disponibilité:</resource>
+  <resource type="Text" id="Commands.RegionInfo.Description" translated="true">Affiche des informations sur la région courante.</resource>
+  <resource type="Text" id="Commands.RegionInfo.Flags" translated="true">Flags:</resource>
+  <resource type="Text" id="Commands.RegionInfo.Handle" translated="true">Handle: {0} (X / Y {1}: {2})</resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainBase0" translated="false">TerrainBase0: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainBase1" translated="false">TerrainBase1: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainBase2" translated="false">TerrainBase2: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainBase3" translated="false">TerrainBase3: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainDetail0" translated="false">TerrainDetail0: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainDetail1" translated="false">TerrainDetail1: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainDetail2" translated="false">TerrainDetail2: </resource>
+  <resource type="Text" id="Commands.RegionInfo.TerrainDetail3" translated="false">TerrainDetail3: </resource>
+  <resource type="Text" id="Commands.RegionInfo.UUID" translated="false">UUID: </resource>
+  <resource type="Text" id="Commands.RegionInfo.WaterHeight" translated="true">Hauteur d'eau:</resource>
+  <resource type="Text" id="Commands.Right.Description" translated="true">Déplacez le bot à droite, une étape ou un nombre déterminé de secondes.</resource>
+  <resource type="Text" id="Commands.Right.Moved" translated="true">Déplacé vers la droite.</resource>
+  <resource type="Text" id="Commands.Right.Usage" translated="true">Usage: right (secondes)</resource>
+  <resource type="Text" id="Commands.Say.Description" translated="true">Dit quelque chose sur le chat général ou par la voie d'option.</resource>
+  <resource type="Text" id="Commands.Say.Said" translated="true">A déclaré: "{0}".</resource>
+  <resource type="Text" id="Commands.Say.Usage" translated="true">Usage: say (circuit en option) [message]</resource>
+  <resource type="Text" id="Commands.Script.Description" translated="true">Exécute une série de commandes depuis un fichier texte donné.</resource>
+  <resource type="Text" id="Commands.Script.Done" translated="true">Fin de l'exécution {0} commandes.</resource>
+  <resource type="Text" id="Commands.Script.Usage" translated="true">Usage: script [fichier]</resource>
+  <resource type="Text" id="Commands.SearchBuildable.Description" translated="true">Rechercher des parcelles constructibles.</resource>
+  <resource type="Text" id="Commands.SearchBuildable.Failed" translated="true">Défaut d'obtenir toutes les informations parcelles de la carte SIM.</resource>
+  <resource type="Text" id="Commands.SearchBuildable.Found" translated="true">Parcelle constructible trouvés: {0} à sim {1}.</resource>
+  <resource type="Text" id="Commands.SearchBuildable.Ready" translated="true">Prêt.</resource>
+  <resource type="Text" id="Commands.SearchEvents.Description" translated="true">Rechercher des événements dans la liste.</resource>
+  <resource type="Text" id="Commands.SearchEvents.Event" translated="true">Event ID: {0} Nom de l'événement: {1} Date de l'événement: {2}</resource>
+  <resource type="Text" id="Commands.SearchEvents.Matched" translated="true">Votre requête '{0}' {1} appariés Events.</resource>
+  <resource type="Text" id="Commands.SearchEvents.NoResults" translated="true">Aucun résultat correspondant à votre chaîne de recherche.</resource>
+  <resource type="Text" id="Commands.SearchEvents.Timeout" translated="true">Délai d'attente en attente pour le simulateur de répondre.</resource>
+  <resource type="Text" id="Commands.SearchEvents.Usage" translated="true">Usage: searchevents [Recherche]</resource>
+  <resource type="Text" id="Commands.SetHome.Description" translated="true">Établit l'emplacement actuel de la maison.</resource>
+  <resource type="Text" id="Commands.SetHome.Set" translated="true">Accueil fixés.</resource>
+  <resource type="Text" id="Commands.SetMaster.Description" translated="true">Maître change de nom.</resource>
+  <resource type="Text" id="Commands.SetMaster.Greet" translated="true">Vous êtes maintenant mon maître. IM me Avec "Aide" pour une liste des commandes.</resource>
+  <resource type="Text" id="Commands.SetMasterKey.Description" translated="true">Maître change par clé.</resource>
+  <resource type="Text" id="Commands.SetMasterKey.Set" translated="true">Maître Set to {0}</resource>
+  <resource type="Text" id="Commands.SetMasterKey.Usage" translated="true">Usage: setmasterkey [UUID]</resource>
+  <resource type="Text" id="Commands.SetMaster.Set" translated="true">Maître Set to {0} ({1})</resource>
+  <resource type="Text" id="Commands.SetMaster.Usage" translated="true">Usage: setmaster [nom]</resource>
+  <resource type="Text" id="Commands.SetMaster.UUIDNotFound" translated="true">Incapable d'obtenir des UUID pour «{0}". Maître inchangé.</resource>
+  <resource type="Text" id="Commands.Shout.Description" translated="true">Crie quelque chose sur le chat général ou par la voie d'option.</resource>
+  <resource type="Text" id="Commands.Shout.Shouted" translated="true">Cria "{0}".</resource>
+  <resource type="Text" id="Commands.Shout.Usage" translated="true">Usage: shout (circuit en option) [message]</resource>
+  <resource type="Text" id="Commands.ShowEffects.Description" translated="true">Montre les effets spectateur sur la console ou pas.</resource>
+  <resource type="Text" id="Commands.ShowEffects.LookAt" translated="true">ViewerEffect [LookAt]: SourceID: {0} targetId: {1} TargetPos: {2} Type: {3} Durée: {4} id: {5}</resource>
+  <resource type="Text" id="Commands.ShowEffects.Off" translated="true">Effets Viewer ne sera pas montré.</resource>
+  <resource type="Text" id="Commands.ShowEffects.On" translated="true">Effets Viewer sera affiché sur la console.</resource>
+  <resource type="Text" id="Commands.ShowEffects.Other" translated="true">ViewerEffect [{0}]: SourceID: {1} targetId: {2} TargetPos: {3} Durée: {4} id: {5}</resource>
+  <resource type="Text" id="Commands.ShowEffects.PointAt" translated="true">ViewerEffect [PointAt]: SourceID: {0} targetId: {1} TargetPos: {2} Type: {3} Durée: {4} id: {5}</resource>
+  <resource type="Text" id="Commands.ShowEffects.Usage" translated="true">Usage: showeffects [on / off]</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.Date" translated="true">        Date: {0}</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.Description" translated="true">Affiche les détails sur un événement.</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.EventDescription" translated="true">Description: {0}</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.Location" translated="true">    Lieu: {0} / {1} / {2}</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.Name" translated="true">        Name: {0} ({1})</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.Query" translated="true">Question envoyée</resource>
+  <resource type="Text" id="Commands.ShowEventDetails.Usage" translated="true">Usage: showevent [eventID] (searchevents utiliser pour obtenir ID)</resource>
+  <resource type="Text" id="Commands.Sit.Description" translated="true">Est assis sur le plus proche prim.</resource>
+  <resource type="Text" id="Commands.Sit.NotFound" translated="true">Impossible de trouver un voisin prim pour s'asseoir.</resource>
+  <resource type="Text" id="Commands.SitOn.Description" translated="true">Repose sur l'objet demandé.</resource>
+  <resource type="Text" id="Commands.SitOn.NotFound" translated="true">Impossible de trouver un objet de siéger avec UUID {0}.</resource>
+  <resource type="Text" id="Commands.SitOn.Sit" translated="true">A demandé de s'asseoir sur l'objet {0} ({1})</resource>
+  <resource type="Text" id="Commands.SitOn.Usage" translated="true">Usage: siton [UUID]</resource>
+  <resource type="Text" id="Commands.Sit.Sit" translated="true">Assis sur {0} ({1}). Distance: {2}</resource>
+  <resource type="Text" id="Commands.Stand.Description" translated="true">Se lève.</resource>
+  <resource type="Text" id="Commands.Stand.Standing" translated="true">Debout.</resource>
+  <resource type="Text" id="Commands.Stats.Description" translated="true">Spectacles statisticals sur la connexion.</resource>
+  <resource type="Text" id="Commands.Stats.Info1" translated="true">[{0}] Dilatation: {1} InBPS: {2} OutBPS: {3} ResentOut: {4} ResentIn: {5}</resource>
+  <resource type="Text" id="Commands.Stats.Info2" translated="true">FPS: PhysicsFPS {0}: {1} AgentUpdates: {2} Objects: {3} objets dans le script: {4}</resource>
+  <resource type="Text" id="Commands.Stats.Info3" translated="true">Calendrier: {0} Heure Net: {1} Heure Image: {2} Physique Heure: {3} Script Time: {4} Other Time: {5}</resource>
+  <resource type="Text" id="Commands.Stats.Info4" translated="true">Agents: {0} Agents enfant: {1} scripts ActiveX: {2}</resource>
+  <resource type="Text" id="Commands.Stats.Packets" translated="true">Paquets dans la file d'attente:</resource>
+  <resource type="Text" id="Commands.TaskRunning.Description" translated="true">Récupère ou ensemble IsRunning drapeau sur articles à l'intérieur d'un objet (inventaire des tâches).</resource>
+  <resource type="Text" id="Commands.TaskRunning.Failed" translated="true">Echec de l'inventaire tâche de téléchargement pour {0}</resource>
+  <resource type="Text" id="Commands.TaskRunning.Folder" translated="true">[Dossier] Name: {0}</resource>
+  <resource type="Text" id="Commands.TaskRunning.Item" translated="true">[Article] Name: {0} Desc: {1} Type: {2}</resource>
+  <resource type="Text" id="Commands.TaskRunning.NoInfo" translated="true">  (pas d'info script)</resource>
+  <resource type="Text" id="Commands.TaskRunning.NotFound" translated="true">Impossible de trouver objeto 0 ()</resource>
+  <resource type="Text" id="Commands.TaskRunning.NotSet" translated="true">  (n'était pas la série)</resource>
+  <resource type="Text" id="Commands.TaskRunning.Running" translated="true">IsMono: {0} IsRunning: {1}</resource>
+  <resource type="Text" id="Commands.TaskRunning.Setting" translated="true">  Paramètre</resource>
+  <resource type="Text" id="Commands.TaskRunning.Usage" translated="true">Usage: taskrunning [objectID] [[scriptName] true | false]</resource>
+  <resource type="Text" id="Commands.Textures.Description" translated="true">Active ou désactive le téléchargement automatique pour toutes les textures visualisable</resource>
+  <resource type="Text" id="Commands.Textures.Disabled" translated="true">Texture téléchargement est éteint.</resource>
+  <resource type="Text" id="Commands.Textures.Downloaded" translated="true">Fini le téléchargement texture {0} ({1} octets)</resource>
+  <resource type="Text" id="Commands.Textures.Enabled" translated="true">La texture est sur le téléchargement.</resource>
+  <resource type="Text" id="Commands.Textures.Usage" translated="true">Usage: textures [on / off]</resource>
+  <resource type="Text" id="Commands.Touch.Description" translated="true">Touche un objet spécifié.</resource>
+  <resource type="Text" id="Commands.Touch.NotFound" translated="true">Impossible de trouver un objet à toucher avec UUID {0}.</resource>
+  <resource type="Text" id="Commands.Touch.Touched" translated="true">Touché object {0}.</resource>
+  <resource type="Text" id="Commands.Touch.Usage" translated="true">Usage: touch [uuid]</resource>
+  <resource type="Text" id="Commands.Tree.Description" translated="true">Rezzes un arbre.</resource>
+  <resource type="Text" id="Commands.Tree.Help" translated="true">Type d'arbre pour la liste des arbres.</resource>
+  <resource type="Text" id="Commands.Tree.Rezzed" translated="true">Tentative de rez a {0} arbre.</resource>
+  <resource type="Text" id="Commands.Tree.Usage" translated="true">Usage: tree</resource>
+  <resource type="Text" id="Commands.TurnTo.Turned" translated="true">Turned to {0}.</resource>
+  <resource type="Text" id="Commands.Upload.CompressedUpload" translated="true">Image compressée sur JPEG2000, le téléchargement ...</resource>
+  <resource type="Text" id="Commands.Upload.CreatedBy" translated="true">{0} créé par NatiBot à {1}.</resource>
+  <resource type="Text" id="Commands.Upload.Description" translated="true">Mises à un élément à l'actif.</resource>
+  <resource type="Text" id="Commands.Upload.ErrorNotecard" translated="true">Erreur de création notecard pour {0}</resource>
+  <resource type="Text" id="Commands.Upload.ErrorScript" translated="true">Erreur de création du script pour {0}</resource>
+  <resource type="Text" id="Commands.Upload.FailedCompress" translated="true">Échec lors de la compression à JPEG2000.</resource>
+  <resource type="Text" id="Commands.Upload.FailedLoad" translated="true">Échec de chargement du fichier.</resource>
+  <resource type="Text" id="Commands.Upload.Failed" translated="true">Fichier ne peut pas être téléchargé pour cause d'erreur {0}.</resource>
+  <resource type="Text" id="Commands.UploadImage.CreatedBy" translated="true">{0} créé par NatiBot à {1}.</resource>
+  <resource type="Text" id="Commands.UploadImage.Description" translated="true">Télécharger une image sur le serveur actif.</resource>
+  <resource type="Text" id="Commands.UploadImage.FailedConvert" translated="true">Échec lors de la compression à JPEG2000</resource>
+  <resource type="Text" id="Commands.UploadImage.FailedUpload" translated="true">Image a été interdit de télécharger pour cause d'erreur: "{0}".</resource>
+  <resource type="Text" id="Commands.UploadImage.ImageSent" translated="true">Image a été envoyé à maître {0} ({1}) et devrait bientôt arriver.</resource>
+  <resource type="Text" id="Commands.UploadImage.Loading" translated="true">Chargement d'image {0}.</resource>
+  <resource type="Text" id="Commands.UploadImage.Returned" translated="true">RequestCreateItemFromAsset () a renvoyé: Success = {0}, Status = {1}, itemid = {2}, réfbien = {3}</resource>
+  <resource type="Text" id="Commands.UploadImage.Timeout" translated="true">Délai d'attente lors du téléchargement d'image. Cela ne signifie pas l'image n'a pas été téléchargé.</resource>
+  <resource type="Text" id="Commands.UploadImage.UploadedUUID" translated="true">Image téléchargée avec UUID {0}</resource>
+  <resource type="Text" id="Commands.UploadImage.Uploading" translated="true">Image compressée sur JPEG2000, le téléchargement ...</resource>
+  <resource type="Text" id="Commands.UploadImage.UploadTook" translated="true">Upload a {0} secondes.</resource>
+  <resource type="Text" id="Commands.UploadImage.Usage" translated="true">Usage: uploadimage [inventory_name] [fichier]</resource>
+  <resource type="Text" id="Commands.Upload.LoadedUpload" translated="true">Fichier chargé, le téléchargement ...</resource>
+  <resource type="Text" id="Commands.Upload.Loading" translated="true">Chargement du fichier {0}.</resource>
+  <resource type="Text" id="Commands.UploadRawTerrain.Description" translated="true">Charger un fichier RAW du terrain au simulateur.</resource>
+  <resource type="Text" id="Commands.UploadRawTerrain.FileNotFound" translated="true">File {0} not found.</resource>
+  <resource type="Text" id="Commands.UploadRawTerrain.Success" translated="true">Terrain premières fichier téléchargé et appliqué.</resource>
+  <resource type="Text" id="Commands.UploadRawTerrain.Timeout" translated="true">Délai d'attente en attente pour un terrain de téléchargement de fichiers.</resource>
+  <resource type="Text" id="Commands.UploadRawTerrain.Usage" translated="true">Usage: uploadterrain [fichier]</resource>
+  <resource type="Text" id="Commands.Upload.ReturnedAsset" translated="true">RequestCreateItemFromAsset () a renvoyé: Success = {0}, Status = {1}, itemid = {2}, réfbien = {3}</resource>
+  <resource type="Text" id="Commands.Upload.ReturnedNotecard" translated="true">RequestUploadNotecardAsset () a renvoyé: Success = {0}, Status = {1}, itemid = {2}, réfbien = {3}</resource>
+  <resource type="Text" id="Commands.Upload.ReturnedScript" translated="true">RequestUpdateScriptAgentInventory () a renvoyé: Success = {0}, Status = {1}, itemid = {2}, réfbien = {3}</resource>
+  <resource type="Text" id="Commands.Upload.Returned" translated="true">RequestCreateItem () a renvoyé: Success = {0}, itemid = {1}, réfbien = {2}</resource>
+  <resource type="Text" id="Commands.Upload.Sent" translated="true">Le fichier a été envoyé à maître {0} ({1}) et devrait bientôt arriver.</resource>
+  <resource type="Text" id="Commands.Upload.Timeout" translated="true">Timeout quand le fichier télécharger. Cela ne signifie pas pour autant fichier n'a pas été téléchargé.</resource>
+  <resource type="Text" id="Commands.Upload.UnknownError" translated="true">Erreur inconnue lors de téléchargement actif notecard.</resource>
+  <resource type="Text" id="Commands.Upload.Unsupported" translated="true">Unsupported File</resource>
+  <resource type="Text" id="Commands.Upload.UploadedUUID" translated="true">Fichier uploadé avec UUID {0}</resource>
+  <resource type="Text" id="Commands.Upload.UploadTook" translated="true">Upload a {0} secondes.</resource>
+  <resource type="Text" id="Commands.Upload.Usage" translated="true">Usage: upload [inventory_name] [fichier]</resource>
+  <resource type="Text" id="Commands.Uptime.Description" translated="true">Montre le temps de connexion.</resource>
+  <resource type="Text" id="Commands.Uptime.Uptime" translated="true">Je suis {0}, connecté depuis {1} ({2}).</resource>
+  <resource type="Text" id="Commands.Changelog.Description" translated="true">Indique la version bot et changelog.</resource>
+  <resource type="Text" id="Commands.ViewNotecard.Description" translated="true">Montre un notecard inventaire.</resource>
+  <resource type="Text" id="Commands.ViewNotecard.ExpectedUUID" translated="true">Premier argument notecard devrait UUID.</resource>
+  <resource type="Text" id="Commands.ViewNotecard.NotecardData" translated="true">Notecard données: \ n {0}</resource>
+  <resource type="Text" id="Commands.ViewNotecard.NotFound" translated="true">Notecard ne trouve pas dans l'inventaire mis en cache. Utilisez commande "i" pour mettre en cache en premier.</resource>
+  <resource type="Text" id="Commands.ViewNotecard.Timeout" translated="true">Délai d'attente en attente des données notecard.</resource>
+  <resource type="Text" id="Commands.ViewNotecard.Usage" translated="true">Usage: viewnote [UUID]</resource>
+  <resource type="Text" id="Commands.VoiceAccount.Description" translated="true">Obtenir infos compte voix. Usage: voiceaccount</resource>
+  <resource type="Text" id="Commands.VoiceAccount.GridFail" translated="true">RequestProvisionAccount échoué. Non disponible pour le courant de grille?</resource>
+  <resource type="Text" id="Commands.VoiceAccount.LookupFail" translated="true">Voice consultation des informations du compte pour {0} a échoué.</resource>
+  <resource type="Text" id="Commands.VoiceAccount.NotRunning" translated="true">VoiceManager ne fonctionne pas pour {0}</resource>
+  <resource type="Text" id="Commands.VoiceAccount.VoiceInfo" translated="true">Voix compte pour {0}: user "{1}", mot de passe "{2}"</resource>
+  <resource type="Text" id="Commands.VoiceParcel.Description" translated="true">Obtenir infos voix colis. Usage: voiceparcel</resource>
+  <resource type="Text" id="Commands.VoiceParcel.Failed" translated="true">Colis Voice Demande d'information pour {0} a échoué.</resource>
+  <resource type="Text" id="Commands.VoiceParcel.GridFail" translated="true">RequestParcelVoiceInfo échoué. Non disponible pour le courant de grille?</resource>
+  <resource type="Text" id="Commands.VoiceParcel.VoiceInfo" translated="true">Colis Voice Demande d'information pour {0}: nom de la région "{1}", parcelle ID local {2}, canal URI {3}</resource>
+  <resource type="Text" id="Commands.Wear.Description" translated="true">Porte une tenue de dossier de l'inventaire.</resource>
+  <resource type="Text" id="Commands.Wear.Invalid" translated="true">Blancs Outfit ({0}).</resource>
+  <resource type="Text" id="Commands.Wear.Usage" translated="true">Usage: wear [trousseau] (nobake)</resource>
+  <resource type="Text" id="Commands.Whisper.Description" translated="true">Chuchote quelque chose à chat général ou par la voie d'option.</resource>
+  <resource type="Text" id="Commands.Whisper.Usage" translated="true">Usage: whisper (circuit en option) [message]</resource>
+  <resource type="Text" id="Commands.Whisper.Whispered" translated="true">Whispered "{0}".</resource>
+  <resource type="Text" id="Commands.Who.Description" translated="true">Listes d'agents affichable.</resource>
+  <resource type="Text" id="Commands.Wind.Description" translated="true">Affiche la vitesse du vent local.</resource>
+  <resource type="Text" id="Commands.Wind.Speed" translated="true">Vitesse du vent local est {0}.</resource>
+  <resource type="Text" id="Exception" translated="true">Cette opération n'est pas encore implémentée.</resource>
+  <resource type="Text" id="frmCheckLicense.button1" translated="true">Vérifier le code</resource>
+  <resource type="Text" id="frmCheckLicense.button2" translated="true">Annuler</resource>
+  <resource type="Text" id="frmCheckLicense.HardwareChanged" translated="true">Hardware changé, auth nouvelle demande de clé</resource>
+  <resource type="Text" id="frmCheckLicense.IncorrectKey" translated="true">Autorisation clé incorrecte</resource>
+  <resource type="Text" id="frmCheckLicense.label1" translated="true">Clé</resource>
+  <resource type="Text" id="frmCheckLicense.label2" translated="true">Clé d'autorisation</resource>
+  <resource type="Text" id="frmCheckLicense.Text" translated="true">De vérifier le permis</resource>
+  <resource type="Text" id="frmMain.btnImport.Importing" translated="true">Importation de {0}</resource>
+  <resource type="Text" id="frmMain.btnImport.Proceeding" translated="true">De procéder à l'importation {0} articles.</resource>
+  <resource type="Text" id="frmMain.btnImport" translated="true">Import</resource>
+  <resource type="Text" id="frmMain.btnImport.Uploaded" translated="true">Uploaded {0} éléments de {1}.</resource>
+  <resource type="Text" id="frmMain.btnObjects" translated="true">Objets</resource>
+  <resource type="Text" id="frmMain.btnSetMaster" translated="true">Set Maître</resource>
+  <resource type="Text" id="frmMain.cbAgentUpdate" translated="true">Envoyer mise à jour de paquets</resource>
+  <resource type="Text" id="frmMain.cbGreetMaster" translated="true">Greet maître</resource>
+  <resource type="Text" id="frmMain.cbRelayConvos" translated="true">Envoyez des messages instantanés / Chat sur IRC</resource>
+  <resource type="Text" id="frmMain.clLocation" translated="true">Emplacement</resource>
+  <resource type="Text" id="frmMain.clMaster" translated="true">Maître</resource>
+  <resource type="Text" id="frmMain.clMoney" translated="true">Argent</resource>
+  <resource type="Text" id="frmMain.ClName" translated="true">Nom</resource>
+  <resource type="Text" id="frmMain.ClStatus" translated="true">État</resource>
+  <resource type="Text" id="frmMain.cmdCrash" translated="true">Contrôles Crash</resource>
+  <resource type="Text" id="frmMain.dlgImport" translated="true">Élément à l'importation</resource>
+  <resource type="Text" id="frmMain.editToolStripMenuItem" translated="true">Afficher / Modifier les détails</resource>
+  <resource type="Text" id="frmMain.gbAccounts" translated="true">Comptes</resource>
+  <resource type="Text" id="frmMain.gbMaster" translated="true">Maître</resource>
+  <resource type="Text" id="frmMain.groupBox1" translated="true">Options générales</resource>
+  <resource type="Text" id="frmMain.groupBox2" translated="true">IRC Paramètres</resource>
+  <resource type="Text" id="frmMain.label1" translated="true">Serveur IRC</resource>
+  <resource type="Text" id="frmMain.label2" translated="true">Port</resource>
+  <resource type="Text" id="frmMain.label3" translated="true">Main Channel</resource>
+  <resource type="Text" id="frmMain.label4" translated="true">Nick Maître</resource>
+  <resource type="Text" id="frmMain.lblAccoutnsInfo" translated="true">Faites un clic droit sur une ligne pour les options</resource>
+  <resource type="Text" id="frmMain.loginToolStripMenuItem" translated="true">Connexion</resource>
+  <resource type="Text" id="frmMain.logoutToolStripMenuItem" translated="true">Déconnexion</resource>
+  <resource type="Text" id="frmMain.objectsToolStripMenuItem" translated="true">Objets</resource>
+  <resource type="Text" id="frmMain.openAccountList" translated="true">Compte fichiers *. ACC | *. ACC | Tous les fichiers | *.*</resource>
+  <resource type="Text" id="frmMain.removeToolStripMenuItem" translated="true">Supprimer</resource>
+  <resource type="Text" id="frmMain.tabBotSettings" translated="true">Bot configuration</resource>
+  <resource type="Text" id="frmMain.tabConsole" translated="true">Console</resource>
+  <resource type="Text" id="frmMain.tabTools" translated="true">Outils</resource>
+  <resource type="Text" id="frmMain.toolStripButton2" translated="true">Sauvegarder les comptes</resource>
+  <resource type="Text" id="frmMain.tsbAdd" translated="true">Ajouter un compte</resource>
+  <resource type="Text" id="frmMain.tsbLoad" translated="true">Comptes de charge</resource>
+  <resource type="Text" id="frmMain.tsbLoginAll" translated="true">Connectez-vous tous</resource>
+  <resource type="Text" id="frmMain.tsbLogin" translated="true">Connexion</resource>
+  <resource type="Text" id="frmMain.tsbLogoutAll" translated="true">Sortir tous les</resource>
+  <resource type="Text" id="frmMain.tsbLogout" translated="true">Déconnexion</resource>
+  <resource type="Text" id="frmMain.tsBots" translated="true">Bot manutention</resource>
+  <resource type="Text" id="frmMain.tsbRemove" translated="true">Supprimer un compte</resource>
+  <resource type="Text" id="frmMain.ttGreetMaster" translated="true">Envoyer un saluons au capitaine lors de la connexion ou le changer</resource>
+  <resource type="Text" id="frmObjects.AddingObjects" translated="true">Ajout d'objets à la grille de données</resource>
+  <resource type="Text" id="frmObjects.AskingSIM" translated="true">Demander la carte SIM pour les objets</resource>
+  <resource type="Text" id="frmObjects.btnExportAll" translated="true">Exporter tout</resource>
+  <resource type="Text" id="frmObjects.btnExport" translated="true">Export</resource>
+  <resource type="Text" id="frmObjects.btnRefresh" translated="true">Refresh</resource>
+  <resource type="Text" id="frmObjects.chkRefresh" translated="true">Actualiser toutes les 10 secondes</resource>
+  <resource type="Text" id="frmObjects.ExportingObjects" translated="true">Exportation {0} objets</resource>
+  <resource type="Text" id="frmObjects.ExportingObject" translated="true">Exportation d'objet {0} de {1}.</resource>
+  <resource type="Text" id="frmObjects.Idle" translated="true">Paresseux</resource>
+  <resource type="Text" id="frmObjects.lblDistance" translated="true">Distance</resource>
+  <resource type="Text" id="frmObjects.ObjectsIndexed" translated="true">{0} objets indexés.</resource>
+  <resource type="Text" id="frmObjects.Position" translated="true">Emplacement</resource>
+  <resource type="Text" id="frmObjects.PrimName" translated="true">Nom</resource>
+  <resource type="Text" id="frmObjects.RequestingNames" translated="true">Demander les noms des objets</resource>
+  <resource type="Text" id="frmObjects.Text" translated="true">Objets</resource>
+  <resource type="Text" id="Parsing.NotEscapable" translated="true">{0} n'est pas un caractère évitable.</resource>
+  <resource type="Text" id="frmMain.btnAbout" translated="true">À propos de</resource>
+  <resource type="Text" id="Revision" translated="true">Rév</resource>
+  <resource type="Text" id="frmAbout.Copyright" translated="true">Tous droits réservés.</resource>
+  <resource type="Text" id="frmAbout.Coding" translated="true">Codage et essais:</resource>
+  <resource type="Text" id="frmAbout.Interface" translated="true">Interface et graphismes:</resource>
+  <resource type="Text" id="frmAbout.Translation" translated="true">Traduction à</resource>
+  <resource type="Text" id="frmAbout.TranslationOrder" translated="true">{0} {1}: {2}</resource>
+  <resource type="Text" id="frmAbout.Information" translated="true">Pour de plus amples renseignements, consultez le fichier readme ou http://natibot.claunia.com</resource>
+  <resource type="Text" id="Language.English" translated="true">anglais</resource>
+  <resource type="Text" id="Language.Spanish" translated="true">espagnol</resource>
+  <resource type="Text" id="Language.Catalan" translated="true">catalan</resource>
+  <resource type="Text" id="Language.Galician" translated="true">galicien</resource>
+  <resource type="Text" id="Language.Romanian" translated="true">roumain</resource>
+  <resource type="Text" id="Language.Italian" translated="true">italien</resource>
+  <resource type="Text" id="Language.French" translated="true">français</resource>
+  <resource type="Text" id="Language.German" translated="true">allemand</resource>
+  <resource type="Text" id="frmAddAccount.Editing" translated="true">Modifier le compte sélectionné</resource>
+  <resource type="Text" id="frmAddAccount.btnEditAccount" translated="true">Modifier</resource>
+  <resource type="Text" id="frmAddAccount.gbMasterSetup" translated="true">Maître</resource>
+  <resource type="Text" id="frmAddAccount.lblMasterIRC" translated="true">Maître's Nick IRC:</resource>
+  <resource type="Text" id="frmAddAccount.label5" translated="true">Nom du capitaine:</resource>
+  <resource type="Text" id="frmAddAccount.groupBox1" translated="true">Lieu de départ</resource>
+  <resource type="Text" id="frmAddAccount.label4" translated="true">Lieu:</resource>
+  <resource type="Text" id="frmAddAccount.radSet" translated="true">Set:</resource>
+  <resource type="Text" id="frmAddAccount.radLast" translated="true">Dernier</resource>
+  <resource type="Text" id="frmAddAccount.radHome" translated="true">Accueil</resource>
+  <resource type="Text" id="frmAddAccount.gbEditAccounts" translated="true">Login details</resource>
+  <resource type="Text" id="frmAddAccount.label8" translated="true">Connexion Grille / URI:</resource>
+  <resource type="Text" id="frmAddAccount.label1" translated="true">Nom:</resource>
+  <resource type="Text" id="frmAddAccount.label3" translated="true">Mot de passe:</resource>
+  <resource type="Text" id="frmAddAccount.label2" translated="true">Nom:</resource>
+  <resource type="Text" id="frmAddAccount.btnAddAccount" translated="true">Ajouter</resource>
+  <resource type="Text" id="frmAddAccount.btnCancel" translated="true">Annuler</resource>
+  <resource type="Text" id="frmAddAccount.gbIRC" translated="true">IRC serveur de configuration</resource>
+  <resource type="Text" id="frmAddAccount.chkUseIRC" translated="true">Utilisez le serveur IRC?</resource>
+  <resource type="Text" id="frmAddAccount.label7" translated="true">Site:</resource>
+  <resource type="Text" id="frmAddAccount.label6" translated="true">Port (pas de SSL):</resource>
+  <resource type="Text" id="frmAddAccount.lblServerHost" translated="true">Adresse du serveur:</resource>
+  <resource type="Text" id="frmAddAccount" translated="true">Ajouter un compte</resource>
+  <resource type="Text" id="frmMain.ErrorEditingConnected" translated="true">Vous ne pouvez pas modifier le bot alors qu'il est connecté!</resource>
+  <resource type="Text" id="LanguageCode.en" translated="true">Anglais</resource>
+  <resource type="Text" id="LanguageCode.es" translated="true">Espagnol</resource>
+  <resource type="Text" id="LanguageCode.ca" translated="true">Catalan</resource>
+  <resource type="Text" id="LanguageCode.gl" translated="true">Galicien</resource>
+  <resource type="Text" id="LanguageCode.ro" translated="true">Roumain</resource>
+  <resource type="Text" id="LanguageCode.it" translated="true">Italien</resource>
+  <resource type="Text" id="LanguageCode.fr" translated="true">Français</resource>
+  <resource type="Text" id="LanguageCode.de" translated="true">Allemand</resource>
+  <resource type="Text" id="frmMain.gbSettings" translated="true">Paramètres</resource>
+  <resource type="Text" id="frmMain.chkLogConsole" translated="true">Ecrire console de déposer</resource>
+  <resource type="Text" id="frmMain.lblLanguage" translated="true">Langue:</resource>
+  <resource type="Text" id="bot.Greeting" translated="true">Salut!</resource>
+  <resource type="Text" id="bot.FormClosing" translated="true">NatiBot sorties.</resource>
+  <resource type="Text" id="bot.ButtonClosing" translated="true">NatiBot sorties par le bouton de sortie.</resource>
+  <resource type="Text" id="bot.Starts" translated="true">Natibot démarre.</resource>
+  <resource type="Text" id="Commands.Key2Name.Description" translated="true">Retourne le nom d'un avatar en utilisant son UUID.</resource>
+  <resource type="Text" id="Commands.Key2Name.Usage" translated="true">Usage: key2name [uuid]</resource>
+  <resource type="Text" id="Commands.Key2Name.Found" translated="true">Avatar {0} est appelée {1}.</resource>
+  <resource type="Text" id="Commands.Key2Name.Timeout" translated="true">Délai d'attente lors de la recherche pour avatar {0}. UUID est-il un avatar valide?</resource>
+  <resource type="Text" id="Commands.Buy.Description" translated="true">Buyes un objet spécifié.</resource>
+  <resource type="Text" id="Commands.Buy.NotFound" translated="true">Impossible de trouver un objet à acheter avec UUID {0}.</resource>
+  <resource type="Text" id="Commands.Buy.Bought" translated="true">Essayé d'acheter l'objet {0}.</resource>
+  <resource type="Text" id="Commands.Buy.Usage" translated="true">Usage: buy [uuid]</resource>
+  <resource type="Text" id="Commands.TakeItem.Description" translated="true">Prend un objet spécifié à l'inventaire.</resource>
+  <resource type="Text" id="Commands.TakeItem.NotFound" translated="true">Impossible de trouver un objet à prendre avec UUID {0}.</resource>
+  <resource type="Text" id="Commands.TakeItem.Took" translated="true">Essayé de prendre object {0} (UUID {1}).</resource>
+  <resource type="Text" id="Commands.TakeItem.Usage" translated="true">Usage: takeitem [uuid]</resource>
+  <resource type="Text" id="frmObjects.copyToClipboardToolStripMenuItem" translated="true">Copy to clipboard</resource>
+  <resource type="Text" id="frmObjects.namesToolStripMenuItem" translated="true">Noms</resource>
+  <resource type="Text" id="frmObjects.UUIDsToolStripMenuItem" translated="true">UUID</resource>
+  <resource type="Text" id="frmObjects.locationsToolStripMenuItem" translated="true">Emplacements</resource>
+  <resource type="Text" id="frmObjects.sitOnItToolStripMenuItem" translated="true">Asseyez-vous sur</resource>
+  <resource type="Text" id="frmObjects.touchThemToolStripMenuItem" translated="true">Touchez-les</resource>
+  <resource type="Text" id="frmObjects.firstSelectedToolStripMenuItem" translated="true">D'abord sélectionnés</resource>
+  <resource type="Text" id="frmObjects.allSelectedToolStripMenuItem" translated="true">Tous sélectionnés</resource>
+  <resource type="Text" id="frmObjects.buyThemToolStripMenuItem" translated="true">Achetez-les</resource>
+  <resource type="Text" id="frmObjects.exportToolStripMenuItem" translated="true">Exporter</resource>
+  <resource type="Text" id="frmObjects.objectToolStripMenuItem" translated="true">Objets</resource>
+  <resource type="Text" id="frmObjects.particlesToolStripMenuItem" translated="true">Particules</resource>
+  <resource type="Text" id="frmObjects.objectAndParticlesToolStripMenuItem" translated="true">Les objets et les particules</resource>
+  <resource type="Text" id="frmObjects.requestTakeToInventoryToolStripMenuItem" translated="true">Demande de prendre à l'inventaire</resource>
+  <resource type="Text" id="Commands.Translate.Description" translated="true">Traduit donnée texte d'une langue à l'autre.</resource>
+  <resource type="Text" id="Commands.Translate.Usage" translated="true">Usage: translate [fromlanguage] [tolanguage] [Texte]</resource>
+  <resource type="Text" id="frmChat.Text" translated="true">Chat</resource>
+  <resource type="Text" id="frmChat.Chat" translated="true">Chat</resource>
+  <resource type="Text" id="frmChat.Whispers" translated="true">chuchote:</resource>
+  <resource type="Text" id="frmChat.Shouts" translated="true">crie:</resource>
+  <resource type="Text" id="frmChat.Offline" translated="true">(offline)</resource>
+  <resource type="Text" id="frmChat.Unknown" translated="true">Propriétaire Inconnu</resource>
+  <resource type="Text" id="frmChat.Object" translated="true">Object {0} appartenant à {1} dans la région {2} au {3}:</resource>
+  <resource type="Text" id="frmChat.Teleport" translated="true">Avatar {0} nous envoie un leurre téléporter à la région de {1} à {2} avec le message suivant:</resource>
+  <resource type="Text" id="frmChat.Unhandled" translated="true">Avatar {0} dans la région de {1} à {2} vous a envoyé un message de type {3} en disant:</resource>
+  <resource id="NoPermissions" translated="true" type="Text">L'objet appartient à (0) et nous n'avons pas l'autorisation d'exportation.</resource>
+  <resource type="Text" id="Commands.Animate.Description" translated="true">Encourage l&amp;#39;avatar spécifié avec l&amp;#39;animation montre les animations du système ou ceux qui sont en cours de lecture.</resource>
+  <resource type="Text" id="Commands.Animate.Usage" translated="true">Usage: animer [uuid] | [liste / show / stop]</resource>
+  <resource type="Text" id="Commands.DetectBot.Bot" translated="true">(0) (groupe: (1), position: (2), UUID: (3)) est probablement un bot.</resource>
+  <resource type="Text" id="Commands.DetectBot.Description" translated="true">Montre les bots possible.</resource>
+  <resource type="Text" id="Commands.RequestTeleport.Description" translated="true">Envoyer un avatar du téléport spécifiée ou un enseignant.</resource>
+  <resource type="Text" id="Commands.RequestTeleport.Usage" translated="true">Utilisation: sendtp (uuid-avatar)</resource>
+  <resource type="Text" id="Commands.RequestTeleport.Message" translated="true">Viens à moi.</resource>
+  <resource type="Text" id="Commands.RequestTeleport.Sent" translated="true">Teleport envoyé (0).</resource>
+  <resource type="Text" id="Commands.Sounds.Downloaded" translated="true">Le son (0) a été téléchargé avec succès ((1) octets).</resource>
+  <resource type="Text" id="Commands.Sounds.Failed" translated="true">Erreur (1) pour télécharger le son (0).</resource>
+  <resource type="Text" id="Commands.Sounds.Description" translated="true">Active ou désactive le téléchargement automatique de tous les sons audibles.</resource>
+  <resource type="Text" id="Commands.Sounds.Disabled" translated="true">Téléchargeant le son est coupé.</resource>
+  <resource type="Text" id="Commands.Sounds.Enabled" translated="true">Téléchargeant le son est activé.</resource>
+  <resource type="Text" id="Commands.Sounds.Usage" translated="true">Utilisation: sons [on / off]</resource>
+  <resource type="Text" id="Commands.Animations.Description" translated="true">Active ou désactive le téléchargement automatique de l&amp;#39;animation visibles.</resource>
+  <resource type="Text" id="Commands.Animations.Disabled" translated="true">Le rejet des animations sont désactivées.</resource>
+  <resource type="Text" id="Commands.Animations.Enabled" translated="true">Le rejet de l&amp;#39;animation est activée.</resource>
+  <resource type="Text" id="Commands.Animations.Usage" translated="true">Utilisation: animations [on / off]</resource>
+  <resource type="Text" id="Commands.DownloadSound.Description" translated="true">Télécharger le son spécifié par son UUID</resource>
+  <resource type="Text" id="Commands.DownloadSound.Timeout" translated="true">Téléchargement de son calendrier.</resource>
+  <resource type="Text" id="Commands.DownloadSound.Usage" translated="true">Utilisation: downloadsound [UUID]</resource>
+  <resource type="Text" id="Commands.Who.Info" translated="true">(0) (client: (1), Group (2), Statut: (3), UUID: (4))</resource>
+  <resource type="Text" id="Commands.Sounds.Downloaded" translated="true">Le son (0) a été téléchargé avec succès ((1) octets).</resource>
+  <resource type="Text" id="Commands.Sounds.Failed" translated="true">Erreur (1) pour télécharger le son (0).</resource>
+  <resource type="Text" id="Commands.Sounds.Description" translated="true">Active ou désactive le téléchargement automatique de tous les sons audibles.</resource>
+  <resource type="Text" id="Commands.Sounds.Disabled" translated="true">Téléchargeant le son est coupé.</resource>
+  <resource type="Text" id="Commands.Sounds.Enabled" translated="true">Téléchargeant le son est activé.</resource>
+  <resource type="Text" id="Commands.Sounds.Usage" translated="true">Utilisation: sons [on / off]</resource>
+  <resource type="Text" id="Commands.Animations.Description" translated="true">Active ou désactive le téléchargement automatique de l&amp;#39;animation visibles.</resource>
+  <resource type="Text" id="Commands.Animations.Disabled" translated="true">Le rejet des animations sont désactivées.</resource>
+  <resource type="Text" id="Commands.Animations.Enabled" translated="true">Le rejet de l&amp;#39;animation est activée.</resource>
+  <resource type="Text" id="Commands.Animations.Usage" translated="true">Utilisation: animations [on / off]</resource>
+  <resource type="Text" id="Commands.DownloadSound.Description" translated="true">Télécharger le son spécifié par son UUID</resource>
+  <resource type="Text" id="Commands.DownloadSound.Timeout" translated="true">Téléchargement de son calendrier.</resource>
+  <resource type="Text" id="Commands.DownloadSound.Usage" translated="true">Utilisation: downloadsound [UUID]</resource>
+  <resource type="Text" id="LanguageCode.af" translated="true">Afrikaans</resource>
+  <resource type="Text" id="LanguageCode.sq" translated="true">Albanais</resource>
+  <resource type="Text" id="LanguageCode.ar" translated="true">Arabe</resource>
+  <resource type="Text" id="LanguageCode.be" translated="true">Biélorusse</resource>
+  <resource type="Text" id="LanguageCode.bg" translated="true">Bulgare</resource>
+  <resource type="Text" id="LanguageCode.cs" translated="true">Tchèque</resource>
+  <resource type="Text" id="LanguageCode.zh-CN" translated="true">Chinois simplifié</resource>
+  <resource type="Text" id="LanguageCode.zh-TW" translated="true">Chinois Traditionnel</resource>
+  <resource type="Text" id="LanguageCode.ko" translated="true">Coréen</resource>
+  <resource type="Text" id="LanguageCode.hr" translated="true">Croate</resource>
+  <resource type="Text" id="LanguageCode.da" translated="true">Danois</resource>
+  <resource type="Text" id="LanguageCode.sk" translated="true">Slovaque</resource>
+  <resource type="Text" id="LanguageCode.sl" translated="true">Slovène</resource>
+  <resource type="Text" id="LanguageCode.et" translated="true">Estonien</resource>
+  <resource type="Text" id="LanguageCode.fi" translated="true">Finnois</resource>
+  <resource type="Text" id="LanguageCode.cy" translated="true">Gallois</resource>
+  <resource type="Text" id="LanguageCode.el" translated="true">Grec</resource>
+  <resource type="Text" id="LanguageCode.iw" translated="true">Hébreu</resource>
+  <resource type="Text" id="LanguageCode.hi" translated="true">Hindi</resource>
+  <resource type="Text" id="LanguageCode.nl" translated="true">Dutchman</resource>
+  <resource type="Text" id="LanguageCode.hu" translated="true">Hongrois</resource>
+  <resource type="Text" id="LanguageCode.id" translated="true">Indonésien</resource>
+  <resource type="Text" id="LanguageCode.ga" translated="true">Irlandais</resource>
+  <resource type="Text" id="LanguageCode.is" translated="true">Islandais</resource>
+  <resource type="Text" id="LanguageCode.ja" translated="true">Japonais</resource>
+  <resource type="Text" id="LanguageCode.lv" translated="true">Letton</resource>
+  <resource type="Text" id="LanguageCode.lt" translated="true">Lituanien</resource>
+  <resource type="Text" id="LanguageCode.mk" translated="true">Macédonien</resource>
+  <resource type="Text" id="LanguageCode.ms" translated="true">Malais</resource>
+  <resource type="Text" id="LanguageCode.mt" translated="true">Maltais</resource>
+  <resource type="Text" id="LanguageCode.no" translated="true">Norvégien</resource>
+  <resource type="Text" id="LanguageCode.pl" translated="true">Polonais</resource>
+  <resource type="Text" id="LanguageCode.pt" translated="true">Portugais</resource>
+  <resource type="Text" id="LanguageCode.ru" translated="true">Russe</resource>
+  <resource type="Text" id="LanguageCode.sr" translated="true">Serbe</resource>
+  <resource type="Text" id="LanguageCode.sw" translated="true">Kiswahili</resource>
+  <resource type="Text" id="LanguageCode.sv" translated="true">Suédois</resource>
+  <resource type="Text" id="LanguageCode.tl" translated="true">Tagalog</resource>
+  <resource type="Text" id="LanguageCode.th" translated="true">Thai</resource>
+  <resource type="Text" id="LanguageCode.tr" translated="true">Turc</resource>
+  <resource type="Text" id="LanguageCode.uk" translated="true">Ukrainien</resource>
+  <resource type="Text" id="LanguageCode.vi" translated="true">Vietnamien</resource>
+  <resource type="Text" id="LanguageCode.yi" translated="true">Yiddish</resource>
+  <resource type="Text" id="Commands.Quit.Description" translated="true">Fermez tous les avatars NatiBot et connecté.</resource>
+  <resource type="Text" id="Commands.Quit.Usage" translated="true">Usage: arrêter de fumer [oui]</resource>
+  <resource type="Text" id="Commands.Quit.Exiting" translated="true">Fermeture d&amp;#39;application.</resource>
+  <resource type="Text" id="Commands.MemFree.Description" translated="true">Affiche la mémoire actuellement en usage.</resource>
+  <resource type="Text" id="Commands.MemFree.Using" translated="true">(0) MIB actuellement en usage.</resource>
+  <resource type="Text" id="Commands.Logout.Description" translated="true">Ferme l&amp;#39;avatar actuel.</resource>
+  <resource type="Text" id="Commands.Logout.Usage" translated="true">Utilisation: logout [oui]</resource>
+  <resource type="Text" id="Commands.Logout.Exiting" translated="true">Clôture avatar.</resource>
+  <resource type="Text" id="Commands.Help2NC.Description" translated="true">Créer une note avec l&amp;#39;aide et l&amp;#39;envoie au maître.</resource>
+  <resource type="Text" id="Commands.Help2NC.Commands" translated="true">NatiBot - v (0) - Commandes</resource>
+  <resource type="Text" id="Commands.Help2NC.Sending" translated="true">Envoi d&amp;#39;une aide à l&amp;#39;enseignant.</resource>
+  <resource type="Text" id="Commands.GC.Description" translated="true">Démarre une collecte des ordures.</resource>
+  <resource type="Text" id="Commands.GC.Before" translated="true">(0) Mo en service avant la collecte des ordures.</resource>
+  <resource type="Text" id="Commands.GC.Starting" translated="true">A partir de collecte des ordures.</resource>
+  <resource type="Text" id="Commands.GC.After" translated="true">(0) Mo en service après la collecte des ordures.</resource>
+  <resource type="Text" id="Commands.GC.Took" translated="true">Collecte des ordures ménagères a pris (0) secondes.</resource>
+  <resource type="Text" id="Commands.Clock.Description" translated="true">Affiche la date courante dans les zones de l&amp;#39;heure locale, UTC, GMT et la TVP.</resource>
+  <resource type="Text" id="Commands.Clock.Current" translated="true">La date et l&amp;#39;heure actuelle est la suivante:</resource>
+  <resource type="Text" id="Commands.Clock.Local" translated="true">Heure locale: (0)</resource>
+  <resource type="Text" id="Commands.Clock.UTC" translated="true">Temps universel coordonné: (0)</resource>
+  <resource type="Text" id="Commands.Clock.GMT" translated="true">Second Life Time (PST): (0)</resource>
+  <resource type="Text" id="Commands.Clock.PST" translated="true">Claunia.com Time: (0)</resource>
+  <resource type="Text" id="Commands.ClientTags.Description" translated="true">Affiche tous les noms et identifiants connus des téléspectateurs.</resource>
+  <resource type="Text" id="Commands.ClientTags.Client" translated="true">Le spectateur utilise le service (0) ID (1).</resource>
+  <resource type="Text" id="Commands.About.Description" translated="true">Afficher des informations sur le copyright.</resource>
+  <resource type="Text" id="Commands.SearchPlaces.Description" translated="true">Rechercher des lieux.</resource>
+  <resource type="Text" id="Commands.SearchPlaces.Usage" translated="true">Utilisation: searchplaces [Recherche]</resource>
+  <resource type="Text" id="Commands.SearchPlaces.Results" translated="true">Le texte de la recherche &amp;quot;(0)&amp;quot; (1) les résultats obtenus.</resource>
+  <resource type="Text" id="Commands.SearchPlaces.Timeout" translated="true">Expiration du délai d&amp;#39;attente de la réponse du simulateur.</resource>
+  <resource type="Text" id="Commands.SearchPeople.Description" translated="true">Pour les autres avatars.</resource>
+  <resource type="Text" id="Commands.SearchPeople.Usage" translated="true">Utilisation: searchpeople [Recherche]</resource>
+  <resource type="Text" id="Commands.SearchPeople.Matching" translated="true">Le texte de la recherche &amp;quot;(0)&amp;quot; (1) a coïncidé avec les gens.</resource>
+  <resource type="Text" id="Commands.SearchPeople.Timeout" translated="true">Expiration du délai d&amp;#39;attente de la réponse du simulateur.</resource>
+  <resource type="Text" id="Commands.SearchPeople.NotFound" translated="true">Personne ne trouvait qui correspond à la recherche.</resource>
+  <resource type="Text" id="Commands.SearchLand.Description" translated="true">Terrains à vendre. Pour afficher l&amp;#39;utilisation, searchland</resource>
+  <resource type="Text" id="Commands.SearchLand.UsageLine1" translated="true">Utilisation: searchland [type] [prix plafond] [size minimum]</resource>
+  <resource type="Text" id="Commands.SearchLand.UsageLine2" translated="true">où [type] est l&amp;#39;un des éléments suivants: mainland, auction, estate, all</resource>
+  <resource type="Text" id="Commands.SearchLand.UsageLine3" translated="true">si [le prix plafond] ou [taille minimum] est égal à 0 ce paramètre est ignoré</resource>
+  <resource type="Text" id="Commands.SearchLand.UsageLine4" translated="true">Par exemple: \ &amp;quot;searchland mainland 0 512 \&amp;quot; / / Cultural UP colis les moins chers du continent est plus grande que 512m ²</resource>
+  <resource type="Text" id="Commands.SearchLand.Timeout" translated="true">Expiration du délai d&amp;#39;attente de la réponse du simulateur.</resource>
+  <resource type="Text" id="Commands.SearchLand.Results" translated="true">(0) résultats.</resource>
+  <resource type="Text" id="Commands.SearchGroups.Description" translated="true">Pour les groupes.</resource>
+  <resource type="Text" id="Commands.SearchGroups.Usage" translated="true">Utilisation: searchgroups [Recherche]</resource>
+  <resource type="Text" id="Commands.SearchGroups.Matching" translated="true">Le texte de la recherche &amp;quot;(0)» a coïncidé avec (1) les groupes.</resource>
+  <resource type="Text" id="Commands.SearchGroups.Timeout" translated="true">Expiration du délai d&amp;#39;attente de la réponse du simulateur.</resource>
+  <resource type="Text" id="Commands.SearchGroups.Members" translated="true">Le groupe (1) ((0)) est (2) membres</resource>
+  <resource type="Text" id="Commands.SearchGroups.NotFound" translated="true">Nous n&amp;#39;avons trouvé aucun groupe qui correspond à votre recherche.</resource>
+  <resource type="Text" id="Commands.SearchClassifieds.Description" translated="true">Pour les annonces classées.</resource>
+  <resource type="Text" id="Commands.SearchClassifieds.Usage" translated="true">Utilisation: searchclassifieds [Recherche]</resource>
+  <resource type="Text" id="Commands.SearchClassifieds.Results" translated="true">Le texte de la recherche &amp;quot;(0)&amp;quot; (1) a coïncidé avec l&amp;#39;ADS.</resource>
+  <resource type="Text" id="Commands.SearchClassifieds.Timeout" translated="true">Expiration du délai d&amp;#39;attente de la réponse du simulateur.</resource>
+  <resource type="Text" id="Commands.Key2Name.Group" translated="true">Le groupe avec ID (0) est appelé (1)</resource>
+  <resource type="Text" id="Commands.PrimInfo.None" translated="true">Aucun</resource>
+  <resource type="Text" id="Commands.PrimInfo.Name" translated="true">Nom: (0)</resource>
+  <resource type="Text" id="Commands.PrimInfo.PrimDescription" translated="true">Description: (0)</resource>
+  <resource type="Text" id="Commands.PrimInfo.Unknown" translated="true">Inconnu</resource>
+  <resource type="Text" id="Commands.PrimInfo.Creator" translated="true">Créateur: (0) ((1))</resource>
+  <resource type="Text" id="Commands.PrimInfo.Owner" translated="true">Propriétaire: (0) ((1))</resource>
+  <resource type="Text" id="Commands.PrimInfo.LastOwner" translated="true">L&amp;#39;ancien propriétaire: (0) ((1))</resource>
+  <resource type="Text" id="Commands.PrimInfo.Group" translated="true">Groupe: (0) ((1))</resource>
+  <resource type="Text" id="Commands.PrimInfo.SitName" translated="true">Connectez-vous en position assise: (0)</resource>
+  <resource type="Text" id="Commands.PrimInfo.TouchName" translated="true">Nom sur la touche: (0)</resource>
+  <resource type="Text" id="Commands.PrimInfo.Position" translated="true">Position: (0)</resource>
+  <resource type="Text" id="Commands.PrimInfo.Date" translated="true">Date de création: (0)</resource>
+  <resource type="Text" id="Commands.PrimInfo.Text" translated="true">Texte:</resource>
+  <resource type="Text" id="Commands.EjectUser.Description" translated="true">Éjecte l&amp;#39;utilisateur a fourni sur la parcelle en cours.</resource>
+  <resource type="Text" id="Commands.EjectUser.Usage" translated="true">Utilisation: ejectuser [UUID]</resource>
+  <resource type="Text" id="Commands.EjectUser.ExpectedAvID" translated="true">On espérait un ID.</resource>
+  <resource type="Text" id="Commands.EjectUser.AvNotFound" translated="true">Avatar introuvable.</resource>
+  <resource type="Text" id="Commands.EjectUser.CannotGroup" translated="true">Vous ne pouvez pas expulser un groupe de l&amp;#39;intrigue.</resource>
+  <resource type="Text" id="Commands.EjectUser.Ejecting" translated="true">Éjection d&amp;#39;un (0) de l&amp;#39;intrigue en cours.</resource>
+  <resource type="Text" id="Commands.BanUser.Description" translated="true">Expulsion et interdiction qui utilisateur répertorié dans l&amp;#39;intrigue en cours.</resource>
+  <resource type="Text" id="Commands.BanUser.Usage" translated="true">Utilisation: Banus [UUID]</resource>
+  <resource type="Text" id="Commands.BanUser.CannotGroup" translated="true">Vous ne pouvez pas interdire un groupe de l&amp;#39;intrigue.</resource>
+  <resource type="Text" id="Commands.BanUser.Banning" translated="true">Baneando à (0) de l&amp;#39;intrigue en cours.</resource>
+  <resource type="Text" id="Commands.BanList.Description" translated="true">Obtient la liste des interdictions dans le complot en cours.</resource>
+  <resource type="Text" id="Commands.BanList.Timeout" translated="true">Expiration du délai d&amp;#39;attente pour la liste des interdictions.</resource>
+  <resource type="Text" id="Commands.BanList.BannedID" translated="true">L&amp;#39;avatar avec id (0) est interdite.</resource>
+  <resource type="Text" id="Commands.BanList.Banned" translated="true">L&amp;#39;avatar (0) ((1)) est interdite.</resource>
+  <resource type="Text" id="Commands.AllowedList.Description" translated="true">Obtient la liste des autorisés à avoir accès à la parcelle en cours.</resource>
+  <resource type="Text" id="Commands.AllowedList.Timeout" translated="true">Expiration du délai d&amp;#39;attente pour la liste des accès autorisés.</resource>
+  <resource type="Text" id="Commands.AllowedList.AllowedID" translated="true">L&amp;#39;avatar avec id (0) a permis l&amp;#39;accès.</resource>
+  <resource type="Text" id="Commands.AllowedList.Allowed" translated="true">L&amp;#39;avatar (0) ((1)) est autorisé à accéder.</resource>
+  <resource type="Text" id="Commands.TurnTo.Description" translated="true">Tourner le bot regardant le point, avatar (par id ou le nom), ou objet (id) spécifié.</resource>
+  <resource type="Text" id="Commands.TurnTo.Usage" translated="true">Utilisation: turnto [xyz] / [UUID] / [Avatar]</resource>
+  <resource type="Text" id="Commands.TurnTo.AvNotFound" translated="true">Impossible de trouver l&amp;#39;avatar (0).</resource>
+  <resource type="Text" id="Commands.TurnTo.CannotGroup" translated="true">Je ne peux pas se tourner vers un groupe!</resource>
+  <resource type="Text" id="Commands.TurnTo.AvNotInSim" translated="true">L&amp;#39;avatar (0) est introuvable dans le simulateur actuel, je ne peut pas se tourner vers lui.</resource>
+  <resource type="Text" id="Commands.TurnTo.AvSit" translated="true">L&amp;#39;avatar (0) est assis sur un objet inconnu. Je ne peux pas se tourner vers lui.</resource>
+  <resource type="Text" id="Commands.TurnTo.ObjNotInSim" translated="true">L&amp;#39;objet (0) ne trouve pas dans le simulateur actuel, je ne peut pas se tourner vers lui.</resource>
+  <resource type="Text" id="Commands.Moveto.Description" translated="true">Déplace le bot de les coordonnées, l&amp;#39;avatar (par id ou nom), ou l&amp;#39;objet (par id) spécifié.</resource>
+  <resource type="Text" id="Commands.Moveto.CannotGroup" translated="true">Je ne peux pas aller vers un groupe!</resource>
+  <resource type="Text" id="Commands.Moveto.AvNotInSim" translated="true">L&amp;#39;avatar (0) est introuvable dans le simulateur actuel, je ne peux pas aller vers lui.</resource>
+  <resource type="Text" id="Commands.Moveto.AvSit" translated="true">L&amp;#39;avatar (0) est assis sur un objet inconnu. Je ne peux pas aller vers lui.</resource>
+  <resource type="Text" id="Commands.Moveto.ObjNotInSim" translated="true">L&amp;#39;objet (0) ne trouve pas dans le simulateur actuel, je ne peux pas aller vers lui.</resource>
+  <resource type="Text" id="Commands.Follow.Usage" translated="true">Usage: suivre ([nom] [nom] | ME | stop)), utilisez «je» à vous suivre, &amp;quot;Stop&amp;quot; pour arrêter.</resource>
+  <resource type="Text" id="Commands.RezItem.Description" translated="true">Retirer les 3 millions d&amp;#39;élément spécifié au-dessus du bot.</resource>
+  <resource type="Text" id="Commands.RezItem.Usage" translated="true">Utilisation: rezitem [élément ID]</resource>
+  <resource type="Text" id="Commands.RezItem.ExpectedID" translated="true">On espérait un ID.</resource>
+  <resource type="Text" id="Commands.RezItem.Requesting" translated="true">Sont priés de faire l&amp;#39;élément (0).</resource>
+  <resource type="Text" id="Commands.RezItem.CannotFolder" translated="true">Vous ne pouvez pas prendre le dossier (0).</resource>
+  <resource type="Text" id="Commands.RezItem.NotFound" translated="true">L&amp;#39;élément (0) est introuvable dans le dossier en cours de l&amp;#39;inventaire.</resource>
+  <resource type="Text" id="Commands.CreateSkin.Description" translated="true">Créer une nouvelle peau à la texture indiqué.</resource>
+  <resource type="Text" id="Commands.CreateSkin.Usage" translated="true">Utilisation: createskin [nom] [-id face] [id-top] [id-less]</resource>
+  <resource type="Text" id="Commands.CreateSkin.ExpectedFaceID" translated="true">On espérait un ID [id-face].</resource>
+  <resource type="Text" id="Commands.CreateSkin.ExpectedUpID" translated="true">On espérait un ID [id-dessus].</resource>
+  <resource type="Text" id="Commands.CreateSkin.ExpectedLowID" translated="true">On espérait un ID [ID-less].</resource>
+  <resource type="Text" id="Commands.CreateSkin.Created" translated="true">La peau a été créé avec l&amp;#39;actif ID (0), envoie au maître.</resource>
+  <resource type="Text" id="Commands.CreateSkin.Failed" translated="true">Impossible de créer la peau avec l&amp;#39;Etat (0).</resource>
+  <resource type="Text" id="Commands.CreateLandMark.Description" translated="true">Crée un nouveau point de repère de la position actuelle.</resource>
+  <resource type="Text" id="Commands.CreateLandMark.Created" translated="true">Landmark actif creato avec l&amp;#39;ID (0), l&amp;#39;envoyer à l&amp;#39;enseignant.</resource>
+  <resource type="Text" id="Commands.CreateLandMark.Failed" translated="true">Impossible de créer le point de repère avec l&amp;#39;Etat (0).</resource>
+  <resource type="Text" id="Commands.CreateEyes.Description" translated="true">Créer un nouveau regard avec la texture indiqué.</resource>
+  <resource type="Text" id="Commands.CreateEyes.Usage" translated="true">Utilisation: createeyes [nom] [UUID]</resource>
+  <resource type="Text" id="Commands.CreateEyes.ExpectedID" translated="true">On espérait un ID.</resource>
+  <resource type="Text" id="Commands.CreateEyes.Created" translated="true">Eyes fait avec l&amp;#39;actif ID (0), en les envoyant à l&amp;#39;enseignant.</resource>
+  <resource type="Text" id="Commands.CreateEyes.Failed" translated="true">Impossible de créer les yeux avec de l&amp;#39;État (0).</resource>
+  <resource type="Text" id="Commands.CreateClothing.Description" translated="true">Créer un vêtement avec les paramètres indiqués.</resource>
+  <resource type="Text" id="Commands.CreateClothing.Usage" translated="true">Utilisation: createclothing Aide</resource>
+  <resource type="Text" id="Commands.CreateClothing.UsageLine1" translated="true">Utilisation: createclothing [nom] [Gants | Veste | Pantalon | Shirt | Chaussures | Jupe | Chaussettes | Slips | Undershirt] [uuid1] (uuid2)</resource>
+  <resource type="Text" id="Commands.CreateClothing.UsageLine2" translated="true">Les paramètres de taille et de couleur devrait toujours être appliqué manuellement.</resource>
+  <resource type="Text" id="Commands.CreateClothing.Jacket" translated="true">Uuid doit indiquer une deuxième veste (veste).</resource>
+  <resource type="Text" id="Commands.CreateClothing.Incorrect" translated="true">Vêtements de type incorrect.</resource>
+  <resource type="Text" id="Commands.CreateClothing.ExpectedID1" translated="true">ID attendus dans [uuid1].</resource>
+  <resource type="Text" id="Commands.CreateClothing.ExpectedID2" translated="true">Attendus id IN (uuid2).</resource>
+  <resource type="Text" id="Commands.CreateClothing.Created" translated="true">Vêtements créés à l&amp;#39;actif ID (0), envoie au maître.</resource>
+  <resource type="Text" id="Commands.CreateClothing.Failed" translated="true">Échec de la création de vêtements ayant le statut d&amp;#39;(0).</resource>
+  <resource type="Text" id="Commands.Groups.CacheFailed" translated="true">Groupes échoué cache.</resource>
+  <resource type="Text" id="Commands.Groups.GotGroups" translated="true">(0) ont été obtenus groupes:</resource>
+  <resource type="Text" id="Commands.GroupRoles.Description" translated="true">Montre le rôle du groupe.</resource>
+  <resource type="Text" id="Commands.GroupRoles.Usage" translated="true">Utilisation: grouproles Nom du groupe</resource>
+  <resource type="Text" id="Commands.GroupRoles.NoRoles" translated="true">(0) ne semblent pas avoir de rôle dans le groupe (1).</resource>
+  <resource type="Text" id="Commands.GroupRoles.GotRoles" translated="true">(0) a eu le rôle du groupe.</resource>
+  <resource type="Text" id="Commands.GroupRoles.RequestID" translated="true">Identifiant de la demande: (0)</resource>
+  <resource type="Text" id="Commands.GroupRoles.GroupName" translated="true">Nom du groupe: (0)</resource>
+  <resource type="Text" id="Commands.GroupRoles.GroupID" translated="true">ID de groupe: (0)</resource>
+  <resource type="Text" id="Commands.GroupRoles.Role" translated="true">Rôle (0) (1) | (2)</resource>
+  <resource type="Text" id="Commands.GroupRoles.RoleCount" translated="true">(0) rôles.</resource>
+  <resource type="Text" id="Commands.GroupMembers.Description" translated="true">Affiche les membres du groupe.</resource>
+  <resource type="Text" id="Commands.GroupMembers.Usage" translated="true">Utilisation: membresGroupe Nom du groupe</resource>
+  <resource type="Text" id="Commands.GroupMembers.NotMember" translated="true">(0) ne semble pas être un membre de (1).</resource>
+  <resource type="Text" id="Commands.GroupMembers.GotMembers" translated="true">(0) a eu le membres du groupe.</resource>
+  <resource type="Text" id="Commands.GroupMembers.Member" translated="true">Membres: (0) ((1))</resource>
+  <resource type="Text" id="Commands.GroupMembers.MemberCount" translated="true">(0) membres.</resource>
+  <resource type="Text" id="Commands.GroupInvite.Description" translated="true">Inviter un avatar courant du groupe à un rôle spécifié ou le rôle par défaut.</resource>
+  <resource type="Text" id="Commands.GroupInvite.Usage" translated="true">Usage: inviter [av-uuid] (uuid-rol)</resource>
+  <resource type="Text" id="Commands.GroupInvite.NoGroupActive" translated="true">Aucun groupe n&amp;#39;est actuellement active. Permet à un groupe avec la commande activategroup.</resource>
+  <resource type="Text" id="Commands.GroupInvite.AvNotFound" translated="true">Impossible de trouver l&amp;#39;avatar spécifiée dans la grille.</resource>
+  <resource type="Text" id="Commands.GroupInvite.CannotGroup" translated="true">Vous pouvez inviter un groupe à un groupe.</resource>
+  <resource type="Text" id="Commands.GroupInvite.CannotRoles" translated="true">Nous ne pouvions pas obtenir les rôles du groupe.</resource>
+  <resource type="Text" id="Commands.GroupInvite.NotRole" translated="true">Le groupe actuel ne contient pas de rôle à l&amp;#39;ID (0).</resource>
+  <resource type="Text" id="Commands.GroupInvite.ErrorRole" translated="true">Erreur obtenir le rôle du groupe.</resource>
+  <resource type="Text" id="Commands.GroupInvite.Inviting" translated="true">Inviter le groupe (0) (1) dans le rôle (2).</resource>
+  <resource type="Text" id="Commands.GroupEject.Description" translated="true">Kicks membre.</resource>
+  <resource type="Text" id="Commands.GroupEject.Usage" translated="true">Utilisation: groupeject [id-AV] (id-group)</resource>
+  <resource type="Text" id="Commands.GroupEject.ExpectedGroupID" translated="true">On espérait que les ID de groupe.</resource>
+  <resource type="Text" id="Commands.GroupEject.GroupNotFound" translated="true">Vous ne trouvez pas le groupe.</resource>
+  <resource type="Text" id="Commands.GroupEject.AvatarID" translated="true">L&amp;#39;identifiant de groupe fait partie d&amp;#39;un avatar.</resource>
+  <resource type="Text" id="Commands.GroupEject.NoGroupActive" translated="true">Aucun groupe n&amp;#39;est actuellement active. Permet à un groupe ou spécifier par ID.</resource>
+  <resource type="Text" id="Commands.GroupEject.ExpectedAvatarID" translated="true">Il s&amp;#39;attendait à l&amp;#39;ID de l&amp;#39;avatar.</resource>
+  <resource type="Text" id="Commands.GroupEject.AvatarNotFound" translated="true">Avatar introuvable.</resource>
+  <resource type="Text" id="Commands.GroupEject.GroupID" translated="true">L&amp;#39;id de l&amp;#39;avatar appartient à un groupe.</resource>
+  <resource type="Text" id="Commands.GroupEject.ErrorMembers" translated="true">Nous n&amp;#39;avons pas pu obtenir les membres du groupe.</resource>
+  <resource type="Text" id="Commands.GroupEject.NotMember" translated="true">L&amp;#39;avatar (0) n&amp;#39;est pas un membre du groupe (1).</resource>
+  <resource type="Text" id="Commands.GroupEject.Ejected" translated="true">L&amp;#39;avatar (0) a été exclu du groupe (1).</resource>
+  <resource type="Text" id="Commands.AddToRole.Description" translated="true">Ajouter à l&amp;#39;avatar a indiqué le rôle spécifié.</resource>
+  <resource type="Text" id="Commands.AddToRole.Usage" translated="true">Utilisation: addtorole [id-AV] [-rôle id] (id-group)</resource>
+  <resource type="Text" id="Commands.AddToRole.NotMemberSelf" translated="true">Je n&amp;#39;appartiens pas au groupe (0).</resource>
+  <resource type="Text" id="Commands.AddToRole.NotMember" translated="true">(0) n&amp;#39;appartient pas à (1). Invitez vos amis en premier.</resource>
+  <resource type="Text" id="Commands.AddToRole.ExpectedRoleID" translated="true">Rôle attendu d&amp;#39;identité.</resource>
+  <resource type="Text" id="Commands.AddToRole.Adding" translated="true">Ajoutant à (0) dans le rôle du groupe (1) (2).</resource>
+  <resource type="Text" id="Commands.ActivateRole.Description" translated="true">Permet le rôle spécifié dans le groupe spécifié.</resource>
+  <resource type="Text" id="Commands.ActivateRole.Usage" translated="true">Utilisation: activaterole [id-rôle] (id-group)</resource>
+  <resource type="Text" id="Commands.ActivateRole.Activating" translated="true">Activer le rôle (0) dans le groupe (1).</resource>
+  <resource type="Text" id="Viewer.Unknown" translated="true">Inconnu</resource>
+  <resource type="Text" id="Viewer.Unidentified" translated="true">Unidentified / Officer</resource>
+  <resource type="Text" id="Commands.OfferFriendship.Description" translated="true">Lier d&amp;#39;amitié avec l&amp;#39;avatar spécifié.</resource>
+  <resource type="Text" id="Commands.OfferFriendship.Usage" translated="true">Utilisation: offerfriendship [nom] [nom] | [UUID]</resource>
+  <resource type="Text" id="Commands.OfferFriendship.AvNotFound" translated="true">Avatar introuvable.</resource>
+  <resource type="Text" id="Commands.OfferFriendship.CannotGroup" translated="true">Vous ne pouvez pas lier d&amp;#39;amitié avec les groupes.</resource>
+  <resource type="Text" id="Commands.OfferFriendship.NameNotFound" translated="true">L&amp;#39;avatar (0) n&amp;#39;a pas été trouvée.</resource>
+  <resource type="Text" id="Commands.OfferFriendship.AlreadyFriend" translated="true">Je suis un ami de (0).</resource>
+  <resource type="Text" id="Commands.OfferFriendship.Message" translated="true">Veux-tu être mon ami?</resource>
+  <resource type="Text" id="Commands.OfferFriendship.Offered" translated="true">L&amp;#39;amitié offert à (0).</resource>
+  <resource type="Text" id="Commands.OfferFriendship.Error" translated="true">Impossible d&amp;#39;obtenir l&amp;#39;ID de l&amp;#39;avatar.</resource>
+  <resource type="Text" id="Commands.InformFriend.Description" translated="true">Activer le rapport, quand un ami est connecté ou déconnecté.</resource>
+  <resource type="Text" id="Commands.InformFriend.Usage" translated="true">Utilisation: informfriend [on / off]</resource>
+  <resource type="Text" id="Commands.InformFriend.Inform" translated="true">Rapport actuel d&amp;#39;amis.</resource>
+  <resource type="Text" id="Commands.InformFriend.NotInform" translated="true">Cours d&amp;#39;un rapport non des amis.</resource>
+  <resource type="Text" id="Commands.InformFriend.WillInform" translated="true">Doit dire aux amis à partir de maintenant.</resource>
+  <resource type="Text" id="Commands.InformFriend.WontInform" translated="true">Il doit dire aux amis à partir de maintenant.</resource>
+  <resource type="Text" id="Commands.EndFriendship.Description" translated="true">Fin de l&amp;#39;amitié avec l&amp;#39;avatar spécifié.</resource>
+  <resource type="Text" id="Commands.EndFriendship.Usage" translated="true">Utilisation: endfriendship [nom] [nom] | [UUID]</resource>
+  <resource type="Text" id="Commands.EndFriendship.CannotGroup" translated="true">Vous pouvez mettre fin à des groupes d&amp;#39;amitié.</resource>
+  <resource type="Text" id="Commands.EndFriendship.NotFriend" translated="true">Je ne suis pas ami de (0).</resource>
+  <resource type="Text" id="Commands.EndFriendship.Terminated" translated="true">J&amp;#39;ai terminé mon amitié avec (0).</resource>
+  <resource type="Text" id="Commands.PlaySound.Description" translated="true">Rend le bot jouer le son spécifié.</resource>
+  <resource type="Text" id="Commands.PlaySound.Usage" translated="true">Utilisation: playsound [UUID]</resource>
+  <resource type="Text" id="Commands.PlaySound.Playing" translated="true">Essayant de jouer le son (0).</resource>
+  <resource type="Text" id="Commands.Pick.Description" translated="true">Créer un signet de la position actuelle.</resource>
+  <resource type="Text" id="Commands.Pick.Usage" translated="true">Utilisation: Pick [description]</resource>
+  <resource type="Text" id="Commands.Pick.PickName" translated="true">I love this site!</resource>
+  <resource type="Text" id="Commands.Pick.Picking" translated="true">Ajout d&amp;#39;un signet pour ce poste.</resource>
+  <resource type="Text" id="Commands.Pay.Description" translated="true">Verser la somme de L $ choisi l&amp;#39;avatar spécifié.</resource>
+  <resource type="Text" id="Commands.Pay.Usage" translated="true">Utilisation: salaire [montant] [-id avatar]. Le montant de mai être «tout», et s&amp;#39;il est omis l&amp;#39;avatar sera versée à l&amp;#39;enseignant.</resource>
+  <resource type="Text" id="Commands.Pay.Message" translated="true">Donner (0) $ L</resource>
+  <resource type="Text" id="Commands.Pay.Gave" translated="true">Donner $ L (0) à (1).</resource>
+  <resource type="Text" id="Commands.Nadu.Description" translated="true">Il met le bot en position Nadu.</resource>
+  <resource type="Text" id="Commands.Nadu.Usage" translated="true">Utilisation: Nadu [on / off]</resource>
+  <resource type="Text" id="Commands.Nadu.Nadu" translated="true">Le robot est en position Nadu.</resource>
+  <resource type="Text" id="Commands.Nadu.NotNadu" translated="true">Le robot n&amp;#39;est pas en position Nadu.</resource>
+  <resource type="Text" id="Commands.Nadu.WillNadu" translated="true">Le robot est positionné Nadu.</resource>
+  <resource type="Text" id="Commands.Nadu.WontNadu" translated="true">Le bot est retiré de la position des Nadu.</resource>
+  <resource type="Text" id="Commands.LookAt.Description" translated="true">Cherchez à l&amp;#39;objet spécifié ou avatar.</resource>
+  <resource type="Text" id="Commands.LookAt.Usage" translated="true">Utilisation: lookat [nom] [nom] | [UUID]</resource>
+  <resource type="Text" id="Commands.LookAt.AvNotFound" translated="true">Impossible de trouver l&amp;#39;avatar (0).</resource>
+  <resource type="Text" id="Commands.LookAt.CannotGroup" translated="true">Je ne peux pas regarder un groupe!</resource>
+  <resource type="Text" id="Commands.LookAt.AvNotInSim" translated="true">L&amp;#39;avatar (0) est introuvable dans le simulateur actuel, je ne peux pas regarder.</resource>
+  <resource type="Text" id="Commands.LookAt.ObjNotInSim" translated="true">L&amp;#39;objet (0) ne trouve pas dans le simulateur actuel, je ne peux pas regarder.</resource>
+  <resource type="Text" id="Commands.LookAt.LookObj" translated="true">Regard vers l&amp;#39;objet (0).</resource>
+  <resource type="Text" id="Commands.LookAt.LookAv" translated="true">Looking 0 (avatar).</resource>
+  <resource type="Text" id="Commands.GroundSit.Description" translated="true">Il est assis sur le plancher. La commande se lever.</resource>
+  <resource type="Text" id="Commands.GroundSit.Sitting" translated="true">Essayer sentame à l&amp;#39;étage où je suis.</resource>
+  <resource type="Text" id="Commands.Gesture.Description" translated="true">Ont l&amp;#39;avatar joue le geste spécifié.</resource>
+  <resource type="Text" id="Commands.Gesture.Usage" translated="true">Utilisation: geste [UUID]</resource>
+  <resource type="Text" id="Commands.Gesture.Playing" translated="true">Jouer geste (0).</resource>
+  <resource type="Text" id="Commands.Busy.Description" translated="true">Définit le bot comme occupé.</resource>
+  <resource type="Text" id="Commands.Busy.Usage" translated="true">Utilisation: occupé [on / off]</resource>
+  <resource type="Text" id="Commands.Busy.Busy" translated="true">Le bot est occupé.</resource>
+  <resource type="Text" id="Commands.Busy.NotBusy" translated="true">Le bot n&amp;#39;est pas occupé.</resource>
+  <resource type="Text" id="Commands.Busy.WillBusy" translated="true">Le robot devient occupé.</resource>
+  <resource type="Text" id="Commands.Busy.WontBusy" translated="true">Le robot devient vacant.</resource>
+  <resource type="Text" id="Commands.Beam.Description" translated="true">Émet des particules vers l&amp;#39;objet spécifié ou avatar.</resource>
+  <resource type="Text" id="Commands.Beam.Usage" translated="true">Utilisation: faisceau [nom] [nom] | [UUID]</resource>
+  <resource type="Text" id="Commands.Beam.AvNotFound" translated="true">Impossible de trouver l&amp;#39;avatar (0).</resource>
+  <resource type="Text" id="Commands.Beam.CannotGroup" translated="true">Je ne peux pas faire de particules dans un groupe!</resource>
+  <resource type="Text" id="Commands.Beam.AvNotInSim" translated="true">L&amp;#39;avatar (0) est introuvable dans le simulateur actuel, je ne peut pas livrer des particules dans lui.</resource>
+  <resource type="Text" id="Commands.Beam.ObjNotInSim" translated="true">L&amp;#39;objet (0) ne trouve pas dans le simulateur actuel, je ne peut pas livrer des particules dans lui.</resource>
+  <resource type="Text" id="Commands.Beam.BeamObj" translated="true">Émettant des particules à l&amp;#39;objet (0).</resource>
+  <resource type="Text" id="Commands.Beam.BeamAv" translated="true">Avatar particules émettant à (0).</resource>
+  <resource type="Text" id="Commands.Away.Description" translated="true">Définit le bot comme absents.</resource>
+  <resource type="Text" id="Commands.Away.Usage" translated="true">Utilisation: away [on / off]</resource>
+  <resource type="Text" id="Commands.Away.Afk" translated="true">Le bot est absent.</resource>
+  <resource type="Text" id="Commands.Away.NotAfk" translated="true">Le bot n&amp;#39;est pas absent.</resource>
+  <resource type="Text" id="Commands.Away.WillAfk" translated="true">Ce robot est mis de côté.</resource>
+  <resource type="Text" id="Commands.Away.WontAfk" translated="true">Le bot va être là.</resource>
+  <resource type="Text" id="Commands.Attach.Description" translated="true">Ajoute l&amp;#39;objet spécifié à son point final de l&amp;#39;annexion.</resource>
+  <resource type="Text" id="Commands.Attach.Usage" translated="true">Usage: joindre [id]</resource>
+  <resource type="Text" id="Commands.Attach.ExpectedID" translated="true">Attendus UUID.</resource>
+  <resource type="Text" id="Commands.Attach.Attaching" translated="true">Sont invités à joindre l&amp;#39;objet (0).</resource>
+  <resource type="Text" id="Commands.Attach.NotFolder" translated="true">Vous pouvez ajouter le dossier (0).</resource>
+  <resource type="Text" id="Commands.Attach.NotFound" translated="true">L&amp;#39;objet (0) ne trouve pas dans le dossier en cours de l&amp;#39;inventaire.</resource>
+  <resource type="Text" id="Commands.Animate.SystemAnimation" translated="true">L&amp;#39;animation du système (0) est reproduite à la suite (1)</resource>
+  <resource type="Text" id="Commands.Animate.AssetAnimation" translated="true">L&amp;#39;animation (0) est reproduite à la suite (1)</resource>
+  <resource type="Text" id="frmMain.btnAvatars" translated="true">Avatars</resource>
+  <resource type="Text" id="frmMain.btnGroups" translated="true">Groupes</resource>
+  <resource type="Text" id="frmMain.btnFriends" translated="true">Amis</resource>
+  <resource type="Text" id="frmMain.btnInventory" translated="true">Inventaire</resource>
+  <resource type="Text" id="frmMain.btnMap" translated="true">Carte</resource>
+  <resource type="Text" id="frmMain.chkAnimations" translated="true">Get animations</resource>
+  <resource type="Text" id="frmMain.chkTextures" translated="true">Get textures</resource>
+  <resource type="Text" id="frmMain.chkSounds" translated="true">Obtenir des sons</resource>
+  <resource type="Text" id="frmMain.chkInventoryOffers" translated="true">OK inventaire</resource>
+  <resource type="Text" id="frmMain.chkInformFriends" translated="true">Informer les amis</resource>
+  <resource type="Text" id="frmMain.chkTouchMidnightMania" translated="true">Touching Midnights</resource>
+  <resource type="Text" id="frmMain.chkHaveLuck" translated="true">Assis dans &amp;quot;Lucky&amp;quot; s</resource>
+  <resource type="Text" id="frmMain.chkLogChat" translated="true">Écrivez le Chat Archive</resource>
+  <resource type="Text" id="frmAvatars.Text" translated="true">(0) - Avatars</resource>
+  <resource type="Text" id="frmAvatars.lblCurrentSim" translated="true">Current Simulator: (0)</resource>
+  <resource type="Text" id="frmAvatars.lblAvatars" translated="true">(0) Avatars trouvé.</resource>
+  <resource type="Text" id="frmChat.chkAutoTranslate" translated="true">Traduire:</resource>
+  <resource type="Text" id="frmChat.lblToLanguage" translated="true">à:</resource>
+  <resource type="Text" id="frmChat.SitLuckyChair" translated="true">Assis dans (0) (1) (2) a dit penser que c&amp;#39;est un président Lucky.</resource>
+  <resource type="Text" id="frmChat.SitLuckyPresent" translated="true">Assis dans (0) (1) (2) a dit penser que c&amp;#39;est un cadeau Lucky.</resource>
+  <resource type="Text" id="frmChat.SitLuckySanta" translated="true">Assis dans (0) (1) (2) a dit penser que c&amp;#39;est un Santa Lucky.</resource>
+  <resource type="Text" id="frmChat.TouchLuckyBoard" translated="true">Appuyant sur (0) (1) (2) a dit penser que c&amp;#39;est un conseil Lucky.</resource>
+  <resource type="Text" id="frmChat.TaskInventoryOffered" translated="true">L&amp;#39;objet (0) appartenant à (1) de la région (2) à (3) envoie un inventaire:</resource>
+  <resource type="Text" id="frmChat.GroupNotice" translated="true">L&amp;#39;utilisateur (0) a envoyé un avis dans le groupe (1)</resource>
+  <resource type="Text" id="frmChat.FriendshipAccepted" translated="true">(0) accepté mon amitié.</resource>
+  <resource type="Text" id="frmChat.FriendshipDeclined" translated="true">(0) a rejeté mon amitié.</resource>
+  <resource type="Text" id="frmChat.InventoryAccepted" translated="true">(0) a accepté mon offre d&amp;#39;inventaire.</resource>
+  <resource type="Text" id="frmChat.InventoryDeclined" translated="true">(0) a rejeté mon offre d&amp;#39;inventaire.</resource>
+  <resource type="Text" id="frmChat.InventoryOffered" translated="true">(0) a fourni les inventaires suivants:</resource>
+  <resource type="Text" id="frmChat.Translated" translated="true">(Traduit)</resource>
+  <resource type="Text" id="frmFriends.btnMessage" translated="true">Message</resource>
+  <resource type="Text" id="frmFriends.btnProfile" translated="true">Profil</resource>
+  <resource type="Text" id="frmFriends.btnTeleport" translated="true">TP</resource>
+  <resource type="Text" id="frmFriends.btnRemove" translated="true">Supprimer</resource>
+  <resource type="Text" id="frmFriends.Text" translated="true">Amigos - {0}</resource>
+  <resource type="Text" id="frmFriends.NameColumn" translated="true">Nom</resource>
+  <resource type="Text" id="Controls.Loading" translated="true">(cargando. ..)</resource>
+  <resource type="Text" id="frmFriends.btnMessage.DialogTitle" translated="true">Envoyer un message instantané</resource>
+  <resource type="Text" id="frmFriends.btnMessage.DialogLabel" translated="true">Envoyer un message instantané à (0)</resource>
+  <resource type="Text" id="frmFriends.btnTeleport.DialogTitle" translated="true">Envoyer téléportation</resource>
+  <resource type="Text" id="frmFriends.btnTeleport.DialogLabel" translated="true">Envoyer un téléport à (0)</resource>
+  <resource type="Text" id="frmFriends.btnRemove.DialogTitle" translated="true">Enlevez l&amp;#39;ami</resource>
+  <resource type="Text" id="frmFriends.btnRemove.DialogLabel" translated="true">Etes-vous sûr de vouloir supprimer (0) d&amp;#39;amis?</resource>
+  <resource type="Text" id="frmGroups.Text" translated="true">Groupes - (0)</resource>
+  <resource type="Text" id="frmGroups.btnLeave" translated="true">Quitter</resource>
+  <resource type="Text" id="frmGroups.btnLeave.DialogTitle" translated="true">En quittant le groupe</resource>
+  <resource type="Text" id="frmGroups.btnLeave.DialogLabel" translated="true">Êtes-vous sûr de vouloir quitter le groupe (0)?</resource>
+  <resource type="Text" id="frmGroups.btnActivate" translated="true">Activer</resource>
+  <resource type="Text" id="frmGroups.btnActivate.DialogTitle" translated="true">Le groupe</resource>
+  <resource type="Text" id="frmGroups.btnActivate.DialogLabel" translated="true">Permettant au groupe (0).</resource>
+  <resource type="Text" id="frmGroups.btnMessage" translated="true">Chat</resource>
+  <resource type="Text" id="frmGroups.btnMessage.DialogTitle" translated="true">Envoyer un message au groupe</resource>
+  <resource type="Text" id="frmGroups.btnMessage.DialogLabel" translated="true">Envoyez le message au groupe (0)</resource>
+  <resource type="Text" id="frmGroups.btnMessage.SentOkTitle" translated="true">Message envoyé</resource>
+  <resource type="Text" id="frmGroups.btnMessage.SentOkLabel" translated="true">Message envoyé avec succès au groupe (0).</resource>
+  <resource type="Text" id="frmGroups.btnMessage.NotSentTitle" translated="true">Message non envoyé</resource>
+  <resource type="Text" id="frmGroups.btnMessage.NotSentLabel" translated="true">Impossible d&amp;#39;ouvrir une session de chat avec le groupe (0).</resource>
+  <resource type="Text" id="frmInventory.Text" translated="true">Inventaire - (0)</resource>
+  <resource type="Text" id="frmInventory.Menu.File" translated="true">&amp;amp; Fichier</resource>
+  <resource type="Text" id="frmInventory.Menu.CopyID" translated="true">Copiez Asset ID</resource>
+  <resource type="Text" id="frmInventory.Menu.Delete" translated="true">Supprimer l&amp;#39;objet / dossier</resource>
+  <resource type="Text" id="frmInventory.Menu.Attach" translated="true">Append</resource>
+  <resource type="Text" id="frmInventory.Menu.Detach" translated="true">Supprimer</resource>
+  <resource type="Text" id="frmInventory.Menu.EmptyTrash" translated="true">Vider la corbeille</resource>
+  <resource type="Text" id="frmInventory.Menu.EmptyLF" translated="true">Vide perdu &amp;amp; &amp;amp; found</resource>
+  <resource type="Text" id="frmMap.Text" translated="true">Carte de la formation sur simulateur: (0)</resource>
+  <resource type="Text" id="frmMap.lblSim" translated="true">Simulator: (0), version (1)</resource>
+  <resource type="Text" id="frmMap.lblMapDownloading" translated="true">Téléchargement de la carte ...</resource>
+  <resource type="Text" id="frmMap.lblAvatars" translated="true">Avatars: (0)</resource>
+  <resource type="Text" id="frmMap.lblSelectedPosition" translated="true">Selected location:</resource>
+  <resource type="Text" id="frmMap.btnTeleport" translated="true">TP</resource>
+  <resource type="Text" id="frmMap.TeleportError" translated="true">Ocurrió un error en el teletransporte. \n Por favor vuelva a intentarlo más tarde.</resource>
+  <resource type="Text" id="frmObjects.Status.NewObject" translated="true">Ajouté le nouvel objet (0) à la liste.</resource>
+  <resource type="Text" id="frmObjects.Status.Object" translated="true">Ajouté l&amp;#39;objet (0) une liste.</resource>
+  <resource type="Text" id="frmObjects.Status.GotName" translated="true">Obtenu le nom de l&amp;#39;objet (0).</resource>
+  <resource type="Text" id="frmObjects.Status.Statistics" translated="true">Connu Objet (0): (1) (2 noms familiers inconnu).</resource>
+  <resource type="Text" id="frmProfile.tabPageSecondLife" translated="true">2nd Life</resource>
+  <resource type="Text" id="frmProfile.tabPageWeb" translated="true">Web</resource>
+  <resource type="Text" id="frmProfile.tabPageInterests" translated="true">Centres d&amp;#39;intérêt</resource>
+  <resource type="Text" id="frmProfile.tabPageFirstLife" translated="true">1ère vie</resource>
+  <resource type="Text" id="frmProfile.lblName" translated="true">Nom:</resource>
+  <resource type="Text" id="frmProfile.lblBorn" translated="true">Né le:</resource>
+  <resource type="Text" id="frmProfile.lblPhoto" translated="true">Photo:</resource>
+  <resource type="Text" id="frmProfile.lblAccount" translated="true">Compte:</resource>
+  <resource type="Text" id="frmProfile.lblPartner" translated="true">Partenaire:</resource>
+  <resource type="Text" id="frmProfile.lblGroups" translated="true">Groupes:</resource>
+  <resource type="Text" id="frmProfile.lblAbout" translated="true">A propos de:</resource>
+  <resource type="Text" id="frmProfile.lblWeb" translated="true">Web:</resource>
+  <resource type="Text" id="frmProfile.lblWants" translated="true">¿Qué quiere?:</resource>
+  <resource type="Text" id="frmProfile.chkBuild" translated="true">Construire</resource>
+  <resource type="Text" id="frmProfile.chkMeet" translated="true">Rencontrer</resource>
+  <resource type="Text" id="frmProfile.chkSell" translated="true">Vendre</resource>
+  <resource type="Text" id="frmProfile.chkBeHired" translated="true">Travailler</resource>
+  <resource type="Text" id="frmProfile.chkExplore" translated="true">Explorez</resource>
+  <resource type="Text" id="frmProfile.chkGroup" translated="true">Regroupés</resource>
+  <resource type="Text" id="frmProfile.chkBuy" translated="true">Acheter</resource>
+  <resource type="Text" id="frmProfile.chkHire" translated="true">Recruter</resource>
+  <resource type="Text" id="frmProfile.lblSkills" translated="true">Compétences:</resource>
+  <resource type="Text" id="frmProfile.chkTextures" translated="true">Textures</resource>
+  <resource type="Text" id="frmProfile.chkModeling" translated="true">Modèles</resource>
+  <resource type="Text" id="frmProfile.chkScripting" translated="true">Scripts</resource>
+  <resource type="Text" id="frmProfile.chkArchitecture" translated="true">Architecture</resource>
+  <resource type="Text" id="frmProfile.chkEventPlanning" translated="true">Evénements</resource>
+  <resource type="Text" id="frmProfile.chkCustomChars" translated="true">Caractérisation</resource>
+  <resource type="Text" id="frmProfile.lblLanguages" translated="true">Langues:</resource>
+  <resource type="Text" id="frmProfile.lblPhotoF" translated="true">Photo:</resource>
+  <resource type="Text" id="frmProfile.lblInfo" translated="true">Info:</resource>
+  <resource type="Text" id="frmProfile.Text" translated="true">Profil (0)</resource>
+  <resource type="Text" id="frmProfile.Account.Identified" translated="true">Découvert</resource>
+  <resource type="Text" id="frmProfile.Account.Mature" translated="true">Maduro</resource>
+  <resource type="Text" id="frmProfile.Account.Payment" translated="true">Information sur le paiement</resource>
+  <resource type="Text" id="frmProfile.Account.Public" translated="true">Public</resource>
+  <resource type="Text" id="frmScriptDialog.Text" translated="true">Dialogue (0)</resource>
+  <resource type="Text" id="frmScriptDialog.lblObject" translated="true">Dialogue de l&amp;#39;objet (0)</resource>
+  <resource type="Text" id="frmScriptDialog.lblOwner" translated="true">appartenant à (0) (1).</resource>
+  <resource type="Text" id="Controls.ObjectList.Name" translated="true">Nom</resource>
+  <resource type="Text" id="Controls.ObjectList.Position" translated="true">Position</resource>
+  <resource type="Text" id="Controls.ObjectList.ID" translated="true">ID</resource>
+  <resource type="Text" id="Controls.ObjectList.Midnight" translated="true">J&amp;#39;ai touché l&amp;#39;objet nommé (0) (1) en pensant que c&amp;#39;est une manie de minuit.</resource>
+  <resource type="Text" id="Controls.ObjectList.Advent" translated="true">J&amp;#39;ai touché l&amp;#39;objet nommé (0) (1) en pensant que c&amp;#39;est une chance de l&amp;#39;Avent à rebours.</resource>
+  <resource type="Text" id="Controls.ObjectList.Pyramid" translated="true">J&amp;#39;ai touché l&amp;#39;objet nommé (0) (1) en pensant que c&amp;#39;est un Prix Pyramide.</resource>
+  <resource type="Text" id="Controls.ObjectList.Dip" translated="true">Je m&amp;#39;assis sur l&amp;#39;objet nommé (0) (1) en pensant que c&amp;#39;est un Lucky Dip.</resource>
+  <resource type="Text" id="Controls.ObjectList.Cupcake" translated="true">Je m&amp;#39;assis sur l&amp;#39;objet nommé (0) (1) en pensant que c&amp;#39;est un Cupcake Lucky.</resource>
+  <resource type="Text" id="Controls.AvatarList.Name" translated="true">Nom</resource>
+  <resource type="Text" id="Controls.AvatarList.Distance" translated="true">Distance</resource>
+  <resource type="Text" id="Controls.AvatarList.Viewer" translated="true">Client</resource>
+  <resource type="Text" id="Controls.AvatarList.Position" translated="true">Position</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.CopyID" translated="true">Copie pièce d&amp;#39;identité pour presse-papiers</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.ShowProfile" translated="true">Afficher le profil</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferTP" translated="true">Fournir téléportation</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.TPTo" translated="true">Téléportation</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.WalkTo" translated="true">Marcher</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.SendMessage" translated="true">Envoyer un message</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.ListAttachs" translated="true">Afficher les pièces jointes</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.DumpAttachs" translated="true">Télécharger les annexes</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.DumpOutfit" translated="true">Télécharger robe</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferFriendship" translated="true">Offrir leur amitié</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferTP.DialogTitle" translated="true">Envoyer téléportation</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferTP.DialogLabel" translated="true">Téléportation sera envoyé à (0)</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.SendIM.DialogTitle" translated="true">Envoyer un message</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.SendIM.DialogLabel" translated="true">Il envoie un message instantané à (0)</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferFriend.AlreadyDialogLabel" translated="true">(0) est déjà mon ami.</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferFriend.AlreadyDialogTitle" translated="true">Il est mon ami.</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferFriend.DialogTitle" translated="true">Offrir leur amitié</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferFriend.DialogLabel" translated="true">Il offrira à l&amp;#39;amitié (0)</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.OfferFriend.Message" translated="true">Veux-tu être mon ami?</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.ListAttachsResultLabel" translated="true">Liste des annexes</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.ListAttachsResultTitle" translated="true">Les annexes à (0):</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.WarningLine1" translated="true">Cette commande mai prendre une longue finale.</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.WarningLine2" translated="true">NatiBot pas répondu jusqu&amp;#39;à ce qu&amp;#39;elle se termine.</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.WarningLine3" translated="true">Êtes-vous sûr de vouloir continuer?</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.DumpAttachsDumped" translated="true">Pièces jointes Téléchargé</resource>
+  <resource type="Text" id="Controls.AvatarList.Menu.DumpOutfitDumped" translated="true">Tenue téléchargés</resource>
+  <resource type="Text" id="Controls.GroupList.Column" translated="true">Groupe</resource>
+  <resource type="Text" id="Controls.InventoryList.Empty" translated="true">(vide)</resource>
+  <resource type="Text" id="Commands.CreateNotecard.Sending" translated="true">Envoi notecard à l&amp;#39;enseignant.</resource>
+  <resource type="Text" id="Commands.Follow.Stopped" translated="true">Je suis parti à suivre.</resource>
+  <resource type="Text" id="Object" translated="true">Objet</resource>
+  <resource type="Text" id="Bot.Friend.Online" translated="true">Mon ami (0) connectez simplement.</resource>
+  <resource type="Text" id="Bot.Friend.Offline" translated="true">Mon ami (0) déconnectez juste.</resource>
+  <resource type="Text" id="Commands.Version.Description" translated="true">Affiche la version du simulateur de NatiBot et à jour.</resource>
+  <resource type="Text" id="Commands.Version.CurrentSim" translated="true">Simulateur: (0)</resource>
+  <resource type="Text" id="Commands.NetStats.Description" translated="true">Un aperçu des statistiques d&amp;#39;utilisation des paquets et de capacités.</resource>
+  <resource type="Text" id="Commands.NetStats.NoStats" translated="true">Statistiques non disponibles.</resource>
+  <resource type="Text" id="Commands.Health.Description" translated="true">Affiche l&amp;#39;état de santé actuel.</resource>
+  <resource type="Text" id="Commands.Health.Health" translated="true">L&amp;#39;état de santé actuel est (0)%.</resource>
+  <resource type="Text" id="NetCom.Updating.Line1" translated="true">Si vous mettez à niveau depuis une version antérieure de NatiBot supprimer tous les comptes et le renvoyer à créer.</resource>
+  <resource type="Text" id="NetCom.Updating.Line2" translated="true">Le système de connexion a eu des changements qui nécessitent recréer manuellement les comptes.</resource>
+  <resource type="Text" id="NetCom.Updating.Line3" translated="true">Le système de connexion est fixée à AGNI (Second Life Production Grid).</resource>
+  <resource type="Text" id="Program.Stats.Crash.Line1" translated="true">Une exception non gérée s'est produite.</resource>
+  <resource type="Text" id="Program.Stats.Crash.Line2" translated="true">L'information d'erreur a été envoyé à Claunia.com</resource>
+  <resource type="Text" id="Program.Stats.Crash.Line3" translated="true">Nous regrettons tout inconvénient causé.</resource>
+  <resource type="Text" id="Program.Stats.Crash.Line4" translated="true">NatiBot va se fermer.</resource>
+  <resource type="Text" id="Program.Stats.Crash" translated="true">Erreur fatale</resource>
+</resources>

@@ -1,0 +1,1486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.3077</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9041A815-E5DA-4B00-945E-ADC7BD2ED7B9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>NatiBot</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <StartupObject>bot.Program</StartupObject>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>natibot.snk</AssemblyOriginatorKeyFile>
+    <ApplicationIcon>natibot.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Optimize>false</Optimize>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <OutputType>WinExe</OutputType>
+    <DebugSymbols>true</DebugSymbols>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <OutputType>WinExe</OutputType>
+    <DebugSymbols>true</DebugSymbols>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="bot\AccountFile.cs" />
+    <Compile Include="bot\AttachmentCollection.cs" />
+    <Compile Include="bot\BotAccount.cs" />
+    <Compile Include="bot\BotConfig.cs" />
+    <Compile Include="bot\CampChair.cs" />
+    <Compile Include="bot\Chat.cs" />
+    <Compile Include="bot\GUI\controls\AccountList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmScriptDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmScriptDialog.Designer.cs">
+      <DependentUpon>frmScriptDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\LanguageCodes.cs" />
+    <Compile Include="bot\ClientTags.cs" />
+    <Compile Include="bot\Commands\Agent\AwayCommand.cs" />
+    <Compile Include="bot\Commands\Agent\BeamCommand.cs" />
+    <Compile Include="bot\Commands\Agent\BusyCommand.cs" />
+    <Compile Include="bot\Commands\Agent\LookAtCommand.cs" />
+    <Compile Include="bot\Commands\Agent\PickCommand.cs" />
+    <Compile Include="bot\Commands\Agent\GroundSitCommand.cs" />
+    <Compile Include="bot\Commands\Agent\PlaySoundCommand.cs" />
+    <Compile Include="bot\Commands\Agent\HealthCommand.cs" />
+    <Compile Include="bot\Commands\Agent\GestureCommand.cs" />
+    <Compile Include="bot\Commands\Agent\NaduCommand.cs" />
+    <Compile Include="bot\Commands\Agent\PayCommand.cs" />
+    <Compile Include="bot\Commands\Agent\AttachCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\InformFriendCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\EndFriendshipCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\OfferFriendshipCommand.cs" />
+    <Compile Include="bot\Commands\Download\AnimationsCommand.cs" />
+    <Compile Include="bot\Commands\Download\DownloadSoundCommand.cs" />
+    <Compile Include="bot\Commands\Download\SoundsCommand.cs" />
+    <Compile Include="bot\Commands\Groups\ActivateRoleCommand.cs" />
+    <Compile Include="bot\Commands\Groups\AddToRoleCommand.cs" />
+    <Compile Include="bot\Commands\Groups\GroupEjectCommand.cs" />
+    <Compile Include="bot\Commands\Groups\GroupInviteCommand.cs" />
+    <Compile Include="bot\Commands\Groups\GroupMembersCommand.cs" />
+    <Compile Include="bot\Commands\Groups\GroupRolesCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\CreateSkinCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\CreateEyesCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\CreateClothingCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\RezItemCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\CreateLandMarkCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\BanListCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\AllowedListCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\BanUserCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\EjectUserCommand.cs" />
+    <Compile Include="bot\Commands\Search\Key2NameCommand.cs" />
+    <Compile Include="bot\Commands\Search\SearchClassifiedsCommand.cs" />
+    <Compile Include="bot\Commands\Search\SearchEventsCommand.cs" />
+    <Compile Include="bot\Commands\Search\SearchGroupsCommand.cs" />
+    <Compile Include="bot\Commands\Search\SearchLandCommand.cs" />
+    <Compile Include="bot\Commands\Search\SearchPeopleCommand.cs" />
+    <Compile Include="bot\Commands\Search\SearchPlacesCommand.cs" />
+    <Compile Include="bot\Commands\Search\ShowEventDetailsCommand.cs" />
+    <Compile Include="bot\Commands\System\AboutCommand.cs" />
+    <Compile Include="bot\Commands\System\ChangelogCommand.cs" />
+    <Compile Include="bot\Commands\System\Help2NCCommand.cs" />
+    <Compile Include="bot\Commands\System\ClientTagsCommand.cs" />
+    <Compile Include="bot\Commands\System\ClockCommand.cs" />
+    <Compile Include="bot\Commands\System\LogoutCommand.cs" />
+    <Compile Include="bot\Commands\System\QuitCommand.cs" />
+    <Compile Include="bot\Commands\System\GCCommand.cs" />
+    <Compile Include="bot\Commands\System\MemFreeCommand.cs" />
+    <Compile Include="bot\Commands\System\NetstatsCommand.cs" />
+    <Compile Include="bot\GUI\controls\AvatarList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\controls\ObjectList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\controls\GroupList.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\controls\InventoryTree.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\controls\ListColumnSorter.cs" />
+    <Compile Include="bot\GUI\frmMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmMap.designer.cs">
+      <DependentUpon>frmMap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmResult.Designer.cs">
+      <DependentUpon>frmResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmAvatars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmAvatars.Designer.cs">
+      <DependentUpon>frmAvatars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmDialog.Designer.cs">
+      <DependentUpon>frmDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmFriends.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmFriends.Designer.cs">
+      <DependentUpon>frmFriends.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmGroups.Designer.cs">
+      <DependentUpon>frmGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmProfile.Designer.cs">
+      <DependentUpon>frmProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\LoginGrids.cs" />
+    <Compile Include="bot\NBAttachmentPoint.cs" />
+    <Compile Include="bot\Commands\Agent\AnimateCommand.cs" />
+    <Compile Include="bot\Commands\Agent\AppearanceCommand.cs" />
+    <Compile Include="bot\Commands\Agent\AttachmentsCommand.cs" />
+    <Compile Include="bot\Commands\Agent\BalanceCommand.cs" />
+    <Compile Include="bot\Commands\Agent\LocationCommand.cs" />
+    <Compile Include="bot\Commands\Agent\SetHomeCommand.cs" />
+    <Compile Include="bot\Commands\Agent\WearCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\AttachmentsUUID.cs" />
+    <Compile Include="bot\Commands\Avatars\AvatarInfoCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\CloneCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\CloneProfileCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\DetectBotCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\DetectLindensCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\ExportOutfitCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\FriendsCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\ImportOutfitCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\MapFriendCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\WhoCommand.cs" />
+    <Compile Include="bot\Commands\Communication\EchoMasterCommand.cs" />
+    <Compile Include="bot\Commands\Communication\ImCommand.cs" />
+    <Compile Include="bot\Commands\Communication\SayCommand.cs" />
+    <Compile Include="bot\Commands\Communication\ShoutCommand.cs" />
+    <Compile Include="bot\Commands\Communication\WhisperCommand.cs" />
+    <Compile Include="bot\Commands\Download\DownloadAnimation.cs" />
+    <Compile Include="bot\Commands\Download\DownloadTextureCommand.cs" />
+    <Compile Include="bot\Commands\Download\TexturesCommand.cs" />
+    <Compile Include="bot\Commands\Estate\DilationCommand.cs" />
+    <Compile Include="bot\Commands\Estate\DownloadTerrainCommand.cs" />
+    <Compile Include="bot\Commands\Estate\RegionInfoCommand.cs" />
+    <Compile Include="bot\Commands\Estate\StatsCommand.cs" />
+    <Compile Include="bot\Commands\Estate\UploadRawTerrainCommand.cs" />
+    <Compile Include="bot\Commands\Grid\AgentLocationsCommand.cs" />
+    <Compile Include="bot\Commands\Grid\FindSimCommand.cs" />
+    <Compile Include="bot\Commands\Grid\GridLayerCommand.cs" />
+    <Compile Include="bot\Commands\Grid\GridMapCommand.cs" />
+    <Compile Include="bot\Commands\Groups\ActivateGroupCommand.cs" />
+    <Compile Include="bot\Commands\Groups\GroupsCommand.cs" />
+    <Compile Include="bot\Commands\Groups\ImGroupCommand.cs" />
+    <Compile Include="bot\Commands\Groups\JoinGroupCommand.cs" />
+    <Compile Include="bot\Commands\Groups\LeaveGroupCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\BackupCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\BackupTextCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\ChangeDirectoryCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\CreateNotecardCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\DeleteFolderCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\EmptyLostAndFoundCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\EmptyTrashCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\GiveItemCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\InventoryCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\ListContentsCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\TakeItemCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\TaskRunningCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\UploadCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\UploadImageCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\ViewNotecardCommand.cs" />
+    <Compile Include="bot\Commands\Movement\BackCommand.cs" />
+    <Compile Include="bot\Commands\Movement\CameraFarCommand.cs" />
+    <Compile Include="bot\Commands\Movement\CrouchCommand.cs" />
+    <Compile Include="bot\Commands\Movement\FlyCommand.cs" />
+    <Compile Include="bot\Commands\Movement\FlyToCommand.cs" />
+    <Compile Include="bot\Commands\Movement\FollowCommand.cs" />
+    <Compile Include="bot\Commands\Movement\ForwardCommand.cs" />
+    <Compile Include="bot\Commands\Movement\GoHomeCommand.cs" />
+    <Compile Include="bot\Commands\Movement\GotoCommand.cs" />
+    <Compile Include="bot\Commands\Movement\GotoLandmarkCommand.cs" />
+    <Compile Include="bot\Commands\Movement\JumpCommand.cs" />
+    <Compile Include="bot\Commands\Movement\LeftCommand.cs" />
+    <Compile Include="bot\Commands\Movement\MovetoCommand.cs" />
+    <Compile Include="bot\Commands\Movement\RequestTeleport.cs" />
+    <Compile Include="bot\Commands\Movement\RightCommand.cs" />
+    <Compile Include="bot\Commands\Movement\StandCommand.cs" />
+    <Compile Include="bot\Commands\Movement\TurnToCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\ParcelDetailsCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\ParcelInfoCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\ParcelPrimOwnersCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\ParcelSelectObjectsCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\PrimCountCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\SearchBuildableCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\TreeCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\WindCommand.cs" />
+    <Compile Include="bot\Commands\Command.cs" />
+    <Compile Include="bot\Commands\Prims\BuyCommand.cs" />
+    <Compile Include="bot\Commands\Prims\ChangePermsCommand.cs" />
+    <Compile Include="bot\Commands\Prims\DumpAttachmentCommand.cs" />
+    <Compile Include="bot\Commands\Prims\DumpAttachmentsCommand.cs" />
+    <Compile Include="bot\Commands\Prims\ExportCommand.cs" />
+    <Compile Include="bot\Commands\Prims\ExportParticlesCommand.cs" />
+    <Compile Include="bot\Commands\Prims\FindObjectsCommand.cs" />
+    <Compile Include="bot\Commands\Prims\ImportCommand.cs" />
+    <Compile Include="bot\Commands\Prims\ObjectInventoryCommand.cs" />
+    <Compile Include="bot\Commands\Prims\PrimInfoCommand.cs" />
+    <Compile Include="bot\Commands\Prims\PrimRegexCommand.cs" />
+    <Compile Include="bot\Commands\Prims\SitCommand.cs" />
+    <Compile Include="bot\Commands\Prims\SitOnCommand.cs" />
+    <Compile Include="bot\Commands\Prims\TouchCommand.cs" />
+    <Compile Include="bot\Commands\QueuedDownloadInfo.cs" />
+    <Compile Include="bot\Commands\System\DebugCommand.cs" />
+    <Compile Include="bot\Commands\System\HelpCommand.cs" />
+    <Compile Include="bot\Commands\System\LoadCommand.cs" />
+    <Compile Include="bot\Commands\System\MD5Command.cs" />
+    <Compile Include="bot\Commands\System\ScriptCommand.cs" />
+    <Compile Include="bot\Commands\System\SetMasterCommand.cs" />
+    <Compile Include="bot\Commands\System\SetMasterKeyCommand.cs" />
+    <Compile Include="bot\Commands\System\ShowEffectsCommand.cs" />
+    <Compile Include="bot\Commands\System\TranslateCommand.cs" />
+    <Compile Include="bot\Commands\System\UptimeCommand.cs" />
+    <Compile Include="bot\Commands\System\VersionCommand.cs" />
+    <Compile Include="bot\Commands\Textures\DumpOutfitCommand.cs" />
+    <Compile Include="bot\Commands\Textures\FindTextureCommand.cs" />
+    <Compile Include="bot\Commands\Voice\ParcelVoiceInfoCommand.cs" />
+    <Compile Include="bot\Commands\Voice\VoiceAcountCommand.cs" />
+    <Compile Include="bot\Console.cs" />
+    <Compile Include="bot\GUI\frmChat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmChat.Designer.cs">
+      <DependentUpon>frmChat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmConsole.Designer.cs">
+      <DependentUpon>frmConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmCrasher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmObjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmObjects.Designer.cs">
+      <DependentUpon>frmObjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmInventory.Designer.cs">
+      <DependentUpon>frmInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmAddAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\InterfacePlugins\libsl_Interface.cs" />
+    <Compile Include="bot\InstanceHandler.cs" />
+    <Compile Include="bot\IRCSettings.cs" />
+    <Compile Include="bot\license\frmCheckLicense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\license\frmCheckLicense.Designer.cs">
+      <DependentUpon>frmCheckLicense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\license\SimpleHash.cs" />
+    <Compile Include="bot\license\Version.cs" />
+    <Compile Include="bot\Localization\clResourceManager.cs" />
+    <Compile Include="bot\LoginDetailList.cs" />
+    <Compile Include="bot\LoginDetails.cs" />
+    <Compile Include="bot\NetCom\AlertMessageEventArgs.cs" />
+    <Compile Include="bot\NetCom\ChatEventArgs.cs" />
+    <Compile Include="bot\NetCom\ChatSentEventArgs.cs" />
+    <Compile Include="bot\NetCom\ClientDisconnectEventArgs.cs" />
+    <Compile Include="bot\NetCom\ClientLoginEventArgs.cs" />
+    <Compile Include="bot\NetCom\InstantMessageEventArgs.cs" />
+    <Compile Include="bot\NetCom\InstantMessageSentEventArgs.cs" />
+    <Compile Include="bot\NetCom\MoneyBalanceEventArgs.cs" />
+    <Compile Include="bot\NetCom\NetCommunication.cs" />
+    <Compile Include="bot\NetCom\OverrideEventArgs.cs" />
+    <Compile Include="bot\NetCom\StartLocationParser.cs" />
+    <Compile Include="bot\NetCom\TeleportingEventArgs.cs" />
+    <Compile Include="bot\NetCom\TeleportStatusEventArgs.cs" />
+    <Compile Include="bot\Objects\ObjectsListItem.cs" />
+    <Compile Include="bot\Parsing.cs" />
+    <Compile Include="bot\Program.cs" />
+    <Compile Include="bot\SecondLifeBot.cs" />
+    <Compile Include="bot\SoftwareLoginInfo.cs" />
+    <Compile Include="bot\StartPosition.cs" />
+    <Compile Include="bot\StateManager.cs" />
+    <Compile Include="bot\Statistics.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="HTTP\Commands\CommandChk.cs" />
+    <Compile Include="HTTP\Commands\CommandRegister.cs" />
+    <Compile Include="HTTP\Commands\CommandTest.cs" />
+    <Compile Include="HTTP\Commands\HTTPCommand.cs" />
+    <Compile Include="HTTP\CPL\CPLHome.cs" />
+    <Compile Include="HTTP\CPL\HTMLCPLCommand.cs" />
+    <Compile Include="HTTP\HTMLTemplates.cs" />
+    <Compile Include="HTTP\HTTPDaemon.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="bot.GUI.FormObjects.resources" />
+    <EmbeddedResource Include="bot.GUI.frmAddAccount.resources" />
+    <EmbeddedResource Include="bot.GUI.frmLogin.resources" />
+    <EmbeddedResource Include="bot.GUI.frmMain.resources" />
+    <EmbeddedResource Include="bot.Properties.Resources.resources" />
+    <EmbeddedResource Include="bot\GUI\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmMap.resx">
+      <DependentUpon>frmMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmResult.resx">
+      <DependentUpon>frmResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmAvatars.resx">
+      <DependentUpon>frmAvatars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmCrasher.resx">
+      <DependentUpon>frmCrasher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmDialog.resx">
+      <DependentUpon>frmDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmFriends.resx">
+      <DependentUpon>frmFriends.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmGroups.resx">
+      <DependentUpon>frmGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmInventory.resx">
+      <DependentUpon>frmInventory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmAddAccount.resx">
+      <DependentUpon>frmAddAccount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmObjects.resx">
+      <DependentUpon>frmObjects.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmProfile.resx">
+      <DependentUpon>frmProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmScriptDialog.resx">
+      <DependentUpon>frmScriptDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\license\frmCheckLicense.resx">
+      <DependentUpon>frmCheckLicense.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VisualBasic.PowerPacks.10.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Basic PowerPacks 10.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="HTTP\CPL.css" />
+    <None Include="HTTP\Header.tpl.htm" />
+    <None Include="natibot.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="OpenMetaverseTypes">
+      <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bot\Localization\language_en.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bot\license\changelog_en.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bot\license\changelog_es.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bot\Localization\language_es.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bot\license\changelog_ca.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bot\GUI\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\Localization\language_ca.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmDialog.btnOK.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmDialog.btnOK.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmDialog.btnOK.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmFriends.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmFriends.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmFriends.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmFriends.btnProfile.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmFriends.btnProfile.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmFriends.btnProfile.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmFriends.btnRemove.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmFriends.btnRemove.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmFriends.btnRemove.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmFriends.btnTeleport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmFriends.btnTeleport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmFriends.btnTeleport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmGroup.btnActivate.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmGroup.btnActivate.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmGroup.btnActivate.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmGroup.btnLeave.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmGroup.btnLeave.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmGroup.btnLeave.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmGroup.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmGroup.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmGroup.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnAvatars.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnAvatars.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnAvatars.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnChat.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnChat.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnChat.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnFriends.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnFriends.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnFriends.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnGroups.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnGroups.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnGroups.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnInventory.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnInventory.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnInventory.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnMap.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnMap.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnMap.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmObjects.btnExport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmObjects.btnExportAll.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmObjects.btnFindNext.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\fr\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnFriends.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\btnClose.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\btnClose.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\btnClose.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmGroup.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmGroup.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmGroup.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmGroup.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmGroup.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmGroup.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmDialog.btnOK.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmDialog.btnOK.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmDialog.btnOK.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmFriends.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmFriends.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmFriends.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmFriends.btnProfile.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmFriends.btnProfile.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmFriends.btnProfile.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmFriends.btnRemove.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmFriends.btnRemove.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmFriends.btnRemove.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmFriends.btnTeleport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmFriends.btnTeleport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmFriends.btnTeleport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmGroup.btnActivate.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmGroup.btnActivate.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmGroup.btnActivate.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmGroup.btnLeave.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmGroup.btnLeave.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmGroup.btnLeave.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmGroup.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmGroup.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmGroup.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnAvatars.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnAvatars.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnAvatars.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnChat.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnChat.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnChat.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnFriends.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnFriends.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnGroups.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnGroups.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnGroups.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnInventory.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnInventory.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnInventory.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnMap.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnMap.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnMap.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmObjects.btnExport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmObjects.btnExportAll.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmObjects.btnFindNext.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\en\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmDialog.btnOK.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmDialog.btnOK.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmDialog.btnOK.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmFriends.btnTeleport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmFriends.btnTeleport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmFriends.btnTeleport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmGroup.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmGroup.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmGroup.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnAvatars.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnAvatars.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnAvatars.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnInventory.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnInventory.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnInventory.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmDialog.btnOK.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmDialog.btnOK.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmDialog.btnOK.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmFriends.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmFriends.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmFriends.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmFriends.btnProfile.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmFriends.btnProfile.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmFriends.btnProfile.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmFriends.btnRemove.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmFriends.btnRemove.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmFriends.btnRemove.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmFriends.btnTeleport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmFriends.btnTeleport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmFriends.btnTeleport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmGroup.btnActivate.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmGroup.btnActivate.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmGroup.btnActivate.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmGroup.btnLeave.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmGroup.btnLeave.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmGroup.btnLeave.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmGroup.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmGroup.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmGroup.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnAvatars.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnAvatars.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnAvatars.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnFriends.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnFriends.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnFriends.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnGroups.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnGroups.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnGroups.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnInventory.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnInventory.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnInventory.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnMap.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnMap.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnMap.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmDialog.btnOK.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmDialog.btnOK.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmDialog.btnOK.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmFriends.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmFriends.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmFriends.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmFriends.btnProfile.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmFriends.btnProfile.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmFriends.btnProfile.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmFriends.btnRemove.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmFriends.btnRemove.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmFriends.btnRemove.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmFriends.btnTeleport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmFriends.btnTeleport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmFriends.btnTeleport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmGroup.btnActivate.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmGroup.btnActivate.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmGroup.btnActivate.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmGroup.btnLeave.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmGroup.btnLeave.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmGroup.btnLeave.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmGroup.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmGroup.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmGroup.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnAvatars.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnAvatars.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnAvatars.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnFriends.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnFriends.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnFriends.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnGroups.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnGroups.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnGroups.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnInventory.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnInventory.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnInventory.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnMap.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnMap.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnMap.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmDialog.btnOK.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmDialog.btnOK.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmDialog.btnOK.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmFriends.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmFriends.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmFriends.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmFriends.btnProfile.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmFriends.btnProfile.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmFriends.btnProfile.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmFriends.btnRemove.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmFriends.btnRemove.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmFriends.btnRemove.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmFriends.btnTeleport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmFriends.btnTeleport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmFriends.btnTeleport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmGroup.btnActivate.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmGroup.btnActivate.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmGroup.btnActivate.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmGroup.btnLeave.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmGroup.btnLeave.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmGroup.btnLeave.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmGroup.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmGroup.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmGroup.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnAvatars.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnAvatars.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnAvatars.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnFriends.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnFriends.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnFriends.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnGroups.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnGroups.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnGroups.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnInventory.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnInventory.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnInventory.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnMap.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnMap.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnMap.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmDialog.btnOK.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmDialog.btnOK.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmDialog.btnOK.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmFriends.btnProfile.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmFriends.btnProfile.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmFriends.btnProfile.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmFriends.btnTeleport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmFriends.btnTeleport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmFriends.btnTeleport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmGroup.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmGroup.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmGroup.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmDialog.btnOK.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmDialog.btnOK.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmDialog.btnOK.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmFriends.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmFriends.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmFriends.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmFriends.btnProfile.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmFriends.btnProfile.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmFriends.btnProfile.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmFriends.btnRemove.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmFriends.btnRemove.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmFriends.btnRemove.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmFriends.btnTeleport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmFriends.btnTeleport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmFriends.btnTeleport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmGroup.btnActivate.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmGroup.btnActivate.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmGroup.btnActivate.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmGroup.btnLeave.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmGroup.btnLeave.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmGroup.btnLeave.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmGroup.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmGroup.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmGroup.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnAvatars.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnAvatars.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnAvatars.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnFriends.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnFriends.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnFriends.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnGroups.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnGroups.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnGroups.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnInventory.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnInventory.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnInventory.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnMap.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnMap.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnMap.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmDialog.btnOK.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmDialog.btnOK.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmDialog.btnOK.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmFriends.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmFriends.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmFriends.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmFriends.btnProfile.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmFriends.btnProfile.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmFriends.btnProfile.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmFriends.btnRemove.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmFriends.btnRemove.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmFriends.btnRemove.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmFriends.btnTeleport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmFriends.btnTeleport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmFriends.btnTeleport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmGroup.btnActivate.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmGroup.btnActivate.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmGroup.btnActivate.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmGroup.btnLeave.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmGroup.btnLeave.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmGroup.btnLeave.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnAvatars.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnAvatars.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnAvatars.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnChat.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnChat.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnChat.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnFriends.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnFriends.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnFriends.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnGroups.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnGroups.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnGroups.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnInventory.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnInventory.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnInventory.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnMap.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnMap.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnMap.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmObjects.btnExport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmObjects.btnExportAll.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmObjects.btnFindNext.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\ca\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmAbout.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmAddAccount.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmAvatars.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmChat.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmConsole.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmDialog.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmFriends.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmGroups.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmInventory.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmLicense.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmMain.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmMap.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmObjects.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmProfile.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmResult.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\windows\frmScriptDialog.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmAvatars.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmDialog.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmFriends.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmGroups.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmInventory.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmMap.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmProfile.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmResult.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmScriptDialog.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmDialog.btnOK.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmDialog.btnOK.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmDialog.btnOK.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmFriends.btnMessage.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmFriends.btnMessage.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmFriends.btnMessage.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmFriends.btnProfile.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmFriends.btnProfile.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmFriends.btnProfile.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmFriends.btnRemove.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmFriends.btnRemove.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmFriends.btnRemove.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmFriends.btnTeleport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmFriends.btnTeleport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmFriends.btnTeleport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmGroup.btnActivate.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmGroup.btnActivate.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmGroup.btnActivate.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmGroup.btnLeave.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmGroup.btnLeave.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmGroup.btnLeave.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnAvatars.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnAvatars.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnAvatars.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnChat.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnChat.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnChat.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnFriends.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnFriends.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnFriends.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnGroups.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnGroups.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnGroups.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnInventory.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnInventory.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnInventory.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnMap.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnMap.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnMap.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmObjects.btnExport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmObjects.btnExportAll.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmObjects.btnFindNext.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\redish\buttons\es\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\frmChat.resx">
+      <DependentUpon>frmChat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmConsole.resx">
+      <DependentUpon>frmConsole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="bot\GUI\images\natibot.ico" />
+    <Content Include="bot\GUI\images\NatiBot.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\btnClose.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\btnClose.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\btnClose.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnChat.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnChat.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnChat.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmObjects.btnExport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmObjects.btnExportAll.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmObjects.btnFindNext.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\ca\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnChat.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnChat.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnChat.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmObjects.btnExport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmObjects.btnExportAll.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmObjects.btnFindNext.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\de\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnChat.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnChat.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnChat.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmObjects.btnExport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmObjects.btnExportAll.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmObjects.btnFindNext.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\en\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnChat.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnChat.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnChat.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmObjects.btnExport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmObjects.btnExportAll.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmObjects.btnFindNext.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\es\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnChat.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnChat.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnChat.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmObjects.btnExport.onidle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmObjects.btnExportAll.onidle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmObjects.btnFindNext.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\fr\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnChat.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnChat.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnChat.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmObjects.btnExport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmObjects.btnExportAll.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\buttons\it\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmAbout.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmAddAccount.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmChat.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmConsole.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmLicense.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmMain.png" />
+    <EmbeddedResource Include="bot\GUI\skins\blueish\windows\frmObjects.png" />
+    <EmbeddedResource Include="bot\license\changelog_fr.txt" />
+    <EmbeddedResource Include="bot\Localization\language_fr.xml">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="natibot-mono.ico" />
+    <EmbeddedResource Include="natibot.ico" />
+    <EmbeddedResource Include="natibot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\clControls\clControls.csproj">
+      <Project>{93D3970D-9C6C-4250-BE8F-7CF974DEAB68}</Project>
+      <Name>clControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clUtils\clUtils.csproj">
+      <Project>{6C115EF9-F48B-4606-9361-B09E337C9705}</Project>
+      <Name>clUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DotNetZip\DotNetZip.csproj">
+      <Project>{0037E22E-B40E-4D9B-8CD5-062E7E3BC1D7}</Project>
+      <Name>DotNetZip</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libomv\HttpServer\HttpServer.csproj">
+      <Project>{455E7D70-1C85-4D7F-9F01-DC801B8B8C34}</Project>
+      <Name>HttpServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libomv\OpenMetaverse.Http\OpenMetaverse.Http.csproj">
+      <Project>{9AFEA432-EF9E-44C2-A3BB-07C0CE25C6E9}</Project>
+      <Name>OpenMetaverse.Http</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libomv\OpenMetaverse.StructuredData\OpenMetaverse.StructuredData.csproj">
+      <Project>{80507A5F-CE32-4A67-BA89-ECFEAF9416DD}</Project>
+      <Name>OpenMetaverse.StructuredData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libomv\OpenMetaverse.Utilities\OpenMetaverse.Utilities.csproj">
+      <Project>{3248EBAE-0D33-4544-B04C-013F5632F2A1}</Project>
+      <Name>OpenMetaverse.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libomv\OpenMetaverseTypes\OpenMetaverseTypes.csproj">
+      <Project>{B636FB66-448A-400F-B4DD-1B04B7ABE270}</Project>
+      <Name>OpenMetaverseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libomv\OpenMetaverse\OpenMetaverse.csproj">
+      <Project>{81F745A1-D0E4-4807-AC44-009D229CEE6D}</Project>
+      <Name>OpenMetaverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\log4net\src\log4net.csproj">
+      <Project>{F6A02431-167E-4347-BC43-65532C31CDB7}</Project>
+      <Name>log4net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartIRC4Net\VisualStudio\2008\SmartIrc4net.csproj">
+      <Project>{19607F57-B521-4477-9DE0-F0D9B1A68BC7}</Project>
+      <Name>SmartIrc4net</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bot\GUI\skins\redish\buttons\de\" />
+    <Folder Include="bot\GUI\skins\redish\buttons\it\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+    <ProjectGuid>{9041A815-E5DA-4B00-945E-ADC7BD2ED7B9}</ProjectGuid>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+  </PropertyGroup>
+</Project>

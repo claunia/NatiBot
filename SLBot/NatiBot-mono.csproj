@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.3077</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9041A815-E5DA-4B00-945E-ADC7BD2ED7B9}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>NatiBot</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <StartupObject>bot.Program</StartupObject>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>natibot.snk</AssemblyOriginatorKeyFile>
+    <ApplicationIcon>natibot.ico</ApplicationIcon>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\mono-projects\bin</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\bin\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Optimize>false</Optimize>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <OutputType>WinExe</OutputType>
+    <DebugSymbols>true</DebugSymbols>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <Optimize>true</Optimize>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <OutputType>WinExe</OutputType>
+    <DebugSymbols>true</DebugSymbols>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="bot\AccountFile.cs" />
+    <Compile Include="bot\AttachmentCollection.cs" />
+    <Compile Include="bot\BotAccount.cs" />
+    <Compile Include="bot\BotConfig.cs" />
+    <Compile Include="bot\CampChair.cs" />
+    <Compile Include="bot\Chat.cs" />
+    <Compile Include="bot\Commands\Agent\AnimateCommand.cs" />
+    <Compile Include="bot\Commands\Agent\AppearanceCommand.cs" />
+    <Compile Include="bot\Commands\Agent\AttachmentsCommand.cs" />
+    <Compile Include="bot\Commands\Agent\BalanceCommand.cs" />
+    <Compile Include="bot\Commands\Agent\GiveAllCommand.cs" />
+    <Compile Include="bot\Commands\Agent\LocationCommand.cs" />
+    <Compile Include="bot\Commands\Agent\SetHomeCommand.cs" />
+    <Compile Include="bot\Commands\Agent\WearCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\AttachmentsUUID.cs" />
+    <Compile Include="bot\Commands\Avatars\AvatarInfoCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\CloneCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\CloneProfileCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\DetectBotCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\DetectLindensCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\ExportOutfitCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\FriendsCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\ImportOutfitCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\Key2NameCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\MapFriendCommand.cs" />
+    <Compile Include="bot\Commands\Avatars\WhoCommand.cs" />
+    <Compile Include="bot\Commands\Communication\EchoMasterCommand.cs" />
+    <Compile Include="bot\Commands\Communication\ImCommand.cs" />
+    <Compile Include="bot\Commands\Communication\SayCommand.cs" />
+    <Compile Include="bot\Commands\Communication\ShoutCommand.cs" />
+    <Compile Include="bot\Commands\Communication\WhisperCommand.cs" />
+    <Compile Include="bot\Commands\Download\DownloadAnimation.cs" />
+    <Compile Include="bot\Commands\Download\DownloadTextureCommand.cs" />
+    <Compile Include="bot\Commands\Download\TexturesCommand.cs" />
+    <Compile Include="bot\Commands\Estate\DilationCommand.cs" />
+    <Compile Include="bot\Commands\Estate\DownloadTerrainCommand.cs" />
+    <Compile Include="bot\Commands\Estate\RegionInfoCommand.cs" />
+    <Compile Include="bot\Commands\Estate\ShowEventDetailsCommand.cs" />
+    <Compile Include="bot\Commands\Estate\StatsCommand.cs" />
+    <Compile Include="bot\Commands\Estate\UploadRawTerrainCommand.cs" />
+    <Compile Include="bot\Commands\Grid\AgentLocationsCommand.cs" />
+    <Compile Include="bot\Commands\Grid\FindSimCommand.cs" />
+    <Compile Include="bot\Commands\Grid\GridLayerCommand.cs" />
+    <Compile Include="bot\Commands\Grid\GridMapCommand.cs" />
+    <Compile Include="bot\Commands\Grid\SearchEventsCommand.cs" />
+    <Compile Include="bot\Commands\Groups\ActivateGroupCommand.cs" />
+    <Compile Include="bot\Commands\Groups\GroupsCommand.cs" />
+    <Compile Include="bot\Commands\Groups\ImGroupCommand.cs" />
+    <Compile Include="bot\Commands\Groups\JoinGroupCommand.cs" />
+    <Compile Include="bot\Commands\Groups\LeaveGroupCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\BackupCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\BackupTextCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\ChangeDirectoryCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\CreateNotecardCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\DeleteFolderCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\EmptyLostAndFoundCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\EmptyTrashCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\GiveItemCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\InventoryCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\ListContentsCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\TaskRunningCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\UploadCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\UploadImageCommand.cs" />
+    <Compile Include="bot\Commands\Inventory\ViewNotecardCommand.cs" />
+    <Compile Include="bot\Commands\Movement\BackCommand.cs" />
+    <Compile Include="bot\Commands\Movement\CameraFarCommand.cs" />
+    <Compile Include="bot\Commands\Movement\CrouchCommand.cs" />
+    <Compile Include="bot\Commands\Movement\FlyCommand.cs" />
+    <Compile Include="bot\Commands\Movement\FlyToCommand.cs" />
+    <Compile Include="bot\Commands\Movement\FollowCommand.cs" />
+    <Compile Include="bot\Commands\Movement\ForwardCommand.cs" />
+    <Compile Include="bot\Commands\Movement\GoHomeCommand.cs" />
+    <Compile Include="bot\Commands\Movement\GotoCommand.cs" />
+    <Compile Include="bot\Commands\Movement\GotoLandmarkCommand.cs" />
+    <Compile Include="bot\Commands\Movement\JumpCommand.cs" />
+    <Compile Include="bot\Commands\Movement\LeftCommand.cs" />
+    <Compile Include="bot\Commands\Movement\MovetoCommand.cs" />
+    <Compile Include="bot\Commands\Movement\RequestTeleport.cs" />
+    <Compile Include="bot\Commands\Movement\RightCommand.cs" />
+    <Compile Include="bot\Commands\Movement\StandCommand.cs" />
+    <Compile Include="bot\Commands\Movement\TurnToCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\ParcelDetailsCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\ParcelInfoCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\ParcelPrimOwnersCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\ParcelSelectObjectsCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\PrimCountCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\SearchBuildableCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\TreeCommand.cs" />
+    <Compile Include="bot\Commands\Parcel\WindCommand.cs" />
+    <Compile Include="bot\Commands\Command.cs" />
+    <Compile Include="bot\Commands\Prims\ChangePermsCommand.cs" />
+    <Compile Include="bot\Commands\Prims\DumpAttachmentCommand.cs" />
+    <Compile Include="bot\Commands\Prims\DumpAttachmentsCommand.cs" />
+    <Compile Include="bot\Commands\Prims\ExportCommand.cs" />
+    <Compile Include="bot\Commands\Prims\ExportParticlesCommand.cs" />
+    <Compile Include="bot\Commands\Prims\FindObjectsCommand.cs" />
+    <Compile Include="bot\Commands\Prims\ImportCommand.cs" />
+    <Compile Include="bot\Commands\Prims\ObjectInventoryCommand.cs" />
+    <Compile Include="bot\Commands\Prims\PrimInfoCommand.cs" />
+    <Compile Include="bot\Commands\Prims\PrimRegexCommand.cs" />
+    <Compile Include="bot\Commands\Prims\SitCommand.cs" />
+    <Compile Include="bot\Commands\Prims\SitOnCommand.cs" />
+    <Compile Include="bot\Commands\Prims\TouchCommand.cs" />
+    <Compile Include="bot\Commands\QueuedDownloadInfo.cs" />
+    <Compile Include="bot\Commands\System\DebugCommand.cs" />
+    <Compile Include="bot\Commands\System\HelpCommand.cs" />
+    <Compile Include="bot\Commands\System\LoadCommand.cs" />
+    <Compile Include="bot\Commands\System\MD5Command.cs" />
+    <Compile Include="bot\Commands\System\ScriptCommand.cs" />
+    <Compile Include="bot\Commands\System\SetMasterCommand.cs" />
+    <Compile Include="bot\Commands\System\SetMasterKeyCommand.cs" />
+    <Compile Include="bot\Commands\System\ShowEffectsCommand.cs" />
+    <Compile Include="bot\Commands\System\UptimeCommand.cs" />
+    <Compile Include="bot\Commands\System\VersionCommand.cs" />
+    <Compile Include="bot\Commands\Textures\DumpOutfitCommand.cs" />
+    <Compile Include="bot\Commands\Textures\FindTextureCommand.cs" />
+    <Compile Include="bot\Commands\Voice\ParcelVoiceInfoCommand.cs" />
+    <Compile Include="bot\Commands\Voice\VoiceAcountCommand.cs" />
+    <Compile Include="bot\Config\ConfigFile.cs" />
+    <Compile Include="bot\Console.cs" />
+    <Compile Include="bot\DataGridViewClientRow.cs" />
+    <Compile Include="bot\GUI\frmChat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmChat.Designer.cs">
+      <DependentUpon>frmChat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmConsole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmConsole.Designer.cs">
+      <DependentUpon>frmConsole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmCrasher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmObjects.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmObjects.Designer.cs">
+      <DependentUpon>frmObjects.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmInventory.Designer.cs">
+      <DependentUpon>frmInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\GUI\frmAddAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\GUI\InterfacePlugins\libsl_Interface.cs" />
+    <Compile Include="bot\InstanceHandler.cs" />
+    <Compile Include="bot\IRCSettings.cs" />
+    <Compile Include="bot\license\frmCheckLicense.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bot\license\frmCheckLicense.Designer.cs">
+      <DependentUpon>frmCheckLicense.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bot\license\SimpleHash.cs" />
+    <Compile Include="bot\license\Version.cs" />
+    <Compile Include="bot\Localization\clResourceManager.cs" />
+    <Compile Include="bot\LoginDetailList.cs" />
+    <Compile Include="bot\LoginDetails.cs" />
+    <Compile Include="bot\LoginGrid.cs" />
+    <Compile Include="bot\NetCom\AlertMessageEventArgs.cs" />
+    <Compile Include="bot\NetCom\ChatEventArgs.cs" />
+    <Compile Include="bot\NetCom\ChatSentEventArgs.cs" />
+    <Compile Include="bot\NetCom\ClientDisconnectEventArgs.cs" />
+    <Compile Include="bot\NetCom\ClientLoginEventArgs.cs" />
+    <Compile Include="bot\NetCom\InstantMessageEventArgs.cs" />
+    <Compile Include="bot\NetCom\InstantMessageSentEventArgs.cs" />
+    <Compile Include="bot\NetCom\MoneyBalanceEventArgs.cs" />
+    <Compile Include="bot\NetCom\NetCommunication.cs" />
+    <Compile Include="bot\NetCom\OverrideEventArgs.cs" />
+    <Compile Include="bot\NetCom\StartLocationParser.cs" />
+    <Compile Include="bot\NetCom\TeleportingEventArgs.cs" />
+    <Compile Include="bot\NetCom\TeleportStatusEventArgs.cs" />
+    <Compile Include="bot\Objects\ObjectsListItem.cs" />
+    <Compile Include="bot\Parsing.cs" />
+    <Compile Include="bot\Program.cs" />
+    <Compile Include="bot\SecondLifeBot.cs" />
+    <Compile Include="bot\SoftwareLoginInfo.cs" />
+    <Compile Include="bot\StartPosition.cs" />
+    <Compile Include="bot\StateManager.cs" />
+    <Compile Include="Global.cs" />
+    <Compile Include="HTTP\Commands\CommandChk.cs" />
+    <Compile Include="HTTP\Commands\CommandRegister.cs" />
+    <Compile Include="HTTP\Commands\CommandTest.cs" />
+    <Compile Include="HTTP\Commands\HTTPCommand.cs" />
+    <Compile Include="HTTP\CPL\CPLHome.cs" />
+    <Compile Include="HTTP\CPL\HTMLCPLCommand.cs" />
+    <Compile Include="HTTP\HTMLTemplates.cs" />
+    <Compile Include="HTTP\HTTPDaemon.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="bot.GUI.FormObjects.resources" />
+    <EmbeddedResource Include="bot.GUI.frmAddAccount.resources" />
+    <EmbeddedResource Include="bot.GUI.frmLogin.resources" />
+    <EmbeddedResource Include="bot.GUI.frmMain.resources" />
+    <EmbeddedResource Include="bot.Properties.Resources.resources" />
+    <EmbeddedResource Include="bot\GUI\frmCrasher.resx">
+      <DependentUpon>frmCrasher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmInventory.resx">
+      <DependentUpon>frmInventory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmAddAccount.resx">
+      <DependentUpon>frmAddAccount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\frmObjects.resx">
+      <DependentUpon>frmObjects.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\license\frmCheckLicense.resx">
+      <DependentUpon>frmCheckLicense.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\Localization\language_en.xml" />
+    <EmbeddedResource Include="bot\license\changelog_en.txt" />
+    <EmbeddedResource Include="bot\license\changelog_es.txt" />
+    <EmbeddedResource Include="bot\Localization\language_es.xml" />
+    <EmbeddedResource Include="bot\license\changelog_ca.txt" />
+    <EmbeddedResource Include="bot\GUI\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\Localization\language_ca.xml" />
+    <EmbeddedResource Include="bot\GUI\frmChat.resx">
+      <DependentUpon>frmChat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmObjects.btnExport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmObjects.btnExportAll.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmObjects.btnExport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmObjects.btnExportAll.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmCheckLicense.button1.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmCheckLicense.button1.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmCheckLicense.button1.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmCheckLicense.button2.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmCheckLicense.button2.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmCheckLicense.button2.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnAbout.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnAbout.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnAbout.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnImport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnImport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnImport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnObjects.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnObjects.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnObjects.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnSetMaster.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnSetMaster.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnSetMaster.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmObjects.btnExport.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmObjects.btnExport.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmObjects.btnExport.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmObjects.btnExportAll.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmObjects.btnExportAll.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmObjects.btnExportAll.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmObjects.btnRefresh.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmObjects.btnRefresh.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmObjects.btnRefresh.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\frmConsole.resx">
+      <DependentUpon>frmConsole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bot\GUI\buttons\btnClose.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\btnClose.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\btnClose.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\ca\frmObjects.btnFindNext.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\en\frmObjects.btnFindNext.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmAddAccounts.btnAdd.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmAddAccounts.btnAdd.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmAddAccounts.btnAdd.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmAddAccounts.btnEdit.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmAddAccounts.btnEdit.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmAddAccounts.btnEdit.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnConsole.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnConsole.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmMain.btnConsole.onhover.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmObjects.btnFindNext.idle.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmObjects.btnFindNext.onclick.png" />
+    <EmbeddedResource Include="bot\GUI\buttons\es\frmObjects.btnFindNext.onhover.png" />
+    <EmbeddedResource Include="natibot.ico" />
+    <EmbeddedResource Include="natibot.png" />
+    <EmbeddedResource Include="natibot-mono.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="HTTP\CPL.css" />
+    <None Include="HTTP\Header.tpl.htm" />
+    <None Include="natibot.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="OpenMetaverseTypes">
+      <Visible>False</Visible>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bot\GUI\images\natibot.ico" />
+    <Content Include="bot\GUI\images\NatiBot.png" />
+    <Content Include="bot\GUI\windows\frmAbout.png" />
+    <Content Include="bot\GUI\windows\frmAddAccount.png" />
+    <Content Include="bot\GUI\windows\frmConsole.png" />
+    <Content Include="bot\GUI\windows\frmLicense.png" />
+    <Content Include="bot\GUI\windows\frmMain.png" />
+    <Content Include="bot\GUI\windows\frmObjects.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mono-projects\clControls\clControls.csproj">
+      <Project>{6471B205-BF40-4B0D-8166-96E97368E38F}</Project>
+      <Name>clControls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libomv\HttpServer\HttpServer.csproj">
+      <Project>{31E011D7-70C0-4DBD-A939-2FC7B0277BCD}</Project>
+      <Name>HttpServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libomv\OpenMetaverse.Http\OpenMetaverse.Http.csproj">
+      <Project>{071B9856-FD44-4ABC-AC8F-C6D9B85358F8}</Project>
+      <Name>OpenMetaverse.Http</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libomv\OpenMetaverse.StructuredData\OpenMetaverse.StructuredData.csproj">
+      <Project>{00BE5C71-F138-44D3-86DE-D0F544C555C6}</Project>
+      <Name>OpenMetaverse.StructuredData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libomv\OpenMetaverse.Utilities\OpenMetaverse.Utilities.csproj">
+      <Project>{30D9B840-2CDA-4778-8FD5-9718EAAC1812}</Project>
+      <Name>OpenMetaverse.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libomv\OpenMetaverseTypes\OpenMetaverseTypes.csproj">
+      <Project>{D6A7318D-0825-41C8-96FE-DE18E15F6913}</Project>
+      <Name>OpenMetaverseTypes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\libomv\OpenMetaverse\OpenMetaverse.csproj">
+      <Project>{4D08F132-0F89-43E5-805B-B42B6AAFEAEE}</Project>
+      <Name>OpenMetaverse</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\log4net\src\log4net-mono.csproj">
+      <Project>{F6A02431-167E-4347-BC43-65532C31CDB7}</Project>
+      <Name>log4net-mono</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SmartIRC4Net\VisualStudio\2008\SmartIrc4net-mono.csproj">
+      <Project>{19607F57-B521-4477-9DE0-F0D9B1A68BC7}</Project>
+      <Name>SmartIrc4net-mono</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\clUtils\clUtils.csproj">
+      <Project>{6C115EF9-F48B-4606-9361-B09E337C9705}</Project>
+      <Name>clUtils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+    <ProjectGuid>{9041A815-E5DA-4B00-945E-ADC7BD2ED7B9}</ProjectGuid>
+    <RootNamespace>OpenMetaverse</RootNamespace>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties InternalTargetFrameworkVersion="3.5" />
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

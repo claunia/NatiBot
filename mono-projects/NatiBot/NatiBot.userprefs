@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService>
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../SLBot/bot/LoginDetailList.cs">
+    <Files>
+      <File FileName="../../SLBot/bot/SoftwareLoginInfo.cs" Line="35" Column="35" />
+      <File FileName="../../SLBot/bot/Program.cs" Line="78" Column="78" />
+      <File FileName="../../SLBot/bot/LoginDetails.cs" Line="1" Column="1" />
+      <File FileName="../../SLBot/bot/LoginDetailList.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
